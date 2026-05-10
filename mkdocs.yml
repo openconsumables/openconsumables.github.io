@@ -1,10 +1,10 @@
 site_name: Open Consumables
 site_description: Measured baselines for everyday hardware. Documenting the accidental open-hardware standards already running inside the consumer-goods aftermarket.
-site_url: https://openconsumables.github.io/docs/
+site_url: https://openconsumables.org/
 site_author: Open Consumables
-repo_url: https://github.com/openconsumables/docs
-repo_name: openconsumables/docs
-edit_uri: edit/main/docs/
+repo_url: https://github.com/openconsumables/openconsumables.github.io
+repo_name: openconsumables/openconsumables.github.io
+edit_uri: edit/master/docs/
 
 copyright: Released under CC BY 4.0. Code samples under MIT.
 
