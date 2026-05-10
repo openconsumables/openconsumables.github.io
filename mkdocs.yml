@@ -1,0 +1,85 @@
+site_name: Open Consumables
+site_description: Measured baselines for everyday hardware. Documenting the accidental open-hardware standards already running inside the consumer-goods aftermarket.
+site_url: https://openconsumables.github.io/docs/
+site_author: Open Consumables
+repo_url: https://github.com/openconsumables/docs
+repo_name: openconsumables/docs
+edit_uri: edit/main/docs/
+
+copyright: Released under CC BY 4.0. Code samples under MIT.
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Project:
+      - project/overview.md
+      - project/concept.md
+  - Categories:
+      - categories/index.md
+      - Toothbrushes:
+          - categories/toothbrushes/index.md
+          - categories/toothbrushes/ecosystem.md
+          - categories/toothbrushes/compatibility.md
+  - Contributing: contributing.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/openconsumables
