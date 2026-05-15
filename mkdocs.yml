@@ -101,6 +101,19 @@ nav:
               - categories/openair/filters/xiaomi-m8r-flp.md
               - categories/openair/filters/smartmi-p1-filter.md
               - categories/openair/filters/generic-mi-3-family-pack.md
+      - Electric scooters:
+          - categories/openscoot/index.md
+          - Units:
+              - categories/openscoot/units/index.md
+              - categories/openscoot/units/xiaomi-m365.md
+              - categories/openscoot/units/xiaomi-mi-electric-scooter-3.md
+              - categories/openscoot/units/ninebot-max-g30.md
+          - Tires:
+              - categories/openscoot/tires/index.md
+              - categories/openscoot/tires/xiaomi-m365-oem-8.5x2-pneumatic.md
+              - categories/openscoot/tires/ninebot-max-oem-10x2.125-pneumatic.md
+              - categories/openscoot/tires/generic-8.5x2-pneumatic-pack.md
+              - categories/openscoot/tires/generic-8.5-honeycomb-solid.md
   - Contributing: contributing.md
 
 extra:

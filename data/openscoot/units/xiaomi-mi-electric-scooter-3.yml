@@ -1,0 +1,35 @@
+id: xiaomi-mi-electric-scooter-3
+brand: Xiaomi
+family: Mijia
+model: Mi Electric Scooter 3
+aliases: ["Mi Scooter 3", "MIJIA Electric Scooter 3", "DDHBC02NEB"]
+aftermarket_anchor: "Mi 3"
+type: electric-scooter
+wheel_size_in: 8.5
+tire_type: pneumatic
+motor_w: 300
+weight_class_kg: 13.2
+status: current
+released: 2021
+interface: xiaomi-m365-family-8.5
+interface_provenance: inferred
+compatible_parts:
+  - id: xiaomi-m365-oem-8.5x2-pneumatic
+    provenance: marketplace-claim
+    source: "Aftermarket replacement listings cross-list the M365 OEM tire as fitting the Mi 3"
+  - id: generic-8.5x2-pneumatic-pack
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible tire'"
+  - id: generic-8.5-honeycomb-solid
+    provenance: marketplace-claim
+    source: "AliExpress listings titled 'Mi 3 honeycomb solid tire'"
+sources:
+  - https://www.mi.com/global/product/mi-electric-scooter-3/
+notes: |
+  The Mi Electric Scooter 3 keeps the 8.5x2 pneumatic format established by
+  the M365 and shares the family slot for tire compatibility per
+  aftermarket sellers. Xiaomi does not publish a hub-side spec sheet that
+  would let the project assert manufacturer-claim cross-fit, so the
+  interface assignment is inferred from the consistent 8.5x2 dimension and
+  the absence of any manufacturer-stated incompatibility. Motor power and
+  weight figures are manufacturer claims.

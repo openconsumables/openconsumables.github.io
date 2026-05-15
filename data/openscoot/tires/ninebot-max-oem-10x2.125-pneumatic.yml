@@ -1,0 +1,32 @@
+id: ninebot-max-oem-10x2.125-pneumatic
+brand: Segway-Ninebot
+family: KickScooter
+model: "Max G30 OEM 10x2.125 self-healing pneumatic"
+aliases:
+  - "Ninebot Max stock tire"
+  - "10 x 2.125 self-healing"
+  - "Segway Max G30 tire"
+oem: true
+clones_of: null
+sold_as: []
+size_etrto: "~54-152"
+tire_type: "self-healing pneumatic"
+tread_pattern: "block all-weather"
+tube: tubeless
+lifespan_km: null
+variant: stock
+fits_devices:
+  - id: ninebot-max-g30
+    provenance: manufacturer-claim
+    source: "https://store.segway.com/parts/kick-scooter/max-series/max-g30p"
+measurements: null
+sources:
+  - https://store.segway.com/parts/kick-scooter/max-series/max-g30p
+notes: |
+  Original-equipment self-healing pneumatic for the Segway-Ninebot
+  KickScooter Max G30 (and the regional G30P / G30LP variants). Tubeless
+  construction with a factory-applied sealant marketed as puncture
+  resistant. The ETRTO callout is approximate: Segway uses the imperial
+  "10 x 2.125" label and an ETRTO equivalent is not stated on the global
+  product page; ~54-152 is the bicycle / e-scooter convention for that
+  imperial size. Treat the ETRTO field as derived until measured.

@@ -47,3 +47,23 @@ openair:
   # produces the wrong form (e.g. acronyms).
   part_column_labels:
     hepa_grade: "HEPA grade"
+
+openscoot:
+  display_name: Electric scooters
+  device:
+    dir: units
+    singular: Scooter
+    plural: Electric scooters
+  part:
+    dir: tires
+    singular: Tire
+    plural: Replacement tires
+  interface:
+    file: axles.yml
+    singular: Axle / wheel mount
+  part_columns:
+    - size_etrto
+    - tire_type
+  part_column_labels:
+    size_etrto: "Size (ETRTO)"
+    tire_type: "Type"
