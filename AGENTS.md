@@ -30,11 +30,13 @@ docs/                          # markdown sources for the site
 │       └── heads/             # GENERATED from data/heads/*.yml
 │           ├── index.md
 │           └── <slug>.md
-data/                          # device knowledge graph; source of truth for handle/head pages
+data/                          # device knowledge graph; source of truth for category pages
 ├── README.md                  # schema, provenance tiers, contribution guidance
-├── mounts.yml                 # mount / interface profiles
-├── handles/<slug>.yml         # one file per handle
-└── heads/<slug>.yml           # one file per head (OEM or generic)
+├── categories.yml             # one entry per category (toothbrushes, ...)
+└── <category-slug>/           # e.g. toothbrushes/, openair/, ...
+    ├── <interface.file>       # e.g. mounts.yml for toothbrushes
+    ├── <device.dir>/<slug>.yml
+    └── <part.dir>/<slug>.yml
 tools/
 └── build_pages.py             # YAML -> markdown generator; run after editing data/
 mkdocs.yml                     # site configuration; nav is the source of truth for site shape
@@ -67,14 +69,15 @@ The `data/` layer is the device knowledge graph: best-effort coverage of handles
 3. Verify with `mkdocs serve` locally.
 4. Run `mkdocs build --strict` to catch broken links before pushing.
 
-## Adding a handle or head (knowledge graph)
+## Adding a device or part (knowledge graph)
 
-1. Add a YAML file under `data/handles/` or `data/heads/` following the schema in `data/README.md`. Every compatibility claim needs a `provenance` and a `source`.
-2. Run `python tools/build_pages.py` to regenerate the markdown pages.
-3. Add the new generated page to the `nav` block in `mkdocs.yml`.
-4. `mkdocs build --strict` to validate.
+1. Identify the category. Use the existing `data/<slug>/` if one exists; otherwise see "Adding a category" in `data/README.md`.
+2. Add a YAML file under `data/<category>/<device-dir>/` or `data/<category>/<part-dir>/` following the schema in `data/README.md`. Every compatibility claim needs a `provenance` and a `source`.
+3. Run `python3 tools/build_pages.py` to regenerate the markdown pages.
+4. Add the new generated page to the `nav` block in `mkdocs.yml`.
+5. `mkdocs build --strict` to validate.
 
-Do not hand-edit files under `docs/categories/*/handles/` or `docs/categories/*/heads/` other than the `index.md` entrypoints. They are overwritten on every build.
+Do not hand-edit files under `docs/categories/*/`'s generated device or part directories. They are overwritten on every build. Per-category `index.md` files are hand-written and not regenerated.
 
 ## Adding a category
 

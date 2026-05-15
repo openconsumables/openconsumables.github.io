@@ -1,0 +1,28 @@
+# One entry per category. Drives the generator and the public nav.
+#
+# For each category:
+#   device     -- the durable item the user owns (handle, purifier unit, scooter)
+#   part       -- the replaceable consumable (head, filter, tire)
+#   interface  -- the mechanical compatibility class (mount, slot, axle)
+#   part_columns -- extra columns to show in the device page's replacement-parts
+#                   table. Each name is looked up on the part entry. Optional.
+#
+# Each category must own its own data/<slug>/ directory with the matching
+# device.dir, part.dir, and interface.file. The generator emits pages under
+# docs/categories/<slug>/<device.dir>/ and docs/categories/<slug>/<part.dir>/.
+
+toothbrushes:
+  display_name: Toothbrushes
+  device:
+    dir: handles
+    singular: Handle
+    plural: Handles
+  part:
+    dir: heads
+    singular: Head
+    plural: Replacement heads
+  interface:
+    file: mounts.yml
+    singular: Mount
+  part_columns:
+    - bristle

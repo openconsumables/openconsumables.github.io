@@ -14,17 +14,32 @@ A measurement-only site has nothing to say about a handle until Batch A lands. A
 
 ## Layout
 
+The data layer is category-keyed. `categories.yml` declares each category and its device / part / interface vocabulary; per-category folders hold the actual entries.
+
 ```
 data/
 ├── README.md                 # this file
-├── mounts.yml                # mount / interface profiles (one entry per family)
-├── handles/
-│   └── <slug>.yml            # one file per handle model
-└── heads/
-    └── <slug>.yml            # one file per head model (OEM or generic)
+├── categories.yml            # one entry per category (toothbrushes, ...)
+└── <category-slug>/
+    ├── <interface.file>      # e.g. mounts.yml for toothbrushes
+    ├── <device.dir>/
+    │   └── <slug>.yml        # one file per device (handle, unit, etc.)
+    └── <part.dir>/
+        └── <slug>.yml        # one file per part (head, filter, etc.)
 ```
 
-Slugs are kebab-case: `xiaomi-t200`, `oral-b-pro-1000`, `xiaomi-mbs305`, `generic-mes606-pack`.
+Concretely, the toothbrushes pilot lives at:
+
+```
+data/toothbrushes/
+├── mounts.yml
+├── handles/<slug>.yml
+└── heads/<slug>.yml
+```
+
+Slugs are kebab-case: `xiaomi-t200`, `oral-b-pro-1000`, `xiaomi-mbs305`, `generic-mes606-pack`. Slugs do not need a category prefix; the path already disambiguates.
+
+Generated pages land at `docs/categories/<category-slug>/<device.dir>/<slug>.md` and the parallel `<part.dir>/<slug>.md`.
 
 ## Provenance tiers
 
@@ -39,6 +54,28 @@ Every compatibility claim, dimension, or interface assignment carries a `provena
 | `inferred` | Derived by us from adjacent evidence (e.g. charging architecture suggests mount differs). Mark explicitly; do not blur with measured. |
 
 The site renders the provenance tier next to every claim. Readers and agents can filter on it.
+
+## Field naming across categories
+
+The generator supports both category-specific and generic compatibility field names:
+
+| Category-specific (toothbrushes) | Generic (any category) |
+|---|---|
+| `compatible_heads:` on a device | `compatible_parts:` |
+| `fits_handles:` on a part | `fits_devices:` |
+| `mount:` and `mount_provenance:` | `interface:` and `interface_provenance:` |
+
+Existing toothbrush entries use the category-specific names. New categories should use the generic names. Both work; mixing within one entry is not supported.
+
+## Adding a new category
+
+1. Add a stanza to `categories.yml` declaring `device.dir`, `part.dir`, `interface.file`, singular / plural labels, and optional `part_columns`.
+2. Create `data/<slug>/` with the matching directories and interface YAML.
+3. Drop YAML entries in under the new dirs.
+4. Run `python3 tools/build_pages.py`.
+5. Add the generated pages and a hand-written `index.md` to `mkdocs.yml`.
+
+If the standard fact strip ("Mode: ..., Charging: ...") doesn't suit the new category, add a small branch to `render_facts` / `render_part_facts` in `tools/build_pages.py`. The category-aware generator deliberately allows per-category render code rather than forcing a generic descriptor schema before we know what shapes other categories need.
 
 ## Handle entry
 
