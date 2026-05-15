@@ -1,0 +1,74 @@
+# Mount / interface profiles.
+#
+# A mount is the project's term for a mechanical compatibility class. Two handles
+# with the same mount are interchangeable for the same set of heads, per the
+# project's evidence. The strength of that claim depends on `status`.
+#
+# Mounts are NOT a published spec. They are working categories that may collapse,
+# split, or be renamed as measurement lands. A handle entry can also use
+# `pending-measurement` for `mount` if no evidence yet supports a grouping.
+
+xiaomi-mes601-family:
+  display_name: "Xiaomi MES601 family"
+  aftermarket_aliases: [MES601, MES602, MES604]
+  charging: inductive
+  status: unmeasured
+  baseline: null
+  notes: |
+    Working hypothesis: T500 (MES601), T300 (MES602), and T700 (MES604) share
+    a socket geometry, with T700 possibly diverging. All three use inductive
+    charging. Batch A will test whether HOVEY/Meihong, Meitianlai/Ledi, and
+    official Xiaomi T500 sockets are interchangeable within tolerance.
+
+xiaomi-mes606-family:
+  display_name: "Xiaomi MES606 family"
+  aftermarket_aliases: [MES606]
+  charging: usb-c
+  status: unmeasured
+  baseline: null
+  notes: |
+    T200 / T200C handles. USB-C charging architecture, likely a distinct mount
+    family from MES601 (inductive). One unverified analysis (ithy.com) suggests
+    partial T200/T301/T302 cross-fit; treat as a hypothesis to test.
+
+xiaomi-mes603-family:
+  display_name: "Xiaomi MES603 family"
+  aftermarket_aliases: [MES603]
+  charging: usb-c
+  status: unmeasured
+  baseline: null
+  notes: |
+    T100 handle. USB-C charging. Often co-listed with MES606 (T200) heads on
+    AliExpress without evidence that the sockets match.
+
+xiaomi-mes608-family:
+  display_name: "Xiaomi MES608 family"
+  aftermarket_aliases: [MES608]
+  charging: inductive
+  status: unmeasured
+  baseline: null
+  notes: |
+    T301 / T302. Xiaomi assigns its own head SKU (MBS303) suggesting a separate
+    family from MES601 (MBS301). Inductive, like the older T-series.
+
+oral-b-classic:
+  display_name: "Oral-B classic round-head mount"
+  aftermarket_aliases: []
+  charging: varies
+  status: unmeasured
+  baseline: null
+  notes: |
+    Round oscillating-rotating heads with a metal drive shaft. Spans 25+ years
+    of Oral-B handles from "Pro" through "Genius" lines. No buyer-side anchor;
+    Oral-B does not encode mount class in model names. Convergence-wedge closed.
+    Listed here for reference, not as a project measurement target.
+
+oral-b-io:
+  display_name: "Oral-B iO mount"
+  aftermarket_aliases: []
+  charging: inductive
+  status: unmeasured
+  baseline: null
+  notes: |
+    Newer Oral-B "iO" series. Magnetic drive; not interchangeable with the
+    classic round-head mount despite being the same brand. Listed for reference.

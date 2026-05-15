@@ -77,6 +77,17 @@ nav:
           - categories/toothbrushes/index.md
           - categories/toothbrushes/ecosystem.md
           - categories/toothbrushes/compatibility.md
+          - Handles:
+              - categories/toothbrushes/handles/index.md
+              - categories/toothbrushes/handles/xiaomi-t200.md
+              - categories/toothbrushes/handles/xiaomi-t500.md
+              - categories/toothbrushes/handles/oral-b-pro-1000.md
+          - Heads:
+              - categories/toothbrushes/heads/index.md
+              - categories/toothbrushes/heads/xiaomi-mbs301.md
+              - categories/toothbrushes/heads/xiaomi-mbs305.md
+              - categories/toothbrushes/heads/generic-mes606-pack.md
+              - categories/toothbrushes/heads/oral-b-cross-action.md
   - Contributing: contributing.md
 
 extra:

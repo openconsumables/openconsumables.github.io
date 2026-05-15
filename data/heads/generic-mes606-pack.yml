@@ -1,0 +1,26 @@
+id: generic-mes606-pack
+brand: null
+family: null
+model: null
+aliases: ["MES606 heads", "Xiaomi T200 compatible heads", "Mijia T200 replacement heads"]
+oem: false
+clones_of: xiaomi-mbs305
+sold_as: ["(many, white-label)", "AOREMON", "AIBOFENG"]
+bristle: varies
+variant: varies
+fits_handles:
+  - id: xiaomi-t200
+    provenance: marketplace-claim
+    source: "AliExpress listings keyed on 'MES606 head' / Xiaomi T200 compatible"
+measurements: null
+sources: []
+notes: |
+  Catch-all entry for generic / white-label heads sold as T200 (MES606)
+  compatible on AliExpress, Temu, Amazon, etc. Brand names rotate; pack sizes
+  vary (4 / 8 / 12 pcs). Listings copy each other's compatibility claims, so
+  marketplace-claim provenance here is not independent evidence.
+
+  Whether any given generic actually preserves the MES606 socket geometry
+  is unknown until measured. Some Xiaomi T200 generic listings cross-list
+  T100 (MES603), T300 (MES602), T500, T700 in the title for SEO; whether
+  the head fits those handles is not implied by the listing's title.

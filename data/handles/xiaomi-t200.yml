@@ -1,0 +1,30 @@
+id: xiaomi-t200
+brand: Xiaomi
+family: Mijia
+model: T200
+aliases: [T200C, "Mijia Sonic Electric Toothbrush T200"]
+aftermarket_anchor: MES606
+type: electric
+mode: sonic
+charging: usb-c
+status: current
+released: 2022
+mount: xiaomi-mes606-family
+mount_provenance: inferred
+compatible_heads:
+  - id: xiaomi-mbs305
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy?product_id=1222100087"
+  - id: generic-mes606-pack
+    provenance: marketplace-claim
+    source: "AliExpress listings keyed on 'MES606 head'"
+sources:
+  - https://www.gizmochina.com/2022/05/31/xiaomi-mijia-t200-sonic-electric-toothbrush-25-days-battery-life/
+  - https://www.gizmochina.com/2023/04/07/mijia-electric-toothbrush-t200c-25days-battery-life-two-brush-heads-travel-case-launched/
+  - https://www.sunsky-online.com/p/EDA003609201B/Original-Xiaomi-Mijia-Sonic-Electric-Toothbrush-T200-Blue-.htm
+notes: |
+  T200 (2022) and T200C (2023) share the MES606 handle code and USB-C charging.
+  Sold by Xiaomi China as a standalone handle plus a dedicated head SKU listing
+  (MBS305 weakly attested). Mount assignment to mes606-family is inferred from
+  the charging architecture difference relative to the inductive MES601 line;
+  pending physical verification (Batch A).

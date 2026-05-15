@@ -1,0 +1,35 @@
+id: oral-b-pro-1000
+brand: Oral-B
+family: null
+model: Pro 1000
+aliases: ["Pro 1000 CrossAction", "D16"]
+aftermarket_anchor: null
+type: electric
+mode: rotating-oscillating
+charging: inductive
+status: current
+released: 2014
+mount: oral-b-classic
+mount_provenance: manufacturer-claim
+compatible_heads:
+  - id: oral-b-cross-action
+    provenance: manufacturer-claim
+    source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
+  - id: oral-b-precision-clean
+    provenance: manufacturer-claim
+    source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
+  - id: generic-oral-b-classic-pack
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon generic 'fits Oral-B Pro/Vitality/Genius' listings"
+sources:
+  - https://oralb.com/en-us/product/oral-b-pro-1000-rechargeable-electric-toothbrush
+notes: |
+  Listed for reference. Oral-B does not encode mount class in model names, so the
+  buyer-side anchor that the project relies on for the convergence wedge is
+  absent. Inclusion here is to give the knowledge graph realistic coverage for
+  agent queries ("replacement for my Oral-B Pro 1000"), not to indicate this
+  ecosystem is a project measurement target.
+
+  Compatibility within the Oral-B classic round-head line is broad: most Oral-B
+  rotating-oscillating handles back to ~2000 accept the same head series.
+  Excludes the iO line (separate magnetic-drive mount).

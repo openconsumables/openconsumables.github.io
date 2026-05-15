@@ -23,12 +23,26 @@ docs/                          # markdown sources for the site
 │   └── toothbrushes/
 │       ├── index.md
 │       ├── ecosystem.md
-│       └── compatibility.md
-└── contributing.md
+│       ├── compatibility.md
+│       ├── handles/           # GENERATED from data/handles/*.yml
+│       │   ├── index.md       # hand-written entrypoint
+│       │   └── <slug>.md      # generated; do not hand-edit
+│       └── heads/             # GENERATED from data/heads/*.yml
+│           ├── index.md
+│           └── <slug>.md
+data/                          # device knowledge graph; source of truth for handle/head pages
+├── README.md                  # schema, provenance tiers, contribution guidance
+├── mounts.yml                 # mount / interface profiles
+├── handles/<slug>.yml         # one file per handle
+└── heads/<slug>.yml           # one file per head (OEM or generic)
+tools/
+└── build_pages.py             # YAML -> markdown generator; run after editing data/
 mkdocs.yml                     # site configuration; nav is the source of truth for site shape
 requirements.txt               # pinned deps for local builds and CI
 .github/workflows/deploy.yml   # GitHub Pages build and deploy on push to main
 ```
+
+The `data/` layer is the device knowledge graph: best-effort coverage of handles and heads with per-claim provenance. Read `data/README.md` for the schema and tiers.
 
 ## Default behavior
 
@@ -53,6 +67,15 @@ requirements.txt               # pinned deps for local builds and CI
 3. Verify with `mkdocs serve` locally.
 4. Run `mkdocs build --strict` to catch broken links before pushing.
 
+## Adding a handle or head (knowledge graph)
+
+1. Add a YAML file under `data/handles/` or `data/heads/` following the schema in `data/README.md`. Every compatibility claim needs a `provenance` and a `source`.
+2. Run `python tools/build_pages.py` to regenerate the markdown pages.
+3. Add the new generated page to the `nav` block in `mkdocs.yml`.
+4. `mkdocs build --strict` to validate.
+
+Do not hand-edit files under `docs/categories/*/handles/` or `docs/categories/*/heads/` other than the `index.md` entrypoints. They are overwritten on every build.
+
 ## Adding a category
 
 A new category subsection lives at `docs/categories/<name>/index.md` plus topic pages alongside.
@@ -69,6 +92,7 @@ The full activation rules and deferred roster live in the parent project's [AGEN
 - Not the R&D workspace. Don't paste in raw measurements, supplier names, or pre-spec drafts.
 - Not a blog. There is no `posts/` or news section yet, and adding one needs an explicit decision.
 - Not the place to register opinions about which brand is "best." We measure; we don't curate.
+- Not a price comparison or affiliate site. The data layer captures device facts and compatibility, not pack sizes, prices, or buying recommendations.
 
 ## Deployment
 

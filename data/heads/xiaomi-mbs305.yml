@@ -1,0 +1,26 @@
+id: xiaomi-mbs305
+brand: Xiaomi
+family: Mijia
+model: MBS305
+aliases: ["Mijia sonic electric toothbrush head, T200/T200C"]
+oem: true
+clones_of: null
+sold_as: []
+bristle: medium
+variant: standard
+fits_handles:
+  - id: xiaomi-t200
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy?product_id=1222100087"
+measurements: null
+sources:
+  - https://www.mi.com/shop/buy?product_id=1222100087
+  - https://vision-g.sitegiant.co/product/xiaomi-mijia-electric-toothbrush-t200-t200c-t100-replacement-head-mbs305-mbs302-3pcs
+notes: |
+  Head SKU code (MBS305) is weakly attested: it appears on one Malaysian retailer
+  page (VGDC) and a Joom mirror; a direct AliExpress search for "MBS305" returns
+  no Xiaomi hits. Aftermarket sellers tag T200 heads by the handle code (MES606)
+  rather than the head SKU. Listing the head as a distinct product is
+  well-evidenced; the specific code is plausible but not confirmed against an
+  official Xiaomi spec page in this pass.
+  ~12 g per head from one pack listing (approximate, not measured by the project).
