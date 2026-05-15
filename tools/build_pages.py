@@ -134,6 +134,15 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
         facts.append(f"Mode: {device.get('mode', 'unknown')}")
         facts.append(f"Charging: {device.get('charging', 'unknown')}")
+    elif slug == "openair":
+        if device.get("aftermarket_anchor"):
+            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+        if device.get("cadr_m3h"):
+            facts.append(f"CADR: {device['cadr_m3h']} m³/h")
+        if device.get("room_size_m2"):
+            facts.append(f"Room rating: {device['room_size_m2']} m²")
+        if device.get("filter_stages"):
+            facts.append(f"Stages: {device['filter_stages']}")
     else:
         if device.get("aftermarket_anchor"):
             facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
@@ -147,6 +156,13 @@ def render_part_facts(part: dict, cfg: dict) -> list[str]:
         facts.append(f"Clones: `{part['clones_of']}`")
     if cfg["slug"] == "toothbrushes":
         facts.append(f"Bristle: {part.get('bristle', 'unknown')}")
+    if cfg["slug"] == "openair":
+        if part.get("hepa_grade"):
+            facts.append(f"HEPA: {part['hepa_grade']}")
+        if part.get("media"):
+            facts.append(f"Media: {part['media']}")
+        if part.get("lifespan_months"):
+            facts.append(f"Lifespan: ~{part['lifespan_months']} months")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts
@@ -155,7 +171,10 @@ def render_part_facts(part: dict, cfg: dict) -> list[str]:
 def part_column_value(part: dict | None, column: str) -> str:
     if part is None:
         return "?"
-    return str(part.get(column, "?"))
+    value = part.get(column)
+    if value is None:
+        return "?"
+    return str(value)
 
 
 def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str:
@@ -189,11 +208,18 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
 
     section_label = cfg["device"].get("section_label", cfg["part"]["plural"])
     extra_columns = cfg.get("part_columns", [])
+    column_labels = cfg.get("part_column_labels", {})
 
     out.append(f"## {section_label}")
     out.append("")
     part_singular = cfg["part"]["singular"]
-    headers = [part_singular, "OEM", *[c.title() for c in extra_columns], "Provenance", "Measured?"]
+    headers = [
+        part_singular,
+        "OEM",
+        *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
+        "Provenance",
+        "Measured?",
+    ]
     out.append("| " + " | ".join(headers) + " |")
     out.append("|" + "---|" * len(headers))
 

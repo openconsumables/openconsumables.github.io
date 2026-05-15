@@ -1,0 +1,40 @@
+# Filter slot / interface profiles for OpenAir.
+#
+# A slot is the project's term for a mechanical compatibility class on an air
+# purifier unit: the cylindrical (or other) cavity that holds the replaceable
+# filter cartridge. Two units with the same slot accept the same cartridge,
+# per the project's evidence. The strength of the claim depends on `status`.
+#
+# Slots are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands. A unit entry can also
+# use `pending-measurement` for `interface` if no evidence yet supports a
+# grouping.
+
+xiaomi-mi-3-family:
+  display_name: "Xiaomi Mi Air Purifier 3-family barrel"
+  aftermarket_aliases: [M8R-FLH, M8R-FLG, M8R-FLP, "Mi Air Purifier filter"]
+  charging: n/a
+  status: unmeasured
+  baseline: null
+  notes: |
+    Cylindrical "barrel" cartridge format that spans the Mi Air Purifier 2,
+    2S, 2H, 3, 3H, 3C, Pro, and Pro H units. Xiaomi publishes three
+    interchangeable media variants in the same housing (M8R-FLH original /
+    HEPA, M8R-FLG antibacterial, M8R-FLP anti-formaldehyde) which is strong
+    evidence the slot geometry is shared within this generation. The Mi 4
+    family appears to use a similar but distinct cartridge; treat as a
+    separate slot until measured. Aftermarket sellers tag this slot with
+    handle / unit model names (3H, 3C, Pro) more than the filter SKU.
+
+smartmi-p1-family:
+  display_name: "Smartmi P1 cartridge"
+  aftermarket_aliases: [ZMKQJHQP01-filter, "Smartmi P1 filter"]
+  charging: n/a
+  status: unmeasured
+  baseline: null
+  notes: |
+    Smartmi-specific cartridge for the Smartmi P1 (ZMKQJHQP01). Smartmi was
+    a Xiaomi-affiliated brand and some Smartmi accessories cross-list with
+    Mijia listings, but the P1's filter housing does not appear to match
+    the Mi 3-family barrel. Listed as a separate slot pending physical
+    verification.

@@ -1,0 +1,36 @@
+id: generic-mi-3-family-pack
+brand: null
+family: null
+model: null
+aliases:
+  - "Xiaomi 3H compatible filter"
+  - "Mi Air Purifier 3 / 3H / 3C / Pro replacement filter"
+  - "M8R-FLH compatible"
+oem: false
+clones_of: xiaomi-m8r-flh
+sold_as: ["(many, white-label)", "Colorfullife", "isinlive", "Vbestlife"]
+hepa_grade: "claimed H13 (varies)"
+media: "HEPA + activated carbon (claimed; varies)"
+lifespan_months: 6
+variant: varies
+fits_devices:
+  - id: xiaomi-mi-air-purifier-3h
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi Mi Air Purifier 3 / 3H / 3C / Pro compatible filter'"
+  - id: xiaomi-mi-air-purifier-3c
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi Mi Air Purifier 3 / 3H / 3C / Pro compatible filter'"
+measurements: null
+sources: []
+notes: |
+  Catch-all entry for generic / white-label cartridges sold as Mi Air
+  Purifier 3-family compatible on AliExpress, Amazon, Temu. Brand names
+  rotate; pack sizes and bundled-media combinations vary. Listings copy
+  each other's compatibility lists, so marketplace-claim provenance here
+  is not independent evidence.
+
+  Whether any given generic preserves the M8R housing geometry, the
+  claimed H13 grade, or a meaningful carbon stage is unknown until
+  measured. Some listings cross-list Mi 2/2S/2H/Pro/Pro H in the title
+  for SEO; the underlying compatibility claim is the same generation as
+  the OEM M8R cartridge.
