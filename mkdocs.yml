@@ -88,6 +88,19 @@ nav:
               - categories/toothbrushes/heads/xiaomi-mbs305.md
               - categories/toothbrushes/heads/generic-mes606-pack.md
               - categories/toothbrushes/heads/oral-b-cross-action.md
+      - Air purifiers:
+          - categories/openair/index.md
+          - Units:
+              - categories/openair/units/index.md
+              - categories/openair/units/xiaomi-mi-air-purifier-3h.md
+              - categories/openair/units/xiaomi-mi-air-purifier-3c.md
+              - categories/openair/units/smartmi-air-purifier-p1.md
+          - Filters:
+              - categories/openair/filters/index.md
+              - categories/openair/filters/xiaomi-m8r-flh.md
+              - categories/openair/filters/xiaomi-m8r-flp.md
+              - categories/openair/filters/smartmi-p1-filter.md
+              - categories/openair/filters/generic-mi-3-family-pack.md
   - Contributing: contributing.md
 
 extra:

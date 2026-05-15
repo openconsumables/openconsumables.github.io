@@ -1,20 +1,20 @@
 # Categories
 
-Open Consumables works one category at a time. The pilot is electric toothbrush heads; everything else is scaffolded but deferred until the pilot ships a published baseline.
+Open Consumables works one **measurement** programme at a time. The pilot is electric toothbrush heads. The public **reference layer** (the device knowledge graph: per-device pages with provenance-tagged compatibility) extends to other categories ahead of measurement, so an agent searching "replacement for my Xiaomi 3H" lands somewhere useful.
 
 ## Active
 
 | Category | Working name | Stage |
 |----------|--------------|-------|
 | [Electric toothbrush heads](toothbrushes/index.md) | OpenBrush | Phase 2: physical measurement |
+| [Air purifier filters](openair/index.md) | OpenAir | Reference layer only (no measurement programme) |
 
 ## Deferred
 
-The categories below are scaffolded as placeholders. None are public-facing yet. Each activates only after the pilot has produced a published measured baseline AND the category has been explicitly chosen as the next step.
+The categories below are scaffolded as placeholders. None have reference-layer or measurement coverage yet. Each measurement programme activates only after the pilot has produced a published measured baseline AND the category has been explicitly chosen as the next step.
 
 | Category | Working name | Why it's a candidate |
 |----------|--------------|----------------------|
-| Air purifier filters | OpenAir | Strongest follow-on; closest structural analogue of OpenBrush |
 | Water purifier cartridges | OpenWater | Multi-stage scope (PP / carbon / RO); each stage may need its own profile |
 | Robot vacuum consumables | OpenVac | Heterogeneous mix (4-5 classes per device); widest scope |
 | Electric razor heads | OpenShave | Tightest scope; potential fast second proof-of-pattern |

@@ -1,0 +1,35 @@
+id: xiaomi-mi-air-purifier-3h
+brand: Xiaomi
+family: Mijia
+model: Mi Air Purifier 3H
+aliases: ["Mi Air Purifier 3H", "AC-M6-SC", "Mijia Air Purifier 3H"]
+aftermarket_anchor: AC-M6-SC
+type: air-purifier
+cadr_m3h: 380
+room_size_m2: 48
+filter_stages: "pre-filter + HEPA + activated carbon (single cartridge)"
+status: discontinued
+released: 2019
+interface: xiaomi-mi-3-family
+interface_provenance: inferred
+compatible_parts:
+  - id: xiaomi-m8r-flh
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-3h/specs"
+  - id: xiaomi-m8r-flp
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
+  - id: generic-mi-3-family-pack
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon generic 'Xiaomi Mi 3H compatible filter' listings"
+sources:
+  - https://www.mi.com/global/mi-air-purifier-3h/
+  - https://www.mi.com/global/mi-air-purifier-3h/specs
+notes: |
+  Mi Air Purifier 3H (AC-M6-SC) is the higher-CADR variant of the Mi Air
+  Purifier 3 generation. Same cylindrical filter housing as the 3, 3C, Pro,
+  and Pro H, and (per Xiaomi's own cross-listings) the older 2S and 2H.
+  Xiaomi sells three media variants (HEPA, antibacterial, anti-formaldehyde)
+  in the identical cartridge, which is strong evidence the slot geometry is
+  shared across the generation. CADR and room-size figures are manufacturer
+  claims, not measured by the project.

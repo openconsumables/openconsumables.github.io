@@ -1,0 +1,33 @@
+id: smartmi-air-purifier-p1
+brand: Smartmi
+family: null
+model: Air Purifier P1
+aliases: ["Smartmi P1", "ZMKQJHQP01"]
+aftermarket_anchor: ZMKQJHQP01
+type: air-purifier
+cadr_m3h: null
+room_size_m2: null
+filter_stages: null
+status: unknown
+released: null
+interface: smartmi-p1-family
+interface_provenance: inferred
+compatible_parts:
+  - id: smartmi-p1-filter
+    provenance: inferred
+    source: "Sold as the OEM replacement cartridge for the Smartmi P1; manufacturer product page not pinned in this pass"
+sources: []
+notes: |
+  Stub entry. Smartmi P1 (ZMKQJHQP01) is a real Smartmi-branded purifier
+  sold under various regional storefronts, and this row reserves it as
+  the second slot example in the OpenAir schema. CADR, room rating, HEPA
+  grade, media composition, and release year are intentionally omitted
+  until a verifiable manufacturer source is captured: publishing those
+  numbers without a citation contradicts the data layer's provenance
+  rules. Anyone with a current Smartmi product-page URL (store, manual,
+  or regulatory filing) is invited to open a PR upgrading this entry.
+
+  Smartmi was founded by ex-Xiaomi engineers and Mi-ecosystem-partnered,
+  but the P1's filter cartridge does not appear to interchange with the
+  Mi 3-family barrel format. The slot grouping here is the project's
+  inference, not a manufacturer claim.

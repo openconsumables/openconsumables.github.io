@@ -1,0 +1,31 @@
+id: xiaomi-m8r-flp
+brand: Xiaomi
+family: Mijia
+model: M8R-FLP
+aliases: ["Mi Air Purifier Anti-formaldehyde Filter"]
+oem: true
+clones_of: null
+sold_as: []
+hepa_grade: H13
+media: "HEPA + extra activated carbon (anti-formaldehyde)"
+lifespan_months: 6
+variant: anti-formaldehyde
+fits_devices:
+  - id: xiaomi-mi-air-purifier-3h
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
+  - id: xiaomi-mi-air-purifier-3c
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
+measurements: null
+sources:
+  - https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde
+notes: |
+  Anti-formaldehyde variant (purple-band) of the M8R cartridge. Same
+  housing as the original M8R-FLH so it drops into any Mi 3-family unit;
+  the difference is a heavier activated-carbon stage targeted at gaseous
+  pollutants. Xiaomi states the unit "removes formaldehyde to ASHRAE
+  standard" but does not publish a carbon weight figure on the global
+  store page. An antibacterial-media variant (M8R-FLG) also exists with
+  the same housing; not added as a separate entry until a verifiable
+  product page is found.

@@ -1,0 +1,34 @@
+id: xiaomi-mi-air-purifier-3c
+brand: Xiaomi
+family: Mijia
+model: Mi Air Purifier 3C
+aliases: ["Mi Air Purifier 3C", "AC-M14-SC", "Mijia Air Purifier 3C"]
+aftermarket_anchor: AC-M14-SC
+type: air-purifier
+cadr_m3h: 320
+room_size_m2: 38
+filter_stages: "pre-filter + HEPA + activated carbon (single cartridge)"
+status: current
+released: 2020
+interface: xiaomi-mi-3-family
+interface_provenance: inferred
+compatible_parts:
+  - id: xiaomi-m8r-flh
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-filter/"
+  - id: xiaomi-m8r-flp
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
+  - id: generic-mi-3-family-pack
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon generic 'Xiaomi 3C compatible filter' listings"
+sources:
+  - https://www.mi.com/global/mi-air-purifier-3c/
+notes: |
+  Mi Air Purifier 3C (AC-M14-SC) is the budget variant of the 3-generation
+  line: smaller CADR, no PM2.5 display, but the same cylindrical filter
+  cartridge as the 3 and 3H. Xiaomi's filter store page cross-lists the
+  M8R series as compatible with 3 / 3H / 3C / Pro / Pro H, which is the
+  primary evidence that 3H and 3C share the slot. Aftermarket listings on
+  AliExpress mostly tag this cluster by the unit model name (3H, 3C, Pro)
+  rather than by the filter SKU.

@@ -26,3 +26,24 @@ toothbrushes:
     singular: Mount
   part_columns:
     - bristle
+
+openair:
+  display_name: Air purifiers
+  device:
+    dir: units
+    singular: Unit
+    plural: Air purifier units
+  part:
+    dir: filters
+    singular: Filter
+    plural: Replacement filters
+  interface:
+    file: slots.yml
+    singular: Filter slot
+  part_columns:
+    - hepa_grade
+    - media
+  # Override the slug-derived column header when title-casing the slug
+  # produces the wrong form (e.g. acronyms).
+  part_column_labels:
+    hepa_grade: "HEPA grade"
