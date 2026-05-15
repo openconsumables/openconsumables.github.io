@@ -4,7 +4,8 @@ Open Consumables is a measurement archive for everyday hardware. The output is a
 
 ## What we do
 
-- **Measure**: pick a consumable category with an undocumented de facto compatibility standard, take real measurements with disclosed methodology.
+- **Reference**: maintain a device-level knowledge graph for the categories we cover (one page per handle, one per head, with per-claim provenance). Best-effort coverage; community contributions welcome. A device has a page whether we have measured it yet or not.
+- **Measure**: pick a consumable category with an undocumented de facto compatibility standard, take real measurements with disclosed methodology. Measurement upgrades a claim's provenance from "manufacturer" or "marketplace" to "measured by us."
 - **Publish**: release dated baselines as plain markdown, CAD where useful, and reference data buyers and aftermarket producers can verify.
 - **Freeze**: a baseline is a snapshot, not a moving target. New baseline, new date.
 

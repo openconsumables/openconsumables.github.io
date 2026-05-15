@@ -1,0 +1,25 @@
+id: oral-b-cross-action
+brand: Oral-B
+family: null
+model: CrossAction
+aliases: ["EB50", "CrossAction Replacement Brush Head"]
+oem: true
+clones_of: null
+sold_as: []
+bristle: medium
+variant: standard
+fits_handles:
+  - id: oral-b-pro-1000
+    provenance: manufacturer-claim
+    source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
+measurements: null
+sources:
+  - https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads
+notes: |
+  Oral-B classic mount. Per Oral-B's own compatibility statements, all Oral-B
+  rechargeable handles using the classic round mount accept this head, with the
+  iO line as the only major exclusion. The Pro 1000 entry above is one example
+  out of dozens of Oral-B handles that would list this head as compatible.
+
+  Project does not measure this head. Included for knowledge-graph coverage
+  to support agent queries that arrive via Oral-B handles.

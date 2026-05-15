@@ -1,0 +1,32 @@
+id: xiaomi-t500
+brand: Xiaomi
+family: Mijia
+model: T500
+aliases: [T500C, "Mi Smart Electric Toothbrush T500"]
+aftermarket_anchor: MES601
+type: electric
+mode: sonic
+charging: inductive
+status: current
+released: 2019
+mount: xiaomi-mes601-family
+mount_provenance: inferred
+compatible_heads:
+  - id: xiaomi-mbs301
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy/detail?product_id=11216"
+  - id: xiaomi-mbs301-sensitive
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/buy?product_id=1194500023"
+  - id: generic-mes601-pack
+    provenance: marketplace-claim
+    source: "AliExpress listings keyed on 'MES601 head' / T300/T500/T500C"
+sources:
+  - https://www.mi.com/shop/buy/detail?product_id=11216
+  - https://www.pricearchive.org/aliexpress.com/item/1005010810000700
+notes: |
+  T500 / T500C share the MES601 handle code and use the inductive DDYST01SKS dock.
+  Xiaomi China lists a shared head SKU for T300/T500/T500C (MBS301), which is the
+  evidence for grouping T300 (MES602) and T500 (MES601) under the same mount
+  family in this project. Whether T700 (MES604) actually shares the geometry,
+  despite the shared head listing, is one of the open Batch A questions.
