@@ -1,0 +1,34 @@
+id: generic-8.5x2-pneumatic-pack
+brand: null
+family: null
+model: null
+aliases:
+  - "8.5 inch scooter tire"
+  - "M365 compatible 8.5x2 tire"
+  - "Xiaomi 1S / Pro / Pro 2 / Mi 3 compatible tire"
+oem: false
+clones_of: xiaomi-m365-oem-8.5x2-pneumatic
+sold_as: ["(many, white-label)", "Ulip", "Hotwave", "Monland"]
+size_etrto: "50-134 (claimed)"
+tire_type: pneumatic
+tread_pattern: "varies"
+tube: tubed
+lifespan_km: null
+variant: varies
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 / Mi 3 compatible 8.5 inch tire'"
+  - id: xiaomi-mi-electric-scooter-3
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 / Mi 3 compatible 8.5 inch tire'"
+measurements: null
+sources: []
+notes: |
+  Catch-all entry for generic / white-label 8.5x2 tubed pneumatic tires
+  sold on AliExpress, Amazon, and Temu as Xiaomi-M365-family compatible.
+  Brand names rotate; tread patterns, rubber compound, and casing quality
+  vary. Listings copy each other's compatibility lists, so marketplace
+  provenance here is not independent evidence. Some listings extend the
+  compatibility claim to Ninebot E-series 8-inch hubs; that cross-fit is
+  community-reported and outside this entry's scope.

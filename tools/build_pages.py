@@ -143,6 +143,15 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append(f"Room rating: {device['room_size_m2']} m²")
         if device.get("filter_stages"):
             facts.append(f"Stages: {device['filter_stages']}")
+    elif slug == "openscoot":
+        if device.get("aftermarket_anchor"):
+            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+        if device.get("wheel_size_in"):
+            facts.append(f"Wheel: {device['wheel_size_in']}\"")
+        if device.get("motor_w"):
+            facts.append(f"Motor: {device['motor_w']} W")
+        if device.get("weight_class_kg"):
+            facts.append(f"Weight: ~{device['weight_class_kg']} kg")
     else:
         if device.get("aftermarket_anchor"):
             facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
@@ -163,6 +172,15 @@ def render_part_facts(part: dict, cfg: dict) -> list[str]:
             facts.append(f"Media: {part['media']}")
         if part.get("lifespan_months"):
             facts.append(f"Lifespan: ~{part['lifespan_months']} months")
+    if cfg["slug"] == "openscoot":
+        if part.get("size_etrto"):
+            facts.append(f"Size (ETRTO): {part['size_etrto']}")
+        if part.get("tire_type"):
+            facts.append(f"Type: {part['tire_type']}")
+        if part.get("tube"):
+            facts.append(f"Tube: {part['tube']}")
+        if part.get("tread_pattern"):
+            facts.append(f"Tread: {part['tread_pattern']}")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts

@@ -1,0 +1,37 @@
+id: xiaomi-m365-oem-8.5x2-pneumatic
+brand: Xiaomi
+family: Mijia
+model: "M365 OEM 8.5x2 pneumatic"
+aliases:
+  - "Xiaomi M365 stock tire"
+  - "8 1/2 x 2 pneumatic"
+  - "Mi Electric Scooter tire"
+oem: true
+clones_of: null
+sold_as: []
+size_etrto: "50-134"
+tire_type: pneumatic
+tread_pattern: "fine all-weather"
+tube: tubed
+lifespan_km: null
+variant: stock
+fits_devices:
+  - id: xiaomi-m365
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-electric-scooter/specs"
+  - id: xiaomi-mi-electric-scooter-3
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'OEM Xiaomi M365 / 1S / Pro / Mi 3 tire'"
+measurements: null
+sources:
+  - https://www.mi.com/global/mi-electric-scooter/specs
+notes: |
+  The original-equipment pneumatic tire shipped on the Xiaomi M365 and
+  reused across the M365 Pro, 1S, Essential, Pro 2, and (per aftermarket
+  cross-listings) the Mi Electric Scooter 3. ETRTO 50-134 corresponds to
+  the 8.5x2 callout used by Xiaomi and the wider aftermarket. The OEM
+  variant runs with an inner tube and a Schrader valve. The Mi 3
+  compatibility claim is downgraded to marketplace-claim because Xiaomi
+  has not published a manufacturer-stated cross-fit; aftermarket sellers
+  bundle Mi 3 into the same SKU titles but that is not independent
+  evidence.

@@ -1,0 +1,55 @@
+# Axle / wheel-mount interface profiles for OpenScoot.
+#
+# An "axle" is the project's term for the mechanical compatibility class on the
+# wheel side of an electric scooter: hub geometry, axle width, brake-disc bolt
+# pattern (when relevant), and the rim that carries the tire. Two scooters with
+# the same axle slot can theoretically accept the same tire-on-rim assembly.
+#
+# Note: wheel diameter is part of the slot identity. "8.5-inch pneumatic" and
+# "10-inch pneumatic" are different axles by definition, even if the tire
+# profile (e.g. 2.0 width) looks similar. The slot captures the hub side;
+# the tire entry captures the contact-patch side.
+#
+# Axles are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands. A unit entry can use
+# `pending-measurement` for `interface` if no evidence yet supports a grouping.
+
+xiaomi-m365-family-8.5:
+  display_name: "Xiaomi M365 family 8.5-inch wheel"
+  aftermarket_aliases:
+    - "M365 tire"
+    - "8.5 inch scooter tire"
+    - "8.5x2 scooter tire"
+    - "Xiaomi 1S tire"
+    - "Xiaomi Pro tire"
+  charging: n/a
+  status: unmeasured
+  baseline: null
+  notes: |
+    8.5-inch wheel assembly shared across Xiaomi's first-generation cluster:
+    M365, M365 Pro, 1S, Essential, Pro 2, and the Mi Electric Scooter 3.
+    Standard tire is 8.5x2 (ETRTO 50-134) pneumatic on a split rim, with a
+    Schrader valve. Aftermarket also offers solid and honeycomb (semi-solid)
+    tires marketed for the same hub. Marketplace listings cluster on the
+    scooter model name ("M365", "Pro 2", "1S") rather than on an engineering
+    SKU. Cross-fit to non-Xiaomi 8-inch scooters (e.g. Ninebot ES series 8")
+    is community-reported, not manufacturer-claimed, and varies by rim
+    geometry; treat as a separate slot until measured.
+
+ninebot-max-g30-10:
+  display_name: "Segway-Ninebot Max G30 10-inch wheel"
+  aftermarket_aliases:
+    - "Ninebot Max tire"
+    - "10x2.125 scooter tire"
+    - "10x2.50 scooter tire"
+    - "Max G30 tire"
+  charging: n/a
+  status: unmeasured
+  baseline: null
+  notes: |
+    10-inch wheel assembly used by the Segway-Ninebot KickScooter Max G30
+    and its regional variants (G30P, G30LP, G30LE). Standard tire is
+    10x2.125 (ETRTO ~54-152) self-healing pneumatic with sealant; aftermarket
+    listings include tubed pneumatic, solid, and honeycomb replacements
+    described as "10x2.125" or "10x2.50". The newer Max G2 uses a related
+    but distinct hub; not folded into this slot until verified.

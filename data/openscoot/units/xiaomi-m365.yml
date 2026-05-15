@@ -1,0 +1,37 @@
+id: xiaomi-m365
+brand: Xiaomi
+family: Mijia
+model: M365
+aliases: ["Mi Electric Scooter M365", "Mijia M365", "DDHBC01NEB"]
+aftermarket_anchor: M365
+type: electric-scooter
+wheel_size_in: 8.5
+tire_type: pneumatic
+motor_w: 250
+weight_class_kg: 12.5
+status: discontinued
+released: 2016
+interface: xiaomi-m365-family-8.5
+interface_provenance: manufacturer-claim
+compatible_parts:
+  - id: xiaomi-m365-oem-8.5x2-pneumatic
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/mi-electric-scooter/specs"
+  - id: generic-8.5x2-pneumatic-pack
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro compatible 8.5 inch tire'"
+  - id: generic-8.5-honeycomb-solid
+    provenance: marketplace-claim
+    source: "AliExpress listings titled 'M365 honeycomb solid tire 8.5 inch'"
+sources:
+  - https://www.mi.com/global/mi-electric-scooter/
+  - https://www.mi.com/global/mi-electric-scooter/specs
+notes: |
+  The Xiaomi M365 (manufactured by Segway-Ninebot for Xiaomi, model code
+  DDHBC01NEB in some regulatory filings) is the canonical anchor for the
+  8.5-inch consumer e-scooter cluster. It established the 8.5x2 pneumatic
+  format that the entire first-generation Xiaomi line (M365 Pro, 1S,
+  Essential, Pro 2, Mi 3) inherited, and that the aftermarket continues to
+  produce in OEM, generic-pneumatic, solid, and honeycomb variants. Motor
+  power, weight, and wheel-size figures are manufacturer claims, not
+  measured by the project.
