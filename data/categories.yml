@@ -72,6 +72,28 @@ openscoot:
       column_labels:
         mount_pattern: "Caliper mount"
         pad_compound: "Compound"
+    - dir: tubes
+      singular: Tube
+      plural: Inner tubes
+      interface_file: axles.yml
+      interface_singular: Axle / wheel mount
+      columns:
+        - size_label
+        - valve_type
+      column_labels:
+        size_label: "Size"
+        valve_type: "Valve"
+    - dir: shoes
+      singular: Brake shoe
+      plural: Drum brake shoes
+      interface_file: drums.yml
+      interface_singular: Drum
+      columns:
+        - drum_diameter_mm
+        - shoe_compound
+      column_labels:
+        drum_diameter_mm: "Drum diameter (mm)"
+        shoe_compound: "Compound"
     - dir: rotors
       singular: Rotor
       plural: Replacement rotors
@@ -83,3 +105,14 @@ openscoot:
       column_labels:
         rotor_diameter_mm: "Diameter (mm)"
         bolt_pattern: "Bolt pattern"
+    - dir: grip-tape
+      singular: Grip tape
+      plural: Replacement grip tape
+      interface_file: decks.yml
+      interface_singular: Deck profile
+      columns:
+        - deck_length_mm
+        - cutout_pattern
+      column_labels:
+        deck_length_mm: "Deck length (mm)"
+        cutout_pattern: "Cutouts"

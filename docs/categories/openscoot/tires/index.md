@@ -4,7 +4,7 @@ One page per tire, generated from `data/openscoot/tires/*.yml`. Both OEM and gen
 
 A tire entry lists the scooters it fits, with provenance per claim. The lowest trust tier (`marketplace-claim`) is published but clearly labelled, because aftermarket compatibility lists are usually not independent evidence.
 
-Brake pads now live in a separate part class. Drum brake shoes, rotors, tubes, deck grip tape, and other consumable classes may land in follow-ups; see the [category index](../index.md) for current scope.
+Brake pads and inner tubes now live in separate part classes. Drum brake shoes, rotors, deck grip tape, and other consumable classes may land in follow-ups; see the [category index](../index.md) for current scope.
 
 See [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema and how to add or correct an entry.
 

@@ -1,0 +1,33 @@
+# Drum-brake interface profiles for OpenScoot.
+#
+# A "drum" is the project's term for the mechanical compatibility class for
+# scooter drum-brake shoes: drum shell diameter, shoe arc, pivot geometry,
+# actuation cam, return spring, and backing-plate fit. The brake cable,
+# lever, and complete front wheel are separate repair parts.
+#
+# Drums are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands.
+
+ninebot-max-g30-front-drum:
+  display_name: "Segway-Ninebot Max G30 front drum brake"
+  aftermarket_aliases:
+    - "Ninebot Max G30 drum brake"
+    - "G30 drum brake"
+    - "14.01.0402.00"
+    - "Max G30 brake shoe"
+  drum_diameter_mm: unknown
+  status: unmeasured
+  baseline: null
+  notes: |
+    Front mechanical drum brake used on the Segway-Ninebot KickScooter Max
+    G30 family, paired with rear electronic / regenerative braking. Segway's
+    G30P/G30 user manual labels a drum brake on the scooter diagram, and
+    Segway's product copy describes simultaneous front mechanical drum brake
+    and rear regenerative electric brake. The commonly listed replacement is
+    Segway-Ninebot part 14.01.0402.00, sold as a complete drum-brake assembly
+    rather than as loose shoe linings.
+
+    Drum diameter remains unknown until measured. Some marketplace listings
+    describe standalone shoe blocks by length rather than drum diameter, so
+    this slot should not be merged with other Ninebot drums by model name
+    alone.

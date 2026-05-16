@@ -1,0 +1,29 @@
+id: generic-ninebot-max-g30-replacement-foot-mat
+brand: null
+family: null
+model: null
+aliases:
+  - "Ninebot Max G30 replacement grip tape"
+  - "Max G30 foot mat"
+  - "ESP - X27A"
+oem: false
+clones_of: null
+sold_as: ["ReplaceBase", "P2R", "Mobilax", "(many, white-label)"]
+deck_length_mm: 650
+deck_width_mm: 170
+cutout_pattern: "seller-stated G30 pre-cut foot mat; no written cutout spec"
+material: "adhesive grip tape / foot mat"
+variant: standard
+fits_devices:
+  - id: ninebot-max-g30
+    provenance: marketplace-claim
+    source: "https://www.replacebase.co.uk/for-segway-ninebot-max-g30-replacement-grip-tape-foot-mat-esp-x27a"
+measurements: null
+sources:
+  - https://www.replacebase.co.uk/for-segway-ninebot-max-g30-replacement-grip-tape-foot-mat-esp-x27a
+  - https://www.glisseurbaine.com/ninebot/533-trottinette-electrique-ninebot-max-g30-8719324556521.html
+notes: |
+  Generic / aftermarket replacement grip tape / foot mat for the
+  Segway-Ninebot Max G30. ReplaceBase lists a G30-specific replacement part
+  (ESP - X27A); the 650 mm x 170 mm deck dimension comes from a separate
+  retailer spec for the G30 deck, not from a measured mat drawing.

@@ -50,6 +50,29 @@ caliper, and repair-community guidance treats the small round pads as
 replaceable wear parts. Aftermarket sellers usually tag this slot with
 scooter model names ("M365", "1S", "Pro 2") rather than a caliper SKU.
 
+## Inner tubes
+
+| Tube | OEM | Size | Valve | Provenance | Measured? |
+|---|---|---|---|---|---|
+| [Xiaomi Electric Scooter Inner Tube 8.5](../tubes/xiaomi-m365-oem-8.5x2-inner-tube.md) | OEM | 8.5x2 | Schrader | Marketplace listing | No |
+| [Generic 8.5 inch scooter inner tube](../tubes/generic-8.5x2-schrader-inner-tube.md) | Generic | 8.5x2 | Schrader | Marketplace listing | No |
+
+## Axle / wheel mount: Xiaomi M365 family 8.5-inch wheel
+
+Provenance: **Manufacturer claim**
+
+Status: **unmeasured**
+
+8.5-inch wheel assembly shared across Xiaomi's first-generation cluster:
+M365, M365 Pro, 1S, Essential, Pro 2, and the Mi Electric Scooter 3.
+Standard tire is 8.5x2 (ETRTO 50-134) pneumatic on a split rim, with a
+Schrader valve. Aftermarket also offers solid and honeycomb (semi-solid)
+tires marketed for the same hub. Marketplace listings cluster on the
+scooter model name ("M365", "Pro 2", "1S") rather than on an engineering
+SKU. Cross-fit to non-Xiaomi 8-inch scooters (e.g. Ninebot ES series 8")
+is community-reported, not manufacturer-claimed, and varies by rim
+geometry; treat as a separate slot until measured.
+
 ## Replacement rotors
 
 | Rotor | OEM | Diameter (mm) | Bolt pattern | Provenance | Measured? |
@@ -70,6 +93,27 @@ apart. M365 Pro / Pro 2 listings commonly use 120 mm rotors, so those are
 not folded into this base-M365 slot until the Pro-family unit rows exist
 and the hub / caliper relationship is verified.
 
+## Replacement grip tape
+
+| Grip tape | OEM | Deck length (mm) | Cutouts | Provenance | Measured? |
+|---|---|---|---|---|---|
+| [Generic M365 adhesive non-slip footrest coating](../grip-tape/generic-m365-family-560x132-foot-mat.md) | Generic | 560 | seller-stated pre-cut M365-family footrest coating; exact cutouts unverified | Marketplace listing | No |
+| [Generic Xiaomi Mi 1S & M365 replacement grip tape](../grip-tape/generic-m365-1s-replacement-foot-mat.md) | Generic | ? | seller-stated M365 / 1S pre-cut foot mat; exact cutouts unverified | Marketplace listing | No |
+
+## Deck profile: Xiaomi M365 / 1S / Essential / Mi 3 deck mat
+
+Provenance: **Marketplace listing**
+
+Status: **unmeasured**
+
+Working deck-mat profile for the Xiaomi M365-family short deck. A
+50factory listing for an eWheel adhesive non-slip footrest coating gives
+stated mat dimensions of 560 mm x 132 mm and lists Xiaomi M365, 1S,
+Essential, and Mi 3 compatibility. Treat the Mi 3 assignment as a
+marketplace claim: other aftermarket sellers sometimes split M365/1S and
+Pro/Pro 2 mats, and this pass did not physically verify the Mi 3 top-deck
+outline or cutout pattern.
+
 ## Notes
 
 The Xiaomi M365 (manufactured by Segway-Ninebot for Xiaomi, model code
@@ -79,7 +123,8 @@ format that the entire first-generation Xiaomi line (M365 Pro, 1S,
 Essential, Pro 2, Mi 3) inherited, and that the aftermarket continues to
 produce in OEM, generic-pneumatic, solid, and honeycomb variants. Motor
 power, weight, and wheel-size figures are manufacturer claims, not
-measured by the project.
+measured by the project. Grip-tape entries are marketplace-claim only:
+Xiaomi does not expose a spare mat SKU in the sources checked here.
 
 ## Sources
 

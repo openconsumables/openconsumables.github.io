@@ -212,6 +212,27 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Diameter: {part['rotor_diameter_mm']} mm")
         if part.get("bolt_pattern"):
             facts.append(f"Bolt pattern: {part['bolt_pattern']}")
+    if cfg["slug"] == "openscoot" and part_dir == "shoes":
+        if part.get("drum_diameter_mm"):
+            drum_diameter = part["drum_diameter_mm"]
+            suffix = " mm" if isinstance(drum_diameter, (int, float)) else ""
+            facts.append(f"Drum diameter: {drum_diameter}{suffix}")
+        if part.get("shoe_compound"):
+            facts.append(f"Compound: {part['shoe_compound']}")
+    if cfg["slug"] == "openscoot" and part_dir == "tubes":
+        if part.get("size_label"):
+            facts.append(f"Size: {part['size_label']}")
+        if part.get("valve_type"):
+            facts.append(f"Valve: {part['valve_type']}")
+        if part.get("valve_geometry"):
+            facts.append(f"Valve geometry: {part['valve_geometry']}")
+    if cfg["slug"] == "openscoot" and part_dir == "grip-tape":
+        if part.get("deck_length_mm"):
+            facts.append(f"Deck length: {part['deck_length_mm']} mm")
+        if part.get("cutout_pattern"):
+            facts.append(f"Cutouts: {part['cutout_pattern']}")
+        if part.get("material"):
+            facts.append(f"Material: {part['material']}")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts

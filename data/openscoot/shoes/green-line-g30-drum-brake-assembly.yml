@@ -1,0 +1,24 @@
+id: green-line-g30-drum-brake-assembly
+brand: Green Line
+family: null
+model: "G30 drum brake assembly"
+aliases:
+  - "Green Line Drum Brake; Segway Ninebot Max G30"
+  - "Green Line Brake Shoe; Segway Ninebot Max G30"
+oem: false
+clones_of: segway-ninebot-g30-oem-drum-brake-assembly
+sold_as: ["Green Line"]
+drum_diameter_mm: unknown
+shoe_compound: unknown
+variant: complete assembly
+fits_devices:
+  - id: ninebot-max-g30
+    provenance: marketplace-claim
+    source: "Scooterworks listing titles the part for Segway Ninebot Max G30 / Max G30D and marks it equivalent to Segway part 14.01.0402.00"
+measurements: null
+sources:
+  - https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d
+notes: |
+  Aftermarket replacement for the Max G30 drum brake. The listing references
+  the OEM part number rather than publishing shoe dimensions, so cross-fit is
+  a marketplace claim until measured.

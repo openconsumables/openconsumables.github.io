@@ -1,0 +1,29 @@
+id: generic-m365-1s-replacement-foot-mat
+brand: null
+family: null
+model: null
+aliases:
+  - "Xiaomi Mi 1S & M365 replacement grip tape"
+  - "M365 foot mat"
+  - "ESP - M43A"
+oem: false
+clones_of: null
+sold_as: ["ReplaceBase", "Mobilax", "(many, white-label)"]
+deck_length_mm: null
+deck_width_mm: null
+cutout_pattern: "seller-stated M365 / 1S pre-cut foot mat; exact cutouts unverified"
+material: "adhesive grip tape / foot mat"
+variant: standard
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "https://www.replacebase.co.uk/grip-tape-foot-mat"
+measurements: null
+sources:
+  - https://www.replacebase.co.uk/grip-tape-foot-mat
+  - https://www.mobilax.com/e-mobility
+notes: |
+  Catch-all entry for unbranded replacement grip tape / foot mat listings
+  keyed to Xiaomi Mi 1S and M365. This is kept separate from the 560 x 132 mm
+  eWheel-style entry because the seller page does not publish dimensions.
+  Compatibility is marketplace-claim only.

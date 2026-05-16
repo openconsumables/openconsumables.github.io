@@ -1,0 +1,25 @@
+id: generic-g30-drum-brake-assembly
+brand: null
+family: null
+model: null
+aliases:
+  - "Segway Ninebot Max G30 drum brake replacement"
+  - "G30D G30E G30P drum brake"
+oem: false
+clones_of: segway-ninebot-g30-oem-drum-brake-assembly
+sold_as: ["escootervision", "(many, white-label)"]
+drum_diameter_mm: unknown
+shoe_compound: unknown
+variant: complete assembly
+fits_devices:
+  - id: ninebot-max-g30
+    provenance: marketplace-claim
+    source: "Aftermarket listing claims compatibility across Max G30, G30D, G30D2, G30E, G30P, G30LE, and G30LD variants"
+measurements: null
+sources:
+  - https://escootervision.eu/en/products/g30-drum-brake
+notes: |
+  Catch-all entry for generic / white-label G30-family complete drum-brake
+  assemblies. Listings usually sell the drum brake as a unit; standalone
+  shoe-only listings exist but are less consistent and often describe the
+  shoe by approximate block dimensions rather than by a stable part number.

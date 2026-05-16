@@ -14,9 +14,13 @@ released: 2021
 interfaces:
   tires: xiaomi-m365-family-8.5
   pads: xiaomi-scooter-3-dual-pad-disc-rear
+  tubes: xiaomi-m365-family-8.5
+  grip-tape: xiaomi-m365-family-deck
 interface_provenance:
   tires: inferred
   pads: manufacturer-claim
+  tubes: inferred
+  grip-tape: marketplace-claim
 compatible_parts:
   tires:
     - id: xiaomi-m365-oem-8.5x2-pneumatic
@@ -32,6 +36,17 @@ compatible_parts:
     - id: generic-mi-3-dual-pad-disc-pad-pack
       provenance: marketplace-claim
       source: "Aftermarket listings titled 'Xiaomi Mi Electric Scooter 3 brake pads'"
+  tubes:
+    - id: xiaomi-m365-oem-8.5x2-inner-tube
+      provenance: marketplace-claim
+      source: "Aftermarket replacement listings cross-list the M365 / 1S / Pro / Pro 2 / Mi 3 8.5-inch inner tube"
+    - id: generic-8.5x2-schrader-inner-tube
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible inner tube'"
+  grip-tape:
+    - id: generic-m365-family-560x132-foot-mat
+      provenance: marketplace-claim
+      source: "https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html"
 sources:
   - https://www.mi.com/global/product/mi-electric-scooter-3/
 notes: |
@@ -44,4 +59,7 @@ notes: |
   product page identifies a rear dual-pad disc brake, so the pad-bearing
   brake architecture is manufacturer-claim for the global DDHBC16NEB page.
   DDHBC02NEB is retained as a regional alias from the earlier scooter data
-  pass. Motor power and weight figures are manufacturer claims.
+  pass. Motor power and weight figures are manufacturer claims. Grip-tape
+  fitment is left at marketplace-claim because this pass found a seller
+  cross-listing Mi 3 with M365 / 1S / Essential mats, but no measured mat
+  outline or Xiaomi spare-part listing.
