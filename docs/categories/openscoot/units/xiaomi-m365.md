@@ -40,7 +40,7 @@ geometry; treat as a separate slot until measured.
 
 ## Caliper mount: Xiaomi M365 family rear mechanical disc caliper
 
-Provenance: **Manufacturer claim**
+Provenance: **Community report**
 
 Status: **unmeasured**
 

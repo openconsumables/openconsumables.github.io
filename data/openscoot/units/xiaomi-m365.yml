@@ -19,7 +19,7 @@ interfaces:
   grip-tape: xiaomi-m365-family-deck
 interface_provenance:
   tires: manufacturer-claim
-  pads: manufacturer-claim
+  pads: community-reported
   tubes: manufacturer-claim
   rotors: community-reported
   grip-tape: marketplace-claim

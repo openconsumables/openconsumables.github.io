@@ -250,9 +250,18 @@ def part_column_value(part: dict | None, column: str) -> str:
 def compatibility_entries(device: dict, part_cfg: dict) -> list[dict]:
     part_dir = part_cfg["dir"]
     raw = device.get("compatible_parts")
-    if isinstance(raw, dict):
-        return raw.get(part_dir, []) or []
-    return []
+    if raw is None:
+        return []
+    if not isinstance(raw, dict):
+        # Pre-migration data used a bare list at compatible_parts. Now that the
+        # generator keys by part class, an unmigrated unit would silently lose
+        # its compatibility tables. Surface the schema mismatch instead.
+        ERRORS.append(
+            f"device {device.get('id', '?')}: compatible_parts must be a mapping "
+            f"keyed by part class, got {type(raw).__name__}"
+        )
+        return []
+    return raw.get(part_dir, []) or []
 
 
 def interface_assignment(device: dict, part_cfg: dict) -> tuple[str | None, str | None]:
