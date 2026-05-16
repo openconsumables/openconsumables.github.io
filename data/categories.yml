@@ -72,3 +72,14 @@ openscoot:
       column_labels:
         mount_pattern: "Caliper mount"
         pad_compound: "Compound"
+    - dir: rotors
+      singular: Rotor
+      plural: Replacement rotors
+      interface_file: rotor_mounts.yml
+      interface_singular: Rotor mount
+      columns:
+        - rotor_diameter_mm
+        - bolt_pattern
+      column_labels:
+        rotor_diameter_mm: "Diameter (mm)"
+        bolt_pattern: "Bolt pattern"

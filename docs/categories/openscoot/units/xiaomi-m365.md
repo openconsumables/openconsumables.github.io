@@ -50,6 +50,26 @@ caliper, and repair-community guidance treats the small round pads as
 replaceable wear parts. Aftermarket sellers usually tag this slot with
 scooter model names ("M365", "1S", "Pro 2") rather than a caliper SKU.
 
+## Replacement rotors
+
+| Rotor | OEM | Diameter (mm) | Bolt pattern | Provenance | Measured? |
+|---|---|---|---|---|---|
+| [Xiaomi M365 stock rear brake disc](../rotors/xiaomi-m365-oem-rear-brake-disc.md) | OEM | 110 | 5-bolt rear hub, ~25.4 mm adjacent hole spacing | Community report | No |
+| [Generic M365 110mm brake disc](../rotors/generic-m365-110mm-5-bolt-brake-disc.md) | Generic | 110 | 5-bolt rear hub, ~25.4 mm adjacent hole spacing | Marketplace listing | No |
+
+## Rotor mount: Xiaomi M365 rear 5-bolt rotor mount
+
+Provenance: **Community report**
+
+Status: **unmeasured**
+
+Rear hub rotor slot for the base Xiaomi M365. Current aftermarket and
+spare-part references converge on a 110 mm steel disc with five mounting
+holes; Monster Scooter Parts lists 5 mm mounting holes spaced 25.4 mm
+apart. M365 Pro / Pro 2 listings commonly use 120 mm rotors, so those are
+not folded into this base-M365 slot until the Pro-family unit rows exist
+and the hub / caliper relationship is verified.
+
 ## Notes
 
 The Xiaomi M365 (manufactured by Segway-Ninebot for Xiaomi, model code

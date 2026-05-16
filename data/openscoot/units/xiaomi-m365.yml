@@ -14,9 +14,11 @@ released: 2016
 interfaces:
   tires: xiaomi-m365-family-8.5
   pads: xiaomi-m365-mechanical-disc-rear
+  rotors: xiaomi-m365-rotor-bolt-pattern-rear
 interface_provenance:
   tires: manufacturer-claim
   pads: manufacturer-claim
+  rotors: community-reported
 compatible_parts:
   tires:
     - id: xiaomi-m365-oem-8.5x2-pneumatic
@@ -38,6 +40,13 @@ compatible_parts:
     - id: generic-m365-sintered-rear-disc-pad
       provenance: marketplace-claim
       source: "Aftermarket listings titled 'sintered metal brake pads for Xiaomi M365 / 1S / Pro 2'"
+  rotors:
+    - id: xiaomi-m365-oem-rear-brake-disc
+      provenance: community-reported
+      source: "Repair-community and spare-parts references identify the stock M365 rear rotor as a 110 mm, five-bolt disc; no official Xiaomi standalone rotor SKU pinned in this pass"
+    - id: generic-m365-110mm-5-bolt-brake-disc
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'Xiaomi M365 110mm brake disc' or 'M365 5-hole brake rotor'"
 sources:
   - https://www.mi.com/global/mi-electric-scooter/
   - https://www.mi.com/global/mi-electric-scooter/specs

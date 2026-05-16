@@ -1,0 +1,31 @@
+id: xiaomi-m365-oem-rear-brake-disc
+brand: Xiaomi
+family: Mijia
+model: "M365 stock rear brake disc"
+aliases:
+  - "M365 original brake disc"
+  - "Mi Electric Scooter rear brake rotor"
+  - "Xiaomi M365 110mm brake disc"
+oem: true
+clones_of: null
+sold_as: []
+rotor_diameter_mm: 110
+bolt_pattern: "5-bolt rear hub, ~25.4 mm adjacent hole spacing"
+variant: stock
+fits_devices:
+  - id: xiaomi-m365
+    provenance: community-reported
+    source: "Repair-community and spare-parts references identify the stock M365 rear rotor as a 110 mm, five-bolt disc; no official Xiaomi standalone rotor SKU pinned in this pass"
+measurements: null
+sources:
+  - https://www.mi.com/global/mi-electric-scooter/specs
+  - https://www.manualslib.com/manual/1690418/Xiaomi-Mi-Electric-Scooter-M365.html
+  - https://monsterscooterparts.com/products/brake-disc-rotor-for-the-xiaomi-mi-m365
+  - https://www.xn--tuksimaailm-ffb.ee/en/product/xiaomi-brake-disc-110mm-mi-m365-1s/
+notes: |
+  Stock rotor entry for the Xiaomi M365 rear mechanical disc brake. Xiaomi's
+  public specs and manual document the rear disc-brake architecture, but this
+  pass did not find an official Xiaomi standalone rotor spare-part SKU. The
+  entry is therefore OEM as a stock component, while the fitment and dimension
+  claim is community-reported until measured or confirmed from an OEM parts
+  catalogue.

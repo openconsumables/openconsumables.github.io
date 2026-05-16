@@ -1,6 +1,6 @@
 # Device knowledge graph
 
-This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under generated directories such as `docs/categories/*/handles/`, `docs/categories/*/heads/`, `docs/categories/*/filters/`, `docs/categories/*/tires/`, or `docs/categories/*/pads/`.
+This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under generated directories such as `docs/categories/*/handles/`, `docs/categories/*/heads/`, `docs/categories/*/filters/`, `docs/categories/*/tires/`, `docs/categories/*/pads/`, or `docs/categories/*/rotors/`.
 
 The data layer publishes what is **known** about each device, with provenance, regardless of whether the project has measured it yet. Measurement upgrades a row from `manufacturer-claim` to `measured`; it is not the gate to publishing.
 
@@ -165,7 +165,7 @@ xiaomi-mes606-family:
     the inductive MES601/MES602/MES604 family on socket geometry.
 ```
 
-## Adding a second part class
+## Adding additional part classes
 
 A category can have multiple part classes. Add a new item under `parts:` in `data/categories.yml`, create its interface file and part directory, then add a matching key to device `interfaces:`, `interface_provenance:`, and `compatible_parts:` where that device supports the new class.
 
@@ -191,6 +191,12 @@ openscoot:
       interface_file: calipers.yml
       interface_singular: Caliper mount
       columns: [mount_pattern, pad_compound]
+    - dir: rotors
+      singular: Rotor
+      plural: Replacement rotors
+      interface_file: rotor_mounts.yml
+      interface_singular: Rotor mount
+      columns: [rotor_diameter_mm, bolt_pattern]
 ```
 
 The reciprocal field on each part remains a flat `fits_devices:` list because the part's directory already identifies its class.

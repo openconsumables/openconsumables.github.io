@@ -1,0 +1,29 @@
+id: generic-m365-110mm-5-bolt-brake-disc
+brand: null
+family: null
+model: null
+aliases:
+  - "M365 110mm brake disc"
+  - "Xiaomi M365 5-hole brake rotor"
+  - "M365 / 1S / Essential 110mm brake disc"
+oem: false
+clones_of: xiaomi-m365-oem-rear-brake-disc
+sold_as: ["(many, white-label)", "Lifty Electrics", "Impextrom", "Monster Scooter Parts"]
+rotor_diameter_mm: 110
+bolt_pattern: "5-bolt rear hub, ~25.4 mm adjacent hole spacing"
+variant: standard
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "Aftermarket listings titled 'Xiaomi M365 110mm brake disc' or 'M365 5-hole brake rotor'"
+measurements: null
+sources:
+  - https://www.impextrom.com/en/brake-disc-110-mm-xiaomi-mi-electric-scooter-m365-xiaomi-mi-electric-scooter-1s-includes-the-5-screws-p1000145000
+  - https://lifty.co/products/brake-disc-110mm-xiaomi-m365
+  - https://monsterscooterparts.com/products/brake-disc-rotor-for-the-xiaomi-mi-m365
+notes: |
+  Catch-all entry for generic / white-label 110 mm five-bolt M365-family rear
+  brake discs. Marketplace listings often cross-list the Xiaomi M365, 1S, and
+  Essential, while M365 Pro / Pro 2 listings usually move to 120 mm discs. This
+  row only asserts compatibility with the base M365 unit currently present in
+  the graph.

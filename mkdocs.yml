@@ -120,6 +120,10 @@ nav:
               - categories/openscoot/pads/generic-m365-rear-disc-pad-pack.md
               - categories/openscoot/pads/generic-m365-sintered-rear-disc-pad.md
               - categories/openscoot/pads/generic-mi-3-dual-pad-disc-pad-pack.md
+          - Rotors:
+              - categories/openscoot/rotors/index.md
+              - categories/openscoot/rotors/xiaomi-m365-oem-rear-brake-disc.md
+              - categories/openscoot/rotors/generic-m365-110mm-5-bolt-brake-disc.md
   - Contributing: contributing.md
 
 extra:

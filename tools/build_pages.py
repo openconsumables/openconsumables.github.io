@@ -207,6 +207,11 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Caliper mount: {part['mount_pattern']}")
         if part.get("pad_compound"):
             facts.append(f"Compound: {part['pad_compound']}")
+    if cfg["slug"] == "openscoot" and part_dir == "rotors":
+        if part.get("rotor_diameter_mm"):
+            facts.append(f"Diameter: {part['rotor_diameter_mm']} mm")
+        if part.get("bolt_pattern"):
+            facts.append(f"Bolt pattern: {part['bolt_pattern']}")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts
