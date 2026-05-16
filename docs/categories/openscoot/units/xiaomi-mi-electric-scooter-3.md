@@ -55,22 +55,6 @@ verified.
 | [Xiaomi Electric Scooter Inner Tube 8.5](../tubes/xiaomi-m365-oem-8.5x2-inner-tube.md) | OEM | 8.5x2 | Schrader | Marketplace listing | No |
 | [Generic 8.5 inch scooter inner tube](../tubes/generic-8.5x2-schrader-inner-tube.md) | Generic | 8.5x2 | Schrader | Marketplace listing | No |
 
-## Axle / wheel mount: Xiaomi M365 family 8.5-inch wheel
-
-Provenance: **Inferred**
-
-Status: **unmeasured**
-
-8.5-inch wheel assembly shared across Xiaomi's first-generation cluster:
-M365, M365 Pro, 1S, Essential, Pro 2, and the Mi Electric Scooter 3.
-Standard tire is 8.5x2 (ETRTO 50-134) pneumatic on a split rim, with a
-Schrader valve. Aftermarket also offers solid and honeycomb (semi-solid)
-tires marketed for the same hub. Marketplace listings cluster on the
-scooter model name ("M365", "Pro 2", "1S") rather than on an engineering
-SKU. Cross-fit to non-Xiaomi 8-inch scooters (e.g. Ninebot ES series 8")
-is community-reported, not manufacturer-claimed, and varies by rim
-geometry; treat as a separate slot until measured.
-
 ## Replacement grip tape
 
 | Grip tape | OEM | Deck length (mm) | Cutouts | Provenance | Measured? |

@@ -289,6 +289,10 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
         out.append("")
 
     device_id = device.get("id", "?")
+    # Two part classes that share an interface file and key (e.g. tires and
+    # tubes both pointing at axles.yml::xiaomi-m365-family-8.5) should only
+    # render the interface section once on the device page.
+    rendered_interfaces: set[tuple[str, str]] = set()
     for part_cfg in cfg["parts"]:
         part_dir = part_cfg["dir"]
         entries = compatibility_entries(device, part_cfg)
@@ -340,6 +344,10 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
         out.append("")
 
         interface_singular = part_cfg["interface_singular"]
+        interface_dedup_key = (part_cfg["interface_file"], interface_key or "")
+        if interface_dedup_key in rendered_interfaces:
+            continue
+        rendered_interfaces.add(interface_dedup_key)
         if interface_key:
             interface_label = interface.get(
                 "display_name", interface_key or "pending measurement"
