@@ -209,7 +209,9 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Compound: {part['pad_compound']}")
     if cfg["slug"] == "openscoot" and part_dir == "rotors":
         if part.get("rotor_diameter_mm"):
-            facts.append(f"Diameter: {part['rotor_diameter_mm']} mm")
+            diameter = part["rotor_diameter_mm"]
+            suffix = " mm" if isinstance(diameter, (int, float)) else ""
+            facts.append(f"Diameter: {diameter}{suffix}")
         if part.get("bolt_pattern"):
             facts.append(f"Bolt pattern: {part['bolt_pattern']}")
     if cfg["slug"] == "openscoot" and part_dir == "shoes":
@@ -228,7 +230,9 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Valve geometry: {part['valve_geometry']}")
     if cfg["slug"] == "openscoot" and part_dir == "grip-tape":
         if part.get("deck_length_mm"):
-            facts.append(f"Deck length: {part['deck_length_mm']} mm")
+            deck_length = part["deck_length_mm"]
+            suffix = " mm" if isinstance(deck_length, (int, float)) else ""
+            facts.append(f"Deck length: {deck_length}{suffix}")
         if part.get("cutout_pattern"):
             facts.append(f"Cutouts: {part['cutout_pattern']}")
         if part.get("material"):
@@ -368,15 +372,20 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
             out.append(f"## {interface_singular}: {interface_label}")
             out.append("")
             out.append(f"Provenance: **{interface_prov}**")
+            interface_rendered = True
         elif interface and interface.get("display_name"):
             out.append(f"## {interface_singular}: {interface['display_name']}")
             out.append("")
-        out.append("")
-        out.append(f"Status: **{interface.get('status', 'unknown')}**")
-        if interface.get("notes"):
+            interface_rendered = True
+        else:
+            interface_rendered = False
+        if interface_rendered:
             out.append("")
-            out.append(interface["notes"].strip())
-        out.append("")
+            out.append(f"Status: **{interface.get('status', 'unknown')}**")
+            if interface.get("notes"):
+                out.append("")
+                out.append(interface["notes"].strip())
+            out.append("")
 
     if device.get("notes"):
         out.append("## Notes")
