@@ -1,0 +1,49 @@
+# Deck-profile interface slots for OpenScoot grip tape / foot mats.
+#
+# A "deck profile" captures the top-side footprint that a pre-cut adhesive
+# non-slip mat needs to match. It is not the structural deck, bottom battery
+# cover, or a replacement footboard.
+#
+# Deck profiles are NOT published specs. They are working categories that may
+# split once measured, especially where sellers cross-list adjacent Xiaomi
+# generations.
+
+xiaomi-m365-family-deck:
+  display_name: "Xiaomi M365 / 1S / Essential / Mi 3 deck mat"
+  aftermarket_aliases:
+    - "M365 grip tape"
+    - "M365 foot mat"
+    - "Xiaomi 1S grip tape"
+    - "Xiaomi Essential grip tape"
+    - "Mi 3 grip tape"
+  deck_length_mm: 560
+  deck_width_mm: 132
+  cutout_pattern: "seller photos vary; usually shaped around the front deck nose and rear battery-cover area"
+  status: unmeasured
+  baseline: null
+  notes: |
+    Working deck-mat profile for the Xiaomi M365-family short deck. A
+    50factory listing for an eWheel adhesive non-slip footrest coating gives
+    stated mat dimensions of 560 mm x 132 mm and lists Xiaomi M365, 1S,
+    Essential, and Mi 3 compatibility. Treat the Mi 3 assignment as a
+    marketplace claim: other aftermarket sellers sometimes split M365/1S and
+    Pro/Pro 2 mats, and this pass did not physically verify the Mi 3 top-deck
+    outline or cutout pattern.
+
+ninebot-max-g30-deck:
+  display_name: "Segway-Ninebot Max G30 deck mat"
+  aftermarket_aliases:
+    - "Ninebot Max grip tape"
+    - "Max G30 foot mat"
+    - "G30 deck tape"
+  deck_length_mm: 650
+  deck_width_mm: 170
+  cutout_pattern: "single top-side foot mat; no battery-cover access cutout called out in seller text"
+  status: unmeasured
+  baseline: null
+  notes: |
+    Working deck-mat profile for the Segway-Ninebot Max G30 family. The 650
+    mm x 170 mm deck dimension comes from a retailer specification for the
+    Max G30 deck, while replacement-mat sellers list G30-specific grip tape /
+    foot-mat parts without publishing a measured drawing. Keep G30LP/G30LE
+    cross-fit as seller-claimed until the deck mat outline is measured.

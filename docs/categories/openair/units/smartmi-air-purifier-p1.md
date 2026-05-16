@@ -2,7 +2,7 @@
 
 # Smartmi Air Purifier P1
 
-Aftermarket code: `ZMKQJHQP01` · Filter slot: **Smartmi P1 cartridge** (Inferred) · Status: unknown
+Aftermarket code: `ZMKQJHQP01` · Status: unknown
 
 Also sold as: Smartmi P1, ZMKQJHQP01
 
@@ -13,6 +13,8 @@ Also sold as: Smartmi P1, ZMKQJHQP01
 | [Smartmi P1 Filter](../filters/smartmi-p1-filter.md) | OEM | ? | ? | Inferred | No |
 
 ## Filter slot: Smartmi P1 cartridge
+
+Provenance: **Inferred**
 
 Status: **unmeasured**
 

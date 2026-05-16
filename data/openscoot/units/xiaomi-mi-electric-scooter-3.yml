@@ -2,7 +2,7 @@ id: xiaomi-mi-electric-scooter-3
 brand: Xiaomi
 family: Mijia
 model: Mi Electric Scooter 3
-aliases: ["Mi Scooter 3", "MIJIA Electric Scooter 3", "DDHBC02NEB"]
+aliases: ["Mi Scooter 3", "MIJIA Electric Scooter 3", "DDHBC02NEB", "DDHBC16NEB"]
 aftermarket_anchor: "Mi 3"
 type: electric-scooter
 wheel_size_in: 8.5
@@ -11,18 +11,42 @@ motor_w: 300
 weight_class_kg: 13.2
 status: current
 released: 2021
-interface: xiaomi-m365-family-8.5
-interface_provenance: inferred
+interfaces:
+  tires: xiaomi-m365-family-8.5
+  pads: xiaomi-scooter-3-dual-pad-disc-rear
+  tubes: xiaomi-m365-family-8.5
+  grip-tape: xiaomi-m365-family-deck
+interface_provenance:
+  tires: inferred
+  pads: manufacturer-claim
+  tubes: inferred
+  grip-tape: marketplace-claim
 compatible_parts:
-  - id: xiaomi-m365-oem-8.5x2-pneumatic
-    provenance: marketplace-claim
-    source: "Aftermarket replacement listings cross-list the M365 OEM tire as fitting the Mi 3"
-  - id: generic-8.5x2-pneumatic-pack
-    provenance: marketplace-claim
-    source: "AliExpress / Amazon listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible tire'"
-  - id: generic-8.5-honeycomb-solid
-    provenance: marketplace-claim
-    source: "AliExpress listings titled 'Mi 3 honeycomb solid tire'"
+  tires:
+    - id: xiaomi-m365-oem-8.5x2-pneumatic
+      provenance: marketplace-claim
+      source: "Aftermarket replacement listings cross-list the M365 OEM tire as fitting the Mi 3"
+    - id: generic-8.5x2-pneumatic-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible tire'"
+    - id: generic-8.5-honeycomb-solid
+      provenance: marketplace-claim
+      source: "AliExpress listings titled 'Mi 3 honeycomb solid tire'"
+  pads:
+    - id: generic-mi-3-dual-pad-disc-pad-pack
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'Xiaomi Mi Electric Scooter 3 brake pads'"
+  tubes:
+    - id: xiaomi-m365-oem-8.5x2-inner-tube
+      provenance: marketplace-claim
+      source: "Aftermarket replacement listings cross-list the M365 / 1S / Pro / Pro 2 / Mi 3 8.5-inch inner tube"
+    - id: generic-8.5x2-schrader-inner-tube
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible inner tube'"
+  grip-tape:
+    - id: generic-m365-family-560x132-foot-mat
+      provenance: marketplace-claim
+      source: "https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html"
 sources:
   - https://www.mi.com/global/product/mi-electric-scooter-3/
 notes: |
@@ -31,5 +55,11 @@ notes: |
   aftermarket sellers. Xiaomi does not publish a hub-side spec sheet that
   would let the project assert manufacturer-claim cross-fit, so the
   interface assignment is inferred from the consistent 8.5x2 dimension and
-  the absence of any manufacturer-stated incompatibility. Motor power and
-  weight figures are manufacturer claims.
+  the absence of any manufacturer-stated incompatibility. Xiaomi's global
+  product page identifies a rear dual-pad disc brake, so the pad-bearing
+  brake architecture is manufacturer-claim for the global DDHBC16NEB page.
+  DDHBC02NEB is retained as a regional alias from the earlier scooter data
+  pass. Motor power and weight figures are manufacturer claims. Grip-tape
+  fitment is left at marketplace-claim because this pass found a seller
+  cross-listing Mi 3 with M365 / 1S / Essential mats, but no measured mat
+  outline or Xiaomi spare-part listing.

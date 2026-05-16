@@ -1,0 +1,42 @@
+# Caliper / brake-pad interface profiles for OpenScoot.
+#
+# A "caliper" is the project's term for the brake-side compatibility class:
+# caliper architecture, pad outline, retention method, and the slot where a
+# wear pad sits. Brake discs / rotors are separate parts because their
+# compatibility depends on rotor diameter, bolt pattern, and hub-side fit.
+#
+# Calipers are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands.
+
+xiaomi-m365-mechanical-disc-rear:
+  display_name: "Xiaomi M365 family rear mechanical disc caliper"
+  aftermarket_aliases:
+    - "M365 brake pads"
+    - "Xiaomi scooter disc pads"
+    - "Xiaomi 1S brake pads"
+    - "Xiaomi Pro 2 brake pads"
+  mount_pattern: "round magnetic pad, M365 stock mechanical caliper"
+  status: unmeasured
+  baseline: null
+  notes: |
+    Rear cable-actuated mechanical disc caliper used on the Xiaomi M365
+    family. Xiaomi's own M365 manual documents disc-brake adjustment at the
+    caliper, and repair-community guidance treats the small round pads as
+    replaceable wear parts. Aftermarket sellers usually tag this slot with
+    scooter model names ("M365", "1S", "Pro 2") rather than a caliper SKU.
+
+xiaomi-scooter-3-dual-pad-disc-rear:
+  display_name: "Xiaomi Mi Electric Scooter 3 rear dual-pad disc caliper"
+  aftermarket_aliases:
+    - "Mi Scooter 3 brake pads"
+    - "Xiaomi Scooter 3 dual pad brake"
+    - "DDHBC16NEB brake pads"
+  mount_pattern: "dual-pad rear disc, Xiaomi Scooter 3 stock caliper"
+  status: unmeasured
+  baseline: null
+  notes: |
+    Rear dual-pad disc brake used on the Mi Electric Scooter 3. Xiaomi's
+    global product page states "rear dual-pad disc brake" and says the brake
+    prolongs pad service life. This profile is kept separate from the M365
+    rear caliper until pad outline and retention are measured or otherwise
+    verified.

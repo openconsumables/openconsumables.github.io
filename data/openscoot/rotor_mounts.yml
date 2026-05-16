@@ -1,0 +1,27 @@
+# Brake-disc / rotor interface profiles for OpenScoot.
+#
+# A "rotor mount" is the project's term for the hub-side compatibility class:
+# rotor diameter, bolt count / spacing, screw size, thickness envelope, and the
+# wheel / caliper pairing the rotor must clear.
+#
+# Rotor mounts are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands.
+
+xiaomi-m365-rotor-bolt-pattern-rear:
+  display_name: "Xiaomi M365 rear 5-bolt rotor mount"
+  aftermarket_aliases:
+    - "M365 brake disc"
+    - "M365 brake rotor"
+    - "Xiaomi M365 110mm brake disc"
+    - "Xiaomi M365 5-hole rotor"
+  rotor_diameter_mm: 110
+  bolt_pattern: "5-bolt rear hub, ~25.4 mm adjacent hole spacing"
+  status: unmeasured
+  baseline: null
+  notes: |
+    Rear hub rotor slot for the base Xiaomi M365. Current aftermarket and
+    spare-part references converge on a 110 mm steel disc with five mounting
+    holes; Monster Scooter Parts lists 5 mm mounting holes spaced 25.4 mm
+    apart. M365 Pro / Pro 2 listings commonly use 120 mm rotors, so those are
+    not folded into this base-M365 slot until the Pro-family unit rows exist
+    and the hub / caliper relationship is verified.

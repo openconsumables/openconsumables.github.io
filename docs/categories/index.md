@@ -8,7 +8,7 @@ Open Consumables works one **measurement** programme at a time. The pilot is ele
 |----------|--------------|-------|
 | [Electric toothbrush heads](toothbrushes/index.md) | OpenBrush | Phase 2: physical measurement |
 | [Air purifier filters](openair/index.md) | OpenAir | Reference layer only (no measurement programme) |
-| [Electric scooter tires](openscoot/index.md) | OpenScoot | Reference layer only (no measurement programme) |
+| [Electric scooter consumables](openscoot/index.md) | OpenScoot | Reference layer only (no measurement programme) |
 
 ## Deferred
 

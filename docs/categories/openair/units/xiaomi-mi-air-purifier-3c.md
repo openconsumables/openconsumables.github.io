@@ -2,7 +2,7 @@
 
 # Xiaomi Mi Air Purifier 3C
 
-Aftermarket code: `AC-M14-SC` · CADR: 320 m³/h · Room rating: 38 m² · Stages: pre-filter + HEPA + activated carbon (single cartridge) · Filter slot: **Xiaomi Mi Air Purifier 3-family barrel** (Inferred) · Released: 2020 · Status: current
+Aftermarket code: `AC-M14-SC` · CADR: 320 m³/h · Room rating: 38 m² · Stages: pre-filter + HEPA + activated carbon (single cartridge) · Released: 2020 · Status: current
 
 Also sold as: Mi Air Purifier 3C, AC-M14-SC, Mijia Air Purifier 3C
 
@@ -15,6 +15,8 @@ Also sold as: Mi Air Purifier 3C, AC-M14-SC, Mijia Air Purifier 3C
 | [Generic Xiaomi 3H compatible filter](../filters/generic-mi-3-family-pack.md) | Generic | claimed H13 (varies) | HEPA + activated carbon (claimed; varies) | Marketplace listing | No |
 
 ## Filter slot: Xiaomi Mi Air Purifier 3-family barrel
+
+Provenance: **Inferred**
 
 Status: **unmeasured**
 

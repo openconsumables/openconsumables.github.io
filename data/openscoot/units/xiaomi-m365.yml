@@ -11,21 +11,64 @@ motor_w: 250
 weight_class_kg: 12.5
 status: discontinued
 released: 2016
-interface: xiaomi-m365-family-8.5
-interface_provenance: manufacturer-claim
+interfaces:
+  tires: xiaomi-m365-family-8.5
+  pads: xiaomi-m365-mechanical-disc-rear
+  tubes: xiaomi-m365-family-8.5
+  rotors: xiaomi-m365-rotor-bolt-pattern-rear
+  grip-tape: xiaomi-m365-family-deck
+interface_provenance:
+  tires: manufacturer-claim
+  pads: community-reported
+  tubes: manufacturer-claim
+  rotors: community-reported
+  grip-tape: marketplace-claim
 compatible_parts:
-  - id: xiaomi-m365-oem-8.5x2-pneumatic
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/global/mi-electric-scooter/specs"
-  - id: generic-8.5x2-pneumatic-pack
-    provenance: marketplace-claim
-    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro compatible 8.5 inch tire'"
-  - id: generic-8.5-honeycomb-solid
-    provenance: marketplace-claim
-    source: "AliExpress listings titled 'M365 honeycomb solid tire 8.5 inch'"
+  tires:
+    - id: xiaomi-m365-oem-8.5x2-pneumatic
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/mi-electric-scooter/specs"
+    - id: generic-8.5x2-pneumatic-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro compatible 8.5 inch tire'"
+    - id: generic-8.5-honeycomb-solid
+      provenance: marketplace-claim
+      source: "AliExpress listings titled 'M365 honeycomb solid tire 8.5 inch'"
+  pads:
+    - id: xiaomi-m365-oem-rear-disc-pad
+      provenance: community-reported
+      source: "Repair guides and teardown/community references consistently show replaceable round rear disc pads on the Xiaomi M365 stock caliper; no official Xiaomi spare-part SKU pinned in this pass"
+    - id: generic-m365-rear-disc-pad-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 brake pads'"
+    - id: generic-m365-sintered-rear-disc-pad
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'sintered metal brake pads for Xiaomi M365 / 1S / Pro 2'"
+  tubes:
+    - id: xiaomi-m365-oem-8.5x2-inner-tube
+      provenance: marketplace-claim
+      source: "Mi Store / scooter-parts listings titled 'Mi Electric Scooter inner tube 8.5'"
+    - id: generic-8.5x2-schrader-inner-tube
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon / scooter-parts listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 compatible 8.5 inch inner tube'"
+  rotors:
+    - id: xiaomi-m365-oem-rear-brake-disc
+      provenance: community-reported
+      source: "Repair-community and spare-parts references identify the stock M365 rear rotor as a 110 mm, five-bolt disc; no official Xiaomi standalone rotor SKU pinned in this pass"
+    - id: generic-m365-110mm-5-bolt-brake-disc
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'Xiaomi M365 110mm brake disc' or 'M365 5-hole brake rotor'"
+  grip-tape:
+    - id: generic-m365-family-560x132-foot-mat
+      provenance: marketplace-claim
+      source: "https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html"
+    - id: generic-m365-1s-replacement-foot-mat
+      provenance: marketplace-claim
+      source: "https://www.replacebase.co.uk/grip-tape-foot-mat"
 sources:
   - https://www.mi.com/global/mi-electric-scooter/
   - https://www.mi.com/global/mi-electric-scooter/specs
+  - https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/10bc30d1a5386b8858b104055096122f.pdf
 notes: |
   The Xiaomi M365 (manufactured by Segway-Ninebot for Xiaomi, model code
   DDHBC01NEB in some regulatory filings) is the canonical anchor for the
@@ -34,4 +77,5 @@ notes: |
   Essential, Pro 2, Mi 3) inherited, and that the aftermarket continues to
   produce in OEM, generic-pneumatic, solid, and honeycomb variants. Motor
   power, weight, and wheel-size figures are manufacturer claims, not
-  measured by the project.
+  measured by the project. Grip-tape entries are marketplace-claim only:
+  Xiaomi does not expose a spare mat SKU in the sources checked here.

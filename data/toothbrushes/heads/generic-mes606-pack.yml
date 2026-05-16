@@ -8,7 +8,7 @@ clones_of: xiaomi-mbs305
 sold_as: ["(many, white-label)", "AOREMON", "AIBOFENG"]
 bristle: varies
 variant: varies
-fits_handles:
+fits_devices:
   - id: xiaomi-t200
     provenance: marketplace-claim
     source: "AliExpress listings keyed on 'MES606 head' / Xiaomi T200 compatible"

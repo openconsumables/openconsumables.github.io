@@ -1,0 +1,32 @@
+id: generic-m365-family-560x132-foot-mat
+brand: null
+family: null
+model: null
+aliases:
+  - "M365 adhesive non-slip footrest coating"
+  - "Xiaomi M365 / 1S / Essential / Mi 3 grip tape"
+  - "eWheel Doodle M365 footboard cover"
+oem: false
+clones_of: null
+sold_as: ["eWheel", "50factory", "(many, white-label)"]
+deck_length_mm: 560
+deck_width_mm: 132
+cutout_pattern: "seller-stated pre-cut M365-family footrest coating; exact cutouts unverified"
+material: "rubber / adhesive non-slip mat"
+variant: standard
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html"
+  - id: xiaomi-mi-electric-scooter-3
+    provenance: marketplace-claim
+    source: "https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html"
+measurements: null
+sources:
+  - https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html
+notes: |
+  Generic / aftermarket adhesive non-slip mat for the Xiaomi short-deck
+  family. The source listing states an overall 560 mm length and 132 mm
+  width, and cross-lists M365, 1S, Essential, and Mi 3. The project has not
+  verified whether the Mi 3 top-deck outline and any battery-cover cutouts
+  exactly match the earlier M365-family deck.

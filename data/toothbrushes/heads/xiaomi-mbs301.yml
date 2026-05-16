@@ -8,7 +8,7 @@ clones_of: null
 sold_as: []
 bristle: medium
 variant: standard
-fits_handles:
+fits_devices:
   - id: xiaomi-t500
     provenance: manufacturer-claim
     source: "https://www.mi.com/shop/buy/detail?product_id=11216"

@@ -8,7 +8,7 @@ clones_of: null
 sold_as: []
 bristle: medium
 variant: standard
-fits_handles:
+fits_devices:
   - id: oral-b-pro-1000
     provenance: manufacturer-claim
     source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"

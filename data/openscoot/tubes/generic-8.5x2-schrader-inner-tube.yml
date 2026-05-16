@@ -1,0 +1,31 @@
+id: generic-8.5x2-schrader-inner-tube
+brand: null
+family: null
+model: null
+aliases:
+  - "8.5 inch scooter inner tube"
+  - "8.5x2 M365 inner tube"
+  - "Xiaomi 1S / Pro / Pro 2 / Mi 3 compatible inner tube"
+oem: false
+clones_of: xiaomi-m365-oem-8.5x2-inner-tube
+sold_as: ["(many, white-label)", "Ulip", "Monland", "Halfords"]
+size_label: "8.5x2"
+size_etrto: "50-134 tire class (claimed)"
+valve_type: "Schrader"
+valve_geometry: "straight, offset, or angled stem variants"
+variant: varies
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon / scooter-parts listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 compatible 8.5 inch inner tube'"
+  - id: xiaomi-mi-electric-scooter-3
+    provenance: marketplace-claim
+    source: "Aftermarket listings titled 'Xiaomi Mi 3 / 1S / Pro 2 / M365 compatible inner tube'"
+measurements: null
+sources:
+  - https://www.halfords.com/cycling/scooters/electric-scooter-parts/e-scooter-inner-tube--8.5-2-157-465358.html
+notes: |
+  Catch-all entry for generic / white-label 8.5x2 scooter inner tubes sold
+  for Xiaomi 8.5-inch wheels. The tube size follows the tire slot, but
+  valve-stem geometry varies by listing. Buyers should match the stem
+  orientation to the rim clearance on the scooter they are repairing.
