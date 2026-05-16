@@ -2,7 +2,7 @@
 
 # Oral-B Pro 1000
 
-Mode: rotating-oscillating · Charging: inductive · Mount: **Oral-B classic round-head mount** (Manufacturer claim) · Released: 2014 · Status: current
+Mode: rotating-oscillating · Charging: inductive · Released: 2014 · Status: current
 
 Also sold as: Pro 1000 CrossAction, D16
 
@@ -15,6 +15,8 @@ Also sold as: Pro 1000 CrossAction, D16
 | `generic-oral-b-classic-pack` (no entry) | ? | ? | Marketplace listing | ? |
 
 ## Mount: Oral-B classic round-head mount
+
+Provenance: **Manufacturer claim**
 
 Status: **unmeasured**
 

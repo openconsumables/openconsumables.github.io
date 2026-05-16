@@ -114,6 +114,12 @@ nav:
               - categories/openscoot/tires/ninebot-max-oem-10x2.125-pneumatic.md
               - categories/openscoot/tires/generic-8.5x2-pneumatic-pack.md
               - categories/openscoot/tires/generic-8.5-honeycomb-solid.md
+          - Brake pads:
+              - categories/openscoot/pads/index.md
+              - categories/openscoot/pads/xiaomi-m365-oem-rear-disc-pad.md
+              - categories/openscoot/pads/generic-m365-rear-disc-pad-pack.md
+              - categories/openscoot/pads/generic-m365-sintered-rear-disc-pad.md
+              - categories/openscoot/pads/generic-mi-3-dual-pad-disc-pad-pack.md
   - Contributing: contributing.md
 
 extra:

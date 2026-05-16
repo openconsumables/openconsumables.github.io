@@ -11,12 +11,15 @@ motor_w: 350
 weight_class_kg: 18.7
 status: current
 released: 2019
-interface: ninebot-max-g30-10
-interface_provenance: manufacturer-claim
+interfaces:
+  tires: ninebot-max-g30-10
+interface_provenance:
+  tires: manufacturer-claim
 compatible_parts:
-  - id: ninebot-max-oem-10x2.125-pneumatic
-    provenance: manufacturer-claim
-    source: "https://store.segway.com/parts/kick-scooter/max-series/max-g30p"
+  tires:
+    - id: ninebot-max-oem-10x2.125-pneumatic
+      provenance: manufacturer-claim
+      source: "https://store.segway.com/parts/kick-scooter/max-series/max-g30p"
 sources:
   - https://store.segway.com/parts/kick-scooter/max-series/max-g30p
 notes: |

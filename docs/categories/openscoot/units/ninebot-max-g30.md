@@ -2,7 +2,7 @@
 
 # Segway-Ninebot Max G30
 
-Aftermarket code: `Max G30` · Wheel: 10" · Motor: 350 W · Weight: ~18.7 kg · Axle / wheel mount: **Segway-Ninebot Max G30 10-inch wheel** (Manufacturer claim) · Released: 2019 · Status: current
+Aftermarket code: `Max G30` · Wheel: 10" · Motor: 350 W · Weight: ~18.7 kg · Released: 2019 · Status: current
 
 Also sold as: Ninebot KickScooter Max G30, Segway Max, G30P, G30LP
 
@@ -13,6 +13,8 @@ Also sold as: Ninebot KickScooter Max G30, Segway Max, G30P, G30LP
 | [Segway-Ninebot Max G30 OEM 10x2.125 self-healing pneumatic](../tires/ninebot-max-oem-10x2.125-pneumatic.md) | OEM | ~54-152 | self-healing pneumatic | Manufacturer claim | No |
 
 ## Axle / wheel mount: Segway-Ninebot Max G30 10-inch wheel
+
+Provenance: **Manufacturer claim**
 
 Status: **unmeasured**
 

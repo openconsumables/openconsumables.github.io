@@ -9,15 +9,18 @@ mode: sonic
 charging: usb-c
 status: current
 released: 2022
-mount: xiaomi-mes606-family
-mount_provenance: inferred
-compatible_heads:
-  - id: xiaomi-mbs305
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy?product_id=1222100087"
-  - id: generic-mes606-pack
-    provenance: marketplace-claim
-    source: "AliExpress listings keyed on 'MES606 head'"
+interfaces:
+  heads: xiaomi-mes606-family
+interface_provenance:
+  heads: inferred
+compatible_parts:
+  heads:
+    - id: xiaomi-mbs305
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/shop/buy?product_id=1222100087"
+    - id: generic-mes606-pack
+      provenance: marketplace-claim
+      source: "AliExpress listings keyed on 'MES606 head'"
 sources:
   - https://www.gizmochina.com/2022/05/31/xiaomi-mijia-t200-sonic-electric-toothbrush-25-days-battery-life/
   - https://www.gizmochina.com/2023/04/07/mijia-electric-toothbrush-t200c-25days-battery-life-two-brush-heads-travel-case-launched/

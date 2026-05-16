@@ -10,12 +10,15 @@ room_size_m2: null
 filter_stages: null
 status: unknown
 released: null
-interface: smartmi-p1-family
-interface_provenance: inferred
+interfaces:
+  filters: smartmi-p1-family
+interface_provenance:
+  filters: inferred
 compatible_parts:
-  - id: smartmi-p1-filter
-    provenance: inferred
-    source: "Sold as the OEM replacement cartridge for the Smartmi P1; manufacturer product page not pinned in this pass"
+  filters:
+    - id: smartmi-p1-filter
+      provenance: inferred
+      source: "Sold as the OEM replacement cartridge for the Smartmi P1; manufacturer product page not pinned in this pass"
 sources: []
 notes: |
   Stub entry. Smartmi P1 (ZMKQJHQP01) is a real Smartmi-branded purifier

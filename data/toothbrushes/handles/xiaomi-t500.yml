@@ -9,18 +9,21 @@ mode: sonic
 charging: inductive
 status: current
 released: 2019
-mount: xiaomi-mes601-family
-mount_provenance: inferred
-compatible_heads:
-  - id: xiaomi-mbs301
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy/detail?product_id=11216"
-  - id: xiaomi-mbs301-sensitive
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/buy?product_id=1194500023"
-  - id: generic-mes601-pack
-    provenance: marketplace-claim
-    source: "AliExpress listings keyed on 'MES601 head' / T300/T500/T500C"
+interfaces:
+  heads: xiaomi-mes601-family
+interface_provenance:
+  heads: inferred
+compatible_parts:
+  heads:
+    - id: xiaomi-mbs301
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/shop/buy/detail?product_id=11216"
+    - id: xiaomi-mbs301-sensitive
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/buy?product_id=1194500023"
+    - id: generic-mes601-pack
+      provenance: marketplace-claim
+      source: "AliExpress listings keyed on 'MES601 head' / T300/T500/T500C"
 sources:
   - https://www.mi.com/shop/buy/detail?product_id=11216
   - https://www.pricearchive.org/aliexpress.com/item/1005010810000700

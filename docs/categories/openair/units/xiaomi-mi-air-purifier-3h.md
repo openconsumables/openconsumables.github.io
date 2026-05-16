@@ -2,7 +2,7 @@
 
 # Xiaomi Mi Air Purifier 3H
 
-Aftermarket code: `AC-M6-SC` · CADR: 380 m³/h · Room rating: 48 m² · Stages: pre-filter + HEPA + activated carbon (single cartridge) · Filter slot: **Xiaomi Mi Air Purifier 3-family barrel** (Inferred) · Released: 2019 · Status: discontinued
+Aftermarket code: `AC-M6-SC` · CADR: 380 m³/h · Room rating: 48 m² · Stages: pre-filter + HEPA + activated carbon (single cartridge) · Released: 2019 · Status: discontinued
 
 Also sold as: Mi Air Purifier 3H, AC-M6-SC, Mijia Air Purifier 3H
 
@@ -15,6 +15,8 @@ Also sold as: Mi Air Purifier 3H, AC-M6-SC, Mijia Air Purifier 3H
 | [Generic Xiaomi 3H compatible filter](../filters/generic-mi-3-family-pack.md) | Generic | claimed H13 (varies) | HEPA + activated carbon (claimed; varies) | Marketplace listing | No |
 
 ## Filter slot: Xiaomi Mi Air Purifier 3-family barrel
+
+Provenance: **Inferred**
 
 Status: **unmeasured**
 

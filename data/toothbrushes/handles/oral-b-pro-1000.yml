@@ -9,18 +9,21 @@ mode: rotating-oscillating
 charging: inductive
 status: current
 released: 2014
-mount: oral-b-classic
-mount_provenance: manufacturer-claim
-compatible_heads:
-  - id: oral-b-cross-action
-    provenance: manufacturer-claim
-    source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
-  - id: oral-b-precision-clean
-    provenance: manufacturer-claim
-    source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
-  - id: generic-oral-b-classic-pack
-    provenance: marketplace-claim
-    source: "AliExpress / Amazon generic 'fits Oral-B Pro/Vitality/Genius' listings"
+interfaces:
+  heads: oral-b-classic
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: oral-b-cross-action
+      provenance: manufacturer-claim
+      source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
+    - id: oral-b-precision-clean
+      provenance: manufacturer-claim
+      source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
+    - id: generic-oral-b-classic-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon generic 'fits Oral-B Pro/Vitality/Genius' listings"
 sources:
   - https://oralb.com/en-us/product/oral-b-pro-1000-rechargeable-electric-toothbrush
 notes: |

@@ -2,7 +2,7 @@
 
 # Xiaomi T500
 
-Aftermarket code: `MES601` · Mode: sonic · Charging: inductive · Mount: **Xiaomi MES601 family** (Inferred) · Released: 2019 · Status: current
+Aftermarket code: `MES601` · Mode: sonic · Charging: inductive · Released: 2019 · Status: current
 
 Also sold as: T500C, Mi Smart Electric Toothbrush T500
 
@@ -15,6 +15,8 @@ Also sold as: T500C, Mi Smart Electric Toothbrush T500
 | `generic-mes601-pack` (no entry) | ? | ? | Marketplace listing | ? |
 
 ## Mount: Xiaomi MES601 family
+
+Provenance: **Inferred**
 
 Status: **unmeasured**
 

@@ -2,7 +2,7 @@
 
 # Xiaomi T200
 
-Aftermarket code: `MES606` · Mode: sonic · Charging: usb-c · Mount: **Xiaomi MES606 family** (Inferred) · Released: 2022 · Status: current
+Aftermarket code: `MES606` · Mode: sonic · Charging: usb-c · Released: 2022 · Status: current
 
 Also sold as: T200C, Mijia Sonic Electric Toothbrush T200
 
@@ -14,6 +14,8 @@ Also sold as: T200C, Mijia Sonic Electric Toothbrush T200
 | [Generic MES606 heads](../heads/generic-mes606-pack.md) | Generic | varies | Marketplace listing | No |
 
 ## Mount: Xiaomi MES606 family
+
+Provenance: **Inferred**
 
 Status: **unmeasured**
 

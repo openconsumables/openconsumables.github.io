@@ -1,0 +1,25 @@
+id: generic-mi-3-dual-pad-disc-pad-pack
+brand: null
+family: null
+model: null
+aliases:
+  - "Mi Electric Scooter 3 brake pads"
+  - "Xiaomi Scooter 3 dual-pad disc brake pads"
+oem: false
+clones_of: null
+sold_as: ["(many, white-label)"]
+mount_pattern: "dual-pad rear disc, Xiaomi Scooter 3 stock caliper"
+pad_compound: resin / organic (claimed; varies)
+variant: standard
+fits_devices:
+  - id: xiaomi-mi-electric-scooter-3
+    provenance: marketplace-claim
+    source: "Aftermarket listings titled 'Xiaomi Mi Electric Scooter 3 brake pads'"
+measurements: null
+sources:
+  - https://www.mi.com/global/product/mi-electric-scooter-3/
+notes: |
+  Generic pad entry for the Mi Electric Scooter 3 rear dual-pad disc brake.
+  Xiaomi's product page confirms the brake architecture and pad-bearing
+  design, but it does not publish a spare pad SKU or compatibility list.
+  Keep this separate from the M365 pad until the pad outline is verified.

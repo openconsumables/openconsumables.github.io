@@ -7,13 +7,13 @@ Run manually:
 For each category, expects:
 
     data/<slug>/<device.dir>/*.yml    one file per device (e.g. handle, unit)
-    data/<slug>/<part.dir>/*.yml      one file per part (e.g. head, filter)
-    data/<slug>/<interface.file>      mount / slot / interface profiles
+    data/<slug>/<part.dir>/*.yml      one file per part class item
+    data/<slug>/<interface_file>      interface profiles for each part class
 
 Output goes to:
 
     docs/categories/<slug>/<device.dir>/*.md
-    docs/categories/<slug>/<part.dir>/*.md
+    docs/categories/<slug>/<part.dir>/*.md for every part class
 
 Pages declare themselves generated at the top. Do not hand-edit them.
 
@@ -63,10 +63,14 @@ def lookup_provenance(value: str | None, where: str) -> str:
     return PROVENANCE_LABEL[value]
 
 
-REQUIRED_CATEGORY_PATHS = (
-    ("device", "dir"),
-    ("part", "dir"),
-    ("interface", "file"),
+REQUIRED_CATEGORY_PATHS = (("device", "dir"),)
+
+REQUIRED_PART_KEYS = (
+    "dir",
+    "singular",
+    "plural",
+    "interface_file",
+    "interface_singular",
 )
 
 
@@ -83,36 +87,52 @@ def load_categories() -> dict[str, dict]:
                 if not isinstance(node, dict) or k not in node:
                     sys.exit(f"category {slug}: missing {'.'.join(keys)} in categories.yml")
                 node = node[k]
+        if not isinstance(cfg.get("parts"), list) or not cfg["parts"]:
+            sys.exit(f"category {slug}: missing non-empty parts list in categories.yml")
+        seen_dirs: set[str] = set()
+        for part_cfg in cfg["parts"]:
+            if not isinstance(part_cfg, dict):
+                sys.exit(f"category {slug}: part class is not a mapping")
+            for key in REQUIRED_PART_KEYS:
+                if key not in part_cfg:
+                    sys.exit(f"category {slug}: part class missing {key}")
+            if part_cfg["dir"] in seen_dirs:
+                sys.exit(f"category {slug}: duplicate part dir {part_cfg['dir']}")
+            seen_dirs.add(part_cfg["dir"])
     return raw
 
 
 def load_category_data(cfg: dict) -> tuple[dict, dict, dict]:
     slug = cfg["slug"]
     cat_dir = DATA / slug
-    interface_file = cat_dir / cfg["interface"]["file"]
-    interfaces = (
-        yaml.safe_load(interface_file.read_text(encoding="utf-8")) or {}
-        if interface_file.exists()
-        else {}
-    )
+    interfaces = {}
+    parts = {}
+    for part_cfg in cfg["parts"]:
+        part_dir = part_cfg["dir"]
+        interface_file = cat_dir / part_cfg["interface_file"]
+        interfaces[part_dir] = (
+            yaml.safe_load(interface_file.read_text(encoding="utf-8")) or {}
+            if interface_file.exists()
+            else {}
+        )
+        parts[part_dir] = {
+            p.stem: yaml.safe_load(p.read_text(encoding="utf-8"))
+            for p in (cat_dir / part_dir).glob("*.yml")
+        }
     devices = {
         p.stem: yaml.safe_load(p.read_text(encoding="utf-8"))
         for p in (cat_dir / cfg["device"]["dir"]).glob("*.yml")
     }
-    parts = {
-        p.stem: yaml.safe_load(p.read_text(encoding="utf-8"))
-        for p in (cat_dir / cfg["part"]["dir"]).glob("*.yml")
-    }
     return interfaces, devices, parts
 
 
-def part_link(part_id: str, parts: dict, cfg: dict) -> str:
+def part_link(part_id: str, parts: dict, part_cfg: dict) -> str:
     part = parts.get(part_id)
     if not part:
         return f"`{part_id}` (no entry)"
     label = part.get("model") or (part.get("aliases") or [part_id])[0]
     brand = part.get("brand") or "Generic"
-    return f"[{brand} {label}](../{cfg['part']['dir']}/{part_id}.md)"
+    return f"[{brand} {label}](../{part_cfg['dir']}/{part_id}.md)"
 
 
 def device_link(device_id: str, devices: dict, cfg: dict) -> str:
@@ -158,11 +178,12 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
     return facts
 
 
-def render_part_facts(part: dict, cfg: dict) -> list[str]:
+def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
     facts: list[str] = []
     facts.append("OEM" if part.get("oem") else "Generic / clone")
     if part.get("clones_of"):
         facts.append(f"Clones: `{part['clones_of']}`")
+    part_dir = part_cfg["dir"]
     if cfg["slug"] == "toothbrushes":
         facts.append(f"Bristle: {part.get('bristle', 'unknown')}")
     if cfg["slug"] == "openair":
@@ -172,7 +193,7 @@ def render_part_facts(part: dict, cfg: dict) -> list[str]:
             facts.append(f"Media: {part['media']}")
         if part.get("lifespan_months"):
             facts.append(f"Lifespan: ~{part['lifespan_months']} months")
-    if cfg["slug"] == "openscoot":
+    if cfg["slug"] == "openscoot" and part_dir == "tires":
         if part.get("size_etrto"):
             facts.append(f"Size (ETRTO): {part['size_etrto']}")
         if part.get("tire_type"):
@@ -181,6 +202,11 @@ def render_part_facts(part: dict, cfg: dict) -> list[str]:
             facts.append(f"Tube: {part['tube']}")
         if part.get("tread_pattern"):
             facts.append(f"Tread: {part['tread_pattern']}")
+    if cfg["slug"] == "openscoot" and part_dir == "pads":
+        if part.get("mount_pattern"):
+            facts.append(f"Caliper mount: {part['mount_pattern']}")
+        if part.get("pad_compound"):
+            facts.append(f"Compound: {part['pad_compound']}")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts
@@ -195,24 +221,36 @@ def part_column_value(part: dict | None, column: str) -> str:
     return str(value)
 
 
-def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str:
-    interface_key = device.get("interface") or device.get("mount")
-    interface = interfaces.get(interface_key or "", {})
-    interface_label = interface.get(
-        "display_name", interface_key or "pending measurement"
-    )
-    interface_singular = cfg["interface"]["singular"]
+def compatibility_entries(device: dict, part_cfg: dict) -> list[dict]:
+    part_dir = part_cfg["dir"]
+    raw = device.get("compatible_parts")
+    if isinstance(raw, dict):
+        return raw.get(part_dir, []) or []
+    return []
 
+
+def interface_assignment(device: dict, part_cfg: dict) -> tuple[str | None, str | None]:
+    part_dir = part_cfg["dir"]
+    interfaces = device.get("interfaces")
+    if isinstance(interfaces, dict):
+        interface_key = interfaces.get(part_dir)
+    else:
+        interface_key = device.get("interface") or device.get("mount")
+
+    provenances = device.get("interface_provenance")
+    if isinstance(provenances, dict):
+        provenance = provenances.get(part_dir)
+    else:
+        provenance = device.get("interface_provenance") or device.get("mount_provenance")
+    return interface_key, provenance
+
+
+def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str:
     out = [GENERATED_BANNER]
     out.append(f"# {device['brand']} {device['model']}")
     out.append("")
 
     facts = render_facts(device, cfg)
-    interface_prov = lookup_provenance(
-        device.get("interface_provenance") or device.get("mount_provenance"),
-        f"{cfg['slug']} device {device.get('id', '?')}: interface_provenance",
-    )
-    facts.append(f"{interface_singular}: **{interface_label}** ({interface_prov})")
     if device.get("released"):
         facts.append(f"Released: {device['released']}")
     if device.get("status"):
@@ -224,45 +262,72 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
         out.append(f"Also sold as: {', '.join(device['aliases'])}")
         out.append("")
 
-    section_label = cfg["device"].get("section_label", cfg["part"]["plural"])
-    extra_columns = cfg.get("part_columns", [])
-    column_labels = cfg.get("part_column_labels", {})
-
-    out.append(f"## {section_label}")
-    out.append("")
-    part_singular = cfg["part"]["singular"]
-    headers = [
-        part_singular,
-        "OEM",
-        *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
-        "Provenance",
-        "Measured?",
-    ]
-    out.append("| " + " | ".join(headers) + " |")
-    out.append("|" + "---|" * len(headers))
-
     device_id = device.get("id", "?")
-    compat_key = "compatible_parts" if "compatible_parts" in device else "compatible_heads"
-    for c in device.get(compat_key, []) or []:
-        if "id" not in c:
-            ERRORS.append(
-                f"{cfg['slug']} device {device_id}: {compat_key} entry missing id: {c}"
-            )
-            continue
-        part = parts.get(c["id"])
-        oem = "?" if part is None else ("OEM" if part.get("oem") else "Generic")
-        measured = "?" if part is None else ("Yes" if part.get("measurements") else "No")
-        col_values = [part_column_value(part, col) for col in extra_columns]
-        provenance = lookup_provenance(
-            c.get("provenance"),
-            f"{cfg['slug']} device {device_id} -> part {c['id']}",
-        )
-        row = [part_link(c["id"], parts, cfg), oem, *col_values, provenance, measured]
-        out.append("| " + " | ".join(row) + " |")
-    out.append("")
+    for part_cfg in cfg["parts"]:
+        part_dir = part_cfg["dir"]
+        entries = compatibility_entries(device, part_cfg)
+        interface_key, interface_provenance = interface_assignment(device, part_cfg)
+        interface = interfaces.get(part_dir, {}).get(interface_key or "", {})
 
-    if interface and interface.get("display_name"):
-        out.append(f"## {interface_singular}: {interface['display_name']}")
+        if not entries and not interface_key:
+            continue
+
+        section_label = cfg["device"].get("section_label", part_cfg["plural"])
+        extra_columns = part_cfg.get("columns", [])
+        column_labels = part_cfg.get("column_labels", {})
+
+        out.append(f"## {section_label}")
+        out.append("")
+        part_singular = part_cfg["singular"]
+        headers = [
+            part_singular,
+            "OEM",
+            *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
+            "Provenance",
+            "Measured?",
+        ]
+        out.append("| " + " | ".join(headers) + " |")
+        out.append("|" + "---|" * len(headers))
+
+        for c in entries:
+            if "id" not in c:
+                ERRORS.append(
+                    f"{cfg['slug']} device {device_id}: {part_dir} entry missing id: {c}"
+                )
+                continue
+            part = parts.get(part_dir, {}).get(c["id"])
+            oem = "?" if part is None else ("OEM" if part.get("oem") else "Generic")
+            measured = "?" if part is None else ("Yes" if part.get("measurements") else "No")
+            col_values = [part_column_value(part, col) for col in extra_columns]
+            provenance = lookup_provenance(
+                c.get("provenance"),
+                f"{cfg['slug']} device {device_id} -> {part_dir} part {c['id']}",
+            )
+            row = [
+                part_link(c["id"], parts.get(part_dir, {}), part_cfg),
+                oem,
+                *col_values,
+                provenance,
+                measured,
+            ]
+            out.append("| " + " | ".join(row) + " |")
+        out.append("")
+
+        interface_singular = part_cfg["interface_singular"]
+        if interface_key:
+            interface_label = interface.get(
+                "display_name", interface_key or "pending measurement"
+            )
+            interface_prov = lookup_provenance(
+                interface_provenance,
+                f"{cfg['slug']} device {device_id}: {part_dir} interface_provenance",
+            )
+            out.append(f"## {interface_singular}: {interface_label}")
+            out.append("")
+            out.append(f"Provenance: **{interface_prov}**")
+        elif interface and interface.get("display_name"):
+            out.append(f"## {interface_singular}: {interface['display_name']}")
+            out.append("")
         out.append("")
         out.append(f"Status: **{interface.get('status', 'unknown')}**")
         if interface.get("notes"):
@@ -286,14 +351,14 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
     return "\n".join(out)
 
 
-def render_part(part: dict, devices: dict, cfg: dict) -> str:
+def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
     out = [GENERATED_BANNER]
     brand = part.get("brand") or "Generic"
     model = part.get("model") or (part.get("aliases") or ["(unbranded)"])[0]
     out.append(f"# {brand} {model}")
     out.append("")
 
-    facts = render_part_facts(part, cfg)
+    facts = render_part_facts(part, cfg, part_cfg)
     out.append(" · ".join(facts))
     out.append("")
 
@@ -309,7 +374,7 @@ def render_part(part: dict, devices: dict, cfg: dict) -> str:
     out.append(f"| {cfg['device']['singular']} | Provenance |")
     out.append("|---|---|")
     part_id = part.get("id", "?")
-    fits_key = "fits_devices" if "fits_devices" in part else "fits_handles"
+    fits_key = "fits_devices"
     for f in part.get(fits_key, []) or []:
         if "id" not in f:
             ERRORS.append(
@@ -354,9 +419,7 @@ def main() -> None:
     for slug, cfg in categories.items():
         interfaces, devices, parts = load_category_data(cfg)
         device_dir = PAGES_ROOT / slug / cfg["device"]["dir"]
-        part_dir = PAGES_ROOT / slug / cfg["part"]["dir"]
         device_dir.mkdir(parents=True, exist_ok=True)
-        part_dir.mkdir(parents=True, exist_ok=True)
 
         for did, d in devices.items():
             (device_dir / f"{did}.md").write_text(
@@ -364,11 +427,15 @@ def main() -> None:
             )
             print(f"wrote {slug}/{cfg['device']['dir']}/{did}.md")
 
-        for pid, p in parts.items():
-            (part_dir / f"{pid}.md").write_text(
-                render_part(p, devices, cfg), encoding="utf-8"
-            )
-            print(f"wrote {slug}/{cfg['part']['dir']}/{pid}.md")
+        for part_cfg in cfg["parts"]:
+            part_dir_name = part_cfg["dir"]
+            part_dir = PAGES_ROOT / slug / part_dir_name
+            part_dir.mkdir(parents=True, exist_ok=True)
+            for pid, p in parts.get(part_dir_name, {}).items():
+                (part_dir / f"{pid}.md").write_text(
+                    render_part(p, devices, cfg, part_cfg), encoding="utf-8"
+                )
+                print(f"wrote {slug}/{part_dir_name}/{pid}.md")
 
     if ERRORS:
         print(f"\n{len(ERRORS)} data error(s):", file=sys.stderr)

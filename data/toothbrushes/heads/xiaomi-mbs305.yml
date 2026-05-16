@@ -8,7 +8,7 @@ clones_of: null
 sold_as: []
 bristle: medium
 variant: standard
-fits_handles:
+fits_devices:
   - id: xiaomi-t200
     provenance: manufacturer-claim
     source: "https://www.mi.com/shop/buy?product_id=1222100087"

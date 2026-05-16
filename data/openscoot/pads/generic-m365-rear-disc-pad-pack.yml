@@ -1,0 +1,26 @@
+id: generic-m365-rear-disc-pad-pack
+brand: null
+family: null
+model: null
+aliases:
+  - "M365 brake pads"
+  - "Xiaomi M365 / 1S / Pro / Pro 2 brake pads"
+  - "Xiaomi scooter round brake pads"
+oem: false
+clones_of: xiaomi-m365-oem-rear-disc-pad
+sold_as: ["(many, white-label)", "Ulip", "Monland"]
+mount_pattern: "round magnetic pad, M365 stock mechanical caliper"
+pad_compound: resin / organic (claimed; varies)
+variant: standard
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 brake pads'"
+measurements: null
+sources: []
+notes: |
+  Catch-all entry for generic / white-label M365-family rear disc brake
+  pads. Marketplace titles commonly cross-list M365, M365 Pro, 1S,
+  Essential, and Pro 2. Brand names rotate and compound claims vary, so
+  compatibility remains marketplace-claim until measured or independently
+  confirmed.

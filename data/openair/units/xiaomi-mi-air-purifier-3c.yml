@@ -10,18 +10,21 @@ room_size_m2: 38
 filter_stages: "pre-filter + HEPA + activated carbon (single cartridge)"
 status: current
 released: 2020
-interface: xiaomi-mi-3-family
-interface_provenance: inferred
+interfaces:
+  filters: xiaomi-mi-3-family
+interface_provenance:
+  filters: inferred
 compatible_parts:
-  - id: xiaomi-m8r-flh
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/global/mi-air-purifier-filter/"
-  - id: xiaomi-m8r-flp
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
-  - id: generic-mi-3-family-pack
-    provenance: marketplace-claim
-    source: "AliExpress / Amazon generic 'Xiaomi 3C compatible filter' listings"
+  filters:
+    - id: xiaomi-m8r-flh
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/mi-air-purifier-filter/"
+    - id: xiaomi-m8r-flp
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/mi-air-purifier-filter-anti-formaldehyde"
+    - id: generic-mi-3-family-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon generic 'Xiaomi 3C compatible filter' listings"
 sources:
   - https://www.mi.com/global/mi-air-purifier-3c/
 notes: |

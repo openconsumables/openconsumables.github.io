@@ -1,0 +1,27 @@
+id: xiaomi-m365-oem-rear-disc-pad
+brand: Xiaomi
+family: Mijia
+model: "M365 stock rear disc pad"
+aliases:
+  - "M365 original brake pad"
+  - "Mi Electric Scooter rear brake pad"
+oem: true
+clones_of: null
+sold_as: []
+mount_pattern: "round magnetic pad, M365 stock mechanical caliper"
+pad_compound: unknown
+variant: stock
+fits_devices:
+  - id: xiaomi-m365
+    provenance: community-reported
+    source: "Repair guides and teardown/community references consistently show replaceable round rear disc pads on the Xiaomi M365 stock caliper; no official Xiaomi spare-part SKU pinned in this pass"
+measurements: null
+sources:
+  - https://www.manualslib.com/manual/1690418/Xiaomi-Mi-Electric-Scooter-M365.html
+  - https://escooterhut.co.uk/blogs/ride-read/xiaomi-brake-adjustment
+notes: |
+  Stock pad entry for the Xiaomi M365 rear mechanical disc brake. Xiaomi's
+  manual documents the disc brake and caliper adjustment, but this pass did
+  not find an official Xiaomi spare-part SKU for the pads themselves. The
+  pad entry is therefore OEM as a stock component, while the fitment claim is
+  community-reported rather than manufacturer-claim.

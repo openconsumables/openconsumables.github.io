@@ -11,21 +11,37 @@ motor_w: 250
 weight_class_kg: 12.5
 status: discontinued
 released: 2016
-interface: xiaomi-m365-family-8.5
-interface_provenance: manufacturer-claim
+interfaces:
+  tires: xiaomi-m365-family-8.5
+  pads: xiaomi-m365-mechanical-disc-rear
+interface_provenance:
+  tires: manufacturer-claim
+  pads: manufacturer-claim
 compatible_parts:
-  - id: xiaomi-m365-oem-8.5x2-pneumatic
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/global/mi-electric-scooter/specs"
-  - id: generic-8.5x2-pneumatic-pack
-    provenance: marketplace-claim
-    source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro compatible 8.5 inch tire'"
-  - id: generic-8.5-honeycomb-solid
-    provenance: marketplace-claim
-    source: "AliExpress listings titled 'M365 honeycomb solid tire 8.5 inch'"
+  tires:
+    - id: xiaomi-m365-oem-8.5x2-pneumatic
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/mi-electric-scooter/specs"
+    - id: generic-8.5x2-pneumatic-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro compatible 8.5 inch tire'"
+    - id: generic-8.5-honeycomb-solid
+      provenance: marketplace-claim
+      source: "AliExpress listings titled 'M365 honeycomb solid tire 8.5 inch'"
+  pads:
+    - id: xiaomi-m365-oem-rear-disc-pad
+      provenance: community-reported
+      source: "Repair guides and teardown/community references consistently show replaceable round rear disc pads on the Xiaomi M365 stock caliper; no official Xiaomi spare-part SKU pinned in this pass"
+    - id: generic-m365-rear-disc-pad-pack
+      provenance: marketplace-claim
+      source: "AliExpress / Amazon listings titled 'Xiaomi M365 / 1S / Pro / Pro 2 brake pads'"
+    - id: generic-m365-sintered-rear-disc-pad
+      provenance: marketplace-claim
+      source: "Aftermarket listings titled 'sintered metal brake pads for Xiaomi M365 / 1S / Pro 2'"
 sources:
   - https://www.mi.com/global/mi-electric-scooter/
   - https://www.mi.com/global/mi-electric-scooter/specs
+  - https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/10bc30d1a5386b8858b104055096122f.pdf
 notes: |
   The Xiaomi M365 (manufactured by Segway-Ninebot for Xiaomi, model code
   DDHBC01NEB in some regulatory filings) is the canonical anchor for the

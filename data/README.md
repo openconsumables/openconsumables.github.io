@@ -1,6 +1,6 @@
 # Device knowledge graph
 
-This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under `docs/categories/*/handles/` or `docs/categories/*/heads/`.
+This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under generated directories such as `docs/categories/*/handles/`, `docs/categories/*/heads/`, `docs/categories/*/filters/`, `docs/categories/*/tires/`, or `docs/categories/*/pads/`.
 
 The data layer publishes what is **known** about each device, with provenance, regardless of whether the project has measured it yet. Measurement upgrades a row from `manufacturer-claim` to `measured`; it is not the gate to publishing.
 
@@ -14,18 +14,18 @@ A measurement-only site has nothing to say about a handle until Batch A lands. A
 
 ## Layout
 
-The data layer is category-keyed. `categories.yml` declares each category and its device / part / interface vocabulary; per-category folders hold the actual entries.
+The data layer is category-keyed. `categories.yml` declares each category, its durable device vocabulary, and one or more replaceable part classes. Each part class has its own part directory and interface file; per-category folders hold the actual entries.
 
 ```
 data/
 ├── README.md                 # this file
 ├── categories.yml            # one entry per category (toothbrushes, ...)
 └── <category-slug>/
-    ├── <interface.file>      # e.g. mounts.yml for toothbrushes
+    ├── <interface_file>      # e.g. mounts.yml, slots.yml, axles.yml, calipers.yml
     ├── <device.dir>/
     │   └── <slug>.yml        # one file per device (handle, unit, etc.)
     └── <part.dir>/
-        └── <slug>.yml        # one file per part (head, filter, etc.)
+        └── <slug>.yml        # one file per part (head, filter, tire, pad, etc.)
 ```
 
 Concretely, the toothbrushes pilot lives at:
@@ -57,19 +57,20 @@ The site renders the provenance tier next to every claim. Readers and agents can
 
 ## Field naming across categories
 
-The generator supports both category-specific and generic compatibility field names:
+Use generic field names for new and migrated entries:
 
-| Category-specific (toothbrushes) | Generic (any category) |
+| Field | Shape |
 |---|---|
-| `compatible_heads:` on a device | `compatible_parts:` |
-| `fits_handles:` on a part | `fits_devices:` |
-| `mount:` and `mount_provenance:` | `interface:` and `interface_provenance:` |
+| `interfaces:` on a device | Map keyed by part directory, e.g. `tires: xiaomi-m365-family-8.5` |
+| `interface_provenance:` on a device | Map keyed by part directory, parallel to `interfaces:` |
+| `compatible_parts:` on a device | Map keyed by part directory, each value a list of part fitment claims |
+| `fits_devices:` on a part | Flat list of devices this part fits |
 
-Existing toothbrush entries use the category-specific names. New categories should use the generic names. Both work; mixing within one entry is not supported.
+The device map form lets one category carry multiple part classes, for example OpenScoot has `tires` and `pads` under the same scooter unit.
 
 ## Adding a new category
 
-1. Add a stanza to `categories.yml` declaring `device.dir`, `part.dir`, `interface.file`, singular / plural labels, and optional `part_columns`.
+1. Add a stanza to `categories.yml` declaring `device.dir` and a `parts:` list. Each part class declares `dir`, `singular`, `plural`, `interface_file`, `interface_singular`, and optional `columns`.
 2. Create `data/<slug>/` with the matching directories and interface YAML.
 3. Drop YAML entries in under the new dirs.
 4. Run `python3 tools/build_pages.py`.
@@ -77,7 +78,7 @@ Existing toothbrush entries use the category-specific names. New categories shou
 
 If the standard fact strip ("Mode: ..., Charging: ...") doesn't suit the new category, add a small branch to `render_facts` / `render_part_facts` in `tools/build_pages.py`. The category-aware generator deliberately allows per-category render code rather than forcing a generic descriptor schema before we know what shapes other categories need.
 
-## Handle entry
+## Device entry
 
 ```yaml
 id: xiaomi-t200                  # slug; matches filename
@@ -91,12 +92,15 @@ mode: sonic                      # sonic | rotating-oscillating | manual
 charging: usb-c                  # usb-c | inductive | proprietary | none
 status: current                  # current | discontinued | unknown
 released: 2022                   # year, optional
-mount: xiaomi-mes606-family      # FK to mounts.yml; "pending-measurement" or null if unknown
-mount_provenance: inferred       # how we know the mount assignment
-compatible_heads:
-  - id: xiaomi-mbs305
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy?product_id=1222100087"
+interfaces:
+  heads: xiaomi-mes606-family    # FK to the part class interface file
+interface_provenance:
+  heads: inferred                # how we know the interface assignment
+compatible_parts:
+  heads:
+    - id: xiaomi-mbs305
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/shop/buy?product_id=1222100087"
 sources:                         # general references for the entry itself
   - https://www.gizmochina.com/2022/05/31/...
 notes: |
@@ -117,7 +121,7 @@ clones_of: null                  # if oem: false, the OEM head this clones (slug
 sold_as: []                      # for generic heads, the brand names it appears under
 bristle: medium                  # soft | medium | hard | varies | unknown
 variant: standard                # standard | sensitive | whitening | kid | etc.
-fits_handles:
+fits_devices:
   - id: xiaomi-t200
     provenance: manufacturer-claim
     source: "https://www.mi.com/shop/buy?product_id=1222100087"
@@ -140,7 +144,7 @@ aliases: ["MES606 heads", "Xiaomi T200 compatible heads"]
 oem: false
 clones_of: xiaomi-mbs305         # the OEM analog; null if unclear
 sold_as: ["AOREMON", "AIBOFENG", "Niceeshop", "(many)"]
-fits_handles:
+fits_devices:
   - id: xiaomi-t200
     provenance: marketplace-claim
     source: "AliExpress listings keyed on 'MES606 head'"
@@ -160,6 +164,36 @@ xiaomi-mes606-family:
     T200 and T200C handles. USB-C charging architecture, likely distinct from
     the inductive MES601/MES602/MES604 family on socket geometry.
 ```
+
+## Adding a second part class
+
+A category can have multiple part classes. Add a new item under `parts:` in `data/categories.yml`, create its interface file and part directory, then add a matching key to device `interfaces:`, `interface_provenance:`, and `compatible_parts:` where that device supports the new class.
+
+Example, abbreviated:
+
+```yaml
+openscoot:
+  display_name: Electric scooters
+  device:
+    dir: units
+    singular: Scooter
+    plural: Electric scooters
+  parts:
+    - dir: tires
+      singular: Tire
+      plural: Replacement tires
+      interface_file: axles.yml
+      interface_singular: Axle / wheel mount
+      columns: [size_etrto, tire_type]
+    - dir: pads
+      singular: Brake pad
+      plural: Brake pads
+      interface_file: calipers.yml
+      interface_singular: Caliper mount
+      columns: [mount_pattern, pad_compound]
+```
+
+The reciprocal field on each part remains a flat `fits_devices:` list because the part's directory already identifies its class.
 
 ## Adding an entry
 

@@ -2,7 +2,7 @@
 
 # Xiaomi M365
 
-Aftermarket code: `M365` · Wheel: 8.5" · Motor: 250 W · Weight: ~12.5 kg · Axle / wheel mount: **Xiaomi M365 family 8.5-inch wheel** (Manufacturer claim) · Released: 2016 · Status: discontinued
+Aftermarket code: `M365` · Wheel: 8.5" · Motor: 250 W · Weight: ~12.5 kg · Released: 2016 · Status: discontinued
 
 Also sold as: Mi Electric Scooter M365, Mijia M365, DDHBC01NEB
 
@@ -16,6 +16,8 @@ Also sold as: Mi Electric Scooter M365, Mijia M365, DDHBC01NEB
 
 ## Axle / wheel mount: Xiaomi M365 family 8.5-inch wheel
 
+Provenance: **Manufacturer claim**
+
 Status: **unmeasured**
 
 8.5-inch wheel assembly shared across Xiaomi's first-generation cluster:
@@ -27,6 +29,26 @@ scooter model name ("M365", "Pro 2", "1S") rather than on an engineering
 SKU. Cross-fit to non-Xiaomi 8-inch scooters (e.g. Ninebot ES series 8")
 is community-reported, not manufacturer-claimed, and varies by rim
 geometry; treat as a separate slot until measured.
+
+## Brake pads
+
+| Brake pad | OEM | Caliper mount | Compound | Provenance | Measured? |
+|---|---|---|---|---|---|
+| [Xiaomi M365 stock rear disc pad](../pads/xiaomi-m365-oem-rear-disc-pad.md) | OEM | round magnetic pad, M365 stock mechanical caliper | unknown | Community report | No |
+| [Generic M365 brake pads](../pads/generic-m365-rear-disc-pad-pack.md) | Generic | round magnetic pad, M365 stock mechanical caliper | resin / organic (claimed; varies) | Marketplace listing | No |
+| [Generic M365 sintered brake pads](../pads/generic-m365-sintered-rear-disc-pad.md) | Generic | round magnetic pad, M365 stock mechanical caliper | sintered metallic (claimed; varies) | Marketplace listing | No |
+
+## Caliper mount: Xiaomi M365 family rear mechanical disc caliper
+
+Provenance: **Manufacturer claim**
+
+Status: **unmeasured**
+
+Rear cable-actuated mechanical disc caliper used on the Xiaomi M365
+family. Xiaomi's own M365 manual documents disc-brake adjustment at the
+caliper, and repair-community guidance treats the small round pads as
+replaceable wear parts. Aftermarket sellers usually tag this slot with
+scooter model names ("M365", "1S", "Pro 2") rather than a caliper SKU.
 
 ## Notes
 
@@ -43,3 +65,4 @@ measured by the project.
 
 - <https://www.mi.com/global/mi-electric-scooter/>
 - <https://www.mi.com/global/mi-electric-scooter/specs>
+- <https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/10bc30d1a5386b8858b104055096122f.pdf>

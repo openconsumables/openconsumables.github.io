@@ -1,0 +1,24 @@
+id: generic-m365-sintered-rear-disc-pad
+brand: null
+family: null
+model: null
+aliases:
+  - "M365 sintered brake pads"
+  - "Xiaomi M365 metal brake pads"
+oem: false
+clones_of: xiaomi-m365-oem-rear-disc-pad
+sold_as: ["(many, white-label)"]
+mount_pattern: "round magnetic pad, M365 stock mechanical caliper"
+pad_compound: sintered metallic (claimed; varies)
+variant: alternate-compound
+fits_devices:
+  - id: xiaomi-m365
+    provenance: marketplace-claim
+    source: "Aftermarket listings titled 'sintered metal brake pads for Xiaomi M365 / 1S / Pro 2'"
+measurements: null
+sources: []
+notes: |
+  Alternate-compound M365-family pad entry. Listed separately from the
+  standard generic pad because compound is a material / wear variable rather
+  than a fitment variable. The project has not measured friction behaviour,
+  thickness, pad outline, or thermal performance.
