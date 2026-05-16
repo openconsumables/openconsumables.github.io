@@ -120,15 +120,15 @@ nav:
               - categories/openscoot/pads/generic-m365-rear-disc-pad-pack.md
               - categories/openscoot/pads/generic-m365-sintered-rear-disc-pad.md
               - categories/openscoot/pads/generic-mi-3-dual-pad-disc-pad-pack.md
-          - Inner tubes:
-              - categories/openscoot/tubes/index.md
-              - categories/openscoot/tubes/xiaomi-m365-oem-8.5x2-inner-tube.md
-              - categories/openscoot/tubes/generic-8.5x2-schrader-inner-tube.md
           - Drum brake shoes:
               - categories/openscoot/shoes/index.md
               - categories/openscoot/shoes/segway-ninebot-g30-oem-drum-brake-assembly.md
               - categories/openscoot/shoes/green-line-g30-drum-brake-assembly.md
               - categories/openscoot/shoes/generic-g30-drum-brake-assembly.md
+          - Inner tubes:
+              - categories/openscoot/tubes/index.md
+              - categories/openscoot/tubes/xiaomi-m365-oem-8.5x2-inner-tube.md
+              - categories/openscoot/tubes/generic-8.5x2-schrader-inner-tube.md
           - Rotors:
               - categories/openscoot/rotors/index.md
               - categories/openscoot/rotors/xiaomi-m365-oem-rear-brake-disc.md

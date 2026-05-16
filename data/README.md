@@ -1,6 +1,6 @@
 # Device knowledge graph
 
-This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under generated directories such as `docs/categories/*/handles/`, `docs/categories/*/heads/`, `docs/categories/*/filters/`, `docs/categories/*/tires/`, `docs/categories/*/pads/`, or `docs/categories/*/rotors/`.
+This directory is the structured-data source for the device reference pages on the public site. The site is generated from these YAML files; do not hand-edit the rendered pages under generated directories such as `docs/categories/*/handles/`, `docs/categories/*/heads/`, `docs/categories/*/filters/`, `docs/categories/*/tires/`, `docs/categories/*/pads/`, `docs/categories/*/rotors/`, `docs/categories/*/tubes/`, `docs/categories/*/shoes/`, or `docs/categories/*/grip-tape/`.
 
 The data layer publishes what is **known** about each device, with provenance, regardless of whether the project has measured it yet. Measurement upgrades a row from `manufacturer-claim` to `measured`; it is not the gate to publishing.
 
