@@ -1,0 +1,48 @@
+# Cassette-mount interface profiles for OpenShave (foil sub-family).
+#
+# A "cassette mount" is the project's term for the body-side seat that
+# retains a reciprocating foil cassette: latch geometry, optional magnetic
+# retention, the drive coupling between the body motor and the cassette
+# blades, and the alignment features (symmetric vs. directional).
+#
+# This is a separate consumable class from rotary `heads` (`head_mounts.yml`).
+# A foil cassette is a sealed, multi-blade reciprocating cutter under a
+# perforated metal foil; a rotary head module is a triangular passive plate
+# with three cutter pods. They are not interchangeable and the project
+# does not collapse them.
+
+xiaomi-mi-5-blade-foil:
+  display_name: "Xiaomi Mi 5-Blade reciprocating foil cassette"
+  aftermarket_aliases:
+    - "Mi 5-Blade Electric Shaver Replacement Head"
+    - "BHR5265GL"
+    - "XMI-BHR5265GL"
+    - "米家电动剃须刀 往复五刀头"
+    - "五刀头"
+    - "磁吸式刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Cassette format used by the Xiaomi Mi 5-Blade Electric Shaver, a
+    reciprocating multi-blade head with five cutting elements in three
+    types under a curved perforated foil. Xiaomi's global replacement-
+    head page describes the cassette as magnetic, symmetric, and
+    installable without orientation, and restricts it to the Mi 5-Blade
+    body. Treat as a dedicated mount; no other Xiaomi body in the
+    desk-pass mapping shares this cassette format.
+
+xiaomi-mjtxd01xm-foil-compact:
+  display_name: "Xiaomi MJTXD01XM portable foil compact"
+  aftermarket_aliases:
+    - "MJTXD01XM"
+    - "米家便携电动剃须刀"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Compact pocket / portable foil shaver. Xiaomi specs warn to replace
+    a damaged inner head / outer foil but do not expose a replaceable
+    cassette SKU. Treated as a separate mount slot until evidence of a
+    standalone replacement part appears. Distinct from the Mi 5-Blade
+    cassette format on size, blade count, and retention design.

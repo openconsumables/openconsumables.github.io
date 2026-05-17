@@ -259,6 +259,13 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Type: {part['head_type']}")
         if part.get("material"):
             facts.append(f"Material: {part['material']}")
+    if cfg["slug"] == "openshave" and part_dir == "cassettes":
+        if part.get("blade_count"):
+            facts.append(f"Blades: {part['blade_count']}")
+        if part.get("retention"):
+            facts.append(f"Retention: {part['retention']}")
+        if part.get("material"):
+            facts.append(f"Material: {part['material']}")
     if part.get("variant"):
         facts.append(f"Variant: {part['variant']}")
     return facts

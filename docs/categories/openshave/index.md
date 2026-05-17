@@ -4,8 +4,9 @@ Working name: **OpenShave**. The fourth category in the Open Consumables device 
 
 ## What's here
 
-- **[Units](units/index.md)**, the shaver bodies themselves, with replacement heads listed by head-mount family.
+- **[Units](units/index.md)**, the shaver bodies themselves, with replacement heads or cassettes listed by mount family.
 - **[Heads](heads/index.md)**, OEM and aftermarket rotary three-blade head modules, with the shavers they fit.
+- **[Foil cassettes](cassettes/index.md)**, reciprocating multi-blade cassettes for foil shavers (Xiaomi Mi 5-Blade family).
 
 ## Status
 
@@ -13,7 +14,7 @@ Working name: **OpenShave**. The fourth category in the Open Consumables device 
 
 The proposed first-baseline target if OpenShave does activate is the Xiaomi / Mijia S300 / S500 / S500C rotary 3-blade head family, with ENCHEN BR-1 as the strongest alternative. The synthesis behind that recommendation lives in the R&D workspace and is not republished here.
 
-Coverage is intentionally small: rotary 3-blade families only in this first slice. Foil cassettes (Xiaomi Mi 5-Blade and friends) and cleaning cartridges may land in follow-ups. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
+Coverage is intentionally small: rotary 3-blade families across Xiaomi / Mijia, ENCHEN, Soocas, ShowSee, and Riwa, plus a single foil cassette family (Xiaomi Mi 5-Blade). Cleaning-station cartridges are out of scope for now; most Chinese-IoT shavers in the desk-pass mapping do not have a cleaning dock. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
 
 ## Scope
 
@@ -21,7 +22,8 @@ Coverage is intentionally small: rotary 3-blade families only in this first slic
 
 - Chinese-IoT cluster consumer electric shavers (Xiaomi / Mijia, Soocas, ShowSee, ENCHEN, Riwa)
 - the mechanical head-mount interface between body and replacement head, including drive socket / shaft geometry, latch / magnetic retention, and cutter-pod outer envelope as identification dimensions
-- rotary three-blade heads; foil cassettes are tracked as a separate consumable class if and when a foil slice ships
+- rotary three-blade heads, tracked under the `heads` part class
+- reciprocating foil cassettes (Xiaomi Mi 5-Blade family), tracked under the separate `cassettes` part class
 - buyer-visible device codes, head codes, and aftermarket fitment vocabulary, where the manufacturer or marketplace surfaces them
 
 **Out of scope** at this stage:

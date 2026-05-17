@@ -52,4 +52,9 @@ Riwa:
 - [Riwa RA-5504](riwa-ra-5504.md)
 - [Riwa RA-5505](riwa-ra-5505.md)
 
+Xiaomi foil:
+
+- [Xiaomi Mi 5-Blade Electric Shaver](xiaomi-mi-5-blade.md), reciprocating foil
+- [Xiaomi Mijia MJTXD01XM](xiaomi-mjtxd01xm.md), portable foil compact
+
 Gaps in coverage are intentional and visible: an entry that references an unknown shaver or head will render the link as `(no entry)`. Pull requests welcome.

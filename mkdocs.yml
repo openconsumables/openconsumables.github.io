@@ -171,6 +171,8 @@ nav:
               - categories/openshave/units/riwa-ra-5503.md
               - categories/openshave/units/riwa-ra-5504.md
               - categories/openshave/units/riwa-ra-5505.md
+              - categories/openshave/units/xiaomi-mi-5-blade.md
+              - categories/openshave/units/xiaomi-mjtxd01xm.md
           - Heads:
               - categories/openshave/heads/index.md
               - categories/openshave/heads/xiaomi-shaver-head-s300-s500-s500c.md
@@ -193,6 +195,9 @@ nav:
               - categories/openshave/heads/soocas-s32-head.md
               - categories/openshave/heads/soocas-sp1-head.md
               - categories/openshave/heads/generic-soocas-s-family-head.md
+          - Foil cassettes:
+              - categories/openshave/cassettes/index.md
+              - categories/openshave/cassettes/xiaomi-mi-5-blade-cassette.md
   - Contributing: contributing.md
 
 extra:

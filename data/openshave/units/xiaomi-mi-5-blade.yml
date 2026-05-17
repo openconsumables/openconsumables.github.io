@@ -1,0 +1,35 @@
+id: xiaomi-mi-5-blade
+brand: Xiaomi
+family: Mijia
+model: Mi 5-Blade Electric Shaver
+aliases:
+  - "Mi 5-Blade Electric Shaver"
+  - "小米電鬚刨 往復五刀頭"
+  - "Mi Electric Shaver 5-Blade"
+aftermarket_anchor: Mi 5-Blade
+type: electric-shaver
+mode: foil
+head_count: 5
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  cassettes: xiaomi-mi-5-blade-foil
+interface_provenance:
+  cassettes: manufacturer-claim
+compatible_parts:
+  cassettes:
+    - id: xiaomi-mi-5-blade-cassette
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/"
+sources:
+  - https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/
+  - https://zhongce.sina.com.cn/article/view/37280/
+notes: |
+  Xiaomi Mi 5-Blade Electric Shaver. Reciprocating multi-blade head with
+  five cutting elements in three types under a curved perforated foil.
+  The Xiaomi global replacement-head page restricts the cassette to the
+  Mi 5-Blade body. Distinct sub-family from the rotary three-blade line:
+  cassette and rotary head modules are not interchangeable.

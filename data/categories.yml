@@ -136,3 +136,14 @@ openshave:
       column_labels:
         head_count: "Heads"
         head_type: "Type"
+    - dir: cassettes
+      singular: Cassette
+      plural: Foil cassettes
+      interface_file: cassette_mounts.yml
+      interface_singular: Cassette mount
+      columns:
+        - blade_count
+        - retention
+        - material
+      column_labels:
+        blade_count: "Blades"
