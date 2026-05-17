@@ -1,0 +1,39 @@
+id: enchen-blackstone
+brand: ENCHEN
+family: BlackStone
+model: BlackStone
+aliases: ["ENCHEN BlackStone", "映趣 BlackStone"]
+aftermarket_anchor: BR-1
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2019
+interfaces:
+  heads: enchen-br1-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br1-head
+      provenance: marketplace-claim
+      source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+    - id: generic-br1-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-1 compatible head'"
+sources:
+  - https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784
+  - https://miot-global.com/beauty-and-personal-care/enchen-blackstone-shaver-blade/
+notes: |
+  ENCHEN BlackStone is the anchor product for the BR-1 head-code family,
+  per multi-retailer export evidence (Galaxus, MiOT Global, Pepita,
+  Aquario, Shopmobile). The BR-1 code appears in product titles,
+  reference fields, and article-number metadata. No Chinese official-
+  channel BR-1 page was captured in the desk pass; cross-fit claims are
+  marketplace-claim only. The whole-device price (US $11-$16) creates
+  the cheap-device problem flagged by the market track: head
+  rebuyability economics are weaker than the device-replacement
+  economics would suggest.

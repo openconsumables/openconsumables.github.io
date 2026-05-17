@@ -1,0 +1,35 @@
+id: xiaomi-mijia-s101
+brand: Xiaomi
+family: Mijia
+model: S101
+aliases: ["Xiaomi Electric Shaver S101", "米家电动剃须刀 S101"]
+aftermarket_anchor: S101
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: xiaomi-mijia-s101-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: xiaomi-shaver-head-s101
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/"
+sources:
+  - https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/
+  - https://www.mi.com/shop/comment/16602.html
+notes: |
+  Xiaomi Electric Shaver S101 rotary three-blade. The Xiaomi global
+  replacement-head page describes the S101 head as a three-independent
+  floating-head module dedicated to the S101 body. Chinese marketplace
+  titles occasionally broaden the S101 head into "S101 S300 S301 S500
+  S700" multi-fit listings; those broader claims are seller-side and
+  should not be treated as Xiaomi-claim cross-fits without physical
+  verification. The aftermarket S101 / S301 grouping is marketplace-
+  claim only.

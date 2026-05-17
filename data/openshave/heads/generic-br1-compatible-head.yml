@@ -1,0 +1,33 @@
+id: generic-br1-compatible-head
+brand: null
+family: null
+model: null
+aliases:
+  - "ENCHEN BR-1 compatible head"
+  - "Replacement head for BlackStone / BlackStone-C / Warrior"
+oem: false
+clones_of: enchen-br1-head
+sold_as: ["(many)"]
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: aftermarket
+fits_devices:
+  - id: enchen-blackstone
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head'"
+  - id: enchen-blackstone-c
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head'"
+  - id: enchen-warrior
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head'"
+measurements: null
+sources: []
+notes: |
+  Aftermarket BR-1 compatible heads. Sold under shifting white-label
+  branding via AliExpress and adjacent export retailers; titles
+  consistently use the BR-1 code plus the BlackStone / BlackStone-C /
+  Warrior device names. Whole-device pricing creates the cheap-device
+  problem: the head plus head pricing approaches the price of a fresh
+  whole device in some channels.

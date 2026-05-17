@@ -1,0 +1,31 @@
+id: enchen-gentleman-3s
+brand: ENCHEN
+family: Gentleman
+model: Gentleman 3S
+aliases: ["ENCHEN Gentleman 3S", "Gentelman 3S"]
+aftermarket_anchor: BR-3
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: enchen-br3-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br3-head
+      provenance: marketplace-claim
+      source: "Flotarad / Shoppster marketplace listings titled 'ENCHEN BR-3 nadomestna rezila'"
+    - id: generic-br3-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-3 compatible head'"
+sources: []
+notes: |
+  ENCHEN Gentleman 3S, part of the BR-3 head-code family per marketplace
+  listings. Spelling variation: some pages render "Gentleman" as
+  "Gentelman".

@@ -1,0 +1,36 @@
+id: xiaomi-mijia-s500c
+brand: Xiaomi
+family: Mijia
+model: S500C
+aliases: ["米家电动剃须刀 S500C"]
+aftermarket_anchor: S500C
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: xiaomi-mijia-s300-s500-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: xiaomi-shaver-head-s300-s500-s500c
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+    - id: generic-s300-s500-mjtxd01sks-rotary-head
+      provenance: marketplace-claim
+      source: "JD marketplace listings titled 'S300 S500 MJTXD01SKS 通用机头' / 'S300/S500/MJTXD01SKS 内5角'"
+sources:
+  - https://www.mi.com/shop/buy/detail?product_id=9101
+notes: |
+  Xiaomi / Mijia S500C rotary three-blade shaver. Third device named on
+  the Xiaomi official accessory page for the S300 / S500 / S500C shared
+  replacement head. Aftermarket marketplace listings cluster the S500C
+  with the S300, S500, and the legacy MJTXD01SKS body code. Release year
+  is a best-effort placeholder from launch coverage; if the S500C is
+  effectively an S500 colour / packaging variant, the head-mount family
+  is unchanged either way.

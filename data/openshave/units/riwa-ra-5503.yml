@@ -1,0 +1,29 @@
+id: riwa-ra-5503
+brand: Riwa
+family: RA-series
+model: RA-5503
+aliases: ["雷瓦 RA-5503", "Riwa RA5503", "RA5503"]
+aftermarket_anchor: RA-5503
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: riwa-ra-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: riwa-ra-series-original-head
+      provenance: marketplace-claim
+      source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+sources: []
+notes: |
+  Riwa RA-5503. JD marketplace title lists this body alongside other
+  RA-series codes for the RIWA "original" replacement head. Spelling
+  varies in listings ("RA-5503", "RA5503"); the listing tokens are
+  not consistent enough to be treated as separate SKUs.

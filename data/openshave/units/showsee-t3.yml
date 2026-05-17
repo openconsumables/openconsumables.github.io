@@ -1,0 +1,35 @@
+id: showsee-t3
+brand: ShowSee
+family: Smart Shaver
+model: T3
+aliases: ["小适智能剃须刀 T3", "鸿蒙智选 小适智能剃须刀 T3", "ShowSee Smart Shaver T3"]
+aftermarket_anchor: T3
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2023
+interfaces:
+  heads: showsee-t3-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: showsee-t3-head
+      provenance: manufacturer-claim
+      source: "https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101"
+sources:
+  - https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101
+  - https://consumer.huawei.com/cn/support/content/zh-cn15972689/
+notes: |
+  ShowSee Smart Shaver T3, part of the Huawei HarmonyOS-curated
+  ecosystem ("鸿蒙智选"). The Vmall accessory page title says the T3
+  head fits standard edition, premium edition, and T3, which is a
+  within-family cross-fit, not a broad ShowSee anchor. The magnetic
+  quick-release head ("磁吸式刀头组件") may be a different retention
+  class from the passive latched rotary mounts used by F1 / F303-BK
+  and F305; treat the three ShowSee head-mount families as separate
+  until physical comparison.

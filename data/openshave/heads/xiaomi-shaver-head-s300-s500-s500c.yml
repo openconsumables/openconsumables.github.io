@@ -1,0 +1,34 @@
+id: xiaomi-shaver-head-s300-s500-s500c
+brand: Xiaomi
+family: Mijia
+model: 米家电动剃须刀刀头 (S300/S500/S500C)
+aliases:
+  - "Mijia Electric Shaver Replacement Head S300/S500/S500C"
+  - "米家电动剃须刀刀头（适配型号 S300, S500, S500C）"
+  - "小米米家电动剃须刀原装刀头"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: xiaomi-mijia-s300
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+  - id: xiaomi-mijia-s500
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+  - id: xiaomi-mijia-s500c
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+measurements: null
+sources:
+  - https://www.mi.com/shop/buy/detail?product_id=9101
+notes: |
+  Xiaomi / Mijia OEM replacement head shared across S300, S500, and
+  S500C bodies per the Xiaomi store product page title. The cleanest
+  cross-generation shared-head claim in the OpenShave reference layer
+  and the proposed first-baseline target if OpenShave activates
+  physical measurement. Indicative price ~39 CNY official-channel.

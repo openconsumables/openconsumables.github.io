@@ -1,0 +1,36 @@
+id: riwa-ra-5505
+brand: Riwa
+family: RA-series
+model: RA-5505
+aliases: ["雷瓦 RA-5505", "Riwa RA5505", "RA5505", "RA-5505/GT"]
+aftermarket_anchor: RA-5505
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: riwa-ra-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: riwa-ra-series-original-head
+      provenance: marketplace-claim
+      source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+    - id: generic-riwa-ra-four-petal-head
+      provenance: marketplace-claim
+      source: "JD aftermarket listings titled '雷瓦四瓣旋转式接口刀头'"
+sources:
+  - https://detail.zol.com.cn/shaving_razor/index1262760.shtml
+notes: |
+  Riwa RA-5505. ZOL / Yesky classify the RA-5505 as a rotary
+  three-head body. JD indexed snippets list both an "original" RIWA
+  head and a non-original "four-petal rotary interface"
+  ("四瓣旋转式接口") replacement. The "four-petal" phrasing may
+  encode an interface clue similar to the Xiaomi five-sided shaft
+  vocabulary, but it remains a marketplace claim with no measured
+  geometry.

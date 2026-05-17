@@ -1,0 +1,24 @@
+id: soocas-s32-head
+brand: Soocas
+family: null
+model: S32 Replacement Head
+aliases:
+  - "Soocas S32 replacement shaver head"
+  - "素士 S32 剃须刀刀头"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: soocas-s32
+    provenance: manufacturer-claim
+    source: "Soocas Pinkoi accessory listing for S32 replacement head (Chinese-language; says only for S32)"
+measurements: null
+sources: []
+notes: |
+  Soocas S32 head per the Pinkoi accessory listing. The S32 bundle
+  also includes a cleaning brush and a blackhead brush as separate
+  accessory heads; those are out of scope for OpenShave.

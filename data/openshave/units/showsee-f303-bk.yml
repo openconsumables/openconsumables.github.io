@@ -1,0 +1,30 @@
+id: showsee-f303-bk
+brand: ShowSee
+family: Little Black Panther
+model: F303-BK
+aliases: ["ShowSee F303-BK", "小适小黑豹系列 F303-BK"]
+aftermarket_anchor: F303-BK
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: showsee-fdt3-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: showsee-f1-f303-bk-head
+      provenance: marketplace-claim
+      source: "https://jd.zol.com.cn/1035/10352943.html"
+sources:
+  - https://jd.zol.com.cn/1035/10352943.html
+notes: |
+  ShowSee F303-BK Little Black Panther series rotary shaver. Paired
+  with F1-BK in marketplace listings as sharing one replacement head.
+  Same caveats as F1-BK: no public head SKU, cross-fit is marketplace-
+  claim.

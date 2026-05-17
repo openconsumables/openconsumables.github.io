@@ -1,0 +1,33 @@
+id: enchen-warrior
+brand: ENCHEN
+family: Warrior
+model: Warrior
+aliases: ["ENCHEN Warrior"]
+aftermarket_anchor: BR-1
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2020
+interfaces:
+  heads: enchen-br1-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br1-head
+      provenance: marketplace-claim
+      source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+    - id: generic-br1-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-1 compatible head'"
+sources:
+  - https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784
+notes: |
+  Third member of the ENCHEN BR-1 family per export retailer titles.
+  One source had inconsistent prose mentioning a "Warrior BR-2"; that
+  appears to be seller noise and is not reflected here pending
+  verification.

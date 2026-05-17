@@ -1,0 +1,27 @@
+id: xiaomi-mjtxd01xm
+brand: Xiaomi
+family: Mijia
+model: MJTXD01XM
+aliases: ["米家便携电动剃须刀", "Mi Portable Electric Shaver (MJTXD01XM)"]
+aftermarket_anchor: MJTXD01XM
+type: electric-shaver
+mode: foil
+head_count: 1
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: discontinued
+released: 2019
+interfaces:
+  cassettes: xiaomi-mjtxd01xm-foil-compact
+interface_provenance:
+  cassettes: inferred
+sources:
+  - https://www.mi.com/global/electric-shaver-mjtxd01xm/specs/
+notes: |
+  Xiaomi Mijia portable / pocket foil shaver, single compact foil head.
+  Xiaomi specs warn to replace damaged inner head / outer foil, which is
+  evidence of a serviceable head, but the desk pass did not locate a
+  standalone replacement-cassette SKU. The mount assignment is
+  `inferred` from Xiaomi's own service language pending a captured
+  replacement-part SKU.

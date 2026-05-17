@@ -1,0 +1,28 @@
+id: riwa-ra-5501
+brand: Riwa
+family: RA-series
+model: RA-5501
+aliases: ["雷瓦 RA-5501", "Riwa RA-5501", "RA5501"]
+aftermarket_anchor: RA-5501
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: riwa-ra-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: riwa-ra-series-original-head
+      provenance: marketplace-claim
+      source: "JD marketplace listings titled '雷瓦（RIWA）电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504 357A'"
+sources: []
+notes: |
+  Riwa RA-5501. Included in the JD marketplace head-fit title cluster
+  alongside RA-5301, RA-5503, RA-5504, RA-5505, and the unverified
+  "357A" token. The cluster-listing claim is marketplace-claim only.

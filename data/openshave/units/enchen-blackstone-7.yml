@@ -1,0 +1,27 @@
+id: enchen-blackstone-7
+brand: ENCHEN
+family: BlackStone
+model: BlackStone 7
+aliases: ["ENCHEN Blackstone 7", "映趣剃须刀 Blackstone 7", "YX0032"]
+aftermarket_anchor: YX0032
+type: electric-shaver
+mode: magnetic-rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2023
+interfaces:
+  heads: enchen-yx0032-magnetic-rotary
+interface_provenance:
+  heads: marketplace-claim
+sources:
+  - https://www.cqxsyp.com/ProductShow.aspx?id=51358
+notes: |
+  ENCHEN BlackStone 7, product attribute model YX0032 per a Chongqing
+  retailer page. The page describes a magnetic quick-release head
+  ("磁吸式刀头"), 3D floating-head architecture, and a dual-ring curved
+  foil overlay over the rotary cutters. No replacement-head SKU has
+  been captured. Magnetic retention is a separate interface class from
+  passive latched rotary; do not assume BR-1 or BR-3 fits this body.

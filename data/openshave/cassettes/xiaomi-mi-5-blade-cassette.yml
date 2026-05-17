@@ -1,0 +1,32 @@
+id: xiaomi-mi-5-blade-cassette
+brand: Xiaomi
+family: Mijia
+model: Mi 5-Blade Electric Shaver Replacement Head
+aliases:
+  - "Mi 5-Blade Electric Shaver Replacement Head"
+  - "Mi Electric Shaver Replacement Head 5-Blade"
+  - "BHR5265GL"
+  - "XMI-BHR5265GL"
+  - "米家电动剃须刀 往复五刀头"
+oem: true
+clones_of: null
+sold_as: []
+blade_count: 5
+retention: magnetic
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: xiaomi-mi-5-blade
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/"
+measurements: null
+sources:
+  - https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/
+  - https://mi-home.pl/products/mi-5-blade-electric-shaver-replacement-head
+  - https://mistore.se/en/products/mi-5-blade-electric-shaver-replacement-head
+notes: |
+  Xiaomi Mi 5-Blade replacement cassette. SKU `BHR5265GL` per distributor
+  price lists and Mi Store regional pages. Xiaomi describes the cassette
+  as magnetic, symmetric, and installable in either orientation, and
+  states it is a consumable used only with the Mi 5-Blade Electric
+  Shaver body.

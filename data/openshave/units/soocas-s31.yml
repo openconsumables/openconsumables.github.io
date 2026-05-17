@@ -1,0 +1,32 @@
+id: soocas-s31
+brand: Soocas
+family: null
+model: S31
+aliases: ["Soocas S31", "素士超能自动剃电动剃须刀 S31"]
+aftermarket_anchor: S31
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: soocas-s-family-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: soocas-s31-head
+      provenance: manufacturer-claim
+      source: "Soocas Pinkoi accessory listing for S31 replacement head (Chinese-language)"
+    - id: generic-soocas-s-family-head
+      provenance: marketplace-claim
+      source: "AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'"
+sources: []
+notes: |
+  Soocas S31. Same Pinkoi-vs-marketplace fitment conflict as S3 and
+  S5. Soocas corporate filings link S31, S3, and S32 to a shared
+  cutter-head technology context, which is suggestive but not proof
+  of interchangeability.

@@ -1,0 +1,32 @@
+id: enchen-blackstone-3
+brand: ENCHEN
+family: BlackStone
+model: BlackStone 3
+aliases: ["ENCHEN BlackStone 3", "Blackstone3-HiLink", "BlackStone3CJ"]
+aftermarket_anchor: BR-3
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: enchen-br3-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br3-head
+      provenance: marketplace-claim
+      source: "Flotarad / Shoppster marketplace listings titled 'ENCHEN BR-3 nadomestna rezila'"
+    - id: generic-br3-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-3 compatible head'"
+sources: []
+notes: |
+  Second-generation ENCHEN BlackStone, keyed to the BR-3 head code per
+  marketplace listings. ZOL catalog lists "Blackstone3-HiLink" and
+  "BlackStone3CJ" as variants; whether those variants share the BR-3
+  mount is not confirmed in the desk pass.

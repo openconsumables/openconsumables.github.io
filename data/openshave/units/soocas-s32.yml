@@ -1,0 +1,32 @@
+id: soocas-s32
+brand: Soocas
+family: null
+model: S32
+aliases: ["Soocas S32", "素士大理石电动剃须刀 S32"]
+aftermarket_anchor: S32
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: soocas-s-family-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: soocas-s32-head
+      provenance: manufacturer-claim
+      source: "Soocas Pinkoi accessory listing for S32 replacement head, cleaning brush, and blackhead brush (Chinese-language)"
+    - id: generic-soocas-s-family-head
+      provenance: marketplace-claim
+      source: "AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'"
+sources: []
+notes: |
+  Soocas S32 "marble" edition. Pinkoi listing names the S32 replacement
+  head plus cleaning brush and blackhead brush; only the shaving head
+  is in OpenShave scope. Same per-model vs. cross-model conflict as
+  the rest of the S-family.

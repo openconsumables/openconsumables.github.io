@@ -1,0 +1,28 @@
+id: riwa-ra-5504
+brand: Riwa
+family: RA-series
+model: RA-5504
+aliases: ["雷瓦 RA-5504", "Riwa RA5504", "RA5504"]
+aftermarket_anchor: RA-5504
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: riwa-ra-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: riwa-ra-series-original-head
+      provenance: marketplace-claim
+      source: "JD marketplace listings titled '雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504'"
+sources: []
+notes: |
+  Riwa RA-5504. Included in marketplace multi-fit head listings; no
+  separate device page captured in the desk pass. Style inferred to be
+  rotary three-blade by extension from the RA-series cluster.

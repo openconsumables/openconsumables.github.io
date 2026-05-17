@@ -1,0 +1,28 @@
+id: soocas-s5-head
+brand: Soocas
+family: null
+model: S5 Replacement Head
+aliases:
+  - "Soocas S5 replacement shaver head"
+  - "SOOCAS S5blade"
+  - "Fit for SOOCAS S5 Head Shaver"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: soocas-s5
+    provenance: manufacturer-claim
+    source: "Soocas Pinkoi accessory listing for S5 replacement head (Chinese-language; says only for S5)"
+measurements: null
+sources:
+  - https://www.ronis.hr/hr/rezervna-glava-za-brijac-soocas-s5
+notes: |
+  Soocas S5 head per the Pinkoi accessory listing and a Croatian
+  retailer (Ronis) page. The Soocas S5 device ships with a non-shaving
+  attachment ecosystem (nose trimmer, sideburn trimmer, cleaning
+  brush); those attachment heads are out of scope for OpenShave and
+  may not share the rotary head mount.

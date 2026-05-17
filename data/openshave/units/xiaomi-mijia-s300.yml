@@ -1,0 +1,36 @@
+id: xiaomi-mijia-s300
+brand: Xiaomi
+family: Mijia
+model: S300
+aliases: ["米家电动剃须刀 S300"]
+aftermarket_anchor: S300
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: xiaomi-mijia-s300-s500-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: xiaomi-shaver-head-s300-s500-s500c
+      provenance: manufacturer-claim
+      source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+    - id: generic-s300-s500-mjtxd01sks-rotary-head
+      provenance: marketplace-claim
+      source: "JD marketplace listings titled 'S300 S500 MJTXD01SKS 通用机头' / 'S300/S500/MJTXD01SKS 内5角'"
+sources:
+  - https://www.mi.com/shop/buy/detail?product_id=9101
+notes: |
+  Xiaomi / Mijia S300 rotary three-blade shaver. Buyer-facing fitment
+  vocabulary keys on the body code, and the Xiaomi official accessory
+  page lists S300, S500, and S500C as compatible with one shared
+  replacement head. Aftermarket JD listings also group `MJTXD01SKS`
+  into this listing family; that cross-fit is marketplace-claim only.
+  Charging, wet/dry, and release year fields are best-effort from launch
+  coverage and the Xiaomi store page, not measured by the project.

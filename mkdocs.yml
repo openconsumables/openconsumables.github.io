@@ -138,6 +138,66 @@ nav:
               - categories/openscoot/grip-tape/generic-m365-family-560x132-foot-mat.md
               - categories/openscoot/grip-tape/generic-m365-1s-replacement-foot-mat.md
               - categories/openscoot/grip-tape/generic-ninebot-max-g30-replacement-foot-mat.md
+      - Electric shavers:
+          - categories/openshave/index.md
+          - Units:
+              - categories/openshave/units/index.md
+              - categories/openshave/units/xiaomi-mijia-s300.md
+              - categories/openshave/units/xiaomi-mijia-s500.md
+              - categories/openshave/units/xiaomi-mijia-s500c.md
+              - categories/openshave/units/xiaomi-mijia-s101.md
+              - categories/openshave/units/xiaomi-mijia-s302.md
+              - categories/openshave/units/xiaomi-mijia-s700.md
+              - categories/openshave/units/xiaomi-mijia-mjtxd01sks.md
+              - categories/openshave/units/enchen-blackstone.md
+              - categories/openshave/units/enchen-blackstone-c.md
+              - categories/openshave/units/enchen-warrior.md
+              - categories/openshave/units/enchen-blackstone-3.md
+              - categories/openshave/units/enchen-gentleman-3s.md
+              - categories/openshave/units/enchen-gentleman-5s.md
+              - categories/openshave/units/enchen-steel-3s.md
+              - categories/openshave/units/enchen-blackstone-7.md
+              - categories/openshave/units/soocas-s3.md
+              - categories/openshave/units/soocas-s5.md
+              - categories/openshave/units/soocas-s31.md
+              - categories/openshave/units/soocas-s32.md
+              - categories/openshave/units/soocas-sp1.md
+              - categories/openshave/units/showsee-t3.md
+              - categories/openshave/units/showsee-f1-bk.md
+              - categories/openshave/units/showsee-f303-bk.md
+              - categories/openshave/units/showsee-f305-gy.md
+              - categories/openshave/units/riwa-ra-5301.md
+              - categories/openshave/units/riwa-ra-5501.md
+              - categories/openshave/units/riwa-ra-5503.md
+              - categories/openshave/units/riwa-ra-5504.md
+              - categories/openshave/units/riwa-ra-5505.md
+              - categories/openshave/units/xiaomi-mi-5-blade.md
+              - categories/openshave/units/xiaomi-mjtxd01xm.md
+          - Heads:
+              - categories/openshave/heads/index.md
+              - categories/openshave/heads/xiaomi-shaver-head-s300-s500-s500c.md
+              - categories/openshave/heads/xiaomi-shaver-head-s101.md
+              - categories/openshave/heads/xiaomi-shaver-head-s302.md
+              - categories/openshave/heads/xiaomi-shaver-head-s700.md
+              - categories/openshave/heads/generic-s300-s500-mjtxd01sks-rotary-head.md
+              - categories/openshave/heads/enchen-br1-head.md
+              - categories/openshave/heads/enchen-br3-head.md
+              - categories/openshave/heads/generic-br1-compatible-head.md
+              - categories/openshave/heads/generic-br3-compatible-head.md
+              - categories/openshave/heads/showsee-t3-head.md
+              - categories/openshave/heads/showsee-f1-f303-bk-head.md
+              - categories/openshave/heads/showsee-f305-head.md
+              - categories/openshave/heads/riwa-ra-series-original-head.md
+              - categories/openshave/heads/generic-riwa-ra-four-petal-head.md
+              - categories/openshave/heads/soocas-s3-head.md
+              - categories/openshave/heads/soocas-s5-head.md
+              - categories/openshave/heads/soocas-s31-head.md
+              - categories/openshave/heads/soocas-s32-head.md
+              - categories/openshave/heads/soocas-sp1-head.md
+              - categories/openshave/heads/generic-soocas-s-family-head.md
+          - Foil cassettes:
+              - categories/openshave/cassettes/index.md
+              - categories/openshave/cassettes/xiaomi-mi-5-blade-cassette.md
   - Contributing: contributing.md
 
 extra:

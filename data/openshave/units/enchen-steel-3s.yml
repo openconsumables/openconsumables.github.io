@@ -1,0 +1,30 @@
+id: enchen-steel-3s
+brand: ENCHEN
+family: Steel
+model: Steel 3S
+aliases: ["ENCHEN Steel 3S", "ENCHEN Steel3"]
+aftermarket_anchor: BR-3
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: enchen-br3-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br3-head
+      provenance: marketplace-claim
+      source: "Flotarad / Shoppster marketplace listings titled 'ENCHEN BR-3 nadomestna rezila'"
+    - id: generic-br3-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-3 compatible head'"
+sources: []
+notes: |
+  ENCHEN Steel 3S. Listed by Flotarad as a BR-3 head fit. ZOL catalog
+  also lists "Steel3" as an ENCHEN model variant.

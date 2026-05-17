@@ -1,0 +1,25 @@
+id: xiaomi-shaver-head-s700
+brand: Xiaomi
+family: Mijia
+model: Electric Shaver S700 Replacement Head
+aliases:
+  - "Xiaomi Electric Shaver S700 Replacement Head"
+  - "米家电动剃须刀刀头 S700"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: ceramic
+variant: original
+fits_devices:
+  - id: xiaomi-mijia-s700
+    provenance: manufacturer-claim
+    source: "Xiaomi global Electric Shaver S700 Replacement Head page"
+measurements: null
+sources: []
+notes: |
+  Dedicated OEM ceramic-cutter head for the Xiaomi Mijia S700. Xiaomi
+  explicitly states this head is only used for the S700. Ceramic
+  cutter material is the headline differentiator vs. stainless-steel
+  rotary heads in the rest of the Xiaomi line.

@@ -1,0 +1,24 @@
+id: soocas-sp1-head
+brand: Soocas
+family: null
+model: SP1 Replacement Head
+aliases:
+  - "Soocas SP1 replacement shaver head"
+  - "素士 SP1 剃须刀刀头"
+oem: true
+clones_of: null
+sold_as: []
+head_count: null
+head_type: unresolved
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: soocas-sp1
+    provenance: manufacturer-claim
+    source: "Soocas Pinkoi accessory listing for SP1 replacement head (Chinese-language; says only for SP1)"
+measurements: null
+sources: []
+notes: |
+  Soocas SP1 head per the Pinkoi accessory listing. Style (rotary
+  single, foil compact, or hybrid) was not resolved in the desk pass;
+  head_type is left as `unresolved` until confirmed.

@@ -1,0 +1,40 @@
+id: riwa-ra-series-original-head
+brand: Riwa
+family: RA-series
+model: Original RA-series Replacement Head
+aliases:
+  - "雷瓦 RIWA 原装刀头"
+  - "雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: riwa-ra-5301
+    provenance: marketplace-claim
+    source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+  - id: riwa-ra-5501
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled '雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504 357A'"
+  - id: riwa-ra-5503
+    provenance: marketplace-claim
+    source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+  - id: riwa-ra-5504
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled '雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504'"
+  - id: riwa-ra-5505
+    provenance: marketplace-claim
+    source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+measurements: null
+sources:
+  - https://www.jd.com/hprm/737a0effd1a8def4a21.html
+notes: |
+  Provisional "RIWA original" head entry. Exact original head SKU was
+  not captured in the desk pass; this entry stands in for the head
+  family that JD listings consistently reference for the RA-series
+  cluster. The fitment list extends in JD snippets to RA-5308,
+  RA-5309, and RA-5310, which are not currently scaffolded as
+  separate device pages.

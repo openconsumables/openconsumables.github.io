@@ -1,0 +1,37 @@
+id: soocas-s5
+brand: Soocas
+family: null
+model: S5
+aliases: ["Soocas S5", "素士 S5", "素士顺滑型电动剃须刀 S5"]
+aftermarket_anchor: S5
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2020
+interfaces:
+  heads: soocas-s-family-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: soocas-s5-head
+      provenance: manufacturer-claim
+      source: "Soocas Pinkoi accessory listing for S5 replacement head (Chinese-language)"
+    - id: generic-soocas-s-family-head
+      provenance: marketplace-claim
+      source: "https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6"
+sources:
+  - https://www.ronis.hr/hr/rezervna-glava-za-brijac-soocas-s5
+  - https://product.pconline.com.cn/shaving_razor/soocas/1542167_detail.html
+notes: |
+  Soocas S5 four-in-one set: shaving head plus nose trimmer, sideburn
+  trimmer, and cleaning brush attachments. Only the shaving head is in
+  OpenShave scope. The non-shaving attachments may use a broader
+  accessory coupling than the rotary head itself; do not assume they
+  share the head mount. As with S3, the per-model vs. cross-model
+  fitment conflict (Pinkoi accessory copy vs. Walmart S3 / S5
+  multi-fit listing) is unresolved.
