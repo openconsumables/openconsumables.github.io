@@ -1,0 +1,30 @@
+id: soocas-sp1
+brand: Soocas
+family: null
+model: SP1
+aliases: ["Soocas SP1", "素士口袋电动剃须刀 SP1"]
+aftermarket_anchor: SP1
+type: electric-shaver
+mode: unresolved
+head_count: null
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: soocas-sp1-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: soocas-sp1-head
+      provenance: manufacturer-claim
+      source: "Soocas Pinkoi accessory listing for SP1 replacement head (Chinese-language)"
+sources: []
+notes: |
+  Soocas SP1 pocket / portable shaver. Pinkoi accessory listing names
+  an SP1 replacement head and restricts it to SP1, but the desk pass
+  did not resolve whether SP1 is a rotary single, foil compact, or
+  hybrid head. Treated as a separate head-mount slot until the head
+  shape is confirmed.

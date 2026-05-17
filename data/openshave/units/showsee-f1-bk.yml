@@ -1,0 +1,29 @@
+id: showsee-f1-bk
+brand: ShowSee
+family: Youth
+model: F1-BK
+aliases: ["ShowSee F1-BK", "小适青春系列 F1-BK"]
+aftermarket_anchor: F1-BK
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2021
+interfaces:
+  heads: showsee-fdt3-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: showsee-f1-f303-bk-head
+      provenance: marketplace-claim
+      source: "https://jd.zol.com.cn/1035/10352943.html"
+sources:
+  - https://jd.zol.com.cn/1035/10352943.html
+notes: |
+  ShowSee F1-BK Youth series rotary shaver. ZOL / JD deal page claims a
+  shared head between F1-BK and F303-BK; no public head SKU was
+  captured. Cross-fit with F303-BK is marketplace-claim only.

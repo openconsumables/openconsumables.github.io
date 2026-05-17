@@ -1,0 +1,40 @@
+id: generic-s300-s500-mjtxd01sks-rotary-head
+brand: null
+family: null
+model: null
+aliases:
+  - "S300/S500/MJTXD01SKS 通用机头"
+  - "S300 S500 MJTXD01SKS 内5角"
+  - "S300/S500 上半部分机头"
+  - "适配 米家电动剃须刀 S300/S500/MJTXD01SKS"
+oem: false
+clones_of: xiaomi-shaver-head-s300-s500-s500c
+sold_as: ["(many)"]
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: aftermarket
+fits_devices:
+  - id: xiaomi-mijia-s300
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled 'S300 S500 MJTXD01SKS 通用机头'"
+  - id: xiaomi-mijia-s500
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled 'S300 S500 MJTXD01SKS 通用机头'"
+  - id: xiaomi-mijia-s500c
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled '小米/米家 S500 S500C S300 MJTXD01SKS 通用'"
+  - id: xiaomi-mijia-mjtxd01sks
+    provenance: marketplace-claim
+    source: "JD marketplace listings titled 'S300/S500/MJTXD01SKS 内5角' / '五角形转轴口'"
+measurements: null
+sources: []
+notes: |
+  Aftermarket compatible head sold by JD third-party sellers for the
+  Xiaomi / Mijia S300, S500, S500C, and (per seller copy only) the
+  legacy MJTXD01SKS body. Seller titles use a mix of the device-code
+  list and head-level Chinese vocabulary: 整个刀头, 机头, 上半部分
+  机头, 刀片, 刀网. The phrases 内5角 / 五角形转轴口 appear in some
+  titles as a drive-socket geometry clue; treat as a measurement
+  target, not as a verified claim. Indicative price 13.6-22.84 CNY
+  in Chinese domestic listings.

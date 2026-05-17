@@ -116,3 +116,23 @@ openscoot:
       column_labels:
         deck_length_mm: "Deck length (mm)"
         cutout_pattern: "Cutouts"
+
+openshave:
+  display_name: Electric shavers
+  device:
+    dir: units
+    singular: Shaver
+    plural: Electric shavers
+  parts:
+    - dir: heads
+      singular: Head
+      plural: Replacement heads
+      interface_file: head_mounts.yml
+      interface_singular: Head mount
+      columns:
+        - head_count
+        - head_type
+        - material
+      column_labels:
+        head_count: "Heads"
+        head_type: "Type"

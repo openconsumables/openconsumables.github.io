@@ -1,0 +1,27 @@
+id: xiaomi-shaver-head-s101
+brand: Xiaomi
+family: Mijia
+model: Electric Shaver S101 Replacement Head
+aliases:
+  - "Xiaomi Electric Shaver S101 Replacement Head"
+  - "米家电动剃须刀刀头 S101"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: xiaomi-mijia-s101
+    provenance: manufacturer-claim
+    source: "https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/"
+measurements: null
+sources:
+  - https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/
+notes: |
+  Dedicated OEM head for the Xiaomi S101. The Xiaomi global
+  replacement-head page restricts the head to the S101 body and
+  describes the three-independent floating-head architecture.
+  Marketplace S101 / S301 grouping is seller-side and is not
+  reflected here.

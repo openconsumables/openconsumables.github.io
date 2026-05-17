@@ -1,0 +1,39 @@
+id: enchen-br1-head
+brand: ENCHEN
+family: BlackStone
+model: BR-1
+aliases:
+  - "ENCHEN BR-1"
+  - "ENCHEN BlackStone Shaver Blade"
+  - "BR-1 replacement head"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: enchen-blackstone
+    provenance: marketplace-claim
+    source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+  - id: enchen-blackstone-c
+    provenance: marketplace-claim
+    source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+  - id: enchen-warrior
+    provenance: marketplace-claim
+    source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+measurements: null
+sources:
+  - https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784
+  - https://miot-global.com/beauty-and-personal-care/enchen-blackstone-shaver-blade/
+  - https://pepita.com/en/electric-shaving-heads-c5181/enchen-interchangeable-blade-for-blackstone-blackstone-c-warrior-razor-br-1-p8385844
+notes: |
+  ENCHEN BR-1 head-code anchor. Listed by Galaxus, MiOT Global, Pepita,
+  Aquario, Shopmobile, and Yorkshire as the replacement head for the
+  BlackStone, BlackStone-C, and Warrior bodies. Code appears as
+  product title, article number, reference, EAN 6974728531341. The
+  `oem: true` flag reflects the head being ENCHEN-branded and sold
+  under one consistent code, but the fitment list is multi-retailer
+  marketplace-claim, not a captured ENCHEN brand-site replacement-
+  head page (which would upgrade it to manufacturer-claim).

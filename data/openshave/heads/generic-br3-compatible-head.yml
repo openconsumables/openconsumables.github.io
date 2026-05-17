@@ -1,0 +1,33 @@
+id: generic-br3-compatible-head
+brand: null
+family: null
+model: null
+aliases:
+  - "ENCHEN BR-3 compatible head"
+  - "Replacement head for BlackStone 3 / Gentleman 3S / Gentleman 5S / Steel 3S"
+oem: false
+clones_of: enchen-br3-head
+sold_as: ["(many)"]
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: aftermarket
+fits_devices:
+  - id: enchen-blackstone-3
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head'"
+  - id: enchen-gentleman-3s
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head'"
+  - id: enchen-gentleman-5s
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head'"
+  - id: enchen-steel-3s
+    provenance: marketplace-claim
+    source: "AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head'"
+measurements: null
+sources: []
+notes: |
+  Aftermarket BR-3 compatible heads. Sold under white-label brands via
+  AliExpress and similar export channels. Same cheap-device caveat as
+  BR-1 generic; BR-3 marketplace mirroring is also thinner overall.

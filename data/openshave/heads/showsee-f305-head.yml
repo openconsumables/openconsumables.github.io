@@ -1,0 +1,25 @@
+id: showsee-f305-head
+brand: ShowSee
+family: null
+model: F305 Replacement Head
+aliases:
+  - "F305 刀头"
+  - "小适 F305-GY 剃须刀刀头"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: showsee-f305-gy
+    provenance: marketplace-claim
+    source: "https://www.suning.com/item/0000000000/12290659692.html"
+measurements: null
+sources:
+  - https://www.suning.com/item/0000000000/12290659692.html
+notes: |
+  ShowSee F305 replacement head, captured as a bundle inclusion on
+  Suning rather than as a stand-alone SKU page. No cross-fit with the
+  F1 / F303-BK family.

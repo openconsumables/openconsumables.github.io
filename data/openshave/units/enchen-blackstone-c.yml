@@ -1,0 +1,33 @@
+id: enchen-blackstone-c
+brand: ENCHEN
+family: BlackStone
+model: BlackStone-C
+aliases: ["ENCHEN BlackStone C", "ENCHEN BlackStone-C"]
+aftermarket_anchor: BR-1
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2020
+interfaces:
+  heads: enchen-br1-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: enchen-br1-head
+      provenance: marketplace-claim
+      source: "https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784"
+    - id: generic-br1-compatible-head
+      provenance: marketplace-claim
+      source: "AliExpress / export retailer listings titled 'ENCHEN BR-1 compatible head'"
+sources:
+  - https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784
+notes: |
+  Second member of the ENCHEN BR-1 family per export retailer titles. No
+  separate ENCHEN brand-site product page for BlackStone-C was captured
+  in the desk pass; the unit's existence and BR-1 head fit are
+  marketplace-claim only.

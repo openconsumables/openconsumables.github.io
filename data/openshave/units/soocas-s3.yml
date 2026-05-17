@@ -1,0 +1,37 @@
+id: soocas-s3
+brand: Soocas
+family: Linglang
+model: S3
+aliases: ["Soocas Linglang S3", "素士凌朗 S3"]
+aftermarket_anchor: S3
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: discontinued
+released: 2019
+interfaces:
+  heads: soocas-s-family-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: soocas-s3-head
+      provenance: manufacturer-claim
+      source: "Soocas Pinkoi accessory listing for S3 replacement head (Chinese-language)"
+    - id: generic-soocas-s-family-head
+      provenance: marketplace-claim
+      source: "https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6"
+sources:
+  - https://news.mydrivers.com/1/623/623639.htm
+  - https://item.lenovo.com.cn/product/1008476.html
+notes: |
+  Soocas S3 (Linglang), a 2019 rotary three-head shaver. Conflict to
+  surface: Soocas accessory copy on Pinkoi describes the S3 head as
+  S3-only, but export marketplace listings (Walmart.ca) group the head
+  under one variant title "Fit for SOOCAS S3 S5". The conflict cannot
+  be resolved without underside photos or physical samples; the
+  interface assignment to `soocas-s-family-rotary` is marketplace-claim
+  only and may split into per-model slots after measurement.

@@ -1,0 +1,31 @@
+id: showsee-f305-gy
+brand: ShowSee
+family: null
+model: F305-GY
+aliases: ["ShowSee F305-GY", "ShowSee F305-G", "小适 F305-GY", "小适 F305-G"]
+aftermarket_anchor: F305
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: showsee-f305-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: showsee-f305-head
+      provenance: marketplace-claim
+      source: "https://www.suning.com/item/0000000000/12290659692.html"
+sources:
+  - https://www.suning.com/item/0000000000/12290659692.html
+  - https://detail.zol.com.cn/shaving_razor/index1416097.shtml
+notes: |
+  ShowSee F305-GY (and grey F305-G colour variant) rotary three-head
+  shaver. Suning retail bundles include an F305 head accessory; ZOL
+  classifies as rotary with three heads. No cross-fit with F1-BK or
+  F303-BK; the F305 family is treated as a separate head-mount slot.

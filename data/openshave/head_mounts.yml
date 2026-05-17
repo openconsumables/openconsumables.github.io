@@ -1,0 +1,239 @@
+# Head-mount interface profiles for OpenShave.
+#
+# A "head mount" is the project's term for the mechanical compatibility class
+# on the body side of an electric shaver: the seat that retains the rotary
+# cutter pod or foil cassette, the drive socket that couples the body motor
+# to the head, and any latch / magnetic retention features. Two shavers with
+# the same head mount can theoretically accept the same replacement head
+# module.
+#
+# Head mounts are NOT a published spec. They are working categories that may
+# collapse, split, or be renamed as measurement lands. A unit entry can use
+# `pending-measurement` for `interface` if no evidence yet supports a
+# grouping. Family-specific working names are preferred over broad
+# "rotary 3-blade universal" framings, because cross-brand convergence is
+# not strong enough to justify a single class.
+#
+# Sub-family note: rotary, foil, and magnetic-rotary are separate consumable
+# classes. Rotary heads are removable cutter pods (typically three pods
+# arranged in a triangle on a passive plate). Foil heads are reciprocating
+# cassettes covered by a perforated metal foil. Do not collapse them into
+# one slot. The first OpenShave slice covers rotary 3-blade only.
+
+xiaomi-mijia-s300-s500-rotary:
+  display_name: "Xiaomi / Mijia S300-S500 rotary 3-blade"
+  aftermarket_aliases:
+    - "S300/S500/S500C 刀头"
+    - "S300/S500/MJTXD01SKS 通用机头"
+    - "米家电动剃须刀刀头"
+    - "Mijia S300 S500 replacement head"
+    - "内5角"
+    - "五角形转轴口"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Xiaomi / Mijia rotary 3-blade head module shared across the S300, S500,
+    and S500C bodies, per the Xiaomi official accessory page that names all
+    three devices in the product title. Aftermarket sellers on JD and other
+    Chinese marketplaces group the legacy `MJTXD01SKS` device code into the
+    same listing family ("S300 / S500 / MJTXD01SKS 通用机头"); that
+    cross-fit is marketplace-claim only and is the single biggest physical
+    test target for Batch A. JD aftermarket vocabulary uses `内5角` /
+    `五角形转轴口` ("five-sided drive-socket / shaft-mouth") to describe a
+    drive interface; Soocas / Xiaomi shared patent IP also references a
+    five-sided shaft matching structure across this family and adjacent
+    Soocas / Xiaomi models. Treat the five-sided shaft feature as a
+    measurement target, not as a published geometry claim.
+
+xiaomi-mijia-s101-rotary:
+  display_name: "Xiaomi / Mijia S101 rotary 3-blade"
+  aftermarket_aliases:
+    - "Xiaomi Electric Shaver S101 Replacement Head"
+    - "米家电动剃须刀刀头 S101"
+    - "S101 刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Dedicated head per Xiaomi's S101 global / HK accessory page; the
+    replacement-head listing names S101 only. Some Chinese marketplace
+    titles broaden to "S101 S300 S301 S500 S700" but those should not be
+    trusted as cross-fits without physical or official confirmation.
+    Aftermarket listings occasionally group S101 with S301; the S301
+    grouping is marketplace-claim only.
+
+xiaomi-mijia-s302-rotary:
+  display_name: "Xiaomi / Mijia S302 rotary 3-blade"
+  aftermarket_aliases:
+    - "米家电动剃须刀刀头 S302"
+    - "S302 刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Dedicated head per the separate Xiaomi store comment page for "米家电动
+    剃须刀刀头 S302". Launch coverage says S302 uses a double-ring curved
+    foil and 360-degree floating head, but the foil here is part of the
+    rotary cutter assembly, not a reciprocating foil cassette. Treat as a
+    sibling rotary family to S300 / S500 / S500C, not as a member.
+
+xiaomi-mijia-s700-ceramic-rotary:
+  display_name: "Xiaomi / Mijia S700 ceramic rotary 3-blade"
+  aftermarket_aliases:
+    - "Xiaomi Electric Shaver S700 Replacement Head"
+    - "S700 刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Xiaomi's S700 replacement head page restricts the head to the S700
+    body. Ceramic cutter material introduces additional handling and supply
+    considerations vs. stainless-steel rotary heads. Treat as a dedicated
+    family, not part of the S300 / S500 cluster.
+
+enchen-br1-rotary:
+  display_name: "ENCHEN BR-1 rotary 3-blade"
+  aftermarket_aliases:
+    - "BR-1"
+    - "Blackstone / Blackstone-C / Warrior replacement head"
+    - "ENCHEN BlackStone shaver blade"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Strongest head-code anchor in the OpenShave cluster. Export retailers
+    (Galaxus, Pepita, Shopmobile, MiOT Global, Aquario) list BR-1 as the
+    replacement head for ENCHEN BlackStone, BlackStone-C, and Warrior; the
+    code appears in product titles, reference fields, and article-number
+    fields. Chinese official-channel evidence for BR-1 was not captured in
+    the desk pass, so the manufacturer-level fitment list is marketplace-
+    claim, not manufacturer-claim. One source had inconsistent prose
+    mentioning a "Warrior BR-2"; treat as seller noise pending verification.
+
+enchen-br3-rotary:
+  display_name: "ENCHEN BR-3 rotary 3-blade"
+  aftermarket_aliases:
+    - "BR-3"
+    - "BlackStone 3 / Gentleman 3S / Gentleman 5S / Steel 3S replacement head"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    ENCHEN BR-3 head-code family per a single mirror seller (Flotarad /
+    Shoppster). Fits BlackStone 3, Gentleman 3S, Gentleman 5S, and Steel 3S
+    according to marketplace copy. Evidence is thinner than BR-1; some
+    pages spell "Gentleman" as "Gentelman". The BR-1 / BR-3 split is the
+    main reason ENCHEN is treated as two head families rather than one.
+
+enchen-yx0032-magnetic-rotary:
+  display_name: "ENCHEN BlackStone 7 / YX0032 magnetic rotary"
+  aftermarket_aliases:
+    - "YX0032"
+    - "映趣 Blackstone 7"
+    - "磁吸式刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Chinese retail page for BlackStone 7 / YX0032 describes a magnetic
+    quick-release head ("磁吸式刀头") with a 3D floating-head architecture
+    and dual-ring curved foil overlay. No replacement-head SKU was captured
+    in the desk pass. Magnetic retention is a separate interface class
+    from passive latched rotary; do not assume BR-1 or BR-3 fits this body.
+
+soocas-s-family-rotary:
+  display_name: "Soocas S-family rotary 3-blade (S3 / S5 / S31 / S32)"
+  aftermarket_aliases:
+    - "SOOCAS S3blade"
+    - "SOOCAS S5blade"
+    - "素士剃须刀刀头 S3/S5/S31/S32"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Provisional grouping. Soocas accessory copy on Pinkoi describes each
+    head (S3, S5, S31, S32) as model-specific, but export marketplace
+    listings (Walmart.ca and similar) group the heads under one variant
+    title "Fit for SOOCAS S3 S5" with model-coloured variants. The
+    conflict cannot be resolved without underside photos or physical
+    samples. Soocas filings link S31 / S3 / S5 / S32 to shared cutter-head
+    technology and to Xiaomi S100 custom shaver development, which is
+    suggestive but not proof of interchangeability.
+
+soocas-sp1-rotary:
+  display_name: "Soocas SP1 compact (style unresolved)"
+  aftermarket_aliases:
+    - "SP1 replacement head"
+    - "素士口袋电动剃须刀 SP1"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    SP1 is the Soocas pocket / portable shaver. Pinkoi listing names SP1
+    replacement head and says only for SP1, but the style (foil vs. rotary
+    single vs. hybrid) was not resolved in the desk pass. Kept as a
+    separate slot until the head shape is confirmed.
+
+showsee-t3-rotary:
+  display_name: "ShowSee T3 rotary 3-blade"
+  aftermarket_aliases:
+    - "小适智能剃须刀 T3 刀头"
+    - "鸿蒙智选 小适智能剃须刀 T3 配件"
+    - "磁吸式刀头组件"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Huawei Vmall product title for the T3 head accessory says it fits
+    standard, premium, and T3 named editions. This is a narrow,
+    Huawei-ecosystem-specific anchor rather than a broad ShowSee family.
+    Magnetic quick-release head ("磁吸式刀头组件") may be a separate
+    retention class from the passive latched rotary lane; treat as
+    distinct from F1 / F303-BK and F305 families.
+
+showsee-fdt3-rotary:
+  display_name: "ShowSee F1 / F303-BK rotary 3-blade"
+  aftermarket_aliases:
+    - "小适电动剃须刀 F1/F303-BK 通用替换刀头"
+    - "F1/F303 - BK 剃须刀通用刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Marketplace claim of a shared replacement head between ShowSee F1-BK
+    and F303-BK per a ZOL / JD deal article. No public head SKU was
+    captured. No official Vmall / brand-store cross-fit page in the desk
+    pass; cross-fit is marketplace-claim only.
+
+showsee-f305-rotary:
+  display_name: "ShowSee F305 rotary 3-blade"
+  aftermarket_aliases:
+    - "F305 刀头"
+    - "小适 F305-GY 剃须刀刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    F305-G / F305-GY retail bundles include an F305 head accessory per
+    Suning and ZOL. No cross-fit claim with F1 / F303-BK; treated as a
+    separate family.
+
+riwa-ra-rotary:
+  display_name: "Riwa RA-series rotary 3-blade"
+  aftermarket_aliases:
+    - "雷瓦 RA-5301 RA-5501 RA5503 RA5505 RA5504 357A 刀头"
+    - "RIWA 原装刀头"
+    - "雷瓦四瓣旋转式接口刀头"
+  charging: usb-c-or-base
+  status: unmeasured
+  baseline: null
+  notes: |
+    Provisional grouping for the Riwa RA-series rotary cluster. A JD
+    indexed snippet claims the "RIWA original" head fits RA-5301, RA-5503,
+    RA-5505, RA-5308, RA-5309, and RA-5310. A separate JD price / search
+    result advertises a non-original "four-petal rotary interface"
+    ("四瓣旋转式接口") head fitting RA-5505 and related devices. Exact
+    original head SKU was not captured. Spelling varies ("RA-5505",
+    "RA5505", "RA--5505"). The "357A" token appears in marketplace titles
+    but is not proven as an official head or device SKU.

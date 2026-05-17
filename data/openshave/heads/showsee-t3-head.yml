@@ -1,0 +1,29 @@
+id: showsee-t3-head
+brand: ShowSee
+family: Smart Shaver
+model: T3 Replacement Head
+aliases:
+  - "小适智能剃须刀 T3 刀头"
+  - "剃须刀刀头·T3"
+  - "磁吸式刀头组件"
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: magnetic-rotary
+material: stainless-steel
+variant: original
+fits_devices:
+  - id: showsee-t3
+    provenance: manufacturer-claim
+    source: "https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101"
+measurements: null
+sources:
+  - https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101
+  - https://consumer.huawei.com/cn/support/content/zh-cn15972689/
+notes: |
+  ShowSee T3 replacement head from Huawei Vmall. The product title
+  says the head fits standard edition, premium edition, and T3, which
+  is a within-T3-family cross-fit rather than a broad ShowSee anchor.
+  Magnetic quick-release retention ("磁吸式刀头组件") is the headline
+  retention feature.

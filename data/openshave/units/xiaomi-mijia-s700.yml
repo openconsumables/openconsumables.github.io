@@ -1,0 +1,32 @@
+id: xiaomi-mijia-s700
+brand: Xiaomi
+family: Mijia
+model: S700
+aliases: ["Xiaomi Electric Shaver S700", "米家电动剃须刀 S700"]
+aftermarket_anchor: S700
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c
+cleaning_dock: false
+status: current
+released: 2022
+interfaces:
+  heads: xiaomi-mijia-s700-ceramic-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+    - id: xiaomi-shaver-head-s700
+      provenance: manufacturer-claim
+      source: "Xiaomi global Electric Shaver S700 Replacement Head page (Xiaomi states it is only used for S700)"
+sources: []
+notes: |
+  Xiaomi Mijia S700 ceramic rotary three-blade. Premium model with
+  ceramic cutter material; Xiaomi explicitly restricts the S700
+  replacement head to the S700 body on the global replacement-head
+  page. Ceramic cutters introduce material-specific handling and
+  supply considerations vs. stainless-steel rotary heads, but do not
+  imply a different mount geometry. Treat as a dedicated family, not
+  part of the S300 / S500 cluster.

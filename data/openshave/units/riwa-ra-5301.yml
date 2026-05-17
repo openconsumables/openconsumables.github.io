@@ -1,0 +1,30 @@
+id: riwa-ra-5301
+brand: Riwa
+family: RA-series
+model: RA-5301
+aliases: ["雷瓦 RA-5301", "Riwa RA-5301"]
+aftermarket_anchor: RA-5301
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: rinsable
+charging: usb-c-or-base
+cleaning_dock: false
+status: current
+released: 2020
+interfaces:
+  heads: riwa-ra-rotary
+interface_provenance:
+  heads: marketplace-claim
+compatible_parts:
+  heads:
+    - id: riwa-ra-series-original-head
+      provenance: marketplace-claim
+      source: "https://www.jd.com/hprm/737a0effd1a8def4a21.html"
+sources:
+  - https://www.jd.com/hprm/737a0effd1a8def4a21.html
+notes: |
+  Riwa RA-5301. Earliest visible member of the RA-series rotary
+  cluster per JD indexed marketplace snippets. The "RIWA original"
+  head listing groups RA-5301 with RA-5503, RA-5505, RA-5308, RA-5309,
+  and RA-5310; exact original head SKU was not captured.

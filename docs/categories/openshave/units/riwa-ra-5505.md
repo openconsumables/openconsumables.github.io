@@ -1,0 +1,43 @@
+<!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
+
+# Riwa RA-5505
+
+Aftermarket code: `RA-5505` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2022 · Status: current
+
+Also sold as: 雷瓦 RA-5505, Riwa RA5505, RA5505, RA-5505/GT
+
+## Replacement heads
+
+| Head | OEM | Heads | Type | Material | Provenance | Measured? |
+|---|---|---|---|---|---|---|
+| [Riwa Original RA-series Replacement Head](../heads/riwa-ra-series-original-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
+| [Generic 雷瓦四瓣旋转式接口刀头](../heads/generic-riwa-ra-four-petal-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+
+## Head mount: Riwa RA-series rotary 3-blade
+
+Provenance: **Marketplace listing**
+
+Status: **unmeasured**
+
+Provisional grouping for the Riwa RA-series rotary cluster. A JD
+indexed snippet claims the "RIWA original" head fits RA-5301, RA-5503,
+RA-5505, RA-5308, RA-5309, and RA-5310. A separate JD price / search
+result advertises a non-original "four-petal rotary interface"
+("四瓣旋转式接口") head fitting RA-5505 and related devices. Exact
+original head SKU was not captured. Spelling varies ("RA-5505",
+"RA5505", "RA--5505"). The "357A" token appears in marketplace titles
+but is not proven as an official head or device SKU.
+
+## Notes
+
+Riwa RA-5505. ZOL / Yesky classify the RA-5505 as a rotary
+three-head body. JD indexed snippets list both an "original" RIWA
+head and a non-original "four-petal rotary interface"
+("四瓣旋转式接口") replacement. The "four-petal" phrasing may
+encode an interface clue similar to the Xiaomi five-sided shaft
+vocabulary, but it remains a marketplace claim with no measured
+geometry.
+
+## Sources
+
+- <https://detail.zol.com.cn/shaving_razor/index1262760.shtml>
