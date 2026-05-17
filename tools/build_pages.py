@@ -172,6 +172,21 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append(f"Motor: {device['motor_w']} W")
         if device.get("weight_class_kg"):
             facts.append(f"Weight: ~{device['weight_class_kg']} kg")
+    elif slug == "openshave":
+        if device.get("aftermarket_anchor"):
+            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+        if device.get("mode"):
+            facts.append(f"Mode: {device['mode']}")
+        if device.get("head_count"):
+            facts.append(f"Heads: {device['head_count']}")
+        if device.get("wet_dry"):
+            facts.append(f"Water: {device['wet_dry']}")
+        if device.get("charging"):
+            facts.append(f"Charging: {device['charging']}")
+        if device.get("cleaning_dock") is True:
+            facts.append("Cleaning dock: yes")
+        elif device.get("cleaning_dock") is False:
+            facts.append("Cleaning dock: no")
     else:
         if device.get("aftermarket_anchor"):
             facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
@@ -235,6 +250,13 @@ def render_part_facts(part: dict, cfg: dict, part_cfg: dict) -> list[str]:
             facts.append(f"Deck length: {deck_length}{suffix}")
         if part.get("cutout_pattern"):
             facts.append(f"Cutouts: {part['cutout_pattern']}")
+        if part.get("material"):
+            facts.append(f"Material: {part['material']}")
+    if cfg["slug"] == "openshave" and part_dir == "heads":
+        if part.get("head_count"):
+            facts.append(f"Heads: {part['head_count']}")
+        if part.get("head_type"):
+            facts.append(f"Type: {part['head_type']}")
         if part.get("material"):
             facts.append(f"Material: {part['material']}")
     if part.get("variant"):
@@ -319,42 +341,43 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
         extra_columns = part_cfg.get("columns", [])
         column_labels = part_cfg.get("column_labels", {})
 
-        out.append(f"## {section_label}")
-        out.append("")
-        part_singular = part_cfg["singular"]
-        headers = [
-            part_singular,
-            "OEM",
-            *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
-            "Provenance",
-            "Measured?",
-        ]
-        out.append("| " + " | ".join(headers) + " |")
-        out.append("|" + "---|" * len(headers))
-
-        for c in entries:
-            if "id" not in c:
-                ERRORS.append(
-                    f"{cfg['slug']} device {device_id}: {part_dir} entry missing id: {c}"
-                )
-                continue
-            part = parts.get(part_dir, {}).get(c["id"])
-            oem = "?" if part is None else ("OEM" if part.get("oem") else "Generic")
-            measured = "?" if part is None else ("Yes" if part.get("measurements") else "No")
-            col_values = [part_column_value(part, col) for col in extra_columns]
-            provenance = lookup_provenance(
-                c.get("provenance"),
-                f"{cfg['slug']} device {device_id} -> {part_dir} part {c['id']}",
-            )
-            row = [
-                part_link(c["id"], parts.get(part_dir, {}), part_cfg),
-                oem,
-                *col_values,
-                provenance,
-                measured,
+        if entries:
+            out.append(f"## {section_label}")
+            out.append("")
+            part_singular = part_cfg["singular"]
+            headers = [
+                part_singular,
+                "OEM",
+                *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
+                "Provenance",
+                "Measured?",
             ]
-            out.append("| " + " | ".join(row) + " |")
-        out.append("")
+            out.append("| " + " | ".join(headers) + " |")
+            out.append("|" + "---|" * len(headers))
+
+            for c in entries:
+                if "id" not in c:
+                    ERRORS.append(
+                        f"{cfg['slug']} device {device_id}: {part_dir} entry missing id: {c}"
+                    )
+                    continue
+                part = parts.get(part_dir, {}).get(c["id"])
+                oem = "?" if part is None else ("OEM" if part.get("oem") else "Generic")
+                measured = "?" if part is None else ("Yes" if part.get("measurements") else "No")
+                col_values = [part_column_value(part, col) for col in extra_columns]
+                provenance = lookup_provenance(
+                    c.get("provenance"),
+                    f"{cfg['slug']} device {device_id} -> {part_dir} part {c['id']}",
+                )
+                row = [
+                    part_link(c["id"], parts.get(part_dir, {}), part_cfg),
+                    oem,
+                    *col_values,
+                    provenance,
+                    measured,
+                ]
+                out.append("| " + " | ".join(row) + " |")
+            out.append("")
 
         interface_singular = part_cfg["interface_singular"]
         interface_dedup_key = (part_cfg["interface_file"], interface_key or "")
