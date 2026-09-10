@@ -3,7 +3,7 @@ brand: Xiaomi
 family: Mijia
 model: 米家电动剃须刀刀头 S302
 aliases:
-  - "Mijia Electric Shaver Replacement Head S302"
+- Mijia Electric Shaver Replacement Head S302
 oem: true
 clones_of: null
 sold_as: []
@@ -12,12 +12,13 @@ head_type: rotary
 material: stainless-steel
 variant: original
 fits_devices:
-  - id: xiaomi-mijia-s302
-    provenance: manufacturer-claim
-    source: "Xiaomi store comment / accessory pages titled '米家电动剃须刀刀头 S302'"
+- id: xiaomi-mijia-s302
+  provenance: marketplace-claim
+  source: https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html
 measurements: null
-sources: []
+sources:
+- https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html
 notes: |
-  Dedicated OEM head for the Xiaomi Mijia S302. Identified only via
-  the Xiaomi store comment / accessory page title in the desk pass;
-  a direct product / SKU page has not been retrieved cleanly.
+  JD names an original replacement head for S302. OEM identity and fit are
+  seller claims; the former vague Xiaomi-store reference is not treated as
+  verified manufacturer evidence. No cross-model fit is asserted.

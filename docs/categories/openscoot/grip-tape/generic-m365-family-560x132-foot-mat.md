@@ -10,10 +10,10 @@ Brand names seen: eWheel, 50factory, (many, white-label)
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing |
-| [Xiaomi Mi Electric Scooter 3](../units/xiaomi-mi-electric-scooter-3.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing | [Source](<https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html>) |
+| [Xiaomi Mi Electric Scooter 3](../units/xiaomi-mi-electric-scooter-3.md) | Marketplace listing | [Source](<https://en.50factory.com/parts%20news/182218-xiaomi-m365-ewheel-doodle-scooter-footboard-cover.html>) |
 
 ## Notes
 

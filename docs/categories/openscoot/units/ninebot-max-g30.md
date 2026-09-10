@@ -2,15 +2,15 @@
 
 # Segway-Ninebot Max G30
 
-Aftermarket code: `Max G30` · Wheel: 10" · Motor: 350 W · Weight: ~18.7 kg · Released: 2019 · Status: current
+Model / fitment code: `Max G30` · Wheel: 10" · Motor: 350 W · Weight: ~18.7 kg · Released: 2019 · Status: current
 
-Also sold as: Ninebot KickScooter Max G30, Segway Max, G30P, G30LP
+Also sold as: Ninebot KickScooter Max G30, Segway Max, G30P
 
 ## Replacement tires
 
-| Tire | OEM | Size (ETRTO) | Type | Provenance | Measured? |
-|---|---|---|---|---|---|
-| [Segway-Ninebot Max G30 OEM 10x2.125 self-healing pneumatic](../tires/ninebot-max-oem-10x2.125-pneumatic.md) | OEM | ~54-152 | self-healing pneumatic | Manufacturer claim | No |
+| Tire | OEM | Size (ETRTO) | Type | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|
+| [Segway-Ninebot Max G30 OEM 10x2.125 self-healing pneumatic](../tires/ninebot-max-oem-10x2.125-pneumatic.md) | OEM | ? | self-healing pneumatic | Manufacturer claim | No | [Source](<https://store.segway.com/parts/kick-scooter/max-series/max-g30p>) |
 
 ## Axle / wheel mount: Segway-Ninebot Max G30 10-inch wheel
 
@@ -18,20 +18,15 @@ Provenance: **Manufacturer claim**
 
 Status: **unmeasured**
 
-10-inch wheel assembly used by the Segway-Ninebot KickScooter Max G30
-and its regional variants (G30P, G30LP, G30LE). Standard tire is
-10x2.125 (ETRTO ~54-152) self-healing pneumatic with sealant; aftermarket
-listings include tubed pneumatic, solid, and honeycomb replacements
-described as "10x2.125" or "10x2.50". The newer Max G2 uses a related
-but distinct hub; not folded into this slot until verified.
+Unmeasured placeholder for the MAX G30 / G30P wheel reference. Tire compatibility, complete wheel-assembly compatibility and deck geometry are separate questions. G30LP and MAX G2 are separate device entries. No ETRTO conversion or shared hub geometry is asserted.
 
 ## Drum brake shoes
 
-| Brake shoe | OEM | Drum diameter (mm) | Compound | Provenance | Measured? |
-|---|---|---|---|---|---|
-| [Segway-Ninebot 14.01.0402.00 G30 drum brake assembly](../shoes/segway-ninebot-g30-oem-drum-brake-assembly.md) | OEM | unknown | unknown | Manufacturer claim | No |
-| [Green Line G30 drum brake assembly](../shoes/green-line-g30-drum-brake-assembly.md) | Generic | unknown | unknown | Marketplace listing | No |
-| [Generic Segway Ninebot Max G30 drum brake replacement](../shoes/generic-g30-drum-brake-assembly.md) | Generic | unknown | unknown | Marketplace listing | No |
+| Brake shoe | OEM | Drum diameter (mm) | Compound | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|
+| [Segway-Ninebot 14.01.0402.00 G30 drum brake assembly](../shoes/segway-ninebot-g30-oem-drum-brake-assembly.md) | OEM | unknown | unknown | Marketplace listing | No | [Source](<https://segwayofontario.com/products/drum-brake-g30>) |
+| [Generic Segway Ninebot Max G30 drum brake replacement](../shoes/generic-g30-drum-brake-assembly.md) | Generic | unknown | unknown | Marketplace listing | No | [Source](<https://escootervision.eu/en/products/g30-drum-brake>) |
+| [Green Line G30 drum brake assembly](../shoes/green-line-g30-drum-brake-assembly.md) | Generic | unknown | unknown | Marketplace listing | No | [Source](<https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d-3100-0037>) |
 
 ## Drum: Segway-Ninebot Max G30 front drum brake
 
@@ -54,9 +49,9 @@ alone.
 
 ## Replacement grip tape
 
-| Grip tape | OEM | Deck length (mm) | Cutouts | Provenance | Measured? |
-|---|---|---|---|---|---|
-| [Generic Ninebot Max G30 replacement grip tape](../grip-tape/generic-ninebot-max-g30-replacement-foot-mat.md) | Generic | 650 | seller-stated G30 pre-cut foot mat; no written cutout spec | Marketplace listing | No |
+| Grip tape | OEM | Deck length (mm) | Cutouts | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|
+| [Generic Ninebot Max G30 replacement grip tape](../grip-tape/generic-ninebot-max-g30-replacement-foot-mat.md) | Generic | 650 | seller-stated G30 pre-cut foot mat; no written cutout spec | Marketplace listing | No | [Source](<https://www.replacebase.co.uk/for-segway-ninebot-max-g30-replacement-grip-tape-foot-mat-esp-x27a>) |
 
 ## Deck profile: Segway-Ninebot Max G30 deck mat
 
@@ -72,27 +67,14 @@ cross-fit as seller-claimed until the deck mat outline is measured.
 
 ## Notes
 
-The Segway-Ninebot KickScooter Max G30 anchors the 10-inch consumer
-e-scooter slot. Stock tire is a self-healing pneumatic with a sealant
-layer, marketed by Segway as puncture-resistant; aftermarket sellers
-offer tubed pneumatic, solid, and honeycomb replacements in the same
-10x2.125 size class. The G30P and G30LP are regional variants of the
-same scooter and share the wheel. Segway's product copy describes the
-braking architecture as front mechanical drum plus rear regenerative /
-electronic brake; the drum-side replacement market is mostly complete
-drum-brake assemblies, not loose shoe-only kits. The Max G2 (newer
-generation) is not folded into this slot until the hub geometry is
-verified.
+This page covers the MAX G30 / G30P reference. G30LP has a separate device page because it is a distinct model. Listed tire and drum-brake relationships do not establish deck-mat or full-wheel interchangeability. The project has not measured the interfaces.
 
-Cross-fit warning: 8.5-inch Xiaomi-family tires do not fit the Max G30
-because rim radius is part of the slot identity. The aftermarket
-generic 8.5x2 pack listed on the Xiaomi units explicitly excludes
-10-inch hubs. Replacement grip tape is listed as marketplace-claim only;
-seller pages identify G30-specific foot mats but do not publish a measured
-top-deck drawing.
+US recall recorded in this reference on 2026-09-11: CPSC notice 25-193, issued 2025-03-20, covers MAX G30P and MAX G30LP folding mechanisms. The notice instructs owners to stop using affected scooters and contact Segway for the inspection and maintenance-kit remedy. See the [CPSC recall notice](https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury) and [Segway recall page](https://service.segway.com/us-en/g30RecallNotice). This is an older notice newly recorded here; no global recall scope is inferred.
 
 ## Sources
 
 - <https://store.segway.com/parts/kick-scooter/max-series/max-g30p>
-- <https://store.segway.com/pub/media/wysiwyg/warranty/Ninebot-KickScooter-Max-G30P-User-Manual.pdf>
-- <https://www.segway.com/content/segway-ninebot/us/en/segway/ekickscooter/products/max-g30p>
+- <https://store.segway.com/media/wysiwyg/warranty/Ninebot-KickScooter-Max-G30P-User-Manual.pdf>
+- <https://support.segway.com/support_product.php?segcatid=7>
+- <https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury>
+- <https://service.segway.com/us-en/g30RecallNotice>

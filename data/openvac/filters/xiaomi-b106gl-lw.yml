@@ -1,0 +1,23 @@
+id: xiaomi-b106gl-lw
+brand: Xiaomi
+model: B106GL-LW filter
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+filter_type: Dustbin filter
+fits_devices:
+- id: xiaomi-s10
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+- id: xiaomi-s40-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+notes: The current OEM accessory page explicitly names S40 Pro alongside S10/S12/T12/X20. This is
+  a filter relationship only, not a shared main-brush or mop claim. Compatibility is the manufacturer
+  claim checked on 2026-09-11. No interface dimensions or cross-brand fit have been measured by the
+  project.
+last_reviewed: '2026-09-11'

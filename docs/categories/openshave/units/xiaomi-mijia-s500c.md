@@ -2,46 +2,41 @@
 
 # Xiaomi S500C
 
-Aftermarket code: `S500C` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
+Model / fitment code: `S500C` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: unknown
 
 Also sold as: 米家电动剃须刀 S500C
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Xiaomi 米家电动剃须刀刀头 (S300/S500/S500C)](../heads/xiaomi-shaver-head-s300-s500-s500c.md) | OEM | 3 | rotary | stainless-steel | Manufacturer claim | No |
-| [Generic S300/S500/MJTXD01SKS 通用机头](../heads/generic-s300-s500-mjtxd01sks-rotary-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Xiaomi 米家电动剃须刀刀头 (S300/S500/S500C)](../heads/xiaomi-shaver-head-s300-s500-s500c.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/>) |
+| [Generic S300/S500/MJTXD01SKS 通用机头](../heads/generic-s300-s500-mjtxd01sks-rotary-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: JD marketplace listings titled '小米/米家 S500 S500C S300 MJTXD01SKS 通用' |
 
 ## Head mount: Xiaomi / Mijia S300-S500 rotary 3-blade
 
-Provenance: **Manufacturer claim**
+Provenance: **Marketplace listing**
 
 Status: **unmeasured**
 
-Xiaomi / Mijia rotary 3-blade head module shared across the S300, S500,
-and S500C bodies, per the Xiaomi official accessory page that names all
-three devices in the product title. Aftermarket sellers on JD and other
-Chinese marketplaces group the legacy `MJTXD01SKS` device code into the
-same listing family ("S300 / S500 / MJTXD01SKS 通用机头"); that
-cross-fit is marketplace-claim only and is the single biggest physical
-test target for Batch A. JD aftermarket vocabulary uses `内5角` /
-`五角形转轴口` ("five-sided drive-socket / shaft-mouth") to describe a
-drive interface; Soocas / Xiaomi shared patent IP also references a
-five-sided shaft matching structure across this family and adjacent
-Soocas / Xiaomi models. Treat the five-sided shaft feature as a
-measurement target, not as a published geometry claim.
+Working shared-head group based on an authorized retailer naming S300,
+S500 and S500C. Xiaomi global directly names S500 only. Broader legacy
+MJTXD01SKS and generic-head claims remain marketplace evidence with
+unresolved sources; no measured geometry or cross-brand fit is established.
 
 ## Notes
 
-Xiaomi / Mijia S500C rotary three-blade shaver. Third device named on
-the Xiaomi official accessory page for the S300 / S500 / S500C shared
-replacement head. Aftermarket marketplace listings cluster the S500C
-with the S300, S500, and the legacy MJTXD01SKS body code. Release year
-is a best-effort placeholder from launch coverage; if the S500C is
-effectively an S500 colour / packaging variant, the head-mount family
-is unchanged either way.
+The S500 replacement assembly is named by Xiaomi for S500. An authorized
+retailer additionally lists S300 and S500C; the shared-family assignment
+uses that weaker seller claim. A former numeric Xiaomi product URL did
+not expose the accessory on review. Other legacy specifications and
+release dates were not independently reverified in this pass.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
 
 ## Sources
 
-- <https://www.mi.com/shop/buy/detail?product_id=9101>
+- <https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/>

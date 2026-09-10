@@ -1,0 +1,27 @@
+id: xiaomi-t700
+brand: Xiaomi
+family: Mijia
+model: T700
+aliases: []
+aftermarket_anchor: MES604
+type: electric
+mode: sonic
+charging: inductive
+status: unknown
+interfaces:
+  heads: xiaomi-mes604-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-mbs304
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700-replacement-heads/
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700/
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700/specs/
+notes: |
+  Xiaomi identifies this handle as MES604. Its named OEM replacement head
+  is MBS304. Separate listing here records the documented fit and does not
+  claim that other T-series heads fit or fail to fit.
+last_reviewed: '2026-09-11'

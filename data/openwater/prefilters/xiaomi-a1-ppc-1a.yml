@@ -1,0 +1,23 @@
+id: xiaomi-a1-ppc-1a
+brand: Xiaomi
+model: A1-PPC-1A
+aliases:
+- Xiaomi Smart Filtered Water Dispenser Filter PPC1
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-filtered-water-dispenser-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-filter-ppc1/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-filter-ppc1/specs/
+- https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-filter-ppc1/
+notes: The model code, stage and media description are manufacturer claims from the linked specifications
+  and product documentation. A fit claim applies to the named cartridge position in the named device.
+  It does not establish interchangeability with another cartridge carrying the same PPC1 or RO1 suffix,
+  or confirm filtration performance.
+stage: PPC pretreatment
+media: PP + activated carbon + antiscalant (manufacturer-claim)

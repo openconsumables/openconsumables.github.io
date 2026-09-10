@@ -1,0 +1,22 @@
+id: oral-b-precision-clean
+brand: Oral-B
+family: null
+model: Precision Clean
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: standard
+fits_devices:
+- id: oral-b-pro-1000
+  provenance: manufacturer-claim
+  source: https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b
+measurements: null
+sources:
+- https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b
+notes: |
+  Oral-B lists Precision Clean for rechargeable rotating-oscillating handles,
+  excluding iO and Pulsonic. This entry gives one documented handle example;
+  it is not a complete Oral-B model list.
+last_reviewed: '2026-09-11'

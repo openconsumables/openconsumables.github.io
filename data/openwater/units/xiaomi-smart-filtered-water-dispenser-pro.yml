@@ -1,0 +1,30 @@
+id: xiaomi-smart-filtered-water-dispenser-pro
+brand: Xiaomi
+model: Smart Filtered Water Dispenser Pro
+aliases:
+- MRH142-3A
+aftermarket_anchor: MRH142-3A
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  prefilters: xiaomi-smart-filtered-water-dispenser-pro-prefilters
+  ro-cartridges: xiaomi-smart-filtered-water-dispenser-pro-ro-cartridges
+interface_provenance:
+  prefilters: inferred
+  ro-cartridges: inferred
+compatible_parts:
+  prefilters:
+  - id: xiaomi-a1-ppc-1a
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-filter-ppc1/
+  ro-cartridges:
+  - id: xiaomi-a1-ro-100-1a
+    provenance: manufacturer-claim
+    source: https://www.mi.com/hk/product/xiaomi-smart-filtered-water-dispenser-composite-filter-ro1/
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-pro/specs/
+notes: The linked global specification names MRH142-3A and lists PPC1 and RO1 as separate installed filters.
+  These short stage names also occur on other Xiaomi devices and do not identify a universal cartridge.
+  This record makes no fit claim for other MRH142 regional suffixes.
+type: water-dispenser
+mode: countertop reverse osmosis

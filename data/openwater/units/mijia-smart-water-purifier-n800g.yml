@@ -1,0 +1,32 @@
+id: mijia-smart-water-purifier-n800g
+brand: Xiaomi
+model: Mijia Smart Water Purifier N800G
+aliases:
+- MR872-3
+aftermarket_anchor: MR872-3
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  prefilters: mijia-smart-water-purifier-n800g-prefilters
+  ro-cartridges: mijia-smart-water-purifier-n800g-ro-cartridges
+interface_provenance:
+  prefilters: inferred
+  ro-cartridges: inferred
+compatible_parts:
+  prefilters:
+  - id: xiaomi-j21-ppc-1
+    provenance: manufacturer-claim
+    source: https://www.mi.com/uk/support/faq/details/KA-612191/
+  ro-cartridges:
+  - id: xiaomi-j21-ro-800-1
+    provenance: manufacturer-claim
+    source: https://www.mi.com/uk/support/faq/details/KA-612191/
+sources:
+- https://www.mi.com/global/product/mijia-smart-water-purifier-n800g/specs/
+- https://www.mi.com/uk/support/faq/details/KA-612191/
+notes: The linked global specification names MR872-3 (110 V, 60 Hz). This record covers that documented
+  model, without assuming all regional N800G variants have identical parts. Xiaomi specifies separate
+  PPC and RO cartridge positions. Physical fit and cartridge identification do not establish water-quality
+  performance or certification.
+type: water-purifier
+mode: under-sink reverse osmosis

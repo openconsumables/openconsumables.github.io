@@ -10,11 +10,7 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-OEM / stock:
-
-- [Segway-Ninebot 14.01.0402.00 G30 drum brake assembly](segway-ninebot-g30-oem-drum-brake-assembly.md), the OEM-equivalent complete drum-brake assembly for the Max G30 family
-
-Generic / aftermarket:
-
-- [Green Line G30 drum brake assembly](green-line-g30-drum-brake-assembly.md), claimed equivalent to Segway-Ninebot part 14.01.0402.00
-- [Generic G30 drum brake assembly](generic-g30-drum-brake-assembly.md), claimed compatible across Max G30 regional variants
+- [Generic Segway Ninebot Max G30 drum brake replacement](generic-g30-drum-brake-assembly.md)
+- [Green Line G30 drum brake assembly](green-line-g30-drum-brake-assembly.md)
+- [Segway-Ninebot 14.01.0402.00 G30 drum brake assembly](segway-ninebot-g30-oem-drum-brake-assembly.md)
+- [Segway-Ninebot AB.05.07.00.0128 MAX G2 front drum brake](segway-ab-05-07-00-0128.md)

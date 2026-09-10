@@ -1,0 +1,18 @@
+id: xiaomi-electric-scooter-5-pro
+brand: Xiaomi
+model: Electric Scooter 5 Pro
+aliases: []
+aftermarket_anchor: null
+type: electric-scooter
+status: unknown
+wheel_size_in: 10
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-scooter-5-pro/specs/
+last_reviewed: '2026-09-11'
+notes: Manufacturer specifications checked on 2026-09-11 describe nominal 10-inch tires (tubeless)
+  and drum brake and E-ABS. An exact replacement tire, pad, tube or rotor part number has not been
+  established in this pass. No compatibility with an older Xiaomi or Segway model is inferred from
+  the nominal wheel size.

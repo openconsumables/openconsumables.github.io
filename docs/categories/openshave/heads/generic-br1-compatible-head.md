@@ -10,17 +10,15 @@ Brand names seen: (many)
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ENCHEN BlackStone](../units/enchen-blackstone.md) | Marketplace listing |
-| [ENCHEN BlackStone-C](../units/enchen-blackstone-c.md) | Marketplace listing |
-| [ENCHEN Warrior](../units/enchen-warrior.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ENCHEN BlackStone](../units/enchen-blackstone.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head' |
+| [ENCHEN BlackStone-C](../units/enchen-blackstone-c.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head' |
+| [ENCHEN Warrior](../units/enchen-warrior.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head' |
 
 ## Notes
 
-Aftermarket BR-1 compatible heads. Sold under shifting white-label
-branding via AliExpress and adjacent export retailers; titles
-consistently use the BR-1 code plus the BlackStone / BlackStone-C /
-Warrior device names. Whole-device pricing creates the cheap-device
-problem: the head plus head pricing approaches the price of a fresh
-whole device in some channels.
+Unbranded listings claimed BR-1-family fit, but their exact product URLs
+were not retained. The claim is legacy marketplace evidence and was not
+reverified on 2026-09-11. Generic batch geometry and OEM equivalence
+remain unmeasured.

@@ -2,28 +2,23 @@
 
 # Xiaomi M8R-FLH
 
-OEM · HEPA: H13 · Media: HEPA + activated carbon · Lifespan: ~6 months · Variant: original
+OEM · Media: Primary filter + HEPA + activated carbon (manufacturer-claim)
 
-Also sold as: Mi Air Purifier Filter (Original), Mi Air Purifier HEPA Filter
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
+Also sold as: Mi Air Purifier HEPA Filter
 
 ## Fits air purifier units
 
-| Unit | Provenance |
-|---|---|
-| [Xiaomi Mi Air Purifier 3H](../units/xiaomi-mi-air-purifier-3h.md) | Manufacturer claim |
-| [Xiaomi Mi Air Purifier 3C](../units/xiaomi-mi-air-purifier-3c.md) | Manufacturer claim |
+| Unit | Provenance | Source |
+|---|---|---|
+| [Xiaomi Mi Air Purifier 3H](../units/xiaomi-mi-air-purifier-3h.md) | Manufacturer claim | [Source](<https://www.mi.com/global/support/article/KA-07487/>) |
+| [Xiaomi Mi Air Purifier 3C](../units/xiaomi-mi-air-purifier-3c.md) | Manufacturer claim | [Source](<https://www.mi.com/global/support/article/KA-07487/>) |
 
 ## Notes
 
-Original (white-band) HEPA cartridge for the Mi Air Purifier 3-generation
-line. Single cylindrical cartridge containing a non-woven pre-filter, a
-pleated HEPA layer, and a thin activated-carbon stage. Xiaomi cross-lists
-this filter as compatible with Mi Air Purifier 2 / 2S / 2H / 3 / 3H / 3C /
-Pro / Pro H. The "H13" claim is Xiaomi's label; test-standard regime (EN
-1822 vs ISO 29463 vs GB/T) is not stated on the global product page and
-is one of the open questions for OpenAir activation. Carbon weight not
-disclosed.
+Xiaomi support lists M8R-FLH for Mi Air Purifier 2H, 2S, 2C, 3C, 3H and Pro. Only devices with records in this archive have fit edges here. The source describes a primary filter, HEPA layer and activated carbon; it does not specify an H13 classification. Pro H is not named in this compatibility list.
 
 ## Sources
 
-- <https://www.mi.com/global/mi-air-purifier-filter/>
+- <https://www.mi.com/global/support/article/KA-07487/>

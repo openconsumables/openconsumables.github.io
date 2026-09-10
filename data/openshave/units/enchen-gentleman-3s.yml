@@ -2,7 +2,9 @@ id: enchen-gentleman-3s
 brand: ENCHEN
 family: Gentleman
 model: Gentleman 3S
-aliases: ["ENCHEN Gentleman 3S", "Gentelman 3S"]
+aliases:
+- ENCHEN Gentleman 3S
+- Gentelman 3S
 aftermarket_anchor: BR-3
 type: electric-shaver
 mode: rotary
@@ -10,7 +12,7 @@ head_count: 3
 wet_dry: rinsable
 charging: usb-c
 cleaning_dock: false
-status: current
+status: unknown
 released: 2022
 interfaces:
   heads: enchen-br3-rotary
@@ -18,14 +20,20 @@ interface_provenance:
   heads: marketplace-claim
 compatible_parts:
   heads:
-    - id: enchen-br3-head
-      provenance: marketplace-claim
-      source: "Flotarad / Shoppster marketplace listings titled 'ENCHEN BR-3 nadomestna rezila'"
-    - id: generic-br3-compatible-head
-      provenance: marketplace-claim
-      source: "AliExpress / export retailer listings titled 'ENCHEN BR-3 compatible head'"
-sources: []
+  - id: enchen-br3-head
+    provenance: marketplace-claim
+    source: https://www.anodas.lt/en/replacement-blade-for-enchen-blackstone-3-gentelman-3s-gentelman-5s-steel-3s-shaver-br-3
+  - id: generic-br3-compatible-head
+    provenance: marketplace-claim
+    source: AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head'
+sources:
+- https://www.anodas.lt/en/replacement-blade-for-enchen-blackstone-3-gentelman-3s-gentelman-5s-steel-3s-shaver-br-3
 notes: |
   ENCHEN Gentleman 3S, part of the BR-3 head-code family per marketplace
   listings. Spelling variation: some pages render "Gentleman" as
   "Gentelman".
+
+  Legacy source limitation: one or more fit rows retain descriptive
+  source labels without a recoverable product URL. Those claims were not
+  reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+  confirmation.

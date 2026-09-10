@@ -10,12 +10,12 @@ Brand names seen: (many)
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Soocas S3](../units/soocas-s3.md) | Marketplace listing |
-| [Soocas S5](../units/soocas-s5.md) | Marketplace listing |
-| [Soocas S31](../units/soocas-s31.md) | Marketplace listing |
-| [Soocas S32](../units/soocas-s32.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Soocas S3](../units/soocas-s3.md) | Marketplace listing | [Source](<https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6>) |
+| [Soocas S5](../units/soocas-s5.md) | Marketplace listing | [Source](<https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6>) |
+| [Soocas S31](../units/soocas-s31.md) | Marketplace listing | URL not recorded: AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5' |
+| [Soocas S32](../units/soocas-s32.md) | Marketplace listing | URL not recorded: AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5' |
 
 ## Notes
 
@@ -28,6 +28,11 @@ unresolved question for the Soocas S-family. Without underside
 photos or physical samples, this is marketplace-claim only; future
 measurement may either confirm a shared rotary mount or split the
 family back into model-specific slots.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
 
 ## Sources
 

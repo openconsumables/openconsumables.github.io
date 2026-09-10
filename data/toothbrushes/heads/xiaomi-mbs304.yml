@@ -1,0 +1,22 @@
+id: xiaomi-mbs304
+brand: Xiaomi
+family: Mijia
+model: MBS304 (T700 replacement head)
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: standard
+fits_devices:
+- id: xiaomi-t700
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700-replacement-heads/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700-replacement-heads/
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700-replacement-heads/specs/
+notes: |
+  Xiaomi identifies this accessory as MBS304 for T700. Compatibility with
+  other Xiaomi handle models has not been established in the cited sources.
+last_reviewed: '2026-09-11'

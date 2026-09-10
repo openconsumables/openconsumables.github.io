@@ -8,13 +8,16 @@ Also sold as: Soocas S3 replacement shaver head, 素士凌朗电动剃须刀 S3 
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Soocas S3](../units/soocas-s3.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Soocas S3](../units/soocas-s3.md) | Marketplace listing | [Source](<https://www.pinkoi.com/product/vSsQRGk7>) |
 
 ## Notes
 
-Soocas S3 head per the Pinkoi accessory listing. Pinkoi copy
-describes the head as S3-only; the cross-fit with S5 implied by
-Walmart and other export listings is a separate generic / multi-fit
-SKU. The brand-side claim treated here is the per-model one.
+The Pinkoi listing names this S3 replacement head and limits it to
+S3. The store identifies itself as an authorized Soocas reseller, so
+OEM identity and fit are marketplace claims. Reviewed 2026-09-11.
+
+## Sources
+
+- <https://www.pinkoi.com/product/vSsQRGk7>

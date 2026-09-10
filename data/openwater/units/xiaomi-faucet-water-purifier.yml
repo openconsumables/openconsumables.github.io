@@ -1,0 +1,25 @@
+id: xiaomi-faucet-water-purifier
+brand: Xiaomi
+model: Faucet Water Purifier
+aliases: []
+aftermarket_anchor: null
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  faucet-cartridges: xiaomi-faucet-water-purifier-faucet-cartridges
+interface_provenance:
+  faucet-cartridges: inferred
+compatible_parts:
+  faucet-cartridges:
+  - id: xiaomi-mjltjsqdb04
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-faucet-water-purifier-filter/
+sources:
+- https://www.mi.com/global/product/xiaomi-faucet-water-purifier/specs/
+- https://www.mi.com/global/product/xiaomi-faucet-water-purifier-filter/specs/
+notes: Manufacturer documentation identifies the matching replacement as MJLTJSQDB04. The global device
+  specification prints MJLTISQDB03; the engineering-code spelling is not used as a confirmed anchor here.
+  Faucet adapter threads describe attachment to the tap and are separate from the cartridge interface.
+  This is a ceramic/carbon microfiltration device, not an RO system.
+type: water-purifier
+mode: faucet microfiltration

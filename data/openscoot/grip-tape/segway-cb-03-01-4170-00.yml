@@ -1,0 +1,20 @@
+id: segway-cb-03-01-4170-00
+brand: Segway-Ninebot
+model: CB.03.01.4170.00 MAX G3 silicone foot pad
+aliases:
+- CB.03.01.4170.00
+oem: true
+clones_of: null
+sold_as: []
+deck_length_mm: null
+cutout_pattern: MAX G3 model-specific
+fits_devices:
+- id: ninebot-max-g3
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/max-g3-series/max-g3/
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/max-g3-series/max-g3/
+last_reviewed: '2026-09-11'
+notes: OEM silicone deck mat. No fit to the MAX G2 deck is stated. The manufacturer catalog names
+  the supported models. No interface geometry or additional cross-fit has been measured by the project.

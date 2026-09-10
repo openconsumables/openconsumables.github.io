@@ -8,12 +8,16 @@ Also sold as: Mijia Electric Shaver Replacement Head S302
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Xiaomi S302](../units/xiaomi-mijia-s302.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Xiaomi S302](../units/xiaomi-mijia-s302.md) | Marketplace listing | [Source](<https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html>) |
 
 ## Notes
 
-Dedicated OEM head for the Xiaomi Mijia S302. Identified only via
-the Xiaomi store comment / accessory page title in the desk pass;
-a direct product / SKU page has not been retrieved cleanly.
+JD names an original replacement head for S302. OEM identity and fit are
+seller claims; the former vague Xiaomi-store reference is not treated as
+verified manufacturer evidence. No cross-model fit is asserted.
+
+## Sources
+
+- <https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html>

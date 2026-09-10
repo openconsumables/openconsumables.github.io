@@ -2,16 +2,16 @@
 
 # ENCHEN BlackStone-C
 
-Aftermarket code: `BR-1` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2020 · Status: current
+Model / fitment code: `BR-1` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2020 · Status: current
 
 Also sold as: ENCHEN BlackStone C, ENCHEN BlackStone-C
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [ENCHEN BR-1](../heads/enchen-br1-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
-| [Generic ENCHEN BR-1 compatible head](../heads/generic-br1-compatible-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [ENCHEN BR-1](../heads/enchen-br1-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784>) |
+| [Generic ENCHEN BR-1 compatible head](../heads/generic-br1-compatible-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head' |
 
 ## Head mount: ENCHEN BR-1 rotary 3-blade
 
@@ -34,6 +34,11 @@ Second member of the ENCHEN BR-1 family per export retailer titles. No
 separate ENCHEN brand-site product page for BlackStone-C was captured
 in the desk pass; the unit's existence and BR-1 head fit are
 marketplace-claim only.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
 
 ## Sources
 

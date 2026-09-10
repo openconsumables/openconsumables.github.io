@@ -2,40 +2,30 @@
 
 # Smartmi Air Purifier P1
 
-Aftermarket code: `ZMKQJHQP01` · Status: unknown
+Status: unknown
 
-Also sold as: Smartmi P1, ZMKQJHQP01
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
 
 ## Replacement filters
 
-| Filter | OEM | HEPA grade | Media | Provenance | Measured? |
-|---|---|---|---|---|---|
-| [Smartmi P1 Filter](../filters/smartmi-p1-filter.md) | OEM | ? | ? | Inferred | No |
+| Filter | OEM | HEPA grade | Media | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|
+| [Smartmi P1 Pet Filter](../filters/smartmi-p1-filter.md) | OEM | H13 (manufacturer-claim) | Prefilter + HEPA + activated carbon (manufacturer-claim) | Manufacturer claim | No | [Source](<https://eu.smartmiglobal.com/products/smartmi-filters-p1>) |
+| [Smartmi P1 Pollen Filter](../filters/smartmi-p1-pollen-filter.md) | OEM | H13 (manufacturer-claim) | Prefilter + HEPA + inner layer (manufacturer-claim) | Manufacturer claim | No | [Source](<https://eu.smartmiglobal.com/products/smartmi-filters-p1>) |
 
-## Filter slot: Smartmi P1 cartridge
+## Filter slot: Smartmi P1 replacement filter group
 
 Provenance: **Inferred**
 
 Status: **unmeasured**
 
-Smartmi-specific cartridge for the Smartmi P1 (ZMKQJHQP01). Smartmi was
-a Xiaomi-affiliated brand and some Smartmi accessories cross-list with
-Mijia listings, but the P1's filter housing does not appear to match
-the Mi 3-family barrel. Listed as a separate slot pending physical
-verification.
+Smartmi lists Pet and Pollen variants for the P1 in its [filter product page](https://eu.smartmiglobal.com/products/smartmi-filters-p1). No Xiaomi-branded purifier or Smartmi P2 interchangeability is inferred from similar naming.
 
 ## Notes
 
-Stub entry. Smartmi P1 (ZMKQJHQP01) is a real Smartmi-branded purifier
-sold under various regional storefronts, and this row reserves it as
-the second slot example in the OpenAir schema. CADR, room rating, HEPA
-grade, media composition, and release year are intentionally omitted
-until a verifiable manufacturer source is captured: publishing those
-numbers without a citation contradicts the data layer's provenance
-rules. Anyone with a current Smartmi product-page URL (store, manual,
-or regulatory filing) is invited to open a PR upgrading this entry.
+Smartmi documents Pet and Pollen filter variants for the P1. The prior unsourced engineering-code alias has been removed. The manufacturer gives different CADR figures for the two media variants, so this page does not collapse them into one performance figure.
 
-Smartmi was founded by ex-Xiaomi engineers and Mi-ecosystem-partnered,
-but the P1's filter cartridge does not appear to interchange with the
-Mi 3-family barrel format. The slot grouping here is the project's
-inference, not a manufacturer claim.
+## Sources
+
+- <https://eu.smartmiglobal.com/pages/smartmi-air-purifier-p1>
+- <https://eu.smartmiglobal.com/products/smartmi-filters-p1>

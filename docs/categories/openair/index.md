@@ -5,13 +5,13 @@ Working name: **OpenAir**. The second category in the Open Consumables device kn
 ## What's here
 
 - **[Units](units/index.md)**, the air purifiers themselves, with replacement filters listed by slot.
-- **[Filters](filters/index.md)**, OEM and generic cartridges, with the units they fit.
+- **[Filters](filters/index.md)**, Manufacturer replacement cartridges, with the units they fit.
 
 ## Status
 
-**Reference layer only.** OpenAir is not yet an active measurement subproject; activation depends on OpenBrush producing a published measured baseline. Until then, this category exists as a knowledge-graph stub: provenance-tagged compatibility data sourced from manufacturer pages and aftermarket listings, with no project measurement claims.
+**Reference layer only.** OpenAir is not yet an active measurement subproject; activation depends on OpenBrush producing a published measured baseline. This category records provenance-tagged compatibility data sourced from manufacturer pages, with no project measurement claims.
 
-Coverage is intentionally small: a Xiaomi 3-family slot (3H, 3C, plus the OEM HEPA / anti-formaldehyde cartridges and a generic clone catch-all) and a Smartmi P1 slot for contrast. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
+Coverage includes distinct Xiaomi filter families and Smartmi entries. Each filter lists only the units supported by its cited source. A newer filter fitting an older purifier does not prove that the older filter fits the newer purifier. Conflicting manufacturer dimensions are kept as unresolved claims, rather than treated as measured equivalence. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
 
 ## Scope
 

@@ -10,10 +10,5 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-OEM / stock:
-
-- [Xiaomi Electric Scooter Inner Tube 8.5](xiaomi-m365-oem-8.5x2-inner-tube.md), the Xiaomi-branded 8.5-inch tube for M365-family pneumatic tires
-
-Generic / aftermarket:
-
-- [Generic 8.5x2 Schrader inner tube](generic-8.5x2-schrader-inner-tube.md), claimed compatible with Xiaomi 8.5-inch scooter wheels
+- [Generic 8.5 inch scooter inner tube](generic-8.5x2-schrader-inner-tube.md)
+- [Xiaomi Electric Scooter Inner Tube 8.5](xiaomi-m365-oem-8.5x2-inner-tube.md)

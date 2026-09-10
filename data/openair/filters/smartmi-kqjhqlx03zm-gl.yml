@@ -1,0 +1,20 @@
+id: smartmi-kqjhqlx03zm-gl
+brand: Smartmi
+model: KQJHQLX03ZM-GL
+aliases:
+- Smartmi Air Purifier 3 Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: smartmi-air-purifier-3
+  provenance: manufacturer-claim
+  source: https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3-filter
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3-filter
+notes: 'Manufacturer-claim: nominal diameter 216.5 mm, height 259 mm. Smartmi specifies a protective coating,
+  prefilter, modified activated carbon and HEPA layer; no numbered HEPA class is stated in the cited specification.'
+hepa_grade: null
+media: Prefilter + modified activated carbon + HEPA (manufacturer-claim)

@@ -1,0 +1,16 @@
+id: roborock-saros-20
+brand: Roborock
+model: Saros 20
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://us.roborock.com/products/roborock-saros-20
+last_reviewed: '2026-09-11'
+notes: Manufacturer product page identifies DuoDivide main-brush architecture. This does not establish
+  fit of an older DuoDivide replacement. The rotating-mop accessory page has conflicting model names
+  in its title and description, so those relationships are held pending clarification.

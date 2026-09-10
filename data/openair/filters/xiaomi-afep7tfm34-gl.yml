@@ -1,0 +1,22 @@
+id: xiaomi-afep7tfm34-gl
+brand: Xiaomi
+model: AFEP7TFM34-GL
+aliases:
+- Mijia Smart Air Purifier Max Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: mijia-smart-air-purifier-max
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/mijia-air-purifier-max-filter/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/mijia-air-purifier-max-filter/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 241 mm in diameter and 200 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification. The AC-M34-SC
+  unit uses two cartridges; the manufacturer replacement set contains two. This is a different device
+  from older products also named Max.'
+hepa_grade: null
+media: null

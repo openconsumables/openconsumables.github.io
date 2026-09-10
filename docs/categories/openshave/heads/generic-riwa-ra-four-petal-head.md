@@ -10,9 +10,9 @@ Brand names seen: (many)
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Riwa RA-5505](../units/riwa-ra-5505.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Riwa RA-5505](../units/riwa-ra-5505.md) | Marketplace listing | URL not recorded: JD aftermarket listings titled '雷瓦四瓣旋转式接口刀头' |
 
 ## Notes
 
@@ -21,3 +21,8 @@ with marketplace copy describing a "four-petal rotary interface"
 ("四瓣旋转式接口"). The phrase is an interface-shape clue worth
 preserving for future image / physical review; it has not been
 measured.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.

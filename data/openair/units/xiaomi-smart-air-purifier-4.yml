@@ -1,0 +1,26 @@
+id: xiaomi-smart-air-purifier-4
+brand: Xiaomi
+model: Smart Air Purifier 4
+aliases:
+- AC-M16-SC
+aftermarket_anchor: AC-M16-SC
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  filters: xiaomi-4-6-filter-family
+interface_provenance:
+  filters: inferred
+compatible_parts:
+  filters:
+  - id: xiaomi-m16r-flp-gl
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-filter/specs/
+  - id: xiaomi-afep8tfm25-gl
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/mijia-smart-air-purifier-6-filter/specs/
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-air-purifier-4/specs/
+notes: Model identity and any CADR figure shown are manufacturer claims from the linked specifications.
+  Filter fitment is recorded per cartridge; shared product numbering does not establish interchangeability.
+type: air-purifier
+cadr_m3h: 400

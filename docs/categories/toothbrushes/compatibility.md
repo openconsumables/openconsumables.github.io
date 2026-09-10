@@ -1,64 +1,43 @@
 # Compatibility and head families
 
-A "head family" is a set of heads and handles that share a mechanical interface tightly enough to interchange in practice. We document families using the **vocabulary buyers already use**, which means handle-level codes for the Chinese-IoT cluster.
+Use the exact handle model and replacement-head listing. A common brand, T-series name or charging method does not establish a shared mechanical interface.
 
-## Naming
+The [handle pages](handles/index.md) and [replacement-head pages](heads/index.md) record individual compatibility claims with their sources and provenance. A documented fit claim is separate from a measured interface baseline.
 
-Public-facing baselines follow this pattern:
+## Model codes
 
-> `Open Consumables Toothbrush Head Interface: <profile> Baseline, <date>`
+Xiaomi's published engineering codes distinguish handles whose product names can look similar. These examples are manufacturer identifiers, not a claim that the aftermarket uses every code equally widely.
 
-Examples:
+| Handle | Manufacturer code | Source |
+|---|---|---|
+| T500 | `MES601` | [Xiaomi specifications](https://www.mi.com/global/product/mi-smart-electric-toothbrush-t500/specs/) |
+| T302 | `MES608` | [Xiaomi specifications](https://www.mi.com/global/product/xiaomi-electric-toothbrush-t302/specs/) |
+| T501 | `MES607` | [Xiaomi specifications](https://www.mi.com/global/product/xiaomi-smart-electric-toothbrush-t501/specs/) |
+| T700 | `MES604` | [Xiaomi specifications](https://www.mi.com/global/product/xiaomi-electric-toothbrush-t700/specs/) |
+| Oscillation | `MES609` | [Xiaomi specifications](https://www.mi.com/global/product/xiaomi-oscillation-electric-toothbrush/specs/) |
+| Oscillation Pro | `MES610` | [Xiaomi specifications](https://www.mi.com/global/product/xiaomi-oscillation-electric-toothbrush-pro/specs/) |
+| Mijia Smart Servo-oscillation Pro | `MES613` | [Xiaomi specifications](https://www.mi.com/global/product/mijia-smart-servo-oscillation-electric-toothbrush-pro/specs/) |
 
-- `Open Consumables Toothbrush Head Interface: T-Series Profile, 2026-Q3 Baseline`
+Do not treat T700 as MES606. The [T200 reference](handles/xiaomi-t200.md) records MES606 separately, with its supporting evidence.
 
-We use **profile** to mean "our measured compatibility target," not "an official manufacturer standard." Baselines are dated snapshots, not living standards.
+## Compatibility boundaries
 
-We do **not** publish `Toothbrush Head Interface v1` as a broad cross-family spec. There isn't enough cross-family measurement evidence to justify that, and a number-stable name would imply ongoing stewardship we have not signed up for.
+Xiaomi explicitly states that Oscillation Pro replacement heads are not compatible with T300, T500, T501 or T302. A seller listing that combines those names does not override that exclusion. See [Xiaomi's Oscillation Pro FAQ, product introduction question 12](https://www.mi.com/global/support/faq/details/KA-572976/).
 
-## Why anchor on handle codes, not internal head SKUs
+Compatibility is directional and part-specific. A named replacement fitting two handles does not establish that every head sold for one handle fits the other. The graph records the supported replacement-to-handle claim and a matching lookup from the handle page.
 
-Aftermarket sellers tag replacement heads by **handle product code** (`MES601`, `MES603`, `MES606`), not by Xiaomi's internal head SKU (`MBS301`, etc.). The internal head SKUs are mostly invisible to marketplace search.
+## Measured baselines
 
-Naming our baselines after handle codes plugs straight into the search terms buyers already use. Naming them after internal head SKUs floats above buyers' heads.
+The Xiaomi pilot is the active measurement programme. The source review does not establish a new measured baseline, retention-force result or socket tolerance.
 
-## Active families under measurement
+Public baseline names use the dated pattern:
 
-### Xiaomi T-series
+> `OpenConsumables Toothbrush Head Interface: T-Series Profile, 2026-Qn Baseline`
 
-Pilot family. Handle anchor codes appear on the device label and in CCC filings.
+A profile is the project's measured compatibility target for a defined sample group. It is not an official manufacturer standard or a commitment to maintain a living specification.
 
-| Handle code | Common product names | Status |
-|-------------|---------------------|--------|
-| `MES601` | T100, T300 | Most-bought aftermarket target |
-| `MES603` | T500 | Track 13 found multi-factory convergence; needs Batch A confirmation |
-| `MES606` | T700, related | Aftermarket vocabulary widely used |
+## Standards context
 
-Open question, gating the first published baseline: do HOVEY/Meihong's T500 socket, Meitianlai/Ledi's T500 socket, and the official Xiaomi DDYST01SKS socket actually match within tolerance? Three samples decide whether the convergence is mechanical or marketing.
+[ISO 20127:2025](https://www.iso.org/standard/82097.html) is the published third edition covering physical properties and test methods for powered toothbrushes. The previous 2020 edition is withdrawn. This is product-test context; it does not verify the device-to-head fit claims in this archive.
 
-## Families documented but not yet measured
-
-| Ecosystem | Anchor | Why deferred |
-|-----------|--------|--------------|
-| Soocas | Sequential model codes | Awaiting Xiaomi pilot to land a published baseline first |
-| Oclean | Sequential model codes | Same |
-| Bitvae | Sequential model codes | Same |
-
-## What gets measured
-
-For each family:
-
-- shaft geometry (length, diameter, taper)
-- anti-rotation feature
-- retention force (axial pull-out)
-- vibration coupler geometry
-- bore tolerances
-- material identification where load-bearing
-
-Methodology is disclosed alongside results. GB/T 40362-2021 (5 N or 15 N axial, 0.05 N m or 0.15 N m torque) is the reconciliation point for retention thresholds.
-
-## What we don't claim
-
-- That a measured baseline is what the manufacturer intends. It's what we measured.
-- That a baseline applies to anything outside the dated samples we measured.
-- That heads claimed compatible with a baseline are actually compatible. Anyone can self-test against the published methodology.
+China's official catalog lists [GB/T 40362-2021](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=DE59A041D571AB005766A538200D88E4) as current, with implementation from 1 March 2022. The catalog does not expose the full text. Clause-specific retention thresholds need the applicable standard text and a disclosed test method before they can support a measurement claim.

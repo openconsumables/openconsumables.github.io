@@ -1,0 +1,21 @@
+id: segway-ab-05-15-00-0023
+brand: Segway-Ninebot
+model: AB.05.15.00.0023 MAX G2 foot pad
+aliases:
+- AB.05.15.00.0023
+oem: true
+clones_of: null
+sold_as: []
+deck_length_mm: null
+cutout_pattern: MAX G2 model-specific
+fits_devices:
+- id: ninebot-max-g2
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+last_reviewed: '2026-09-11'
+notes: OEM foot-pad replacement kit. Listed under the existing grip-tape class, which includes replacement
+  deck mats. The manufacturer catalog names the supported models. No interface geometry or additional
+  cross-fit has been measured by the project.

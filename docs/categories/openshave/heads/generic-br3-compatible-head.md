@@ -10,15 +10,20 @@ Brand names seen: (many)
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ENCHEN BlackStone 3](../units/enchen-blackstone-3.md) | Marketplace listing |
-| [ENCHEN Gentleman 3S](../units/enchen-gentleman-3s.md) | Marketplace listing |
-| [ENCHEN Gentleman 5S](../units/enchen-gentleman-5s.md) | Marketplace listing |
-| [ENCHEN Steel 3S](../units/enchen-steel-3s.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ENCHEN BlackStone 3](../units/enchen-blackstone-3.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head' |
+| [ENCHEN Gentleman 3S](../units/enchen-gentleman-3s.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head' |
+| [ENCHEN Gentleman 5S](../units/enchen-gentleman-5s.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head' |
+| [ENCHEN Steel 3S](../units/enchen-steel-3s.md) | Marketplace listing | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-3 compatible head' |
 
 ## Notes
 
 Aftermarket BR-3 compatible heads. Sold under white-label brands via
 AliExpress and similar export channels. Same cheap-device caveat as
 BR-1 generic; BR-3 marketplace mirroring is also thinner overall.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.

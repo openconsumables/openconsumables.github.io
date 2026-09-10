@@ -1,0 +1,28 @@
+id: segway-ab-50-0019-18
+brand: Segway-Ninebot
+model: AB.50.0019.18 F2-series self-sealing tire
+aliases:
+- AB.50.0019.18
+oem: true
+clones_of: null
+sold_as: []
+size_etrto: null
+tire_type: Self-sealing
+tube: unknown
+fits_devices:
+- id: ninebot-f2
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+- id: ninebot-f2-plus
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+- id: ninebot-f2-pro
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+last_reviewed: '2026-09-11'
+notes: The catalog lists F2, F2 Plus and F2 Pro. No second-generation F2 II models are added. The
+  manufacturer catalog names the supported models. No interface geometry or additional cross-fit
+  has been measured by the project.

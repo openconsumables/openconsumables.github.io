@@ -2,35 +2,34 @@
 
 # Xiaomi S302
 
-Aftermarket code: `S302` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
+Model / fitment code: `S302` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
 
 Also sold as: 米家电动剃须刀 S302
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Xiaomi 米家电动剃须刀刀头 S302](../heads/xiaomi-shaver-head-s302.md) | OEM | 3 | rotary | stainless-steel | Manufacturer claim | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Xiaomi 米家电动剃须刀刀头 S302](../heads/xiaomi-shaver-head-s302.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html>) |
 
 ## Head mount: Xiaomi / Mijia S302 rotary 3-blade
 
-Provenance: **Manufacturer claim**
+Provenance: **Marketplace listing**
 
 Status: **unmeasured**
 
-Dedicated head per the separate Xiaomi store comment page for "米家电动
-剃须刀刀头 S302". Launch coverage says S302 uses a double-ring curved
-foil and 360-degree floating head, but the foil here is part of the
-rotary cutter assembly, not a reciprocating foil cassette. Treat as a
-sibling rotary family to S300 / S500 / S500C, not as a member.
+Separate S302 head named by a JD retailer. The former Xiaomi numeric
+store source could not be recovered as stable product evidence, so the
+current fit is marketplace-claim only. No S301 or S300/S500 cross-fit is
+established, and no measured geometry is published.
 
 ## Notes
 
-Xiaomi Mijia S302 rotary three-blade. The Xiaomi store exposes a
-separate comment / accessory page titled "米家电动剃须刀刀头 S302",
-which is the desk-pass evidence for a dedicated head. Launch coverage
-describes a double-ring curved foil overlay and a 360-degree floating
-head; the "foil" here is part of the rotary cutter assembly, not a
-reciprocating foil cassette. Treated as a sibling rotary family to
-S300 / S500 / S500C, not as a member. No public cross-fit claim with
-the S300 / S500 head has been captured.
+JD lists an S302-specific original replacement head. The previously cited
+Xiaomi store page was not recoverable as a stable S302 product page, so
+this fit is recorded as marketplace-claim. No S300/S500 or S301 cross-fit
+is established. Existing device specifications were not remeasured.
+
+## Sources
+
+- <https://item.jd.com/product/RCND_vY2NPCvdR9rHzPlYg.html>

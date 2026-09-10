@@ -1,0 +1,26 @@
+id: dreame-aqua10-roller-mop
+brand: Dreame
+model: Aqua Series roller mop
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+mop_type: Roller mop
+fits_devices:
+- id: dreame-aqua10-ultra-roller
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+- id: dreame-aqua10-roller
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+- id: dreame-aqua10-roller-ae
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+measurements: null
+sources:
+- https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+notes: This cylindrical mop is distinct from the round mop pads used by the listed X, L and Matrix
+  models. Aqua10 Track is not included in the manufacturer compatibility list. Compatibility is the
+  manufacturer claim checked on 2026-09-11. No interface dimensions or cross-brand fit have been
+  measured by the project.
+last_reviewed: '2026-09-11'

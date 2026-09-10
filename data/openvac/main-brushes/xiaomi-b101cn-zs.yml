@@ -1,0 +1,35 @@
+id: xiaomi-b101cn-zs
+brand: Xiaomi
+model: B101CN-ZS main brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Main brush
+fits_devices:
+- id: xiaomi-x10-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-s10-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-x20-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-s20-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-x20-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-x20-max
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+notes: The OEM also lists a separate hair-cutting brush for X20 Max. Listing both options does not
+  establish that each brush fits every model served by the other. Compatibility is the manufacturer
+  claim checked on 2026-09-11. No interface dimensions or cross-brand fit have been measured by the
+  project.
+last_reviewed: '2026-09-11'

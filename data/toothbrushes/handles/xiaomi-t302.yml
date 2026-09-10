@@ -1,0 +1,32 @@
+id: xiaomi-t302
+brand: Xiaomi
+family: Mijia
+model: T302
+aliases: []
+aftermarket_anchor: MES608
+type: electric
+mode: sonic
+charging: inductive
+status: unknown
+interfaces:
+  heads: xiaomi-mes608-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-mbs303
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-electric-toothbrush-t302-replacement-heads/
+  - id: xiaomi-t301-t302-standard-head
+    provenance: manufacturer-claim
+    source: https://www.mi.com/shop/comment/15408.html
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t302/specs/
+- https://www.mi.com/global/product/xiaomi-electric-toothbrush-t302/
+- https://www.mi.com/shop/comment/15408.html
+- https://www.mi.com/global/support/article/KA-42718/
+notes: |
+  Xiaomi identifies the T302 handle as MES608 and its replacement head as
+  MBS303. The Xiaomi China accessory title also names T301. T501 cross-fit is
+  not established by the sources captured for this reference entry.
+last_reviewed: '2026-09-11'

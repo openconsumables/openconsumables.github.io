@@ -1,0 +1,23 @@
+id: ninebot-f2-pro
+brand: Segway-Ninebot
+model: F2 Pro
+aliases: []
+aftermarket_anchor: null
+type: electric-scooter
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  tires:
+  - id: segway-ab-50-0019-18
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+  rotors:
+  - id: segway-ab-05-12-00-0011
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+sources:
+- https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+last_reviewed: '2026-09-11'
+notes: This entry follows the Segway US parts catalog. Only explicitly named first-generation F2
+  models are linked; no fit to F2 II or F3 is implied.

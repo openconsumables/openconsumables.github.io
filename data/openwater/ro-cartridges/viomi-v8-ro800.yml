@@ -1,0 +1,21 @@
+id: viomi-v8-ro800
+brand: Viomi
+model: V8-RO800 Filter
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+stage: RO
+media: null
+fits_devices:
+- id: viomi-vortex-8
+  provenance: manufacturer-claim
+  source: https://water.viomi.com/products/v8-ro800-replacement-filter-48-months
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://water.viomi.com/products/v8-ro800-replacement-filter-48-months
+notes: The manufacturer names this replacement for the devices listed here. The name is a manufacturer
+  product identifier, not a measured interface designation. Fit does not establish filtration performance
+  or an independently reviewed certification. No original-series/Pro-series substitution is inferred.
+  The manufacturer FAQ explicitly says V8-RO800 is not supported for Vortex 6.

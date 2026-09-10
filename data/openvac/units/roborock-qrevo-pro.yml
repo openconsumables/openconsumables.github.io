@@ -1,0 +1,25 @@
+id: roborock-qrevo-pro
+brand: Roborock
+model: Qrevo Pro
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  main-brushes:
+  - id: roborock-qrevo-single-main-brush
+    provenance: manufacturer-claim
+    source: https://us.roborock.com/products/s7-main-brush
+  dust-bags:
+  - id: roborock-qrevo-saros-dust-bag
+    provenance: manufacturer-claim
+    source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+sources:
+- https://us.roborock.com/products/s7-main-brush
+- https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+notes: Replacement compatibility is recorded from the manufacturer accessory catalog checked on 2026-09-11.
+  The project has not measured the interfaces. Only the listed part relationships are documented;
+  missing part classes remain unverified.
+last_reviewed: '2026-09-11'

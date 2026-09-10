@@ -1,0 +1,31 @@
+id: xiaomi-electric-shaver-s200
+brand: Xiaomi
+family: null
+model: S200
+aliases: []
+aftermarket_anchor: S200
+type: electric-shaver
+mode: rotary
+head_count: null
+wet_dry: wet-dry
+charging: usb-c
+cleaning_dock: false
+status: unknown
+interfaces:
+  heads: xiaomi-s200-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-shaver-head-s200
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-electric-shaver-s200-replacement-head/
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s200/
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s200/specs/
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s200-replacement-head/
+notes: |
+  Officially documented handle and model-specific replacement assembly.
+  No shared fit with similarly named Xiaomi shavers is implied. Manufacturer
+  head and handle codes are recorded separately where available.
+last_reviewed: '2026-09-11'

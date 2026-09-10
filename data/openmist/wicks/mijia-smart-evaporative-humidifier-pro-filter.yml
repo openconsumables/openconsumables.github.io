@@ -1,0 +1,22 @@
+id: mijia-smart-evaporative-humidifier-pro-filter
+brand: Xiaomi
+model: Smart Evaporative Humidifier Pro Filter
+aliases:
+- Mijia Smart Evaporative Humidifier Pro Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: mijia-smart-evaporative-humidifier-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/mijia-smart-evaporative-humidifier-pro-filter/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/mijia-smart-evaporative-humidifier-pro-filter/specs/
+- https://www.mi.com/global/product/mijia-smart-evaporative-humidifier-pro-filter/
+notes: Xiaomi explicitly limits this filter to Mijia Smart Evaporative Humidifier Pro. Nominal manufacturer
+  filter dimensions are 195 mm diameter and 124 mm height. The cited specifications do not publish an
+  engineering model code for this filter.
+media: Woven 3D mesh (manufacturer-claim)
+maintenance: Hand or machine wash; replace at 6-12 months (manufacturer guidance)

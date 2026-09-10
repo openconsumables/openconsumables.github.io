@@ -2,7 +2,7 @@
 
 The public documentation site for [Open Consumables](https://github.com/openconsumables): measured baselines for everyday hardware.
 
-Live site: <https://openconsumables.github.io/docs/>
+Live site: <https://openconsumables.org/>
 
 ## What's in this repo
 
@@ -34,13 +34,13 @@ mkdocs build --strict
 
 ## Deployment
 
-Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
+Pushes to `master` trigger `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
 
 GitHub Pages must be configured for this repo with **Source: GitHub Actions** under Settings → Pages.
 
 ## Contributing
 
-See the [contributing page](https://openconsumables.github.io/docs/contributing/) on the live site.
+See the [contributing page](https://openconsumables.org/contributing/) on the live site.
 
 ## License
 

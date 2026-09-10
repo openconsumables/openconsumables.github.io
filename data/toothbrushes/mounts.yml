@@ -1,74 +1,122 @@
-# Mount / interface profiles.
-#
-# A mount is the project's term for a mechanical compatibility class. Two handles
-# with the same mount are interchangeable for the same set of heads, per the
-# project's evidence. The strength of that claim depends on `status`.
-#
-# Mounts are NOT a published spec. They are working categories that may collapse,
-# split, or be renamed as measurement lands. A handle entry can also use
-# `pending-measurement` for `mount` if no evidence yet supports a grouping.
-
+# Working compatibility groups, not measured baselines.
 xiaomi-mes601-family:
-  display_name: "Xiaomi MES601 family"
-  aftermarket_aliases: [MES601, MES602, MES604]
-  charging: inductive
+  display_name: Xiaomi T300 / T500 documented head family
+  aftermarket_aliases:
+  - MES601
+  - MES602
+  charging: varies
   status: unmeasured
   baseline: null
   notes: |
-    Working hypothesis: T500 (MES601), T300 (MES602), and T700 (MES604) share
-    a socket geometry, with T700 possibly diverging. All three use inductive
-    charging. Batch A will test whether HOVEY/Meihong, Meitianlai/Ledi, and
-    official Xiaomi T500 sockets are interchangeable within tolerance.
-
+    Xiaomi lists the MBS301 Gum Care head for T300 and T500. T300 uses USB-C
+    while T500 uses an inductive dock; charging is not the grouping criterion.
+    No T700, T301/T302, T501 or Oscillation cross-fit is asserted.
 xiaomi-mes606-family:
-  display_name: "Xiaomi MES606 family"
-  aftermarket_aliases: [MES606]
+  display_name: Xiaomi T200 / MES606
+  aftermarket_aliases:
+  - MES606
   charging: usb-c
   status: unmeasured
   baseline: null
   notes: |
-    T200 / T200C handles. USB-C charging architecture, likely a distinct mount
-    family from MES601 (inductive). One unverified analysis (ithy.com) suggests
-    partial T200/T301/T302 cross-fit; treat as a hypothesis to test.
-
+    T200 replacement-head family supported here by model-specific retailer
+    evidence. Charging architecture is not evidence of socket geometry.
+    T100 or other T-series cross-fit is unverified.
 xiaomi-mes603-family:
-  display_name: "Xiaomi MES603 family"
-  aftermarket_aliases: [MES603]
-  charging: usb-c
+  display_name: Xiaomi T100 / MES603
+  aftermarket_aliases:
+  - MES603
+  charging: unknown
   status: unmeasured
   baseline: null
   notes: |
-    T100 handle. USB-C charging. Often co-listed with MES606 (T200) heads on
-    AliExpress without evidence that the sockets match.
-
+    Reserved T100 working family. No shared mount with T200 is established.
+    The earlier USB-C claim has been removed pending attributable evidence.
 xiaomi-mes608-family:
-  display_name: "Xiaomi MES608 family"
-  aftermarket_aliases: [MES608]
+  display_name: Xiaomi T301 / T302 documented head family
+  aftermarket_aliases:
+  - MES605
+  - MES608
+  charging: varies
+  status: unmeasured
+  baseline: null
+  notes: |
+    Xiaomi China names T301 and T302 on one standard replacement-head listing.
+    The global T302 head is MBS303. T501 grouping remains unverified here.
+xiaomi-mes607-family:
+  display_name: Xiaomi T501 / MES607
+  aftermarket_aliases:
+  - MES607
   charging: inductive
   status: unmeasured
   baseline: null
   notes: |
-    T301 / T302. Xiaomi assigns its own head SKU (MBS303) suggesting a separate
-    family from MES601 (MBS301). Inductive, like the older T-series.
-
-oral-b-classic:
-  display_name: "Oral-B classic round-head mount"
+    T501 is documented with MBS307 White Pro heads. A separate working profile
+    records the confirmed fit; it does not prove incompatibility with T301/T302.
+xiaomi-mes604-family:
+  display_name: Xiaomi T700 / MES604
+  aftermarket_aliases:
+  - MES604
+  charging: inductive
+  status: unmeasured
+  baseline: null
+  notes: |
+    T700 is documented with MBS304 heads. No official shared-head evidence with
+    T300/T500 was captured, so it is kept separate pending better evidence.
+xiaomi-oscillation-family:
+  display_name: Xiaomi Oscillation Clean / Soft head family
+  aftermarket_aliases:
+  - MES609
+  - MES610
+  - MES613
+  - MBS308
+  - MBS309
+  charging: usb-c
+  status: unmeasured
+  baseline: null
+  notes: |
+    Manufacturer product and package descriptions identify Clean MBS308 and
+    Soft MBS309 heads. Each handle page lists only the supported fit claims.
+    Xiaomi explicitly excludes T300, T500, T501 and T302 heads for Oscillation
+    Pro. This remains an unmeasured reference grouping.
+oclean-adult:
+  display_name: Oclean adult toothbrush head family
   aftermarket_aliases: []
   charging: varies
   status: unmeasured
   baseline: null
   notes: |
-    Round oscillating-rotating heads with a metal drive shaft. Spans 25+ years
-    of Oral-B handles from "Pro" through "Genius" lines. No buyer-side anchor;
-    Oral-B does not encode mount class in model names. Convergence-wedge closed.
-    Listed here for reference, not as a project measurement target.
-
+    Oclean states Ultra Series heads fit all Oclean adult toothbrushes. This
+    manufacturer claim does not establish children's-head or cross-brand fit.
+soocas-neos:
+  display_name: Soocas NEOS II / NEOS II Ultra
+  aftermarket_aliases:
+  - T04
+  - T04 Ultra
+  - C02
+  - C04
+  charging: inductive
+  status: unmeasured
+  baseline: null
+  notes: |
+    Soocas replacement-head pages name NEOS II and NEOS II Ultra. Head manuals
+    identify C02 Classic Clean and C04 Ultra Clean / Ultra Soft. No older
+    Soocas X-series or Xiaomi head fit is inferred.
+oral-b-classic:
+  display_name: Oral-B classic round-head mount
+  aftermarket_aliases: []
+  charging: varies
+  status: unmeasured
+  baseline: null
+  notes: |
+    Oral-B lists CrossAction and Precision Clean for rechargeable rotating-
+    oscillating handles, excluding iO and Pulsonic. Included as reference only.
 oral-b-io:
-  display_name: "Oral-B iO mount"
+  display_name: Oral-B iO mount
   aftermarket_aliases: []
   charging: inductive
   status: unmeasured
   baseline: null
   notes: |
-    Newer Oral-B "iO" series. Magnetic drive; not interchangeable with the
-    classic round-head mount despite being the same brand. Listed for reference.
+    Oral-B excludes iO from classic CrossAction and Precision Clean head fit.
+    No iO fit claim or measured geometry is published in this profile.

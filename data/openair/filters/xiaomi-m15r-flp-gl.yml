@@ -1,0 +1,20 @@
+id: xiaomi-m15r-flp-gl
+brand: Xiaomi
+model: M15R-FLP-GL
+aliases:
+- Xiaomi Smart Air Purifier 4 Pro Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-air-purifier-4-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-pro-filter/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-pro-filter/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 226 mm in diameter and 360 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification.'
+hepa_grade: null
+media: null

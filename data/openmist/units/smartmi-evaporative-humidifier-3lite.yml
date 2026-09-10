@@ -1,0 +1,18 @@
+id: smartmi-evaporative-humidifier-3lite
+brand: Smartmi
+model: Evaporative Humidifier 3lite
+aliases:
+- CJXJSQ06ZM
+aftermarket_anchor: CJXJSQ06ZM
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://eu.smartmiglobal.com/pages/smartmi-evaporative-humidifier-3lite
+notes: 'Manufacturer-claim: this humidifier uses a rotating evaporator and is described as requiring no
+  replacement filter consumables. Its washable evaporation assembly is not catalogued as a periodically
+  replaced wick. No Rainforest or Xiaomi evaporative-filter fit is inferred.'
+type: humidifier
+mode: evaporative with reusable disc assembly

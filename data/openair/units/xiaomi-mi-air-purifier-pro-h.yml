@@ -1,0 +1,24 @@
+id: xiaomi-mi-air-purifier-pro-h
+brand: Xiaomi
+model: Mi Air Purifier Pro H
+aliases:
+- AC-M13-SC
+aftermarket_anchor: AC-M13-SC
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  filters: xiaomi-pro-h-filter
+interface_provenance:
+  filters: inferred
+compatible_parts:
+  filters:
+  - id: xiaomi-m7r-flh-gl
+    provenance: manufacturer-claim
+    source: https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/
+sources:
+- https://ams-go.buy.mi.com/es/servicecenter/file/Mi_Air_Purifier_Pro_H_es/?binaryId=56222&namespaceId=2&publicationId=56227
+- https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/
+notes: The manufacturer documents a dedicated Pro H filter, M7R-FLH-GL. No M8R-FLH fit claim for Pro H
+  is recorded. CADR and model code are manufacturer claims from the user manual.
+type: air-purifier
+cadr_m3h: 600

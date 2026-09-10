@@ -2,27 +2,26 @@
 
 # Xiaomi MBS305
 
-OEM · Bristle: medium · Variant: standard
+OEM · Bristle: unknown · Variant: standard
+
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
 
 Also sold as: Mijia sonic electric toothbrush head, T200/T200C
 
 ## Fits handles
 
-| Handle | Provenance |
-|---|---|
-| [Xiaomi T200](../handles/xiaomi-t200.md) | Manufacturer claim |
+| Handle | Provenance | Source |
+|---|---|---|
+| [Xiaomi T200](../handles/xiaomi-t200.md) | Marketplace listing | [Source](<https://24h.pchome.com.tw/prod/DMBABO-A900H3U88>) |
 
 ## Notes
 
-Head SKU code (MBS305) is weakly attested: it appears on one Malaysian retailer
-page (VGDC) and a Joom mirror; a direct AliExpress search for "MBS305" returns
-no Xiaomi hits. Aftermarket sellers tag T200 heads by the handle code (MES606)
-rather than the head SKU. Listing the head as a distinct product is
-well-evidenced; the specific code is plausible but not confirmed against an
-official Xiaomi spec page in this pass.
-~12 g per head from one pack listing (approximate, not measured by the project).
+Multiple retailer pages identify the OEM-labelled T200 head as MBS305.
+PChome names both the code and T200 fit, but a current Xiaomi specification
+page has not been recovered. OEM identity and fit remain seller claims;
+no dimensions or head weight are published as project measurements.
 
 ## Sources
 
-- <https://www.mi.com/shop/buy?product_id=1222100087>
-- <https://vision-g.sitegiant.co/product/xiaomi-mijia-electric-toothbrush-t200-t200c-t100-replacement-head-mbs305-mbs302-3pcs>
+- <https://24h.pchome.com.tw/prod/DMBABO-A900H3U88>
+- <https://bigmi.vn/bo-3-dau-chai-thay-the-xiaomi-mijia-sonic-t200c/>

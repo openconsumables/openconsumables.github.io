@@ -8,11 +8,11 @@ Also sold as: ENCHEN BR-1, ENCHEN BlackStone Shaver Blade, BR-1 replacement head
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ENCHEN BlackStone](../units/enchen-blackstone.md) | Marketplace listing |
-| [ENCHEN BlackStone-C](../units/enchen-blackstone-c.md) | Marketplace listing |
-| [ENCHEN Warrior](../units/enchen-warrior.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ENCHEN BlackStone](../units/enchen-blackstone.md) | Marketplace listing | [Source](<https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784>) |
+| [ENCHEN BlackStone-C](../units/enchen-blackstone-c.md) | Marketplace listing | [Source](<https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784>) |
+| [ENCHEN Warrior](../units/enchen-warrior.md) | Marketplace listing | [Source](<https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784>) |
 
 ## Notes
 

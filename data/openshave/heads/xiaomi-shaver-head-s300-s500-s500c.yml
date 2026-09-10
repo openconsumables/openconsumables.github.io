@@ -3,9 +3,9 @@ brand: Xiaomi
 family: Mijia
 model: 米家电动剃须刀刀头 (S300/S500/S500C)
 aliases:
-  - "Mijia Electric Shaver Replacement Head S300/S500/S500C"
-  - "米家电动剃须刀刀头（适配型号 S300, S500, S500C）"
-  - "小米米家电动剃须刀原装刀头"
+- Mijia Electric Shaver Replacement Head S300/S500/S500C
+- 米家电动剃须刀刀头（适配型号 S300, S500, S500C）
+- 小米米家电动剃须刀原装刀头
 oem: true
 clones_of: null
 sold_as: []
@@ -14,21 +14,21 @@ head_type: rotary
 material: stainless-steel
 variant: original
 fits_devices:
-  - id: xiaomi-mijia-s300
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
-  - id: xiaomi-mijia-s500
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
-  - id: xiaomi-mijia-s500c
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy/detail?product_id=9101"
+- id: xiaomi-mijia-s300
+  provenance: marketplace-claim
+  source: https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/
+- id: xiaomi-mijia-s500
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/mi-electric-shaver-s500-replacement-head/
+- id: xiaomi-mijia-s500c
+  provenance: marketplace-claim
+  source: https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/
 measurements: null
 sources:
-  - https://www.mi.com/shop/buy/detail?product_id=9101
+- https://www.mi.com/global/product/mi-electric-shaver-s500-replacement-head/
+- https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/
 notes: |
-  Xiaomi / Mijia OEM replacement head shared across S300, S500, and
-  S500C bodies per the Xiaomi store product page title. The cleanest
-  cross-generation shared-head claim in the OpenShave reference layer
-  and the proposed first-baseline target if OpenShave activates
-  physical measurement. Indicative price ~39 CNY official-channel.
+  Xiaomi names this replacement assembly for S500. Mi-shop, an authorized
+  retailer, additionally lists S300 and S500C. Those broader fits are
+  marketplace claims. The former Xiaomi numeric buy endpoint did not expose
+  the accessory when reopened on 2026-09-11 and is no longer fit evidence.

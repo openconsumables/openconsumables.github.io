@@ -8,9 +8,9 @@ Also sold as: F305 刀头, 小适 F305-GY 剃须刀刀头
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ShowSee F305-GY](../units/showsee-f305-gy.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ShowSee F305-GY](../units/showsee-f305-gy.md) | Marketplace listing | [Source](<https://www.suning.com/item/0000000000/12290659692.html>) |
 
 ## Notes
 

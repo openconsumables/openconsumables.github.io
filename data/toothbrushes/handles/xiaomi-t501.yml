@@ -1,0 +1,27 @@
+id: xiaomi-t501
+brand: Xiaomi
+family: Mijia
+model: T501
+aliases: []
+aftermarket_anchor: MES607
+type: electric
+mode: sonic
+charging: inductive
+status: unknown
+interfaces:
+  heads: xiaomi-mes607-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-mbs307
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-smart-electric-toothbrush-t501-replacement-heads-white-pro/
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-electric-toothbrush-t501/
+- https://www.mi.com/global/product/xiaomi-smart-electric-toothbrush-t501/specs/
+notes: |
+  Xiaomi identifies this handle as MES607. Its named OEM replacement head
+  is MBS307. Separate listing here records the documented fit and does not
+  claim that other T-series heads fit or fail to fit.
+last_reviewed: '2026-09-11'

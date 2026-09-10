@@ -1,0 +1,34 @@
+id: oclean-flow
+brand: Oclean
+family: null
+model: Flow
+aliases: []
+aftermarket_anchor: null
+type: electric
+mode: sonic
+charging: usb-c
+status: unknown
+interfaces:
+  heads: oclean-adult
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: oclean-ultra-clean
+    provenance: manufacturer-claim
+    source: https://www.oclean.com/products/brush-head-refills-ultra-series
+  - id: oclean-ultra-white
+    provenance: manufacturer-claim
+    source: https://www.oclean.com/products/brush-head-refills-ultra-series
+  - id: oclean-ultra-gum-care
+    provenance: manufacturer-claim
+    source: https://www.oclean.com/products/brush-head-refills-ultra-series
+sources:
+- https://eu.oclean.com/products/flow-sonic-toothbrush
+- https://www.oclean.com/products/brush-head-refills-ultra-series
+notes: |
+  Oclean explicitly states that Ultra Series replacement heads fit all
+  Oclean adult toothbrushes. This entry applies that manufacturer claim to
+  this documented adult model; it does not include children's toothbrushes.
+  A separate engineering model code was not established for this entry.
+last_reviewed: '2026-09-11'

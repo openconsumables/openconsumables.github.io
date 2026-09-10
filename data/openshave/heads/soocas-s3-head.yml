@@ -3,9 +3,9 @@ brand: Soocas
 family: Linglang
 model: S3 Replacement Head
 aliases:
-  - "Soocas S3 replacement shaver head"
-  - "素士凌朗电动剃须刀 S3 替换刀头"
-  - "SOOCAS S3blade"
+- Soocas S3 replacement shaver head
+- 素士凌朗电动剃须刀 S3 替换刀头
+- SOOCAS S3blade
 oem: true
 clones_of: null
 sold_as: []
@@ -14,13 +14,13 @@ head_type: rotary
 material: stainless-steel
 variant: original
 fits_devices:
-  - id: soocas-s3
-    provenance: manufacturer-claim
-    source: "Soocas Pinkoi accessory listing for S3 replacement head (Chinese-language; says only for S3)"
+- id: soocas-s3
+  provenance: marketplace-claim
+  source: https://www.pinkoi.com/product/vSsQRGk7
 measurements: null
-sources: []
+sources:
+- https://www.pinkoi.com/product/vSsQRGk7
 notes: |
-  Soocas S3 head per the Pinkoi accessory listing. Pinkoi copy
-  describes the head as S3-only; the cross-fit with S5 implied by
-  Walmart and other export listings is a separate generic / multi-fit
-  SKU. The brand-side claim treated here is the per-model one.
+  The Pinkoi listing names this S3 replacement head and limits it to
+  S3. The store identifies itself as an authorized Soocas reseller, so
+  OEM identity and fit are marketplace claims. Reviewed 2026-09-11.

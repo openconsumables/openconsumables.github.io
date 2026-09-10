@@ -2,7 +2,7 @@
 
 Open Consumables works one **measurement** programme at a time. The pilot is electric toothbrush heads. The public **reference layer** (the device knowledge graph: per-device pages with provenance-tagged compatibility) extends to other categories ahead of measurement, so an agent searching "replacement for my Xiaomi 3H" lands somewhere useful.
 
-## Active
+## Reference coverage
 
 | Category | Working name | Stage |
 |----------|--------------|-------|
@@ -10,16 +10,15 @@ Open Consumables works one **measurement** programme at a time. The pilot is ele
 | [Air purifier filters](openair/index.md) | OpenAir | Reference layer only (no measurement programme) |
 | [Electric scooter consumables](openscoot/index.md) | OpenScoot | Reference layer only (no measurement programme) |
 | [Electric shaver heads](openshave/index.md) | OpenShave | Reference layer only (no measurement programme) |
+| [Water purifier cartridges](openwater/index.md) | OpenWater | Reference layer only (no measurement programme) |
+| [Robot vacuum consumables](openvac/index.md) | OpenVac | Reference layer only (no measurement programme) |
+| [Humidifier filters / wicks](openmist/index.md) | OpenMist | Reference layer only (no measurement programme) |
 
-## Deferred
+## Measurement status
 
-The categories below are scaffolded as placeholders. None have reference-layer or measurement coverage yet. Each measurement programme activates only after the pilot has produced a published measured baseline AND the category has been explicitly chosen as the next step.
+Only the toothbrush pilot has an active measurement programme. The other six categories publish sourced device and replacement-part references. Their measurement programmes activate only after the pilot has produced a published measured baseline and the category has been explicitly chosen.
 
-| Category | Working name | Why it's a candidate |
-|----------|--------------|----------------------|
-| Water purifier cartridges | OpenWater | Multi-stage scope (PP / carbon / RO); each stage may need its own profile |
-| Robot vacuum consumables | OpenVac | Heterogeneous mix (4-5 classes per device); widest scope |
-| Humidifier filters / wicks | OpenMist | Lowest priority; aftermarket may be too thin |
+The September 2026 reference review covers all seven categories. It includes products newly added to this archive as well as newer manufacturer catalog entries. Review dates do not imply launch dates, stock availability, or measured interchangeability. Source links or unresolved legacy source notes appear beside compatibility claims.
 
 ## Why this list and not a longer one
 

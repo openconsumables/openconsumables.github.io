@@ -1,0 +1,24 @@
+id: segway-bb-16-00-0209-00
+brand: Segway-Ninebot
+model: BB.16.00.0209.00 F3-series brake disc
+aliases:
+- BB.16.00.0209.00
+oem: true
+clones_of: null
+sold_as: []
+rotor_diameter_mm: null
+bolt_pattern: unknown
+fits_devices:
+- id: ninebot-f3
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+- id: ninebot-f3-pro
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+last_reviewed: '2026-09-11'
+notes: Diameter and bolt spacing are not supplied in the cited catalog. The manufacturer catalog
+  names the supported models. No interface geometry or additional cross-fit has been measured by
+  the project.

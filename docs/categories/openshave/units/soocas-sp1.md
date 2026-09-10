@@ -2,15 +2,15 @@
 
 # Soocas SP1
 
-Aftermarket code: `SP1` · Mode: unresolved · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
+Model / fitment code: `SP1` · Mode: unresolved · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: unknown
 
 Also sold as: Soocas SP1, 素士口袋电动剃须刀 SP1
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Soocas SP1 Replacement Head](../heads/soocas-sp1-head.md) | OEM | ? | unresolved | stainless-steel | Manufacturer claim | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Soocas SP1 Replacement Head](../heads/soocas-sp1-head.md) | OEM | ? | unresolved | stainless-steel | Marketplace listing | No | [Source](<https://www.pinkoi.com/product/vSsQRGk7>) |
 
 ## Head mount: Soocas SP1 compact (style unresolved)
 
@@ -25,8 +25,12 @@ separate slot until the head shape is confirmed.
 
 ## Notes
 
-Soocas SP1 pocket / portable shaver. Pinkoi accessory listing names
-an SP1 replacement head and restricts it to SP1, but the desk pass
-did not resolve whether SP1 is a rotary single, foil compact, or
-hybrid head. Treated as a separate head-mount slot until the head
-shape is confirmed.
+The Pinkoi authorized-reseller listing identifies a model-specific SP1
+head. This does not validate the broader generic listing variants as
+interchangeable. Replacement-head source reviewed 2026-09-11; other
+legacy device specifications and release dates were not independently
+reverified in this pass.
+
+## Sources
+
+- <https://www.pinkoi.com/product/vSsQRGk7>

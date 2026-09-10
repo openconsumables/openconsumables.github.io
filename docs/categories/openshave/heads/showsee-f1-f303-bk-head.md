@@ -8,10 +8,10 @@ Also sold as: 小适电动剃须刀 F1/F303-BK 通用替换刀头, F1/F303-BK �
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ShowSee F1-BK](../units/showsee-f1-bk.md) | Marketplace listing |
-| [ShowSee F303-BK](../units/showsee-f303-bk.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ShowSee F1-BK](../units/showsee-f1-bk.md) | Marketplace listing | [Source](<https://jd.zol.com.cn/1035/10352943.html>) |
+| [ShowSee F303-BK](../units/showsee-f303-bk.md) | Marketplace listing | [Source](<https://jd.zol.com.cn/1035/10352943.html>) |
 
 ## Notes
 

@@ -151,12 +151,12 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
     slug = cfg["slug"]
     if slug == "toothbrushes":
         if device.get("aftermarket_anchor"):
-            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+            facts.append(f"Model / fitment code: `{device['aftermarket_anchor']}`")
         facts.append(f"Mode: {device.get('mode', 'unknown')}")
         facts.append(f"Charging: {device.get('charging', 'unknown')}")
     elif slug == "openair":
         if device.get("aftermarket_anchor"):
-            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+            facts.append(f"Model / fitment code: `{device['aftermarket_anchor']}`")
         if device.get("cadr_m3h"):
             facts.append(f"CADR: {device['cadr_m3h']} m³/h")
         if device.get("room_size_m2"):
@@ -165,7 +165,7 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append(f"Stages: {device['filter_stages']}")
     elif slug == "openscoot":
         if device.get("aftermarket_anchor"):
-            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+            facts.append(f"Model / fitment code: `{device['aftermarket_anchor']}`")
         if device.get("wheel_size_in"):
             facts.append(f"Wheel: {device['wheel_size_in']}\"")
         if device.get("motor_w"):
@@ -174,7 +174,7 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append(f"Weight: ~{device['weight_class_kg']} kg")
     elif slug == "openshave":
         if device.get("aftermarket_anchor"):
-            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+            facts.append(f"Model / fitment code: `{device['aftermarket_anchor']}`")
         if device.get("mode"):
             facts.append(f"Mode: {device['mode']}")
         if device.get("head_count"):
@@ -189,7 +189,7 @@ def render_facts(device: dict, cfg: dict) -> list[str]:
             facts.append("Cleaning dock: no")
     else:
         if device.get("aftermarket_anchor"):
-            facts.append(f"Aftermarket code: `{device['aftermarket_anchor']}`")
+            facts.append(f"Model / fitment code: `{device['aftermarket_anchor']}`")
     return facts
 
 
@@ -280,6 +280,17 @@ def part_column_value(part: dict | None, column: str) -> str:
     return str(value)
 
 
+def claim_source(claim: dict) -> str:
+    """Expose the evidence for a fit claim, including legacy plain-text notes."""
+    source = str(claim.get("source") or "").strip()
+    if source.startswith(("https://", "http://")) and not any(c.isspace() for c in source):
+        return f"[Source](<{source.replace('|', '%7C')}>)"
+    if source:
+        note = source.replace("|", "&#124;").replace("\n", " ")
+        return f"URL not recorded: {note}"
+    return "Not recorded"
+
+
 def compatibility_entries(device: dict, part_cfg: dict) -> list[dict]:
     part_dir = part_cfg["dir"]
     raw = device.get("compatible_parts")
@@ -326,6 +337,10 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
     out.append(" · ".join(facts))
     out.append("")
 
+    if device.get("last_reviewed"):
+        out.append(f"Sources reviewed: {device['last_reviewed']}. Compatibility remains at the provenance level shown below.")
+        out.append("")
+
     if device.get("aliases"):
         out.append(f"Also sold as: {', '.join(device['aliases'])}")
         out.append("")
@@ -358,6 +373,7 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
                 *[column_labels.get(c, c.replace("_", " ").title()) for c in extra_columns],
                 "Provenance",
                 "Measured?",
+                "Source",
             ]
             out.append("| " + " | ".join(headers) + " |")
             out.append("|" + "---|" * len(headers))
@@ -382,6 +398,7 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
                     *col_values,
                     provenance,
                     measured,
+                    claim_source(c),
                 ]
                 out.append("| " + " | ".join(row) + " |")
             out.append("")
@@ -444,6 +461,10 @@ def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
     out.append(" · ".join(facts))
     out.append("")
 
+    if part.get("last_reviewed"):
+        out.append(f"Sources reviewed: {part['last_reviewed']}. Compatibility remains at the provenance level shown below.")
+        out.append("")
+
     if part.get("aliases"):
         out.append(f"Also sold as: {', '.join(part['aliases'])}")
         out.append("")
@@ -453,8 +474,8 @@ def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
 
     out.append(f"## Fits {cfg['device']['plural'].lower()}")
     out.append("")
-    out.append(f"| {cfg['device']['singular']} | Provenance |")
-    out.append("|---|---|")
+    out.append(f"| {cfg['device']['singular']} | Provenance | Source |")
+    out.append("|---|---|---|")
     part_id = part.get("id", "?")
     fits_key = "fits_devices"
     for f in part.get(fits_key, []) or []:
@@ -467,7 +488,7 @@ def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
             f.get("provenance"),
             f"{cfg['slug']} part {part_id} -> device {f['id']}",
         )
-        out.append(f"| {device_link(f['id'], devices, cfg)} | {provenance} |")
+        out.append(f"| {device_link(f['id'], devices, cfg)} | {provenance} | {claim_source(f)} |")
     out.append("")
 
     if part.get("measurements"):

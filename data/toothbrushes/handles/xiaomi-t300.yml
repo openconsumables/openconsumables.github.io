@@ -1,0 +1,30 @@
+id: xiaomi-t300
+brand: Xiaomi
+family: Mijia
+model: T300
+aliases: []
+aftermarket_anchor: MES602
+type: electric
+mode: sonic
+charging: usb-c
+status: unknown
+interfaces:
+  heads: xiaomi-mes601-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-mbs301
+    provenance: manufacturer-claim
+    source: https://www.mi.com/sg/product/mi-electric-toothbrush-head/
+sources:
+- https://www.mi.com/sg/product/mi-electric-toothbrush-head/
+- https://ae01.alicdn.com/kf/Sf17a0fc853dd468f8d5b09dfd29a1a48D.pdf
+- https://upload.cheaa.com/2022/0926/1664158092754.pdf
+notes: |
+  A 2022 Hainan market-inspection report, mirrored by CHEAA, identifies
+  T300 as MES602. A translated T300 manual on a marketplace CDN describes
+  direct USB-C charging; its translation and hosting are not manufacturer-
+  controlled. Xiaomi Singapore explicitly lists MBS301 Gum Care for T300
+  and T500. Shared head compatibility does not imply shared charging hardware.
+last_reviewed: '2026-09-11'

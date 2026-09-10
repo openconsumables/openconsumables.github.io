@@ -10,17 +10,12 @@ Brand names seen: (many, white-label), Ulip, Monland, Halfords
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing |
-| [Xiaomi Mi Electric Scooter 3](../units/xiaomi-mi-electric-scooter-3.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
 
 ## Notes
 
-Catch-all entry for generic / white-label 8.5x2 scooter inner tubes sold
-for Xiaomi 8.5-inch wheels. The tube size follows the tire slot, but
-valve-stem geometry varies by listing. Buyers should match the stem
-orientation to the rim clearance on the scooter they are repairing.
+A source page for this tube is recorded, but no exact-model fit has been verified. A nominal 8.5-inch size or broad Xiaomi label does not establish compatibility with M365 or Mi Electric Scooter 3.
 
 ## Sources
 

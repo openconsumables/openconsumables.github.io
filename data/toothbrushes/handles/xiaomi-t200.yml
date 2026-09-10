@@ -2,12 +2,13 @@ id: xiaomi-t200
 brand: Xiaomi
 family: Mijia
 model: T200
-aliases: [T200C, "Mijia Sonic Electric Toothbrush T200"]
+aliases:
+- Mijia Sonic Electric Toothbrush T200
 aftermarket_anchor: MES606
 type: electric
 mode: sonic
 charging: usb-c
-status: current
+status: unknown
 released: 2022
 interfaces:
   heads: xiaomi-mes606-family
@@ -15,19 +16,19 @@ interface_provenance:
   heads: inferred
 compatible_parts:
   heads:
-    - id: xiaomi-mbs305
-      provenance: manufacturer-claim
-      source: "https://www.mi.com/shop/buy?product_id=1222100087"
-    - id: generic-mes606-pack
-      provenance: marketplace-claim
-      source: "AliExpress listings keyed on 'MES606 head'"
+  - id: xiaomi-mbs305
+    provenance: marketplace-claim
+    source: https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
+  - id: generic-mes606-pack
+    provenance: marketplace-claim
+    source: https://mall.iopenmall.tw/005758/index.php?action=product_detail&prod_no=P0575800305305
 sources:
-  - https://www.gizmochina.com/2022/05/31/xiaomi-mijia-t200-sonic-electric-toothbrush-25-days-battery-life/
-  - https://www.gizmochina.com/2023/04/07/mijia-electric-toothbrush-t200c-25days-battery-life-two-brush-heads-travel-case-launched/
-  - https://www.sunsky-online.com/p/EDA003609201B/Original-Xiaomi-Mijia-Sonic-Electric-Toothbrush-T200-Blue-.htm
+- https://24h.pchome.com.tw/prod/DMALG2-A900JGT0Z
+- https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
 notes: |
-  T200 (2022) and T200C (2023) share the MES606 handle code and USB-C charging.
-  Sold by Xiaomi China as a standalone handle plus a dedicated head SKU listing
-  (MBS305 weakly attested). Mount assignment to mes606-family is inferred from
-  the charging architecture difference relative to the inductive MES601 line;
-  pending physical verification (Batch A).
+  Retailer evidence identifies T200 as MES606 with USB-C charging. PChome
+  lists MBS305 specifically for T200. The former numeric Xiaomi store link
+  could not be verified, so the head fit is marketplace-claim. T200C is often
+  co-listed by sellers but is not treated here as a verified identical handle.
+  Charging architecture alone does not establish socket compatibility.
+last_reviewed: '2026-09-11'

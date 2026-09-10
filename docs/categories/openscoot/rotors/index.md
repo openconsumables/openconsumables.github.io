@@ -10,10 +10,6 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-OEM / stock:
-
-- [Xiaomi M365 stock rear brake disc](xiaomi-m365-oem-rear-brake-disc.md), the stock 110 mm rear rotor captured from repair-community and spare-part evidence
-
-Generic / aftermarket:
-
-- [Generic M365 110 mm five-bolt brake disc](generic-m365-110mm-5-bolt-brake-disc.md), claimed compatible with the Xiaomi M365 rear rotor mount
+- [Generic M365 110mm brake disc](generic-m365-110mm-5-bolt-brake-disc.md)
+- [Segway-Ninebot AB.05.12.00.0011 F2-series brake disc](segway-ab-05-12-00-0011.md)
+- [Segway-Ninebot BB.16.00.0209.00 F3-series brake disc](segway-bb-16-00-0209-00.md)

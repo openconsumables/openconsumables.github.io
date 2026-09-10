@@ -1,0 +1,41 @@
+id: xiaomi-x20-max
+brand: Xiaomi
+model: Robot Vacuum X20 Max
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  main-brushes:
+  - id: xiaomi-d109gl-gmzs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+  - id: xiaomi-b101cn-zs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+  filters:
+  - id: xiaomi-d109gl-glw
+    provenance: manufacturer-claim
+    source: https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+  side-brushes:
+  - id: xiaomi-b101cn-bs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+  dust-bags:
+  - id: xiaomi-b101cn-chd
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+  mop-pads:
+  - id: xiaomi-b105gl-tb
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+sources:
+- https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+notes: Replacement compatibility is recorded from the manufacturer accessory catalog checked on 2026-09-11.
+  The project has not measured the interfaces. Only the listed part relationships are documented;
+  missing part classes remain unverified.
+last_reviewed: '2026-09-11'

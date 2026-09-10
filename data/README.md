@@ -53,7 +53,7 @@ Every compatibility claim, dimension, or interface assignment carries a `provena
 | `marketplace-claim` | AliExpress / Amazon / Temu listing claims this. Lowest tier; listings copy each other so claims are usually not independent. |
 | `inferred` | Derived by us from adjacent evidence (e.g. charging architecture suggests mount differs). Mark explicitly; do not blur with measured. |
 
-The site renders the provenance tier next to every claim. Readers and agents can filter on it.
+The site renders the provenance tier and the recorded source next to each compatibility claim. A source link documents who makes the claim; it does not turn it into a project measurement. Entries with `last_reviewed` show when their sources were reviewed. That date is not a product release date or a guarantee of local stock.
 
 ## Field naming across categories
 

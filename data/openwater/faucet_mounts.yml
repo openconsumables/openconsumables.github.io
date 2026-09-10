@@ -1,0 +1,9 @@
+xiaomi-faucet-water-purifier-faucet-cartridges:
+  display_name: Xiaomi Faucet Water Purifier Filter mount
+  aftermarket_aliases:
+  - MJLTJSQDB04
+  status: unmeasured
+  baseline: null
+  notes: Working device-and-stage-specific mount grouping from [manufacturer fit documentation](https://www.mi.com/global/product/xiaomi-faucet-water-purifier-filter/).
+    Connector geometry, sealing and electronic recognition are unmeasured. Other cartridge stages and
+    device families remain separate.

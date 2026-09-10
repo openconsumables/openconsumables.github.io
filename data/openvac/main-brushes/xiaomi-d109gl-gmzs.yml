@@ -1,0 +1,25 @@
+id: xiaomi-d109gl-gmzs
+brand: Xiaomi
+model: D109GL-GMZS anti-tangle hair-cutting brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Hair-cutting brush
+fits_devices:
+- id: xiaomi-x20-max
+  provenance: manufacturer-claim
+  source: https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+- id: xiaomi-5
+  provenance: manufacturer-claim
+  source: https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+- id: xiaomi-5-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/uk/product/xiaomi-robot-vacuum-x20-max-x20-pro-accessories/specs/
+notes: X20 Pro is named on the combined accessory page, but is not named for this brush. Its filter
+  listing is separate. Compatibility is the manufacturer claim checked on 2026-09-11. No interface
+  dimensions or cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

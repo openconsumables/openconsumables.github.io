@@ -1,0 +1,19 @@
+id: xiaomi-smart-humidifier-2
+brand: Xiaomi
+model: Smart Humidifier 2
+aliases:
+- MJJSQ05DY
+aftermarket_anchor: MJJSQ05DY
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-humidifier-2/specs/
+- https://www.mi.com/uk/support/faq/details/KA-11463/
+notes: 'Manufacturer-claim: this is an ultrasonic atomizing humidifier. The included fibre cotton belongs
+  to the essential-oil compartment; it is not an evaporative wick or a demineralization cartridge. No
+  compatible replacement wick is recorded. Scent accessories are outside this filter reference.'
+type: humidifier
+mode: ultrasonic

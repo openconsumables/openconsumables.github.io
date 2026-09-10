@@ -1,0 +1,27 @@
+id: ninebot-f3
+brand: Segway-Ninebot
+model: F3
+aliases: []
+aftermarket_anchor: null
+type: electric-scooter
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  pads:
+  - id: segway-ca-03-04-0198-00
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+  rotors:
+  - id: segway-bb-16-00-0209-00
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+  grip-tape:
+  - id: segway-ab-05-17-00-0019
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+sources:
+- https://store.segway.com/parts/kick-scooter/f3-series/f3?p=3
+last_reviewed: '2026-09-11'
+notes: This entry follows the Segway US parts catalog. Brake-pad and rotor fit is specific to the
+  listed F3 models. No F2 or MAX G3 brake fit is inferred.

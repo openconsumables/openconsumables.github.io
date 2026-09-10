@@ -2,16 +2,16 @@
 
 # Riwa RA-5505
 
-Aftermarket code: `RA-5505` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2022 · Status: current
+Model / fitment code: `RA-5505` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2022 · Status: current
 
 Also sold as: 雷瓦 RA-5505, Riwa RA5505, RA5505, RA-5505/GT
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Riwa Original RA-series Replacement Head](../heads/riwa-ra-series-original-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
-| [Generic 雷瓦四瓣旋转式接口刀头](../heads/generic-riwa-ra-four-petal-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Riwa Original RA-series Replacement Head](../heads/riwa-ra-series-original-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://www.jd.com/hprm/737a0effd1a8def4a21.html>) |
+| [Generic 雷瓦四瓣旋转式接口刀头](../heads/generic-riwa-ra-four-petal-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: JD aftermarket listings titled '雷瓦四瓣旋转式接口刀头' |
 
 ## Head mount: Riwa RA-series rotary 3-blade
 
@@ -37,6 +37,11 @@ head and a non-original "four-petal rotary interface"
 encode an interface clue similar to the Xiaomi five-sided shaft
 vocabulary, but it remains a marketplace claim with no measured
 geometry.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
 
 ## Sources
 

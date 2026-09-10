@@ -1,0 +1,35 @@
+id: dreame-aqua10-roller
+brand: Dreame
+model: Aqua10 Roller
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  main-brushes:
+  - id: dreame-hyperstream-duobrush-1
+    provenance: manufacturer-claim
+    source: https://www.dreametech.com/products/robot-vacuum-trobowave-detangling-duo-brush-rmb13
+  side-brushes:
+  - id: dreame-auto-lifting-side-brush-1
+    provenance: manufacturer-claim
+    source: https://www.dreametech.com/products/dreame-x50-ultra-x40-series-l40-ultra-side-brush
+  dust-bags:
+  - id: dreame-rdb8-dust-bag
+    provenance: manufacturer-claim
+    source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+  roller-mops:
+  - id: dreame-aqua10-roller-mop
+    provenance: manufacturer-claim
+    source: https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+sources:
+- https://www.dreametech.com/products/robot-vacuum-trobowave-detangling-duo-brush-rmb13
+- https://www.dreametech.com/products/dreame-x50-ultra-x40-series-l40-ultra-side-brush
+- https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- https://www.dreametech.com/products/dreame-roller-mop-for-aqua10-series
+notes: Replacement compatibility is recorded from the manufacturer accessory catalog checked on 2026-09-11.
+  The project has not measured the interfaces. Only the listed part relationships are documented;
+  missing part classes remain unverified.
+last_reviewed: '2026-09-11'

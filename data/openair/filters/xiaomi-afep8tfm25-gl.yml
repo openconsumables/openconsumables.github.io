@@ -1,0 +1,25 @@
+id: xiaomi-afep8tfm25-gl
+brand: Xiaomi
+model: AFEP8TFM25-GL
+aliases:
+- Mijia Smart Air Purifier 6 Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: mijia-smart-air-purifier-6
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/mijia-smart-air-purifier-6-filter/specs/
+- id: xiaomi-smart-air-purifier-4
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/mijia-smart-air-purifier-6-filter/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/mijia-smart-air-purifier-6-filter/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 210 mm in diameter and 293 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification. Xiaomi explicitly
+  names both Mijia Smart Air Purifier 6 and Xiaomi Smart Air Purifier 4 as compatible hosts. This does
+  not establish that the older M16R-FLP-GL is approved for the 6.'
+hepa_grade: null
+media: null

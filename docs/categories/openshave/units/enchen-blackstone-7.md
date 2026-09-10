@@ -2,7 +2,7 @@
 
 # ENCHEN BlackStone 7
 
-Aftermarket code: `YX0032` · Mode: magnetic-rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
+Model / fitment code: `YX0032` · Mode: magnetic-rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
 
 Also sold as: ENCHEN Blackstone 7, 映趣剃须刀 Blackstone 7, YX0032
 

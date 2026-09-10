@@ -1,0 +1,31 @@
+id: viomi-master-m1
+brand: Viomi
+model: Master M1
+aliases: []
+aftermarket_anchor: null
+type: water-purifier
+mode: under-sink reverse osmosis
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  prefilters: viomi-m1-pcb-mount
+  ro-cartridges: viomi-m1-ro1000-mount
+interface_provenance:
+  prefilters: inferred
+  ro-cartridges: inferred
+compatible_parts:
+  prefilters:
+  - id: viomi-m1-pcb
+    provenance: manufacturer-claim
+    source: https://water.viomi.com/products/m1-pcb-filter-replacement-24-month
+  ro-cartridges:
+  - id: viomi-m1-ro1000
+    provenance: manufacturer-claim
+    source: https://water.viomi.com/products/m1-ro-filter-replacement-48-month
+sources:
+- https://water.viomi.com/products/m1-pcb-filter-replacement-24-month
+- https://water.viomi.com/products/m1-ro-filter-replacement-48-month
+notes: This record follows the model name used in Viomi's US replacement-filter catalogue. Engineering
+  model number and connector geometry remain unverified. PCB/PPC composite and RO cartridges occupy separate
+  positions. The original Vortex, Vortex Pro, Master M1 and Pure B6W names are kept distinct; matching
+  flow-rate numbers do not establish cartridge fit.

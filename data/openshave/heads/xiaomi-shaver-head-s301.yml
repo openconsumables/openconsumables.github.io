@@ -1,0 +1,24 @@
+id: xiaomi-shaver-head-s301
+brand: Xiaomi
+family: null
+model: S301 ceramic replacement head
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+head_count: 3
+head_type: rotary
+variant: original
+fits_devices:
+- id: xiaomi-electric-shaver-s301
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-electric-shaver-s301-replacement-head/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s301-replacement-head/
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s301-replacement-head/specs/
+notes: |
+  Xiaomi names this ceramic-blade replacement assembly for S301. The
+  ceramic material does not establish S700 compatibility.
+material: ceramic
+last_reviewed: '2026-09-11'

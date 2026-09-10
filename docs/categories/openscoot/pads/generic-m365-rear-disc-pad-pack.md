@@ -1,23 +1,23 @@
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
-# Generic M365 brake pads
+# Generic (unbranded)
 
-Generic / clone · Clones: `xiaomi-m365-oem-rear-disc-pad` · Caliper mount: round magnetic pad, M365 stock mechanical caliper · Compound: resin / organic (claimed; varies) · Variant: standard
+Generic / clone · Caliper mount: round magnetic pad, M365 stock mechanical caliper · Compound: semi-metal (seller claim) · Variant: standard
 
-Also sold as: M365 brake pads, Xiaomi M365 / 1S / Pro / Pro 2 brake pads, Xiaomi scooter round brake pads
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
 
 Brand names seen: (many, white-label), Ulip, Monland
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing | [Source](<https://escooterhut.co.uk/products/brake-pads-for-xiaomi-m365-pro2-1s>) |
 
 ## Notes
 
-Catch-all entry for generic / white-label M365-family rear disc brake
-pads. Marketplace titles commonly cross-list M365, M365 Pro, 1S,
-Essential, and Pro 2. Brand names rotate and compound claims vary, so
-compatibility remains marketplace-claim until measured or independently
-confirmed.
+E-Scooter Hut lists replacement semi-metal pads with separate M365 and 1S/Pro2 selector options. This entry is the M365 option only. No shared caliper geometry with 1S or Pro 2 is inferred. Dimensions and compound are seller claims, not project measurements.
+
+## Sources
+
+- <https://escooterhut.co.uk/products/brake-pads-for-xiaomi-m365-pro2-1s>

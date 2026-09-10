@@ -1,0 +1,27 @@
+xiaomi-smart-evaporative-humidifier-wick:
+  display_name: Xiaomi Smart Evaporative Humidifier Filter mount
+  aftermarket_aliases:
+  - CJSJSQ02XYLXUE
+  status: unmeasured
+  baseline: null
+  notes: Model-specific fit documented by [the manufacturer](https://www.mi.com/global/support/faq/details/KA-309261/).
+    This is an unmeasured replacement-filter grouping. No shared mount with other evaporative or ultrasonic
+    humidifiers is inferred.
+mijia-smart-evaporative-humidifier-pro-wick:
+  display_name: Mijia Smart Evaporative Humidifier Pro Filter mount
+  aftermarket_aliases:
+  - Smart Evaporative Humidifier Pro Filter
+  status: unmeasured
+  baseline: null
+  notes: Model-specific fit documented by [the manufacturer](https://www.mi.com/global/product/mijia-smart-evaporative-humidifier-pro-filter/).
+    This is an unmeasured replacement-filter grouping. No shared mount with other evaporative or ultrasonic
+    humidifiers is inferred.
+smartmi-humidifier-rainforest-wick:
+  display_name: Smartmi Humidifier Rainforest Filter mount
+  aftermarket_aliases:
+  - CJJSQ01ZM-FL
+  status: unmeasured
+  baseline: null
+  notes: Model-specific fit documented by [the manufacturer](https://us.smartmiglobal.com/pages/smartmi-humidifier-rainforest-filter).
+    This is an unmeasured replacement-filter grouping. No shared mount with other evaporative or ultrasonic
+    humidifiers is inferred.

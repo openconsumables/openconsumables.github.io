@@ -1,0 +1,30 @@
+id: xiaomi-ov81gl-bs
+brand: Xiaomi
+model: OV81GL-BS anti-tangle side brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Anti-tangle side brush
+fits_devices:
+- id: xiaomi-5
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+- id: xiaomi-5-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+- id: xiaomi-h40
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+- id: xiaomi-s40
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+- id: xiaomi-s40-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+notes: Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

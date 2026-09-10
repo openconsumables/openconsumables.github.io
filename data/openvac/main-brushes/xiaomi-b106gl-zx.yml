@@ -1,0 +1,21 @@
+id: xiaomi-b106gl-zx
+brand: Xiaomi
+model: B106GL-ZX main brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Main brush
+fits_devices:
+- id: xiaomi-s10
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+- id: xiaomi-s40c
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+notes: Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

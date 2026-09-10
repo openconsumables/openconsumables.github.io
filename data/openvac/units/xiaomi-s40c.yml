@@ -1,0 +1,25 @@
+id: xiaomi-s40c
+brand: Xiaomi
+model: Robot Vacuum S40C
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  side-brushes:
+  - id: xiaomi-b101cn-bs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+  main-brushes:
+  - id: xiaomi-b106gl-zx
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-s10-accessories/specs/
+notes: Replacement compatibility is recorded from the manufacturer accessory catalog checked on 2026-09-11.
+  The project has not measured the interfaces. Only the listed part relationships are documented;
+  missing part classes remain unverified.
+last_reviewed: '2026-09-11'

@@ -4,9 +4,9 @@ Guidance for AI agents (Claude, Codex, or otherwise) working in this repository.
 
 ## What this repo is
 
-The **public documentation site** for Open Consumables. MkDocs Material, deployed to GitHub Pages on push to `main`.
+The **public documentation site** for Open Consumables. MkDocs Material, deployed to GitHub Pages on push to `master`.
 
-Live site: <https://openconsumables.github.io/docs/>
+Live site: <https://openconsumables.org/>
 
 This repo is deliberately separate from the R&D repo. The R&D repo contains research briefs, raw measurements, working notes, supplier names, and pre-publication drafts. This repo holds only material that has been cleared for the public.
 
@@ -41,7 +41,7 @@ tools/
 └── build_pages.py             # YAML -> markdown generator; run after editing data/
 mkdocs.yml                     # site configuration; nav is the source of truth for site shape
 requirements.txt               # pinned deps for local builds and CI
-.github/workflows/deploy.yml   # GitHub Pages build and deploy on push to main
+.github/workflows/deploy.yml   # GitHub Pages build and deploy on push to master
 ```
 
 The `data/` layer is the device knowledge graph: best-effort coverage of handles and heads with per-claim provenance. Read `data/README.md` for the schema and tiers.
@@ -99,7 +99,7 @@ The full activation rules and deferred roster live in the parent project's [AGEN
 
 ## Deployment
 
-Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
+Pushes to `master` trigger `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
 
 GitHub Pages must be configured for this repo with **Source: GitHub Actions** under Settings, Pages.
 

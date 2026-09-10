@@ -10,9 +10,9 @@ Brand names seen: ReplaceBase, P2R, Mobilax, (many, white-label)
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Marketplace listing | [Source](<https://www.replacebase.co.uk/for-segway-ninebot-max-g30-replacement-grip-tape-foot-mat-esp-x27a>) |
 
 ## Notes
 

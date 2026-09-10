@@ -10,9 +10,9 @@ Brand names seen: ReplaceBase, Mobilax, (many, white-label)
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Xiaomi M365](../units/xiaomi-m365.md) | Marketplace listing | [Source](<https://www.replacebase.co.uk/grip-tape-foot-mat>) |
 
 ## Notes
 

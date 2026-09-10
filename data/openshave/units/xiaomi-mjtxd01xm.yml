@@ -2,26 +2,34 @@ id: xiaomi-mjtxd01xm
 brand: Xiaomi
 family: Mijia
 model: MJTXD01XM
-aliases: ["米家便携电动剃须刀", "Mi Portable Electric Shaver (MJTXD01XM)"]
+aliases:
+- 米家便携电动剃须刀
+- Mi Portable Electric Shaver (MJTXD01XM)
 aftermarket_anchor: MJTXD01XM
 type: electric-shaver
 mode: foil
 head_count: 1
-wet_dry: rinsable
+wet_dry: dry-only
 charging: usb-c
 cleaning_dock: false
-status: discontinued
-released: 2019
+status: unknown
 interfaces:
   cassettes: xiaomi-mjtxd01xm-foil-compact
 interface_provenance:
   cassettes: inferred
 sources:
-  - https://www.mi.com/global/electric-shaver-mjtxd01xm/specs/
+- https://www.mi.com/mj-shaver1/specs/
+- https://www.mi.com/mj-shaver1/
+- https://www.mi.com/hk/mi-portable-electric-shaver/specs/
 notes: |
-  Xiaomi Mijia portable / pocket foil shaver, single compact foil head.
-  Xiaomi specs warn to replace damaged inner head / outer foil, which is
-  evidence of a serviceable head, but the desk pass did not locate a
-  standalone replacement-cassette SKU. The mount assignment is
-  `inferred` from Xiaomi's own service language pending a captured
-  replacement-part SKU.
+  Xiaomi identifies this portable foil shaver as MJTXD01XM. Its original
+  product page and specification warnings explicitly say the body is not
+  waterproof and must not be rinsed or immersed. This corrects the previous
+  rinsable label. The product page confirms USB Type-C charging.
+
+  Xiaomi describes damaged cutters or foil as replaceable, but a standalone
+  replacement-cassette SKU was not captured. Its working mount remains
+  inferred and unmeasured. No 2019 launch date is asserted: the official
+  page already describes design awards received in 2018. Sources reviewed
+  2026-09-11; stock and production status remain unknown.
+last_reviewed: '2026-09-11'

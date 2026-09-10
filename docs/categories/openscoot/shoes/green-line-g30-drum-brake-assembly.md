@@ -4,15 +4,17 @@
 
 Generic / clone · Clones: `segway-ninebot-g30-oem-drum-brake-assembly` · Drum diameter: unknown · Compound: unknown · Variant: complete assembly
 
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
 Also sold as: Green Line Drum Brake; Segway Ninebot Max G30, Green Line Brake Shoe; Segway Ninebot Max G30
 
 Brand names seen: Green Line
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Marketplace listing |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Marketplace listing | [Source](<https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d-3100-0037>) |
 
 ## Notes
 
@@ -22,4 +24,4 @@ a marketplace claim until measured.
 
 ## Sources
 
-- <https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d>
+- <https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d-3100-0037>

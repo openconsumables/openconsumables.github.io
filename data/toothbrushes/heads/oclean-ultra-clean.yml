@@ -1,0 +1,32 @@
+id: oclean-ultra-clean
+brand: Oclean
+family: null
+model: Ultra Clean
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: clean
+fits_devices:
+- id: oclean-x-ultra-20
+  provenance: manufacturer-claim
+  source: https://www.oclean.com/products/brush-head-refills-ultra-series
+- id: oclean-x-pro-20
+  provenance: manufacturer-claim
+  source: https://www.oclean.com/products/brush-head-refills-ultra-series
+- id: oclean-x-pro-elite
+  provenance: manufacturer-claim
+  source: https://www.oclean.com/products/brush-head-refills-ultra-series
+- id: oclean-flow
+  provenance: manufacturer-claim
+  source: https://www.oclean.com/products/brush-head-refills-ultra-series
+measurements: null
+sources:
+- https://www.oclean.com/products/brush-head-refills-ultra-series
+notes: |
+  The official Ultra Series page explicitly states compatibility with all
+  Oclean adult toothbrushes. The listed handles are documented examples,
+  not an exhaustive fit list. Bristle variants do not establish compatibility
+  with Oclean children's products or another manufacturer.
+last_reviewed: '2026-09-11'

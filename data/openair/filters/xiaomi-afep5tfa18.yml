@@ -1,0 +1,20 @@
+id: xiaomi-afep5tfa18
+brand: Xiaomi
+model: AFEP5TFA18
+aliases:
+- Xiaomi Smart Air Purifier 4 Compact Filter Pro
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-air-purifier-4-compact
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter-pro/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter-pro/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 175 mm in diameter and 171 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification.'
+hepa_grade: null
+media: null

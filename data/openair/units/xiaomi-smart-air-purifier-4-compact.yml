@@ -1,0 +1,26 @@
+id: xiaomi-smart-air-purifier-4-compact
+brand: Xiaomi
+model: Smart Air Purifier 4 Compact
+aliases:
+- AC-M18-SC
+aftermarket_anchor: AC-M18-SC
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  filters: xiaomi-4-compact-filter
+interface_provenance:
+  filters: inferred
+compatible_parts:
+  filters:
+  - id: xiaomi-afep7tfm01
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter/specs/
+  - id: xiaomi-afep5tfa18
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter-pro/specs/
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact/specs/
+notes: Model identity and any CADR figure shown are manufacturer claims from the linked specifications.
+  Filter fitment is recorded per cartridge; shared product numbering does not establish interchangeability.
+type: air-purifier
+cadr_m3h: 230

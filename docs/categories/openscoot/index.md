@@ -14,9 +14,9 @@ Working name: **OpenScoot**. The third category in the Open Consumables device k
 
 ## Status
 
-**Reference layer only.** OpenScoot is a deferred measurement subproject; activation depends on OpenBrush producing a published measured baseline first. Until then, this category exists as a knowledge-graph stub: provenance-tagged compatibility data sourced from manufacturer pages and aftermarket listings, with no project measurement claims.
+**Reference layer only.** OpenScoot is a deferred measurement subproject; activation depends on OpenBrush producing a published measured baseline first. This category records provenance-tagged compatibility data sourced from manufacturer pages and aftermarket listings, with no project measurement claims.
 
-Coverage is intentionally small: the Xiaomi 8.5-inch family (M365, Mi Electric Scooter 3) and the Segway-Ninebot Max G30 10-inch slot, with a handful of tire, tube, brake-pad, drum-brake, rotor, and grip-tape entries. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
+Coverage includes Xiaomi model references and Segway-Ninebot replacement parts, with separate entries where front and rear tires carry different manufacturer part numbers. Missing replacement links mean that no adequately sourced fit claim is recorded here. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
 
 ## Scope
 
@@ -45,6 +45,6 @@ Coverage is intentionally small: the Xiaomi 8.5-inch family (M365, Mi Electric S
 
 ## A note on tire sizing
 
-E-scooter tires sit between motorcycle and bicycle tire industries with no formal standards body for the segment. ETRTO size codes (e.g. 50-134 for 8.5x2) do apply to pneumatic e-scooter tires and are useful for cross-reference, but the broader compatibility profile (load rating for ~25 km/h e-scooter use, valve geometry, tubed vs tubeless on a non-bicycle rim) is not standardized. The slots defined here capture hub geometry on the scooter side; the tire entries capture the contact-patch side. A pair of scooters with the same axle slot can theoretically accept the same tire-on-rim assembly.
+Match the exact replacement part and the wheel position listed by its manufacturer. A nominal tire size alone does not establish a shared rim, valve arrangement or fit between scooters. Keep an ETRTO designation separate from an imperial size label; this archive does not manufacture a bead-seat size by converting an approximate outside diameter.
 
-Wheel diameter is part of the slot identity. 8.5-inch and 10-inch wheels are different axles by definition.
+The reference does not extend a tire fit claim to brake parts, a complete wheel, or a deck mat. Those are separate interfaces and need separate evidence.

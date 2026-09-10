@@ -1,0 +1,25 @@
+id: smartmi-humidifier-rainforest
+brand: Smartmi
+model: Humidifier Rainforest
+aliases:
+- CJJSQ06ZM
+aftermarket_anchor: CJJSQ06ZM
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  wicks: smartmi-humidifier-rainforest-wick
+interface_provenance:
+  wicks: inferred
+compatible_parts:
+  wicks:
+  - id: smartmi-cjjsq01zm-fl
+    provenance: manufacturer-claim
+    source: https://us.smartmiglobal.com/pages/smartmi-humidifier-rainforest-filter
+sources:
+- https://us.smartmiglobal.com/pages/humidifier-rainforest
+- https://us.smartmiglobal.com/pages/smartmi-humidifier-rainforest-filter
+notes: Smartmi names this cartridge for the Rainforest humidifier. Nominal manufacturer filter dimensions
+  are 165 mm diameter and 76 mm height. A washable filter remains a replacement consumable; no cross-fit
+  to Smartmi disc-stack humidifiers is recorded.
+type: humidifier
+mode: evaporative with replaceable filter

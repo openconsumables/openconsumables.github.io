@@ -1,0 +1,44 @@
+id: dreame-rdb8-dust-bag
+brand: Dreame
+model: 3.2L dust bag (RDB8 URL identifier)
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bag_type: Disposable dock dust bag
+fits_devices:
+- id: dreame-matrix10-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-aqua10-ultra-roller
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-aqua10-roller
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-aqua10-roller-ae
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-x50-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-l50-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-x40-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-l40s-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+- id: dreame-l40-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+measurements: null
+sources:
+- https://www.dreametech.com/products/robot-vacuum-dust-bag-3pc-rdb8
+notes: The manufacturer specifies Aqua10 and X Ultra series and names the listed L models. Matrix10
+  Pro is not added from the Matrix10 Ultra listing. RDB8 is retained as a URL identifier, not a independently
+  verified printed part code. Compatibility is the manufacturer claim checked on 2026-09-11. No interface
+  dimensions or cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

@@ -1,0 +1,54 @@
+mijia-smart-water-purifier-n800g-prefilters:
+  display_name: Mijia Smart Water Purifier N800G Composite Filter PPC1 mount
+  aftermarket_aliases:
+  - J21-PPC-1
+  status: unmeasured
+  baseline: null
+  notes: Working device-and-stage-specific mount grouping from [manufacturer fit documentation](https://www.mi.com/uk/support/faq/details/KA-612191/).
+    Connector geometry, sealing and electronic recognition are unmeasured. Other cartridge stages and
+    device families remain separate.
+xiaomi-smart-filtered-water-dispenser-pro-prefilters:
+  display_name: Xiaomi Smart Filtered Water Dispenser Filter PPC1 mount
+  aftermarket_aliases:
+  - A1-PPC-1A
+  status: unmeasured
+  baseline: null
+  notes: Working device-and-stage-specific mount grouping from [manufacturer fit documentation](https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-filter-ppc1/).
+    Connector geometry, sealing and electronic recognition are unmeasured. Other cartridge stages and
+    device families remain separate.
+viomi-m1-pcb-mount:
+  display_name: M1-PCB Filter mount
+  aftermarket_aliases:
+  - M1-PCB Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/m1-pcb-filter-replacement-24-month).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v6-v8-pcb-mount:
+  display_name: V6/8-PCB Filter mount
+  aftermarket_aliases:
+  - V6/8-PCB Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/viomi-pcb-filter-replacement-for-vortex-6-vortex-8-water-filter-system-24-months).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v6-v8-pro-pcb-mount:
+  display_name: V6/8 Pro-PCB Filter mount
+  aftermarket_aliases:
+  - V6/8 Pro-PCB Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/collections/filter-replacement/products/viomi-v-pro-pcb-filter-replacement-for-vortex-6-pro-vortex-8-pro-water-filter-system-12-months-lifetime-designed-for-viomi-reverse-osmosis-water-filter-specifically).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-pure-b6w-ppc-mount:
+  display_name: Pure B6W PPC Filter mount
+  aftermarket_aliases:
+  - Pure B6W PPC Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/collections/filter-replacement/products/viomi-pure-ppc-filter-replacement-for-viomi-reverse-osmosis-water-filter-12-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.

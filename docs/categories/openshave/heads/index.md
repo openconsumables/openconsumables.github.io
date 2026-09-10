@@ -8,28 +8,25 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-OEM:
-
-- [Xiaomi Mijia S300 / S500 / S500C shared head](xiaomi-shaver-head-s300-s500-s500c.md), the proposed first-baseline target
-- [Xiaomi Mijia S101 head](xiaomi-shaver-head-s101.md)
-- [Xiaomi Mijia S302 head](xiaomi-shaver-head-s302.md)
-- [Xiaomi Mijia S700 ceramic head](xiaomi-shaver-head-s700.md)
-- [ENCHEN BR-1](enchen-br1-head.md), the strongest aftermarket head-code anchor
+- [ENCHEN BR-1](enchen-br1-head.md)
 - [ENCHEN BR-3](enchen-br3-head.md)
-- [ShowSee T3 head](showsee-t3-head.md), magnetic-rotary
-- [ShowSee F1 / F303-BK head](showsee-f1-f303-bk-head.md)
-- [ShowSee F305 head](showsee-f305-head.md)
-- [Riwa RA-series original head](riwa-ra-series-original-head.md), provisional
-- [Soocas S3 head](soocas-s3-head.md)
-- [Soocas S5 head](soocas-s5-head.md)
-- [Soocas S31 head](soocas-s31-head.md)
-- [Soocas S32 head](soocas-s32-head.md)
-- [Soocas SP1 head](soocas-sp1-head.md), style unresolved
-
-Generic / aftermarket:
-
-- [Generic S300 / S500 / MJTXD01SKS head](generic-s300-s500-mjtxd01sks-rotary-head.md)
-- [Generic BR-1 compatible head](generic-br1-compatible-head.md)
-- [Generic BR-3 compatible head](generic-br3-compatible-head.md)
-- [Generic Riwa RA four-petal head](generic-riwa-ra-four-petal-head.md)
-- [Generic Soocas S-family multi-fit head](generic-soocas-s-family-head.md)
+- [Generic ENCHEN BR-1 compatible head](generic-br1-compatible-head.md)
+- [Generic ENCHEN BR-3 compatible head](generic-br3-compatible-head.md)
+- [Generic Replacement head fit for SOOCAS S3 S5](generic-soocas-s-family-head.md)
+- [Generic S300/S500/MJTXD01SKS 通用机头](generic-s300-s500-mjtxd01sks-rotary-head.md)
+- [Generic 雷瓦四瓣旋转式接口刀头](generic-riwa-ra-four-petal-head.md)
+- [Riwa Original RA-series Replacement Head](riwa-ra-series-original-head.md)
+- [ShowSee F1 / F303-BK Replacement Head](showsee-f1-f303-bk-head.md)
+- [ShowSee F305 Replacement Head](showsee-f305-head.md)
+- [ShowSee T3 Replacement Head](showsee-t3-head.md)
+- [Soocas S3 Replacement Head](soocas-s3-head.md)
+- [Soocas S31 Replacement Head](soocas-s31-head.md)
+- [Soocas S32 Replacement Head](soocas-s32-head.md)
+- [Soocas S5 Replacement Head](soocas-s5-head.md)
+- [Soocas SP1 Replacement Head](soocas-sp1-head.md)
+- [Xiaomi Electric Shaver S101 Replacement Head](xiaomi-shaver-head-s101.md)
+- [Xiaomi Electric Shaver S700 Replacement Head](xiaomi-shaver-head-s700.md)
+- [Xiaomi S200 replacement head](xiaomi-shaver-head-s200.md)
+- [Xiaomi S301 ceramic replacement head](xiaomi-shaver-head-s301.md)
+- [Xiaomi 米家电动剃须刀刀头 (S300/S500/S500C)](xiaomi-shaver-head-s300-s500-s500c.md)
+- [Xiaomi 米家电动剃须刀刀头 S302](xiaomi-shaver-head-s302.md)

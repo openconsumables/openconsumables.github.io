@@ -1,0 +1,20 @@
+id: xiaomi-afep8tfm30
+brand: Xiaomi
+model: AFEP8TFM30
+aliases:
+- Xiaomi Smart Pet Care Air Purifier Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-pet-care-air-purifier
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-smart-pet-care-air-purifier-filter/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-pet-care-air-purifier-filter/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 175 mm in diameter and 206 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification.'
+hepa_grade: null
+media: null

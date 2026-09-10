@@ -1,0 +1,43 @@
+id: roborock-qrevo-saros-dust-bag
+brand: Roborock
+model: Qrevo / Saros dock dust bag
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bag_type: Disposable dock dust bag
+fits_devices:
+- id: roborock-qrevo
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-maxv
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-s
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-pro
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-curv
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-edge
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-qrevo-s5v
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-saros-10
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+- id: roborock-saros-10r
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+measurements: null
+sources:
+- https://us.roborock.com/products/roborock-dust-bag-6pcs-for-q-revo
+notes: The OEM lists Qrevo and Saros series. This dock bag relationship does not imply that the robots
+  share filters, main brushes or mop pads. Compatibility is the manufacturer claim checked on 2026-09-11.
+  No interface dimensions or cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

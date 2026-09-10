@@ -1,40 +1,104 @@
-# Filter slot / interface profiles for OpenAir.
-#
-# A slot is the project's term for a mechanical compatibility class on an air
-# purifier unit: the cylindrical (or other) cavity that holds the replaceable
-# filter cartridge. Two units with the same slot accept the same cartridge,
-# per the project's evidence. The strength of the claim depends on `status`.
-#
-# Slots are NOT a published spec. They are working categories that may
-# collapse, split, or be renamed as measurement lands. A unit entry can also
-# use `pending-measurement` for `interface` if no evidence yet supports a
-# grouping.
-
+xiaomi-4-6-filter-family:
+  display_name: Xiaomi 4 / Mijia 6 replacement-filter group
+  aftermarket_aliases:
+  - M16R-FLP-GL
+  - AFEP8TFM25-GL
+  status: unmeasured
+  baseline: null
+  notes: The AFEP8TFM25-GL filter is explicitly listed for both the Mijia Smart Air Purifier 6 and Xiaomi
+    Smart Air Purifier 4 in [Xiaomi specifications](https://www.mi.com/global/product/mijia-smart-air-purifier-6-filter/specs/).
+    This is a working grouping, not a claim that every filter for either device is interchangeable. In
+    particular, M16R-FLP-GL has only a recorded claim for the 4. Geometry and electronics have not been
+    measured.
+xiaomi-4-lite-filter:
+  display_name: Xiaomi Smart Air Purifier 4 Lite cartridge
+  aftermarket_aliases:
+  - M17-FLP-GL
+  - AFEP5TFA17
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Xiaomi Smart Air
+    Purifier 4 Lite Filter](https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-lite-filter/specs/).
+    Unmeasured; consult the individual part-to-device claims for the supported direction of fit.'
+xiaomi-4-compact-filter:
+  display_name: Xiaomi Smart Air Purifier 4 Compact cartridge
+  aftermarket_aliases:
+  - AFEP7TFM01
+  - AFEP5TFA18
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Xiaomi Smart Air
+    Purifier 4 Compact Filter](https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter/specs/).
+    Unmeasured; consult the individual part-to-device claims for the supported direction of fit.'
+xiaomi-4-pro-filter:
+  display_name: Xiaomi Smart Air Purifier 4 Pro cartridge
+  aftermarket_aliases:
+  - M15R-FLP-GL
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Xiaomi Smart Air
+    Purifier 4 Pro Filter](https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-pro-filter/specs/).
+    Unmeasured; consult the individual part-to-device claims for the supported direction of fit.'
+xiaomi-elite-filter:
+  display_name: Xiaomi Smart Air Purifier Elite cartridge
+  aftermarket_aliases:
+  - AFEP7TFX19
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Xiaomi Smart Air
+    Purifier Elite Filter](https://www.mi.com/global/product/xiaomi-smart-air-purifier-elite-filter/specs/).
+    Unmeasured; consult the individual part-to-device claims for the supported direction of fit.'
+xiaomi-pet-care-filter:
+  display_name: Xiaomi Smart Pet Care Air Purifier cartridge
+  aftermarket_aliases:
+  - AFEP8TFM30
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Xiaomi Smart Pet
+    Care Air Purifier Filter](https://www.mi.com/global/product/xiaomi-smart-pet-care-air-purifier-filter/specs/).
+    Unmeasured; consult the individual part-to-device claims for the supported direction of fit.'
+xiaomi-ac-m34-filter:
+  display_name: Mijia Smart Air Purifier Max cartridge
+  aftermarket_aliases:
+  - AFEP7TFM34-GL
+  status: unmeasured
+  baseline: null
+  notes: 'Working grouping based on manufacturer-listed replacement fitment. Source: [Mijia Smart Air
+    Purifier Max Filter](https://www.mi.com/global/product/mijia-air-purifier-max-filter/specs/). Unmeasured;
+    consult the individual part-to-device claims for the supported direction of fit.'
 xiaomi-mi-3-family:
-  display_name: "Xiaomi Mi Air Purifier 3-family barrel"
-  aftermarket_aliases: [M8R-FLH, M8R-FLG, M8R-FLP, "Mi Air Purifier filter"]
-  charging: n/a
+  display_name: Xiaomi M8R-FLH documented host group
+  aftermarket_aliases:
+  - M8R-FLH
+  - Mi Air Purifier 3H
+  - Mi Air Purifier 3C
   status: unmeasured
   baseline: null
-  notes: |
-    Cylindrical "barrel" cartridge format that spans the Mi Air Purifier 2,
-    2S, 2H, 3, 3H, 3C, Pro, and Pro H units. Xiaomi publishes three
-    interchangeable media variants in the same housing (M8R-FLH original /
-    HEPA, M8R-FLG antibacterial, M8R-FLP anti-formaldehyde) which is strong
-    evidence the slot geometry is shared within this generation. The Mi 4
-    family appears to use a similar but distinct cartridge; treat as a
-    separate slot until measured. Aftermarket sellers tag this slot with
-    handle / unit model names (3H, 3C, Pro) more than the filter SKU.
-
+  notes: Xiaomi lists M8R-FLH for the 2H, 2S, 2C, 3C, 3H and Pro in its [support record](https://www.mi.com/global/support/article/KA-07487/).
+    The graph currently represents 3C and 3H. Pro H is not included in this grouping. This evidence establishes
+    listed replacement fit, not measured interface geometry.
+xiaomi-pro-h-filter:
+  display_name: Xiaomi Pro H dedicated cartridge
+  aftermarket_aliases:
+  - M7R-FLH-GL
+  - AC-M13-SC
+  status: unmeasured
+  baseline: null
+  notes: Dedicated replacement filter documented by [Xiaomi](https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/).
+    Recorded separately from the M8R-FLH host group. No interface measurements have been made.
 smartmi-p1-family:
-  display_name: "Smartmi P1 cartridge"
-  aftermarket_aliases: [ZMKQJHQP01-filter, "Smartmi P1 filter"]
-  charging: n/a
+  display_name: Smartmi P1 replacement filter group
+  aftermarket_aliases:
+  - Smartmi P1 filter
   status: unmeasured
   baseline: null
-  notes: |
-    Smartmi-specific cartridge for the Smartmi P1 (ZMKQJHQP01). Smartmi was
-    a Xiaomi-affiliated brand and some Smartmi accessories cross-list with
-    Mijia listings, but the P1's filter housing does not appear to match
-    the Mi 3-family barrel. Listed as a separate slot pending physical
-    verification.
+  notes: Smartmi lists Pet and Pollen variants for the P1 in its [filter product page](https://eu.smartmiglobal.com/products/smartmi-filters-p1).
+    No Xiaomi-branded purifier or Smartmi P2 interchangeability is inferred from similar naming.
+smartmi-air-purifier-3-filter:
+  display_name: Smartmi Air Purifier 3 cartridge
+  aftermarket_aliases:
+  - KQJHQLX03ZM-GL
+  status: unmeasured
+  baseline: null
+  notes: Model-specific replacement fit documented by [Smartmi](https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3-filter).
+    Unmeasured, with no cross-generation fit inferred.

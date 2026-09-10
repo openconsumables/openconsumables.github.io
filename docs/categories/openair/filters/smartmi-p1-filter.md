@@ -1,26 +1,23 @@
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
-# Smartmi P1 Filter
+# Smartmi P1 Pet Filter
 
-OEM · Variant: standard
+OEM · HEPA: H13 (manufacturer-claim) · Media: Prefilter + HEPA + activated carbon (manufacturer-claim)
 
-Also sold as: Smartmi P1 replacement filter
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
+Also sold as: Smartmi P1 Pet Filter
 
 ## Fits air purifier units
 
-| Unit | Provenance |
-|---|---|
-| [Smartmi Air Purifier P1](../units/smartmi-air-purifier-p1.md) | Inferred |
+| Unit | Provenance | Source |
+|---|---|---|
+| [Smartmi Air Purifier P1](../units/smartmi-air-purifier-p1.md) | Manufacturer claim | [Source](<https://eu.smartmiglobal.com/products/smartmi-filters-p1>) |
 
 ## Notes
 
-Stub entry, paired with the Smartmi P1 unit stub. HEPA grade, media
-composition, and lifespan are intentionally omitted until a verifiable
-manufacturer source is captured: publishing those values without a
-citation contradicts the data layer's provenance rules. The fitment
-claim to the P1 unit is `inferred` and serves only as the second
-slot-membership example for the OpenAir schema.
+The manufacturer explicitly lists this media variant for Smartmi Air Purifier P1. Engineering part number is not established by the cited page. H13 is the manufacturer description; no independent classification test has been reviewed.
 
-Anyone with a current Smartmi product-page URL (store, manual, or
-regulatory filing) covering the P1 cartridge is invited to open a PR
-upgrading this entry.
+## Sources
+
+- <https://eu.smartmiglobal.com/products/smartmi-filters-p1>

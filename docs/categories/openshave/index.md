@@ -5,16 +5,14 @@ Working name: **OpenShave**. The fourth category in the Open Consumables device 
 ## What's here
 
 - **[Units](units/index.md)**, the shaver bodies themselves, with replacement heads or cassettes listed by mount family.
-- **[Heads](heads/index.md)**, OEM and aftermarket rotary three-blade head modules, with the shavers they fit.
-- **[Foil cassettes](cassettes/index.md)**, reciprocating multi-blade cassettes for foil shavers (Xiaomi Mi 5-Blade family).
+- **[Heads](heads/index.md)**, OEM and aftermarket rotary head modules, with the shavers they fit.
+- **[Foil cassettes](cassettes/index.md)**, reciprocating foil assemblies, kept separate from rotary heads.
 
 ## Status
 
-**Reference layer only.** OpenShave is not yet an active measurement subproject; activation depends on OpenBrush producing a published measured baseline first. Until then, this category exists as a knowledge-graph stub: provenance-tagged compatibility data sourced from manufacturer pages and aftermarket listings, with no project measurement claims.
+**Reference layer only.** OpenShave is not yet an active measurement subproject; activation depends on OpenBrush producing a published measured baseline first. This category records provenance-tagged compatibility data sourced from manufacturer pages and aftermarket listings, with no project measurement claims.
 
-The proposed first-baseline target if OpenShave does activate is the Xiaomi / Mijia S300 / S500 / S500C rotary 3-blade head family, with ENCHEN BR-1 as the strongest alternative. The synthesis behind that recommendation lives in the R&D workspace and is not republished here.
-
-Coverage is intentionally small: rotary 3-blade families across Xiaomi / Mijia, ENCHEN, Soocas, ShowSee, and Riwa, plus a single foil cassette family (Xiaomi Mi 5-Blade). Cleaning-station cartridges are out of scope for now; most Chinese-IoT shavers in the desk-pass mapping do not have a cleaning dock. Pull requests welcome; see [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema.
+Coverage includes Xiaomi / Mijia, ENCHEN, Soocas, ShowSee and Riwa records, with current Xiaomi replacement assemblies added where the manufacturer names them. Some older entries retain unresolved source notes; those notes are labelled where an exact URL was not recorded. They are not refreshed manufacturer evidence.
 
 ## Scope
 
@@ -22,8 +20,8 @@ Coverage is intentionally small: rotary 3-blade families across Xiaomi / Mijia, 
 
 - Chinese-IoT cluster consumer electric shavers (Xiaomi / Mijia, Soocas, ShowSee, ENCHEN, Riwa)
 - the mechanical head-mount interface between body and replacement head, including drive socket / shaft geometry, latch / magnetic retention, and cutter-pod outer envelope as identification dimensions
-- rotary three-blade heads, tracked under the `heads` part class
-- reciprocating foil cassettes (Xiaomi Mi 5-Blade family), tracked under the separate `cassettes` part class
+- rotary replacement heads, tracked under the `heads` part class
+- reciprocating foil cassettes, tracked under the separate `cassettes` part class
 - buyer-visible device codes, head codes, and aftermarket fitment vocabulary, where the manufacturer or marketplace surfaces them
 
 **Out of scope** at this stage:

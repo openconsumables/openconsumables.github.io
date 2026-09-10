@@ -1,0 +1,32 @@
+id: xiaomi-portable-dual-blade-electric-shaver
+brand: Xiaomi
+family: null
+model: Portable Dual Blade Electric Shaver
+aliases:
+- MSW201
+aftermarket_anchor: MSW201
+type: electric-shaver
+mode: foil
+head_count: 2
+wet_dry: wet-dry
+charging: usb-c
+cleaning_dock: false
+status: unknown
+interfaces:
+  cassettes: xiaomi-msw201-foil
+interface_provenance:
+  cassettes: manufacturer-claim
+compatible_parts:
+  cassettes:
+  - id: xiaomi-mswt201-cassette
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver-replacement-head/
+sources:
+- https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver/
+- https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver/specs/
+- https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver-replacement-head/
+notes: |
+  Officially documented handle and model-specific replacement assembly.
+  No shared fit with similarly named Xiaomi shavers is implied. Manufacturer
+  head and handle codes are recorded separately where available.
+last_reviewed: '2026-09-11'

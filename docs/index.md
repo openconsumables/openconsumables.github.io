@@ -12,7 +12,7 @@ Open Consumables is a measurement archive for everyday hardware. We don't manufa
 
 ## Current focus
 
-The pilot category is **electric toothbrush heads**, working name **OpenBrush**. Five additional categories are scaffolded but deferred: air filters, water cartridges, robot vacuum consumables, electric razor heads, scooter parts, humidifier wicks.
+The pilot category is **electric toothbrush heads**, working name **OpenBrush**. Six additional measurement programmes remain deferred: air filters, water cartridges, robot vacuum consumables, electric razor heads, scooter parts, humidifier wicks.
 
 See [Toothbrushes](categories/toothbrushes/index.md) for the active work.
 

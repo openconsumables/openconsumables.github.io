@@ -2,15 +2,15 @@
 
 # ShowSee F1-BK
 
-Aftermarket code: `F1-BK` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2021 · Status: current
+Model / fitment code: `F1-BK` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2021 · Status: current
 
 Also sold as: ShowSee F1-BK, 小适青春系列 F1-BK
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [ShowSee F1 / F303-BK Replacement Head](../heads/showsee-f1-f303-bk-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [ShowSee F1 / F303-BK Replacement Head](../heads/showsee-f1-f303-bk-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://jd.zol.com.cn/1035/10352943.html>) |
 
 ## Head mount: ShowSee F1 / F303-BK rotary 3-blade
 

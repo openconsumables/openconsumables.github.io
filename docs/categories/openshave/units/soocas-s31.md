@@ -2,35 +2,40 @@
 
 # Soocas S31
 
-Aftermarket code: `S31` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2021 · Status: current
+Model / fitment code: `S31` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2021 · Status: unknown
 
 Also sold as: Soocas S31, 素士超能自动剃电动剃须刀 S31
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Soocas S31 Replacement Head](../heads/soocas-s31-head.md) | OEM | 3 | rotary | stainless-steel | Manufacturer claim | No |
-| [Generic Replacement head fit for SOOCAS S3 S5](../heads/generic-soocas-s-family-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Soocas S31 Replacement Head](../heads/soocas-s31-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://www.pinkoi.com/product/vSsQRGk7>) |
+| [Generic Replacement head fit for SOOCAS S3 S5](../heads/generic-soocas-s-family-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5' |
 
-## Head mount: Soocas S-family rotary 3-blade (S3 / S5 / S31 / S32)
+## Head mount: Soocas S31 model-specific rotary assembly
 
 Provenance: **Marketplace listing**
 
 Status: **unmeasured**
 
-Provisional grouping. Soocas accessory copy on Pinkoi describes each
-head (S3, S5, S31, S32) as model-specific, but export marketplace
-listings (Walmart.ca and similar) group the heads under one variant
-title "Fit for SOOCAS S3 S5" with model-coloured variants. The
-conflict cannot be resolved without underside photos or physical
-samples. Soocas filings link S31 / S3 / S5 / S32 to shared cutter-head
-technology and to Xiaomi S100 custom shaver development, which is
-suggestive but not proof of interchangeability.
+Pinkoi authorized-reseller copy limits each named original head to its
+own model. Generic listings containing several selectable variants do
+not establish one interchangeable Soocas S-family mount.
 
 ## Notes
 
-Soocas S31. Same Pinkoi-vs-marketplace fitment conflict as S3 and
-S5. Soocas corporate filings link S31, S3, and S32 to a shared
-cutter-head technology context, which is suggestive but not proof
-of interchangeability.
+The Pinkoi authorized-reseller listing identifies a model-specific S31
+head. This does not validate the broader generic listing variants as
+interchangeable. Replacement-head source reviewed 2026-09-11; other
+legacy device specifications and release dates were not independently
+reverified in this pass.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
+
+## Sources
+
+- <https://www.pinkoi.com/product/vSsQRGk7>

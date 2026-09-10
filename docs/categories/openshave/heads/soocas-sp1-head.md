@@ -8,12 +8,16 @@ Also sold as: Soocas SP1 replacement shaver head, 素士 SP1 剃须刀刀头
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Soocas SP1](../units/soocas-sp1.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Soocas SP1](../units/soocas-sp1.md) | Marketplace listing | [Source](<https://www.pinkoi.com/product/vSsQRGk7>) |
 
 ## Notes
 
-Soocas SP1 head per the Pinkoi accessory listing. Style (rotary
-single, foil compact, or hybrid) was not resolved in the desk pass;
-head_type is left as `unresolved` until confirmed.
+The Pinkoi listing names this SP1 replacement head and limits it to
+SP1. The store identifies itself as an authorized Soocas reseller, so
+OEM identity and fit are marketplace claims. Reviewed 2026-09-11.
+
+## Sources
+
+- <https://www.pinkoi.com/product/vSsQRGk7>

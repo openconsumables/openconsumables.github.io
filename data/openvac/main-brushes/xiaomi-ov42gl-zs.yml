@@ -1,0 +1,20 @@
+id: xiaomi-ov42gl-zs
+brand: Xiaomi
+model: OV42GL-ZS main brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Main brush
+fits_devices:
+- id: xiaomi-s40-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s40-pro-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-s40-pro-accessories/specs/
+notes: The component code starts OV42GL even though the S40 Pro device code is OV71GL. Preserve the
+  OEM component code instead of deriving it from the device code. Compatibility is the manufacturer
+  claim checked on 2026-09-11. No interface dimensions or cross-brand fit have been measured by the
+  project.
+last_reviewed: '2026-09-11'

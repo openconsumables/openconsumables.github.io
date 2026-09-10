@@ -1,0 +1,27 @@
+id: segway-ab-05-12-00-0011
+brand: Segway-Ninebot
+model: AB.05.12.00.0011 F2-series brake disc
+aliases:
+- AB.05.12.00.0011
+oem: true
+clones_of: null
+sold_as: []
+rotor_diameter_mm: null
+bolt_pattern: unknown
+fits_devices:
+- id: ninebot-f2
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+- id: ninebot-f2-plus
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+- id: ninebot-f2-pro
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/f2-series/f2-plus?p=2
+last_reviewed: '2026-09-11'
+notes: Diameter and bolt spacing are not supplied in the cited catalog. The manufacturer catalog
+  names the supported models. No interface geometry or additional cross-fit has been measured by
+  the project.

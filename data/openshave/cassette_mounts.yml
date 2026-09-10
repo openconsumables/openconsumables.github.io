@@ -46,3 +46,14 @@ xiaomi-mjtxd01xm-foil-compact:
     cassette SKU. Treated as a separate mount slot until evidence of a
     standalone replacement part appears. Distinct from the Mi 5-Blade
     cassette format on size, blade count, and retention design.
+
+xiaomi-msw201-foil:
+  display_name: Xiaomi Portable Dual Blade Electric Shaver foil assembly
+  aftermarket_aliases:
+  - MSW201
+  charging: usb-c
+  status: unmeasured
+  baseline: null
+  notes: |
+    Dedicated manufacturer-listed replacement assembly. No cross-model
+    compatibility or measured geometry is asserted.

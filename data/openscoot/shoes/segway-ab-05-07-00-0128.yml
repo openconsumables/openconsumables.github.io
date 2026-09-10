@@ -1,0 +1,20 @@
+id: segway-ab-05-07-00-0128
+brand: Segway-Ninebot
+model: AB.05.07.00.0128 MAX G2 front drum brake
+aliases:
+- AB.05.07.00.0128
+oem: true
+clones_of: null
+sold_as: []
+drum_diameter_mm: null
+shoe_compound: unknown
+fits_devices:
+- id: ninebot-max-g2
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+last_reviewed: '2026-09-11'
+notes: Complete front drum-brake assembly, not a loose brake shoe. The manufacturer catalog names
+  the supported models. No interface geometry or additional cross-fit has been measured by the project.

@@ -147,3 +147,81 @@ openshave:
         - material
       column_labels:
         blade_count: "Blades"
+
+openwater:
+  display_name: Water purifiers
+  device:
+    dir: units
+    singular: Unit
+    plural: Water purifier units
+  parts:
+    - dir: prefilters
+      singular: Composite cartridge
+      plural: Composite cartridges
+      interface_file: prefilter_mounts.yml
+      interface_singular: Composite cartridge mount
+      columns: [stage, media]
+    - dir: ro-cartridges
+      singular: RO cartridge
+      plural: RO cartridges
+      interface_file: ro_mounts.yml
+      interface_singular: RO cartridge mount
+      columns: [stage, media]
+    - dir: faucet-cartridges
+      singular: Faucet cartridge
+      plural: Faucet cartridges
+      interface_file: faucet_mounts.yml
+      interface_singular: Faucet cartridge mount
+      columns: [stage, media]
+
+openmist:
+  display_name: Humidifiers
+  device:
+    dir: units
+    singular: Unit
+    plural: Humidifier units
+  parts:
+    - dir: wicks
+      singular: Wick
+      plural: Replacement wicks
+      interface_file: wick_mounts.yml
+      interface_singular: Wick mount
+      columns: [media, maintenance]
+
+openvac:
+  display_name: Robot vacuums
+  device:
+    dir: units
+    singular: Robot vacuum
+    plural: Robot vacuums
+  parts:
+    - dir: main-brushes
+      singular: Main brush
+      plural: Main brushes
+      interface_file: main_brush_mounts.yml
+      interface_singular: Main brush mount
+    - dir: side-brushes
+      singular: Side brush
+      plural: Side brushes
+      interface_file: side_brush_mounts.yml
+      interface_singular: Side brush mount
+    - dir: filters
+      singular: Filter
+      plural: Dust filters
+      interface_file: filter_slots.yml
+      interface_singular: Filter slot
+    - dir: mop-pads
+      singular: Mop pad
+      plural: Mop pads
+      interface_file: mop_mounts.yml
+      interface_singular: Mop mount
+    - dir: dust-bags
+      singular: Dust bag
+      plural: Dust bags
+      interface_file: bag_ports.yml
+      interface_singular: Bag port
+    - dir: roller-mops
+      singular: Roller mop
+      plural: Roller mops
+      interface_file: roller_mop_mounts.yml
+      interface_singular: Roller mop mount

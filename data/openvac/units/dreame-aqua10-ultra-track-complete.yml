@@ -1,0 +1,16 @@
+id: dreame-aqua10-ultra-track-complete
+brand: Dreame
+model: Aqua10 Ultra Track Complete
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://de.dreametech.com/products/dreame-aqua10-ultra-track-complete-saugroboter
+last_reviewed: '2026-09-11'
+notes: The German manufacturer page identifies the Track variant as a separate product from Aqua10
+  Ultra Roller Complete. The US Aqua roller-mop part list names only Ultra Roller, Roller and Roller
+  AE, so no Track-to-roller-mop fit is recorded.

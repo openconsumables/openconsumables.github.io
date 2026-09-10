@@ -1,0 +1,28 @@
+id: soocas-c04-ultra-clean
+brand: Soocas
+family: null
+model: C04 (MultiClean Ultra Clean)
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: ultra-clean
+fits_devices:
+- id: soocas-neos-ii
+  provenance: manufacturer-claim
+  source: https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+- id: soocas-neos-ii-ultra
+  provenance: manufacturer-claim
+  source: https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+measurements: null
+sources:
+- https://soocas.com/pages/soocas-neos-ii-brush-head-user-manual
+- https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+- https://cdn.shopify.com/s/files/1/0503/2024/4926/files/Soocas_MultiClean_Ultra_Clean_Brush_Head_User_Manual.pdf?v=1761548321
+notes: |
+  Manufacturer head manuals identify Classic Clean as C02 and both Ultra
+  Clean and Ultra Soft as C04. The shared C04 code does not collapse the two
+  bristle variants into one product. The manufacturer accessory page names
+  NEOS II and NEOS II Ultra as compatible handles.
+last_reviewed: '2026-09-11'

@@ -1,0 +1,31 @@
+id: xiaomi-electric-shaver-s301
+brand: Xiaomi
+family: null
+model: S301
+aliases: []
+aftermarket_anchor: S301
+type: electric-shaver
+mode: rotary
+head_count: 3
+wet_dry: wet-dry
+charging: usb-c
+cleaning_dock: false
+status: unknown
+interfaces:
+  heads: xiaomi-s301-rotary
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-shaver-head-s301
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-electric-shaver-s301-replacement-head/
+sources:
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s301/
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s301/specs/
+- https://www.mi.com/global/product/xiaomi-electric-shaver-s301-replacement-head/
+notes: |
+  Officially documented handle and model-specific replacement assembly.
+  No shared fit with similarly named Xiaomi shavers is implied. Manufacturer
+  head and handle codes are recorded separately where available.
+last_reviewed: '2026-09-11'

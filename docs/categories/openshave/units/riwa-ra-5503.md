@@ -2,15 +2,15 @@
 
 # Riwa RA-5503
 
-Aftermarket code: `RA-5503` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2021 · Status: current
+Model / fitment code: `RA-5503` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2021 · Status: current
 
 Also sold as: 雷瓦 RA-5503, Riwa RA5503, RA5503
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Riwa Original RA-series Replacement Head](../heads/riwa-ra-series-original-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Riwa Original RA-series Replacement Head](../heads/riwa-ra-series-original-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://www.jd.com/hprm/737a0effd1a8def4a21.html>) |
 
 ## Head mount: Riwa RA-series rotary 3-blade
 

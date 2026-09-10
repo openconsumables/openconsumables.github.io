@@ -3,8 +3,8 @@ brand: Soocas
 family: null
 model: S31 Replacement Head
 aliases:
-  - "Soocas S31 replacement shaver head"
-  - "素士 S31 剃须刀刀头"
+- Soocas S31 replacement shaver head
+- 素士 S31 剃须刀刀头
 oem: true
 clones_of: null
 sold_as: []
@@ -13,11 +13,13 @@ head_type: rotary
 material: stainless-steel
 variant: original
 fits_devices:
-  - id: soocas-s31
-    provenance: manufacturer-claim
-    source: "Soocas Pinkoi accessory listing for S31 replacement head (Chinese-language; says only for S31)"
+- id: soocas-s31
+  provenance: marketplace-claim
+  source: https://www.pinkoi.com/product/vSsQRGk7
 measurements: null
-sources: []
+sources:
+- https://www.pinkoi.com/product/vSsQRGk7
 notes: |
-  Soocas S31 head per the Pinkoi accessory listing. Pinkoi describes
-  the head as S31-only.
+  The Pinkoi listing names this S31 replacement head and limits it to
+  S31. The store identifies itself as an authorized Soocas reseller, so
+  OEM identity and fit are marketplace claims. Reviewed 2026-09-11.

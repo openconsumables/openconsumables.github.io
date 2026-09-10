@@ -1,0 +1,22 @@
+id: xiaomi-m7r-flh-gl
+brand: Xiaomi
+model: M7R-FLH-GL
+aliases:
+- Mi Air Purifier Pro H Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-mi-air-purifier-pro-h
+  provenance: manufacturer-claim
+  source: https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/specs/
+- https://www.mi.com/pk/product/mi-air-purifier-pro-h-filter/
+notes: 'Manufacturer-claim: 249 mm diameter and 384.5 mm height. Xiaomi names Mi Air Purifier Pro H as
+  the host. The documented H13 description concerns the filter paper and is not a project verification
+  of a test classification.'
+hepa_grade: H13 filter paper (manufacturer-claim)
+media: Primary filter + HEPA + activated carbon (manufacturer-claim)

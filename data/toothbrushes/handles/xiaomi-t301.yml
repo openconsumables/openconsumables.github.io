@@ -1,0 +1,28 @@
+id: xiaomi-t301
+brand: Xiaomi
+family: Mijia
+model: T301
+aliases: []
+aftermarket_anchor: MES605
+type: electric
+mode: sonic
+charging: unknown
+status: unknown
+interfaces:
+  heads: xiaomi-mes608-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-t301-t302-standard-head
+    provenance: manufacturer-claim
+    source: https://www.mi.com/shop/comment/15408.html
+sources:
+- https://www.mi.com/shop/comment/15408.html
+- https://www.suning.com/itemcanshu/0070977076/000000012350961307.html
+notes: |
+  Xiaomi China names T301 and T302 together in its standard replacement-head
+  product title. The MES605 handle-code mapping is retailer evidence from a
+  Suning listing, not a retrieved Xiaomi specification sheet. Charging is left
+  unknown here pending a directly attributable specification or manual.
+last_reviewed: '2026-09-11'

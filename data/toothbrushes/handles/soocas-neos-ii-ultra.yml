@@ -1,0 +1,36 @@
+id: soocas-neos-ii-ultra
+brand: Soocas
+family: null
+model: NEOS II Ultra
+aliases: []
+aftermarket_anchor: T04 Ultra
+type: electric
+mode: sonic-oscillating
+charging: inductive
+status: unknown
+interfaces:
+  heads: soocas-neos
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: soocas-c02-classic-clean
+    provenance: manufacturer-claim
+    source: https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+  - id: soocas-c04-ultra-clean
+    provenance: manufacturer-claim
+    source: https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+  - id: soocas-c04-ultra-soft
+    provenance: manufacturer-claim
+    source: https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+sources:
+- https://soocas.com/pages/soocas-neos-ii-ultra-user-manual
+- https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set
+- https://cdn.shopify.com/s/files/1/0503/2024/4926/files/Soocas_NEOS_II_Ultra_Electric_Toothbrush_user_manual_updated.pdf?v=1785463871
+notes: |
+  The manufacturer manual identifies NEOS II Ultra as T04 Ultra. The head combines
+  brushing with a water-flossing outlet. Soocas sells the same Classic Clean,
+  Ultra Clean and Ultra Soft replacement variants for NEOS II and NEOS II
+  Ultra. This does not establish cross-fit with the older Soocas X-series
+  or Xiaomi toothbrushes.
+last_reviewed: '2026-09-11'

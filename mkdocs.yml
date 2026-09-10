@@ -66,141 +66,346 @@ markdown_extensions:
 plugins:
   - search
 
-nav:
-  - Home: index.md
-  - Project:
-      - project/overview.md
-      - project/concept.md
-  - Categories:
-      - categories/index.md
-      - Toothbrushes:
-          - categories/toothbrushes/index.md
-          - categories/toothbrushes/ecosystem.md
-          - categories/toothbrushes/compatibility.md
-          - Handles:
-              - categories/toothbrushes/handles/index.md
-              - categories/toothbrushes/handles/xiaomi-t200.md
-              - categories/toothbrushes/handles/xiaomi-t500.md
-              - categories/toothbrushes/handles/oral-b-pro-1000.md
-          - Heads:
-              - categories/toothbrushes/heads/index.md
-              - categories/toothbrushes/heads/xiaomi-mbs301.md
-              - categories/toothbrushes/heads/xiaomi-mbs305.md
-              - categories/toothbrushes/heads/generic-mes606-pack.md
-              - categories/toothbrushes/heads/oral-b-cross-action.md
-      - Air purifiers:
-          - categories/openair/index.md
-          - Units:
-              - categories/openair/units/index.md
-              - categories/openair/units/xiaomi-mi-air-purifier-3h.md
-              - categories/openair/units/xiaomi-mi-air-purifier-3c.md
-              - categories/openair/units/smartmi-air-purifier-p1.md
-          - Filters:
-              - categories/openair/filters/index.md
-              - categories/openair/filters/xiaomi-m8r-flh.md
-              - categories/openair/filters/xiaomi-m8r-flp.md
-              - categories/openair/filters/smartmi-p1-filter.md
-              - categories/openair/filters/generic-mi-3-family-pack.md
-      - Electric scooters:
-          - categories/openscoot/index.md
-          - Units:
-              - categories/openscoot/units/index.md
-              - categories/openscoot/units/xiaomi-m365.md
-              - categories/openscoot/units/xiaomi-mi-electric-scooter-3.md
-              - categories/openscoot/units/ninebot-max-g30.md
-          - Tires:
-              - categories/openscoot/tires/index.md
-              - categories/openscoot/tires/xiaomi-m365-oem-8.5x2-pneumatic.md
-              - categories/openscoot/tires/ninebot-max-oem-10x2.125-pneumatic.md
-              - categories/openscoot/tires/generic-8.5x2-pneumatic-pack.md
-              - categories/openscoot/tires/generic-8.5-honeycomb-solid.md
-          - Brake pads:
-              - categories/openscoot/pads/index.md
-              - categories/openscoot/pads/xiaomi-m365-oem-rear-disc-pad.md
-              - categories/openscoot/pads/generic-m365-rear-disc-pad-pack.md
-              - categories/openscoot/pads/generic-m365-sintered-rear-disc-pad.md
-              - categories/openscoot/pads/generic-mi-3-dual-pad-disc-pad-pack.md
-          - Drum brake shoes:
-              - categories/openscoot/shoes/index.md
-              - categories/openscoot/shoes/segway-ninebot-g30-oem-drum-brake-assembly.md
-              - categories/openscoot/shoes/green-line-g30-drum-brake-assembly.md
-              - categories/openscoot/shoes/generic-g30-drum-brake-assembly.md
-          - Inner tubes:
-              - categories/openscoot/tubes/index.md
-              - categories/openscoot/tubes/xiaomi-m365-oem-8.5x2-inner-tube.md
-              - categories/openscoot/tubes/generic-8.5x2-schrader-inner-tube.md
-          - Rotors:
-              - categories/openscoot/rotors/index.md
-              - categories/openscoot/rotors/xiaomi-m365-oem-rear-brake-disc.md
-              - categories/openscoot/rotors/generic-m365-110mm-5-bolt-brake-disc.md
-          - Grip tape:
-              - categories/openscoot/grip-tape/index.md
-              - categories/openscoot/grip-tape/generic-m365-family-560x132-foot-mat.md
-              - categories/openscoot/grip-tape/generic-m365-1s-replacement-foot-mat.md
-              - categories/openscoot/grip-tape/generic-ninebot-max-g30-replacement-foot-mat.md
-      - Electric shavers:
-          - categories/openshave/index.md
-          - Units:
-              - categories/openshave/units/index.md
-              - categories/openshave/units/xiaomi-mijia-s300.md
-              - categories/openshave/units/xiaomi-mijia-s500.md
-              - categories/openshave/units/xiaomi-mijia-s500c.md
-              - categories/openshave/units/xiaomi-mijia-s101.md
-              - categories/openshave/units/xiaomi-mijia-s302.md
-              - categories/openshave/units/xiaomi-mijia-s700.md
-              - categories/openshave/units/xiaomi-mijia-mjtxd01sks.md
-              - categories/openshave/units/enchen-blackstone.md
-              - categories/openshave/units/enchen-blackstone-c.md
-              - categories/openshave/units/enchen-warrior.md
-              - categories/openshave/units/enchen-blackstone-3.md
-              - categories/openshave/units/enchen-gentleman-3s.md
-              - categories/openshave/units/enchen-gentleman-5s.md
-              - categories/openshave/units/enchen-steel-3s.md
-              - categories/openshave/units/enchen-blackstone-7.md
-              - categories/openshave/units/soocas-s3.md
-              - categories/openshave/units/soocas-s5.md
-              - categories/openshave/units/soocas-s31.md
-              - categories/openshave/units/soocas-s32.md
-              - categories/openshave/units/soocas-sp1.md
-              - categories/openshave/units/showsee-t3.md
-              - categories/openshave/units/showsee-f1-bk.md
-              - categories/openshave/units/showsee-f303-bk.md
-              - categories/openshave/units/showsee-f305-gy.md
-              - categories/openshave/units/riwa-ra-5301.md
-              - categories/openshave/units/riwa-ra-5501.md
-              - categories/openshave/units/riwa-ra-5503.md
-              - categories/openshave/units/riwa-ra-5504.md
-              - categories/openshave/units/riwa-ra-5505.md
-              - categories/openshave/units/xiaomi-mi-5-blade.md
-              - categories/openshave/units/xiaomi-mjtxd01xm.md
-          - Heads:
-              - categories/openshave/heads/index.md
-              - categories/openshave/heads/xiaomi-shaver-head-s300-s500-s500c.md
-              - categories/openshave/heads/xiaomi-shaver-head-s101.md
-              - categories/openshave/heads/xiaomi-shaver-head-s302.md
-              - categories/openshave/heads/xiaomi-shaver-head-s700.md
-              - categories/openshave/heads/generic-s300-s500-mjtxd01sks-rotary-head.md
-              - categories/openshave/heads/enchen-br1-head.md
-              - categories/openshave/heads/enchen-br3-head.md
-              - categories/openshave/heads/generic-br1-compatible-head.md
-              - categories/openshave/heads/generic-br3-compatible-head.md
-              - categories/openshave/heads/showsee-t3-head.md
-              - categories/openshave/heads/showsee-f1-f303-bk-head.md
-              - categories/openshave/heads/showsee-f305-head.md
-              - categories/openshave/heads/riwa-ra-series-original-head.md
-              - categories/openshave/heads/generic-riwa-ra-four-petal-head.md
-              - categories/openshave/heads/soocas-s3-head.md
-              - categories/openshave/heads/soocas-s5-head.md
-              - categories/openshave/heads/soocas-s31-head.md
-              - categories/openshave/heads/soocas-s32-head.md
-              - categories/openshave/heads/soocas-sp1-head.md
-              - categories/openshave/heads/generic-soocas-s-family-head.md
-          - Foil cassettes:
-              - categories/openshave/cassettes/index.md
-              - categories/openshave/cassettes/xiaomi-mi-5-blade-cassette.md
-  - Contributing: contributing.md
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/openconsumables
+
+
+
+
+nav:
+- Home: index.md
+- Project:
+  - project/overview.md
+  - project/concept.md
+- Categories:
+  - categories/index.md
+  - Toothbrushes:
+    - categories/toothbrushes/index.md
+    - categories/toothbrushes/ecosystem.md
+    - categories/toothbrushes/compatibility.md
+    - Handles:
+      - categories/toothbrushes/handles/index.md
+      - Oclean Flow: categories/toothbrushes/handles/oclean-flow.md
+      - Oclean X Pro 20: categories/toothbrushes/handles/oclean-x-pro-20.md
+      - Oclean X Pro Elite: categories/toothbrushes/handles/oclean-x-pro-elite.md
+      - Oclean X Ultra 20: categories/toothbrushes/handles/oclean-x-ultra-20.md
+      - Oral-B Pro 1000: categories/toothbrushes/handles/oral-b-pro-1000.md
+      - Soocas NEOS II: categories/toothbrushes/handles/soocas-neos-ii.md
+      - Soocas NEOS II Ultra: categories/toothbrushes/handles/soocas-neos-ii-ultra.md
+      - Xiaomi Oscillation Electric Toothbrush: categories/toothbrushes/handles/xiaomi-oscillation-electric-toothbrush.md
+      - Xiaomi Oscillation Electric Toothbrush Pro: categories/toothbrushes/handles/xiaomi-oscillation-electric-toothbrush-pro.md
+      - Xiaomi Smart Servo-oscillation Electric Toothbrush Pro: categories/toothbrushes/handles/xiaomi-mijia-smart-servo-oscillation-electric-toothbrush-pro.md
+      - Xiaomi T200: categories/toothbrushes/handles/xiaomi-t200.md
+      - Xiaomi T300: categories/toothbrushes/handles/xiaomi-t300.md
+      - Xiaomi T301: categories/toothbrushes/handles/xiaomi-t301.md
+      - Xiaomi T302: categories/toothbrushes/handles/xiaomi-t302.md
+      - Xiaomi T500: categories/toothbrushes/handles/xiaomi-t500.md
+      - Xiaomi T501: categories/toothbrushes/handles/xiaomi-t501.md
+      - Xiaomi T700: categories/toothbrushes/handles/xiaomi-t700.md
+    - Replacement heads:
+      - categories/toothbrushes/heads/index.md
+      - Generic MES606 heads: categories/toothbrushes/heads/generic-mes606-pack.md
+      - Oclean Ultra Clean: categories/toothbrushes/heads/oclean-ultra-clean.md
+      - Oclean Ultra Gum Care: categories/toothbrushes/heads/oclean-ultra-gum-care.md
+      - Oclean Ultra White: categories/toothbrushes/heads/oclean-ultra-white.md
+      - Oral-B CrossAction: categories/toothbrushes/heads/oral-b-cross-action.md
+      - Oral-B Precision Clean: categories/toothbrushes/heads/oral-b-precision-clean.md
+      - Soocas C02 (MultiClean Classic Clean): categories/toothbrushes/heads/soocas-c02-classic-clean.md
+      - Soocas C04 (MultiClean Ultra Clean): categories/toothbrushes/heads/soocas-c04-ultra-clean.md
+      - Soocas C04 (MultiClean Ultra Soft): categories/toothbrushes/heads/soocas-c04-ultra-soft.md
+      - Xiaomi MBS301 (Gum Care): categories/toothbrushes/heads/xiaomi-mbs301.md
+      - Xiaomi MBS303 (T302 replacement head): categories/toothbrushes/heads/xiaomi-mbs303.md
+      - Xiaomi MBS304 (T700 replacement head): categories/toothbrushes/heads/xiaomi-mbs304.md
+      - Xiaomi MBS305: categories/toothbrushes/heads/xiaomi-mbs305.md
+      - Xiaomi MBS307 (White Pro): categories/toothbrushes/heads/xiaomi-mbs307.md
+      - Xiaomi MBS308 (Oscillation Clean): categories/toothbrushes/heads/xiaomi-mbs308.md
+      - Xiaomi MBS309 (Oscillation Soft): categories/toothbrushes/heads/xiaomi-mbs309.md
+      - Xiaomi T301/T302 standard replacement head (China): categories/toothbrushes/heads/xiaomi-t301-t302-standard-head.md
+  - Air purifiers:
+    - categories/openair/index.md
+    - Air purifier units:
+      - categories/openair/units/index.md
+      - Smartmi Air Purifier 3: categories/openair/units/smartmi-air-purifier-3.md
+      - Smartmi Air Purifier P1: categories/openair/units/smartmi-air-purifier-p1.md
+      - Xiaomi Mi Air Purifier 3C: categories/openair/units/xiaomi-mi-air-purifier-3c.md
+      - Xiaomi Mi Air Purifier 3H: categories/openair/units/xiaomi-mi-air-purifier-3h.md
+      - Xiaomi Mi Air Purifier Pro H: categories/openair/units/xiaomi-mi-air-purifier-pro-h.md
+      - Xiaomi Mijia Smart Air Purifier 6: categories/openair/units/mijia-smart-air-purifier-6.md
+      - Xiaomi Mijia Smart Air Purifier Max: categories/openair/units/mijia-smart-air-purifier-max.md
+      - Xiaomi Smart Air Purifier 4: categories/openair/units/xiaomi-smart-air-purifier-4.md
+      - Xiaomi Smart Air Purifier 4 Compact: categories/openair/units/xiaomi-smart-air-purifier-4-compact.md
+      - Xiaomi Smart Air Purifier 4 Lite: categories/openair/units/xiaomi-smart-air-purifier-4-lite.md
+      - Xiaomi Smart Air Purifier 4 Pro: categories/openair/units/xiaomi-smart-air-purifier-4-pro.md
+      - Xiaomi Smart Air Purifier Elite: categories/openair/units/xiaomi-smart-air-purifier-elite.md
+      - Xiaomi Smart Pet Care Air Purifier: categories/openair/units/xiaomi-smart-pet-care-air-purifier.md
+    - Replacement filters:
+      - categories/openair/filters/index.md
+      - Smartmi KQJHQLX03ZM-GL: categories/openair/filters/smartmi-kqjhqlx03zm-gl.md
+      - Smartmi P1 Pet Filter: categories/openair/filters/smartmi-p1-filter.md
+      - Smartmi P1 Pollen Filter: categories/openair/filters/smartmi-p1-pollen-filter.md
+      - Xiaomi AFEP5TFA17: categories/openair/filters/xiaomi-afep5tfa17.md
+      - Xiaomi AFEP5TFA18: categories/openair/filters/xiaomi-afep5tfa18.md
+      - Xiaomi AFEP7TFM01: categories/openair/filters/xiaomi-afep7tfm01.md
+      - Xiaomi AFEP7TFM34-GL: categories/openair/filters/xiaomi-afep7tfm34-gl.md
+      - Xiaomi AFEP7TFX19: categories/openair/filters/xiaomi-afep7tfx19.md
+      - Xiaomi AFEP8TFM25-GL: categories/openair/filters/xiaomi-afep8tfm25-gl.md
+      - Xiaomi AFEP8TFM30: categories/openair/filters/xiaomi-afep8tfm30.md
+      - Xiaomi M15R-FLP-GL: categories/openair/filters/xiaomi-m15r-flp-gl.md
+      - Xiaomi M16R-FLP-GL: categories/openair/filters/xiaomi-m16r-flp-gl.md
+      - Xiaomi M17-FLP-GL: categories/openair/filters/xiaomi-m17-flp-gl.md
+      - Xiaomi M7R-FLH-GL: categories/openair/filters/xiaomi-m7r-flh-gl.md
+      - Xiaomi M8R-FLH: categories/openair/filters/xiaomi-m8r-flh.md
+  - Electric scooters:
+    - categories/openscoot/index.md
+    - Electric scooters:
+      - categories/openscoot/units/index.md
+      - Segway-Ninebot F2: categories/openscoot/units/ninebot-f2.md
+      - Segway-Ninebot F2 Plus: categories/openscoot/units/ninebot-f2-plus.md
+      - Segway-Ninebot F2 Pro: categories/openscoot/units/ninebot-f2-pro.md
+      - Segway-Ninebot F3: categories/openscoot/units/ninebot-f3.md
+      - Segway-Ninebot F3 Pro: categories/openscoot/units/ninebot-f3-pro.md
+      - Segway-Ninebot MAX G2: categories/openscoot/units/ninebot-max-g2.md
+      - Segway-Ninebot MAX G3: categories/openscoot/units/ninebot-max-g3.md
+      - Segway-Ninebot Max G30: categories/openscoot/units/ninebot-max-g30.md
+      - Segway-Ninebot MAX G30LP: categories/openscoot/units/ninebot-max-g30lp.md
+      - Xiaomi Electric Scooter 5: categories/openscoot/units/xiaomi-electric-scooter-5.md
+      - Xiaomi Electric Scooter 5 Max: categories/openscoot/units/xiaomi-electric-scooter-5-max.md
+      - Xiaomi Electric Scooter 5 Plus: categories/openscoot/units/xiaomi-electric-scooter-5-plus.md
+      - Xiaomi Electric Scooter 5 Pro: categories/openscoot/units/xiaomi-electric-scooter-5-pro.md
+      - Xiaomi Electric Scooter 6: categories/openscoot/units/xiaomi-electric-scooter-6.md
+      - Xiaomi Electric Scooter 6 Lite: categories/openscoot/units/xiaomi-electric-scooter-6-lite.md
+      - Xiaomi Electric Scooter 6 Max: categories/openscoot/units/xiaomi-electric-scooter-6-max.md
+      - Xiaomi Electric Scooter 6 Pro: categories/openscoot/units/xiaomi-electric-scooter-6-pro.md
+      - Xiaomi Electric Scooter 6 Ultra: categories/openscoot/units/xiaomi-electric-scooter-6-ultra.md
+      - Xiaomi M365: categories/openscoot/units/xiaomi-m365.md
+      - Xiaomi Mi Electric Scooter 3: categories/openscoot/units/xiaomi-mi-electric-scooter-3.md
+    - Replacement tires:
+      - categories/openscoot/tires/index.md
+      - Segway-Ninebot AB.05.15.00.0037 MAX G2 front tire: categories/openscoot/tires/segway-ab-05-15-00-0037.md
+      - Segway-Ninebot AB.05.15.00.0038 MAX G2 rear tire: categories/openscoot/tires/segway-ab-05-15-00-0038.md
+      - Segway-Ninebot AB.50.0019.18 F2-series self-sealing tire: categories/openscoot/tires/segway-ab-50-0019-18.md
+      - Segway-Ninebot CB.05.09.0029.00 MAX G3 70/60-7.5 tire: categories/openscoot/tires/segway-cb-05-09-0029-00.md
+      - Segway-Ninebot Max G30 OEM 10x2.125 self-healing pneumatic: categories/openscoot/tires/ninebot-max-oem-10x2.125-pneumatic.md
+      - Xiaomi M365 OEM 8.5x2 pneumatic: categories/openscoot/tires/xiaomi-m365-oem-8.5x2-pneumatic.md
+    - Brake pads:
+      - categories/openscoot/pads/index.md
+      - Generic generic-m365-rear-disc-pad-pack: categories/openscoot/pads/generic-m365-rear-disc-pad-pack.md
+      - Segway-Ninebot CA.03.04.0198.00 F3-series brake pads: categories/openscoot/pads/segway-ca-03-04-0198-00.md
+    - Inner tubes:
+      - categories/openscoot/tubes/index.md
+      - Generic 8.5 inch scooter inner tube: categories/openscoot/tubes/generic-8.5x2-schrader-inner-tube.md
+      - Xiaomi Electric Scooter Inner Tube 8.5: categories/openscoot/tubes/xiaomi-m365-oem-8.5x2-inner-tube.md
+    - Drum brake shoes:
+      - categories/openscoot/shoes/index.md
+      - Generic Segway Ninebot Max G30 drum brake replacement: categories/openscoot/shoes/generic-g30-drum-brake-assembly.md
+      - Green Line G30 drum brake assembly: categories/openscoot/shoes/green-line-g30-drum-brake-assembly.md
+      - Segway-Ninebot 14.01.0402.00 G30 drum brake assembly: categories/openscoot/shoes/segway-ninebot-g30-oem-drum-brake-assembly.md
+      - Segway-Ninebot AB.05.07.00.0128 MAX G2 front drum brake: categories/openscoot/shoes/segway-ab-05-07-00-0128.md
+    - Replacement rotors:
+      - categories/openscoot/rotors/index.md
+      - Generic M365 110mm brake disc: categories/openscoot/rotors/generic-m365-110mm-5-bolt-brake-disc.md
+      - Segway-Ninebot AB.05.12.00.0011 F2-series brake disc: categories/openscoot/rotors/segway-ab-05-12-00-0011.md
+      - Segway-Ninebot BB.16.00.0209.00 F3-series brake disc: categories/openscoot/rotors/segway-bb-16-00-0209-00.md
+    - Replacement grip tape:
+      - categories/openscoot/grip-tape/index.md
+      - Generic M365 adhesive non-slip footrest coating: categories/openscoot/grip-tape/generic-m365-family-560x132-foot-mat.md
+      - Generic Ninebot Max G30 replacement grip tape: categories/openscoot/grip-tape/generic-ninebot-max-g30-replacement-foot-mat.md
+      - Generic Xiaomi Mi 1S & M365 replacement grip tape: categories/openscoot/grip-tape/generic-m365-1s-replacement-foot-mat.md
+      - Segway-Ninebot AB.05.15.00.0023 MAX G2 foot pad: categories/openscoot/grip-tape/segway-ab-05-15-00-0023.md
+      - Segway-Ninebot AB.05.17.00.0019 F3-series foot pad: categories/openscoot/grip-tape/segway-ab-05-17-00-0019.md
+      - Segway-Ninebot CB.03.01.4170.00 MAX G3 silicone foot pad: categories/openscoot/grip-tape/segway-cb-03-01-4170-00.md
+  - Electric shavers:
+    - categories/openshave/index.md
+    - Electric shavers:
+      - categories/openshave/units/index.md
+      - ENCHEN BlackStone: categories/openshave/units/enchen-blackstone.md
+      - ENCHEN BlackStone 3: categories/openshave/units/enchen-blackstone-3.md
+      - ENCHEN BlackStone 7: categories/openshave/units/enchen-blackstone-7.md
+      - ENCHEN BlackStone-C: categories/openshave/units/enchen-blackstone-c.md
+      - ENCHEN Gentleman 3S: categories/openshave/units/enchen-gentleman-3s.md
+      - ENCHEN Gentleman 5S: categories/openshave/units/enchen-gentleman-5s.md
+      - ENCHEN Steel 3S: categories/openshave/units/enchen-steel-3s.md
+      - ENCHEN Warrior: categories/openshave/units/enchen-warrior.md
+      - Riwa RA-5301: categories/openshave/units/riwa-ra-5301.md
+      - Riwa RA-5501: categories/openshave/units/riwa-ra-5501.md
+      - Riwa RA-5503: categories/openshave/units/riwa-ra-5503.md
+      - Riwa RA-5504: categories/openshave/units/riwa-ra-5504.md
+      - Riwa RA-5505: categories/openshave/units/riwa-ra-5505.md
+      - ShowSee F1-BK: categories/openshave/units/showsee-f1-bk.md
+      - ShowSee F303-BK: categories/openshave/units/showsee-f303-bk.md
+      - ShowSee F305-GY: categories/openshave/units/showsee-f305-gy.md
+      - ShowSee T3: categories/openshave/units/showsee-t3.md
+      - Soocas S3: categories/openshave/units/soocas-s3.md
+      - Soocas S31: categories/openshave/units/soocas-s31.md
+      - Soocas S32: categories/openshave/units/soocas-s32.md
+      - Soocas S5: categories/openshave/units/soocas-s5.md
+      - Soocas SP1: categories/openshave/units/soocas-sp1.md
+      - Xiaomi Mi 5-Blade Electric Shaver: categories/openshave/units/xiaomi-mi-5-blade.md
+      - Xiaomi MJTXD01SKS: categories/openshave/units/xiaomi-mijia-mjtxd01sks.md
+      - Xiaomi MJTXD01XM: categories/openshave/units/xiaomi-mjtxd01xm.md
+      - Xiaomi Portable Dual Blade Electric Shaver: categories/openshave/units/xiaomi-portable-dual-blade-electric-shaver.md
+      - Xiaomi S101: categories/openshave/units/xiaomi-mijia-s101.md
+      - Xiaomi S200: categories/openshave/units/xiaomi-electric-shaver-s200.md
+      - Xiaomi S300: categories/openshave/units/xiaomi-mijia-s300.md
+      - Xiaomi S301: categories/openshave/units/xiaomi-electric-shaver-s301.md
+      - Xiaomi S302: categories/openshave/units/xiaomi-mijia-s302.md
+      - Xiaomi S500: categories/openshave/units/xiaomi-mijia-s500.md
+      - Xiaomi S500C: categories/openshave/units/xiaomi-mijia-s500c.md
+      - Xiaomi S700: categories/openshave/units/xiaomi-mijia-s700.md
+    - Replacement heads:
+      - categories/openshave/heads/index.md
+      - ENCHEN BR-1: categories/openshave/heads/enchen-br1-head.md
+      - ENCHEN BR-3: categories/openshave/heads/enchen-br3-head.md
+      - Generic ENCHEN BR-1 compatible head: categories/openshave/heads/generic-br1-compatible-head.md
+      - Generic ENCHEN BR-3 compatible head: categories/openshave/heads/generic-br3-compatible-head.md
+      - Generic Replacement head fit for SOOCAS S3 S5: categories/openshave/heads/generic-soocas-s-family-head.md
+      - Generic S300/S500/MJTXD01SKS 通用机头: categories/openshave/heads/generic-s300-s500-mjtxd01sks-rotary-head.md
+      - Generic 雷瓦四瓣旋转式接口刀头: categories/openshave/heads/generic-riwa-ra-four-petal-head.md
+      - Riwa Original RA-series Replacement Head: categories/openshave/heads/riwa-ra-series-original-head.md
+      - ShowSee F1 / F303-BK Replacement Head: categories/openshave/heads/showsee-f1-f303-bk-head.md
+      - ShowSee F305 Replacement Head: categories/openshave/heads/showsee-f305-head.md
+      - ShowSee T3 Replacement Head: categories/openshave/heads/showsee-t3-head.md
+      - Soocas S3 Replacement Head: categories/openshave/heads/soocas-s3-head.md
+      - Soocas S31 Replacement Head: categories/openshave/heads/soocas-s31-head.md
+      - Soocas S32 Replacement Head: categories/openshave/heads/soocas-s32-head.md
+      - Soocas S5 Replacement Head: categories/openshave/heads/soocas-s5-head.md
+      - Soocas SP1 Replacement Head: categories/openshave/heads/soocas-sp1-head.md
+      - Xiaomi Electric Shaver S101 Replacement Head: categories/openshave/heads/xiaomi-shaver-head-s101.md
+      - Xiaomi Electric Shaver S700 Replacement Head: categories/openshave/heads/xiaomi-shaver-head-s700.md
+      - Xiaomi S200 replacement head: categories/openshave/heads/xiaomi-shaver-head-s200.md
+      - Xiaomi S301 ceramic replacement head: categories/openshave/heads/xiaomi-shaver-head-s301.md
+      - Xiaomi 米家电动剃须刀刀头 (S300/S500/S500C): categories/openshave/heads/xiaomi-shaver-head-s300-s500-s500c.md
+      - Xiaomi 米家电动剃须刀刀头 S302: categories/openshave/heads/xiaomi-shaver-head-s302.md
+    - Foil cassettes:
+      - categories/openshave/cassettes/index.md
+      - Xiaomi Mi 5-Blade Electric Shaver Replacement Head: categories/openshave/cassettes/xiaomi-mi-5-blade-cassette.md
+      - Xiaomi MSWT201: categories/openshave/cassettes/xiaomi-mswt201-cassette.md
+  - Water purifiers:
+    - categories/openwater/index.md
+    - Water purifier units:
+      - categories/openwater/units/index.md
+      - Viomi Master M1: categories/openwater/units/viomi-master-m1.md
+      - Viomi Pure B6W: categories/openwater/units/viomi-pure-b6w.md
+      - Viomi Vortex 6: categories/openwater/units/viomi-vortex-6.md
+      - Viomi Vortex 6 Pro: categories/openwater/units/viomi-vortex-6-pro.md
+      - Viomi Vortex 8: categories/openwater/units/viomi-vortex-8.md
+      - Viomi Vortex 8 Pro: categories/openwater/units/viomi-vortex-8-pro.md
+      - Xiaomi Faucet Water Purifier: categories/openwater/units/xiaomi-faucet-water-purifier.md
+      - Xiaomi Mijia Smart Water Purifier N800G: categories/openwater/units/mijia-smart-water-purifier-n800g.md
+      - Xiaomi Smart Filtered Water Dispenser Pro: categories/openwater/units/xiaomi-smart-filtered-water-dispenser-pro.md
+    - Composite cartridges:
+      - categories/openwater/prefilters/index.md
+      - Viomi M1-PCB Filter: categories/openwater/prefilters/viomi-m1-pcb.md
+      - Viomi Pure B6W PPC Filter: categories/openwater/prefilters/viomi-pure-b6w-ppc.md
+      - Viomi V6/8 Pro-PCB Filter: categories/openwater/prefilters/viomi-v6-v8-pro-pcb.md
+      - Viomi V6/8-PCB Filter: categories/openwater/prefilters/viomi-v6-v8-pcb.md
+      - Xiaomi A1-PPC-1A: categories/openwater/prefilters/xiaomi-a1-ppc-1a.md
+      - Xiaomi J21-PPC-1: categories/openwater/prefilters/xiaomi-j21-ppc-1.md
+    - RO cartridges:
+      - categories/openwater/ro-cartridges/index.md
+      - Viomi M1-RO1000 Filter: categories/openwater/ro-cartridges/viomi-m1-ro1000.md
+      - Viomi Pure B6W RO Filter: categories/openwater/ro-cartridges/viomi-pure-b6w-ro.md
+      - Viomi V6 Pro RO600 Filter: categories/openwater/ro-cartridges/viomi-v6-pro-ro600.md
+      - Viomi V6-RO600 Filter: categories/openwater/ro-cartridges/viomi-v6-ro600.md
+      - Viomi V8 Pro RO800 Filter: categories/openwater/ro-cartridges/viomi-v8-pro-ro800.md
+      - Viomi V8-RO800 Filter: categories/openwater/ro-cartridges/viomi-v8-ro800.md
+      - Xiaomi A1-RO-100-1A: categories/openwater/ro-cartridges/xiaomi-a1-ro-100-1a.md
+      - Xiaomi J21-RO-800-1: categories/openwater/ro-cartridges/xiaomi-j21-ro-800-1.md
+    - Faucet cartridges:
+      - categories/openwater/faucet-cartridges/index.md
+      - Xiaomi MJLTJSQDB04: categories/openwater/faucet-cartridges/xiaomi-mjltjsqdb04.md
+  - Humidifiers:
+    - categories/openmist/index.md
+    - Humidifier units:
+      - categories/openmist/units/index.md
+      - Smartmi Evaporative Humidifier 3: categories/openmist/units/smartmi-evaporative-humidifier-3.md
+      - Smartmi Evaporative Humidifier 3lite: categories/openmist/units/smartmi-evaporative-humidifier-3lite.md
+      - Smartmi Humidifier Rainforest: categories/openmist/units/smartmi-humidifier-rainforest.md
+      - Xiaomi Mijia Smart Evaporative Humidifier Pro: categories/openmist/units/mijia-smart-evaporative-humidifier-pro.md
+      - Xiaomi Smart Evaporative Humidifier: categories/openmist/units/xiaomi-smart-evaporative-humidifier.md
+      - Xiaomi Smart Humidifier 2: categories/openmist/units/xiaomi-smart-humidifier-2.md
+    - Replacement wicks:
+      - categories/openmist/wicks/index.md
+      - Smartmi CJJSQ01ZM-FL: categories/openmist/wicks/smartmi-cjjsq01zm-fl.md
+      - Xiaomi CJSJSQ02XYLXUE: categories/openmist/wicks/xiaomi-cjsjsq02xylxue.md
+      - Xiaomi Smart Evaporative Humidifier Pro Filter: categories/openmist/wicks/mijia-smart-evaporative-humidifier-pro-filter.md
+  - Robot vacuums:
+    - categories/openvac/index.md
+    - Robot vacuums:
+      - categories/openvac/units/index.md
+      - Dreame Aqua10 Roller: categories/openvac/units/dreame-aqua10-roller.md
+      - Dreame Aqua10 Roller AE: categories/openvac/units/dreame-aqua10-roller-ae.md
+      - Dreame Aqua10 Ultra Roller: categories/openvac/units/dreame-aqua10-ultra-roller.md
+      - Dreame Aqua10 Ultra Track Complete: categories/openvac/units/dreame-aqua10-ultra-track-complete.md
+      - Dreame L40 Ultra: categories/openvac/units/dreame-l40-ultra.md
+      - Dreame L40s Ultra: categories/openvac/units/dreame-l40s-ultra.md
+      - Dreame L50 Ultra: categories/openvac/units/dreame-l50-ultra.md
+      - Dreame L60 Pro Ultra: categories/openvac/units/dreame-l60-pro-ultra.md
+      - Dreame L60 Ultra: categories/openvac/units/dreame-l60-ultra.md
+      - Dreame L60 Ultra PE: categories/openvac/units/dreame-l60-ultra-pe.md
+      - Dreame Matrix10 Pro: categories/openvac/units/dreame-matrix10-pro.md
+      - Dreame Matrix10 Ultra: categories/openvac/units/dreame-matrix10-ultra.md
+      - Dreame X40 Ultra: categories/openvac/units/dreame-x40-ultra.md
+      - Dreame X50 Ultra: categories/openvac/units/dreame-x50-ultra.md
+      - Dreame X60 Max Ultra Complete: categories/openvac/units/dreame-x60-max-ultra-complete.md
+      - Dreame X60 Ultra: categories/openvac/units/dreame-x60-ultra.md
+      - Roborock Qrevo: categories/openvac/units/roborock-qrevo.md
+      - Roborock Qrevo Curv: categories/openvac/units/roborock-qrevo-curv.md
+      - Roborock Qrevo Curv 2 Flow: categories/openvac/units/roborock-qrevo-curv-2-flow.md
+      - Roborock Qrevo Edge: categories/openvac/units/roborock-qrevo-edge.md
+      - Roborock Qrevo MaxV: categories/openvac/units/roborock-qrevo-maxv.md
+      - Roborock Qrevo Pro: categories/openvac/units/roborock-qrevo-pro.md
+      - Roborock Qrevo S: categories/openvac/units/roborock-qrevo-s.md
+      - Roborock Qrevo S5V: categories/openvac/units/roborock-qrevo-s5v.md
+      - Roborock Saros 10: categories/openvac/units/roborock-saros-10.md
+      - Roborock Saros 10R: categories/openvac/units/roborock-saros-10r.md
+      - Roborock Saros 20: categories/openvac/units/roborock-saros-20.md
+      - Xiaomi Robot Vacuum 5: categories/openvac/units/xiaomi-5.md
+      - Xiaomi Robot Vacuum 5 Pro: categories/openvac/units/xiaomi-5-pro.md
+      - Xiaomi Robot Vacuum H40: categories/openvac/units/xiaomi-h40.md
+      - Xiaomi Robot Vacuum S10: categories/openvac/units/xiaomi-s10.md
+      - Xiaomi Robot Vacuum S10+: categories/openvac/units/xiaomi-s10-plus.md
+      - Xiaomi Robot Vacuum S20+: categories/openvac/units/xiaomi-s20-plus.md
+      - Xiaomi Robot Vacuum S40: categories/openvac/units/xiaomi-s40.md
+      - Xiaomi Robot Vacuum S40 Pro: categories/openvac/units/xiaomi-s40-pro.md
+      - Xiaomi Robot Vacuum S40C: categories/openvac/units/xiaomi-s40c.md
+      - Xiaomi Robot Vacuum X10: categories/openvac/units/xiaomi-x10.md
+      - Xiaomi Robot Vacuum X10+: categories/openvac/units/xiaomi-x10-plus.md
+      - Xiaomi Robot Vacuum X20 Max: categories/openvac/units/xiaomi-x20-max.md
+      - Xiaomi Robot Vacuum X20 Pro: categories/openvac/units/xiaomi-x20-pro.md
+      - Xiaomi Robot Vacuum X20+: categories/openvac/units/xiaomi-x20-plus.md
+    - Main brushes:
+      - categories/openvac/main-brushes/index.md
+      - Dreame HyperStream Detangling DuoBrush 1.0: categories/openvac/main-brushes/dreame-hyperstream-duobrush-1.md
+      - Dreame HyperStream Detangling DuoBrush 2.0: categories/openvac/main-brushes/dreame-hyperstream-duobrush-2.md
+      - Roborock DuoDivide main brush: categories/openvac/main-brushes/roborock-duodivide-main-brush.md
+      - Roborock Qrevo / S7-family single main brush: categories/openvac/main-brushes/roborock-qrevo-single-main-brush.md
+      - Xiaomi B101CN-ZS main brush: categories/openvac/main-brushes/xiaomi-b101cn-zs.md
+      - Xiaomi B106GL-ZX main brush: categories/openvac/main-brushes/xiaomi-b106gl-zx.md
+      - Xiaomi D109GL-GMZS anti-tangle hair-cutting brush: categories/openvac/main-brushes/xiaomi-d109gl-gmzs.md
+      - Xiaomi OV42GL-ZS main brush: categories/openvac/main-brushes/xiaomi-ov42gl-zs.md
+    - Side brushes:
+      - categories/openvac/side-brushes/index.md
+      - Dreame Auto-Lifting Side Brush 1.0: categories/openvac/side-brushes/dreame-auto-lifting-side-brush-1.md
+      - Xiaomi B101CN-BS side brush: categories/openvac/side-brushes/xiaomi-b101cn-bs.md
+      - Xiaomi OV81GL-BS anti-tangle side brush: categories/openvac/side-brushes/xiaomi-ov81gl-bs.md
+    - Dust filters:
+      - categories/openvac/filters/index.md
+      - Dreame X50 Ultra / Matrix10 dust box filter: categories/openvac/filters/dreame-x50-ultra-dust-box-filter.md
+      - Roborock Qrevo original washable filter: categories/openvac/filters/roborock-qrevo-original-filter.md
+      - Xiaomi B106GL-LW filter: categories/openvac/filters/xiaomi-b106gl-lw.md
+      - Xiaomi D109GL-GLW filter: categories/openvac/filters/xiaomi-d109gl-glw.md
+    - Mop pads:
+      - categories/openvac/mop-pads/index.md
+      - Dreame Regular mop pad (RMP8 URL identifier): categories/openvac/mop-pads/dreame-rmp8-regular-mop-pad.md
+      - Xiaomi B101CN-TB mop pad: categories/openvac/mop-pads/xiaomi-b101cn-tb.md
+      - Xiaomi B105GL-TB mop pad: categories/openvac/mop-pads/xiaomi-b105gl-tb.md
+      - Xiaomi OV43GL-TB mop pad: categories/openvac/mop-pads/xiaomi-ov43gl-tb.md
+    - Dust bags:
+      - categories/openvac/dust-bags/index.md
+      - Dreame 3.2L dust bag (RDB8 URL identifier): categories/openvac/dust-bags/dreame-rdb8-dust-bag.md
+      - Roborock Qrevo / Saros dock dust bag: categories/openvac/dust-bags/roborock-qrevo-saros-dust-bag.md
+      - Xiaomi B101CN-CHD disposable dust bag: categories/openvac/dust-bags/xiaomi-b101cn-chd.md
+    - Roller mops:
+      - categories/openvac/roller-mops/index.md
+      - Dreame Aqua Series roller mop: categories/openvac/roller-mops/dreame-aqua10-roller-mop.md
+- Contributing: contributing.md

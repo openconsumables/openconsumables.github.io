@@ -2,44 +2,31 @@
 
 # Xiaomi Mi Air Purifier 3H
 
-Aftermarket code: `AC-M6-SC` · CADR: 380 m³/h · Room rating: 48 m² · Stages: pre-filter + HEPA + activated carbon (single cartridge) · Released: 2019 · Status: discontinued
+Model / fitment code: `AC-M6-SC` · CADR: 380 m³/h · Status: unknown
 
-Also sold as: Mi Air Purifier 3H, AC-M6-SC, Mijia Air Purifier 3H
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
+Also sold as: AC-M6-SC
 
 ## Replacement filters
 
-| Filter | OEM | HEPA grade | Media | Provenance | Measured? |
-|---|---|---|---|---|---|
-| [Xiaomi M8R-FLH](../filters/xiaomi-m8r-flh.md) | OEM | H13 | HEPA + activated carbon | Manufacturer claim | No |
-| [Xiaomi M8R-FLP](../filters/xiaomi-m8r-flp.md) | OEM | H13 | HEPA + extra activated carbon (anti-formaldehyde) | Manufacturer claim | No |
-| [Generic Xiaomi 3H compatible filter](../filters/generic-mi-3-family-pack.md) | Generic | claimed H13 (varies) | HEPA + activated carbon (claimed; varies) | Marketplace listing | No |
+| Filter | OEM | HEPA grade | Media | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|
+| [Xiaomi M8R-FLH](../filters/xiaomi-m8r-flh.md) | OEM | ? | Primary filter + HEPA + activated carbon (manufacturer-claim) | Manufacturer claim | No | [Source](<https://www.mi.com/global/support/article/KA-07487/>) |
 
-## Filter slot: Xiaomi Mi Air Purifier 3-family barrel
+## Filter slot: Xiaomi M8R-FLH documented host group
 
 Provenance: **Inferred**
 
 Status: **unmeasured**
 
-Cylindrical "barrel" cartridge format that spans the Mi Air Purifier 2,
-2S, 2H, 3, 3H, 3C, Pro, and Pro H units. Xiaomi publishes three
-interchangeable media variants in the same housing (M8R-FLH original /
-HEPA, M8R-FLG antibacterial, M8R-FLP anti-formaldehyde) which is strong
-evidence the slot geometry is shared within this generation. The Mi 4
-family appears to use a similar but distinct cartridge; treat as a
-separate slot until measured. Aftermarket sellers tag this slot with
-handle / unit model names (3H, 3C, Pro) more than the filter SKU.
+Xiaomi lists M8R-FLH for the 2H, 2S, 2C, 3C, 3H and Pro in its [support record](https://www.mi.com/global/support/article/KA-07487/). The graph currently represents 3C and 3H. Pro H is not included in this grouping. This evidence establishes listed replacement fit, not measured interface geometry.
 
 ## Notes
 
-Mi Air Purifier 3H (AC-M6-SC) is the higher-CADR variant of the Mi Air
-Purifier 3 generation. Same cylindrical filter housing as the 3, 3C, Pro,
-and Pro H, and (per Xiaomi's own cross-listings) the older 2S and 2H.
-Xiaomi sells three media variants (HEPA, antibacterial, anti-formaldehyde)
-in the identical cartridge, which is strong evidence the slot geometry is
-shared across the generation. CADR and room-size figures are manufacturer
-claims, not measured by the project.
+Xiaomi support explicitly lists M8R-FLH for this unit. CADR is a manufacturer claim. The previous broad fit claims covering Pro H and unverified filter variants have been withdrawn; those claims were not supported by the cited sources. Production status is not established by the continued availability of documentation.
 
 ## Sources
 
-- <https://www.mi.com/global/mi-air-purifier-3h/>
-- <https://www.mi.com/global/mi-air-purifier-3h/specs>
+- <https://alsgp0.fds.api.xiaomi.com/xiaomi-b2c-i18n-upload/user-guides/932985be2be631609d74715b87607971.pdf>
+- <https://www.mi.com/global/support/article/KA-07487/>

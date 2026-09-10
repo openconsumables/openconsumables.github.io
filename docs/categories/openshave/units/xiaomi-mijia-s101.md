@@ -2,15 +2,15 @@
 
 # Xiaomi S101
 
-Aftermarket code: `S101` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
+Model / fitment code: `S101` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
 
 Also sold as: Xiaomi Electric Shaver S101, 米家电动剃须刀 S101
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Xiaomi Electric Shaver S101 Replacement Head](../heads/xiaomi-shaver-head-s101.md) | OEM | 3 | rotary | stainless-steel | Manufacturer claim | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Xiaomi Electric Shaver S101 Replacement Head](../heads/xiaomi-shaver-head-s101.md) | OEM | 3 | rotary | stainless-steel | Manufacturer claim | No | [Source](<https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/>) |
 
 ## Head mount: Xiaomi / Mijia S101 rotary 3-blade
 

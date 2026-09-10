@@ -1,0 +1,23 @@
+id: xiaomi-cjsjsq02xylxue
+brand: Xiaomi
+model: CJSJSQ02XYLXUE
+aliases:
+- Xiaomi Smart Evaporative Humidifier Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-evaporative-humidifier
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/support/faq/details/KA-309261/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-evaporative-humidifier-filter/specs/
+- https://www.mi.com/global/support/faq/details/KA-309261/
+- https://www.mi.com/global/product/xiaomi-smart-evaporative-humidifier-filter/
+notes: Xiaomi describes a model-specific evaporative filter. The replacement kit includes a silver-ion
+  box. Nominal manufacturer filter dimensions are 179 mm diameter and 109 mm height. This is separate
+  from the Pro filter.
+media: Absorbent fibre (manufacturer-claim)
+maintenance: Rinse; replace at 3-6 months (manufacturer guidance)

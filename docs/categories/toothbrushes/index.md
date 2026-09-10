@@ -15,13 +15,13 @@ Toothbrush heads pass all three gates cleanly:
 2. **The buyer has opted out of choice.** The realistic buyer is someone who already picked their ecosystem (often years ago) and just wants the head to keep being available.
 3. **Rebuyability beats novelty.** Nobody wants a "new and improved" toothbrush head every 18 months; they want the one that fit last time to fit next time.
 
-GB/T 40362-2021 covers retention performance but not interface geometry, so no pre-existing industry standard for the head-to-handle interface itself. Existing-layer check passes.
+The [standards context](compatibility.md#standards-context) identifies current product-test references. The compatibility pages record manufacturer and other sourced fit claims; none of those claims constitutes a measured interface baseline.
 
 ## Stage
 
 **Phase 2: physical measurement.** Desk research first pass is complete. The bottleneck is sample acquisition and measurement (Batch A: ~6 Xiaomi T-series handles and heads, both genuine and aftermarket).
 
-The single highest-information question Batch A answers: do HOVEY/Meihong's T500 socket, Meitianlai/Ledi's T500 socket, and the official Xiaomi DDYST01SKS socket actually match? Track 13 found many factories converging on a branch taxonomy; whether that convergence is engineering or marketing is decided by these samples.
+The measurement work compares genuine and aftermarket interfaces, including geometry and retention. Similar fitment labels alone do not establish that the sockets match within tolerance.
 
 ## Scope
 

@@ -10,12 +10,5 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-OEM / stock:
-
-- [Xiaomi M365 stock rear disc pad](xiaomi-m365-oem-rear-disc-pad.md), the stock rear mechanical-disc pad captured from repair-community evidence
-
-Generic / aftermarket:
-
-- [Generic M365 rear disc pad pack](generic-m365-rear-disc-pad-pack.md), claimed compatible with the Xiaomi M365-family rear mechanical caliper
-- [Generic M365 sintered rear disc pad](generic-m365-sintered-rear-disc-pad.md), alternate-compound pad for the same M365-family caliper
-- [Generic Mi Electric Scooter 3 dual-pad disc pad pack](generic-mi-3-dual-pad-disc-pad-pack.md), claimed compatible with the Mi Electric Scooter 3 rear dual-pad disc brake
+- [Generic generic-m365-rear-disc-pad-pack](generic-m365-rear-disc-pad-pack.md)
+- [Segway-Ninebot CA.03.04.0198.00 F3-series brake pads](segway-ca-03-04-0198-00.md)

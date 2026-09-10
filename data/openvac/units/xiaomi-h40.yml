@@ -1,0 +1,24 @@
+id: xiaomi-h40
+brand: Xiaomi
+model: Robot Vacuum H40
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  side-brushes:
+  - id: xiaomi-b101cn-bs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+  - id: xiaomi-ov81gl-bs
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-anti-tangle-side-brush/specs/
+notes: Replacement compatibility is recorded from the manufacturer accessory catalog checked on 2026-09-11.
+  The project has not measured the interfaces. Only the listed part relationships are documented;
+  missing part classes remain unverified.
+last_reviewed: '2026-09-11'

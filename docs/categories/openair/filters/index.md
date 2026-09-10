@@ -1,19 +1,25 @@
 # Replacement filters
 
-One page per filter, generated from `data/openair/filters/*.yml`. Both OEM and generic / clone cartridges have entries; the `OEM` column on each unit page tells them apart.
+One page per filter, generated from `data/openair/filters/*.yml`. The current entries are manufacturer replacement cartridges.
 
-A filter entry lists the units it fits, with provenance per claim. The lowest trust tier (`marketplace-claim`) is published but clearly labelled, because aftermarket compatibility lists are usually not independent evidence.
+A filter entry lists manufacturer fit claims and their sources. No geometric or performance equivalence is established by a fit claim alone.
 
 See [the data README](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/README.md) for the schema and how to add or correct an entry.
 
 ## Current entries
 
-OEM:
-
-- [Xiaomi M8R-FLH](xiaomi-m8r-flh.md), original HEPA cartridge for the Mi Air Purifier 3-family
-- [Xiaomi M8R-FLP](xiaomi-m8r-flp.md), anti-formaldehyde variant of the Mi 3-family cartridge
-- [Smartmi P1 Filter](smartmi-p1-filter.md), OEM cartridge for the Smartmi P1
-
-Generic / clone:
-
-- [Generic Mi 3-family pack](generic-mi-3-family-pack.md), claimed compatible with Mi Air Purifier 3 / 3H / 3C / Pro
+- [Smartmi KQJHQLX03ZM-GL](smartmi-kqjhqlx03zm-gl.md)
+- [Smartmi P1 Pet Filter](smartmi-p1-filter.md)
+- [Smartmi P1 Pollen Filter](smartmi-p1-pollen-filter.md)
+- [Xiaomi AFEP5TFA17](xiaomi-afep5tfa17.md)
+- [Xiaomi AFEP5TFA18](xiaomi-afep5tfa18.md)
+- [Xiaomi AFEP7TFM01](xiaomi-afep7tfm01.md)
+- [Xiaomi AFEP7TFM34-GL](xiaomi-afep7tfm34-gl.md)
+- [Xiaomi AFEP7TFX19](xiaomi-afep7tfx19.md)
+- [Xiaomi AFEP8TFM25-GL](xiaomi-afep8tfm25-gl.md)
+- [Xiaomi AFEP8TFM30](xiaomi-afep8tfm30.md)
+- [Xiaomi M15R-FLP-GL](xiaomi-m15r-flp-gl.md)
+- [Xiaomi M16R-FLP-GL](xiaomi-m16r-flp-gl.md)
+- [Xiaomi M17-FLP-GL](xiaomi-m17-flp-gl.md)
+- [Xiaomi M7R-FLH-GL](xiaomi-m7r-flh-gl.md)
+- [Xiaomi M8R-FLH](xiaomi-m8r-flh.md)

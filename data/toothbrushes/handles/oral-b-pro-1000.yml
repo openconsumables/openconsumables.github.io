@@ -2,37 +2,31 @@ id: oral-b-pro-1000
 brand: Oral-B
 family: null
 model: Pro 1000
-aliases: ["Pro 1000 CrossAction", "D16"]
+aliases:
+- Pro 1000 CrossAction
 aftermarket_anchor: null
 type: electric
 mode: rotating-oscillating
 charging: inductive
-status: current
-released: 2014
+status: unknown
 interfaces:
   heads: oral-b-classic
 interface_provenance:
   heads: manufacturer-claim
 compatible_parts:
   heads:
-    - id: oral-b-cross-action
-      provenance: manufacturer-claim
-      source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
-    - id: oral-b-precision-clean
-      provenance: manufacturer-claim
-      source: "https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads"
-    - id: generic-oral-b-classic-pack
-      provenance: marketplace-claim
-      source: "AliExpress / Amazon generic 'fits Oral-B Pro/Vitality/Genius' listings"
+  - id: oral-b-cross-action
+    provenance: manufacturer-claim
+    source: https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b
+  - id: oral-b-precision-clean
+    provenance: manufacturer-claim
+    source: https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b
 sources:
-  - https://oralb.com/en-us/product/oral-b-pro-1000-rechargeable-electric-toothbrush
+- https://oralb.com/en-us/pro-1000-rechargeable-electric-toothbrush-black/
+- https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b
 notes: |
-  Listed for reference. Oral-B does not encode mount class in model names, so the
-  buyer-side anchor that the project relies on for the convergence wedge is
-  absent. Inclusion here is to give the knowledge graph realistic coverage for
-  agent queries ("replacement for my Oral-B Pro 1000"), not to indicate this
-  ecosystem is a project measurement target.
-
-  Compatibility within the Oral-B classic round-head line is broad: most Oral-B
-  rotating-oscillating handles back to ~2000 accept the same head series.
-  Excludes the iO line (separate magnetic-drive mount).
+  Oral-B documents CrossAction and Precision Clean for its rechargeable
+  rotating-oscillating handles. Both iO and Pulsonic are excluded. This entry
+  records compatibility claims for the Pro 1000; it is not a measured
+  interface or a project measurement target.
+last_reviewed: '2026-09-11'

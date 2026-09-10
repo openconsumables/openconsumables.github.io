@@ -8,9 +8,9 @@ Also sold as: Xiaomi Electric Shaver S101 Replacement Head, 米家电动剃须�
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Xiaomi S101](../units/xiaomi-mijia-s101.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Xiaomi S101](../units/xiaomi-mijia-s101.md) | Manufacturer claim | [Source](<https://www.mi.com/global/product/xiaomi-electric-shaver-s101-replacement-head/>) |
 
 ## Notes
 

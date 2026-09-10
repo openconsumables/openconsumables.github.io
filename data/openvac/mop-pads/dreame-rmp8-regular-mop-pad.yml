@@ -1,0 +1,38 @@
+id: dreame-rmp8-regular-mop-pad
+brand: Dreame
+model: Regular mop pad (RMP8 URL identifier)
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+mop_type: Round mop pad
+fits_devices:
+- id: dreame-matrix10-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-matrix10-pro
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-x50-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-l50-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-x40-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-l40s-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+- id: dreame-l40-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+measurements: null
+sources:
+- https://www.dreametech.com/products/robot-vacuum-mop-pads-4pc-rmp8
+notes: The source claims X, L and Matrix10 series. The graph lists the specific covered units documented
+  here. Aqua10 roller models use a separate roller consumable. RMP8 is a URL identifier, not an independently
+  verified printed part code. Compatibility is the manufacturer claim checked on 2026-09-11. No interface
+  dimensions or cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

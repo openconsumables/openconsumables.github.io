@@ -4,24 +4,22 @@
 
 OEM · Bristle: medium · Variant: standard
 
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
 Also sold as: EB50, CrossAction Replacement Brush Head
 
 ## Fits handles
 
-| Handle | Provenance |
-|---|---|
-| [Oral-B Pro 1000](../handles/oral-b-pro-1000.md) | Manufacturer claim |
+| Handle | Provenance | Source |
+|---|---|---|
+| [Oral-B Pro 1000](../handles/oral-b-pro-1000.md) | Manufacturer claim | [Source](<https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b>) |
 
 ## Notes
 
-Oral-B classic mount. Per Oral-B's own compatibility statements, all Oral-B
-rechargeable handles using the classic round mount accept this head, with the
-iO line as the only major exclusion. The Pro 1000 entry above is one example
-out of dozens of Oral-B handles that would list this head as compatible.
-
-Project does not measure this head. Included for knowledge-graph coverage
-to support agent queries that arrive via Oral-B handles.
+Oral-B lists CrossAction for its rechargeable rotating-oscillating handles.
+The manufacturer explicitly excludes both iO and Pulsonic. Compatibility is
+a manufacturer claim and has not been measured by the project.
 
 ## Sources
 
-- <https://oralb.com/en-us/product-collections/all-electric-toothbrush-heads>
+- <https://www.oralb.fr/fr-fr/sante-bucco-dentaire/pourquoi-choisir-oral-b/faq/quelle-tete-de-rechange-convient-a-ma-brosse-a-dents-oral-b>

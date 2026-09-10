@@ -1,0 +1,22 @@
+id: xiaomi-b101cn-tb
+brand: Xiaomi
+model: B101CN-TB mop pad
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+mop_type: Mop pad
+fits_devices:
+- id: xiaomi-x10-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+- id: xiaomi-x20-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/my/product/xiaomi-robot-vacuum-x10-plus-accessories/specs/
+notes: This listing covers X10+ and X20+. Xiaomi publishes a different mop code for X20 Pro and X20
+  Max. Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

@@ -1,0 +1,26 @@
+id: xiaomi-t301-t302-standard-head
+brand: Xiaomi
+family: Mijia
+model: T301/T302 standard replacement head (China)
+aliases:
+- 米家声波电动牙刷头（标准型）3支装
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: standard
+fits_devices:
+- id: xiaomi-t301
+  provenance: manufacturer-claim
+  source: https://www.mi.com/shop/comment/15408.html
+- id: xiaomi-t302
+  provenance: manufacturer-claim
+  source: https://www.mi.com/shop/comment/15408.html
+measurements: null
+sources:
+- https://www.mi.com/shop/comment/15408.html
+notes: |
+  The manufacturer product title explicitly names T301 and T302. A head
+  model code is not exposed by this source. The global T302 MBS303 entry
+  is kept separate because identical regional SKU identity was not verified.
+last_reviewed: '2026-09-11'

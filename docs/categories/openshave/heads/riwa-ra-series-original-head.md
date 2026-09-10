@@ -8,13 +8,13 @@ Also sold as: 雷瓦 RIWA 原装刀头, 雷瓦 电动剃须刀刀头 RA-5301 RA-
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Riwa RA-5301](../units/riwa-ra-5301.md) | Marketplace listing |
-| [Riwa RA-5501](../units/riwa-ra-5501.md) | Marketplace listing |
-| [Riwa RA-5503](../units/riwa-ra-5503.md) | Marketplace listing |
-| [Riwa RA-5504](../units/riwa-ra-5504.md) | Marketplace listing |
-| [Riwa RA-5505](../units/riwa-ra-5505.md) | Marketplace listing |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Riwa RA-5301](../units/riwa-ra-5301.md) | Marketplace listing | [Source](<https://www.jd.com/hprm/737a0effd1a8def4a21.html>) |
+| [Riwa RA-5501](../units/riwa-ra-5501.md) | Marketplace listing | URL not recorded: JD marketplace listings titled '雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504 357A' |
+| [Riwa RA-5503](../units/riwa-ra-5503.md) | Marketplace listing | [Source](<https://www.jd.com/hprm/737a0effd1a8def4a21.html>) |
+| [Riwa RA-5504](../units/riwa-ra-5504.md) | Marketplace listing | URL not recorded: JD marketplace listings titled '雷瓦 电动剃须刀刀头 RA-5301 RA-5501 RA5503 RA5505 RA5504' |
+| [Riwa RA-5505](../units/riwa-ra-5505.md) | Marketplace listing | [Source](<https://www.jd.com/hprm/737a0effd1a8def4a21.html>) |
 
 ## Notes
 
@@ -24,6 +24,11 @@ family that JD listings consistently reference for the RA-series
 cluster. The fitment list extends in JD snippets to RA-5308,
 RA-5309, and RA-5310, which are not currently scaffolded as
 separate device pages.
+
+Legacy source limitation: one or more fit rows retain descriptive
+source labels without a recoverable product URL. Those claims were not
+reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+confirmation.
 
 ## Sources
 

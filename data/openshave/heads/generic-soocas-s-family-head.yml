@@ -3,32 +3,33 @@ brand: null
 family: null
 model: null
 aliases:
-  - "Replacement head fit for SOOCAS S3 S5"
-  - "适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5"
-  - "SOOCAS S3blade / S5blade multi-fit"
+- Replacement head fit for SOOCAS S3 S5
+- 适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5
+- SOOCAS S3blade / S5blade multi-fit
 oem: false
 clones_of: null
-sold_as: ["(many)"]
+sold_as:
+- (many)
 head_count: 3
 head_type: rotary
 material: stainless-steel
 variant: aftermarket
 fits_devices:
-  - id: soocas-s3
-    provenance: marketplace-claim
-    source: "https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6"
-  - id: soocas-s5
-    provenance: marketplace-claim
-    source: "https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6"
-  - id: soocas-s31
-    provenance: marketplace-claim
-    source: "AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'"
-  - id: soocas-s32
-    provenance: marketplace-claim
-    source: "AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'"
+- id: soocas-s3
+  provenance: marketplace-claim
+  source: https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6
+- id: soocas-s5
+  provenance: marketplace-claim
+  source: https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6
+- id: soocas-s31
+  provenance: marketplace-claim
+  source: AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'
+- id: soocas-s32
+  provenance: marketplace-claim
+  source: AliExpress / export-seller listings titled '适用于素士电动剃须刀刀头配件 SOOCAS S31 S32 S3 S5'
 measurements: null
 sources:
-  - https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6
+- https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6
 notes: |
   Marketplace multi-fit head sold for the Soocas S3 / S5 / S31 / S32
   cluster under one variant title with model-coloured options
@@ -39,3 +40,8 @@ notes: |
   photos or physical samples, this is marketplace-claim only; future
   measurement may either confirm a shared rotary mount or split the
   family back into model-specific slots.
+
+  Legacy source limitation: one or more fit rows retain descriptive
+  source labels without a recoverable product URL. Those claims were not
+  reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+  confirmation.

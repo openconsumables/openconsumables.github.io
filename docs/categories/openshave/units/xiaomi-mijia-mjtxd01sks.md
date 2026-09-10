@@ -2,15 +2,15 @@
 
 # Xiaomi MJTXD01SKS
 
-Aftermarket code: `MJTXD01SKS` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c-or-base · Cleaning dock: no · Released: 2019 · Status: discontinued
+Model / fitment code: `MJTXD01SKS` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: proprietary-dock · Cleaning dock: no · Status: unknown
 
 Also sold as: 米家电动剃须刀 MJTXD01SKS, Mijia Electric Shaver (legacy)
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Generic S300/S500/MJTXD01SKS 通用机头](../heads/generic-s300-s500-mjtxd01sks-rotary-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Generic S300/S500/MJTXD01SKS 通用机头](../heads/generic-s300-s500-mjtxd01sks-rotary-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: JD marketplace listings titled 'S300/S500/MJTXD01SKS 内5角' / '五角形转轴口' |
 
 ## Head mount: Xiaomi / Mijia S300-S500 rotary 3-blade
 
@@ -18,33 +18,22 @@ Provenance: **Marketplace listing**
 
 Status: **unmeasured**
 
-Xiaomi / Mijia rotary 3-blade head module shared across the S300, S500,
-and S500C bodies, per the Xiaomi official accessory page that names all
-three devices in the product title. Aftermarket sellers on JD and other
-Chinese marketplaces group the legacy `MJTXD01SKS` device code into the
-same listing family ("S300 / S500 / MJTXD01SKS 通用机头"); that
-cross-fit is marketplace-claim only and is the single biggest physical
-test target for Batch A. JD aftermarket vocabulary uses `内5角` /
-`五角形转轴口` ("five-sided drive-socket / shaft-mouth") to describe a
-drive interface; Soocas / Xiaomi shared patent IP also references a
-five-sided shaft matching structure across this family and adjacent
-Soocas / Xiaomi models. Treat the five-sided shaft feature as a
-measurement target, not as a published geometry claim.
+Working shared-head group based on an authorized retailer naming S300,
+S500 and S500C. Xiaomi global directly names S500 only. Broader legacy
+MJTXD01SKS and generic-head claims remain marketplace evidence with
+unresolved sources; no measured geometry or cross-brand fit is established.
 
 ## Notes
 
-Xiaomi Mijia legacy three-head rotary shaver, body code MJTXD01SKS,
-still indexed on Xiaomi specs pages but treated as a legacy product.
-JD aftermarket listings group MJTXD01SKS with S300 / S500 / S500C
-under shared replacement-head titles ("S300 S500 MJTXD01SKS 通用机
-头"), and the synthesis explicitly flags this as a `legacy bridge`
-candidate: the cross-fit claim is the single biggest physical-test
-target for any future Batch A measurement work. The interface
-assignment to `xiaomi-mijia-s300-s500-rotary` is marketplace-claim
-only and would upgrade to manufacturer-claim or measured only with
-physical verification. The official Xiaomi page does not explicitly
-claim cross-fit with the S300 / S500 / S500C accessory head.
+Xiaomi specifications identify MJTXD01SKS and charging through a dock
+with USB input. This does not establish direct USB-C charging on the body.
+The official page lists IPX7 but does not establish S300/S500 head fit.
+
+The generic-head fit retains a descriptive marketplace source without a
+recoverable product URL and was not reverified on 2026-09-11. Its shared
+working profile is therefore a marketplace hypothesis, not a measured
+mount or a manufacturer compatibility claim.
 
 ## Sources
 
-- <https://www.mi.com/global/electric-shaver-mjtxd01sks/specs/>
+- <https://www.mi.com/mj-electricshaver/specs/>

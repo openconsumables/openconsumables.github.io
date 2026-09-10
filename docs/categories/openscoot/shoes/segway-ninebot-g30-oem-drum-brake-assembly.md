@@ -4,25 +4,22 @@
 
 OEM · Drum diameter: unknown · Compound: unknown · Variant: complete assembly
 
+Sources reviewed: 2026-09-11. Compatibility remains at the provenance level shown below.
+
 Also sold as: Ninebot Max G30 drum brake, G30 mechanical drum brake, G30 drum brake accessory package
 
 Brand names seen: Segway-Ninebot 14.01.0402.00
 
 ## Fits electric scooters
 
-| Scooter | Provenance |
-|---|---|
-| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Manufacturer claim |
+| Scooter | Provenance | Source |
+|---|---|---|
+| [Segway-Ninebot Max G30](../units/ninebot-max-g30.md) | Marketplace listing | [Source](<https://segwayofontario.com/products/drum-brake-g30>) |
 
 ## Notes
 
-OEM-equivalent entry for the Max G30 drum-side friction wear item. The
-discoverable part is normally the complete 14.01.0402.00 drum-brake
-assembly, not loose shoe linings. Treat this as the stock shoe path until
-a standalone Segway-Ninebot shoe SKU is verified.
+Segway of Ontario lists this OEM drum-brake assembly, SKU 14.01.0402.00, for Ninebot MAX G30P. Compatibility is a retailer claim; the manufacturer user manual establishes braking architecture but not the spare-part fit. No fit to MAX G2 is recorded.
 
 ## Sources
 
-- <https://store.segway.com/pub/media/wysiwyg/warranty/Ninebot-KickScooter-Max-G30P-User-Manual.pdf>
 - <https://segwayofontario.com/products/drum-brake-g30>
-- <https://spares2repair.co.uk/segway-ninebot-brake-14-01-0402-00-drum-brake-accessory-package-g30-mechanical-semi-finished-products/1828180>

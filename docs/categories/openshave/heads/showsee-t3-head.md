@@ -8,9 +8,9 @@ Also sold as: 小适智能剃须刀 T3 刀头, 剃须刀刀头·T3, 磁吸式刀
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [ShowSee T3](../units/showsee-t3.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [ShowSee T3](../units/showsee-t3.md) | Manufacturer claim | [Source](<https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101>) |
 
 ## Notes
 

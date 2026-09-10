@@ -2,15 +2,15 @@
 
 # Xiaomi Mi 5-Blade Electric Shaver
 
-Aftermarket code: `Mi 5-Blade` · Mode: foil · Heads: 5 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
+Model / fitment code: `Mi 5-Blade` · Mode: foil · Heads: 5 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2022 · Status: current
 
 Also sold as: Mi 5-Blade Electric Shaver, 小米電鬚刨 往復五刀頭, Mi Electric Shaver 5-Blade
 
 ## Foil cassettes
 
-| Cassette | OEM | Blades | Retention | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [Xiaomi Mi 5-Blade Electric Shaver Replacement Head](../cassettes/xiaomi-mi-5-blade-cassette.md) | OEM | 5 | magnetic | stainless-steel | Manufacturer claim | No |
+| Cassette | OEM | Blades | Retention | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [Xiaomi Mi 5-Blade Electric Shaver Replacement Head](../cassettes/xiaomi-mi-5-blade-cassette.md) | OEM | 5 | magnetic | stainless-steel | Manufacturer claim | No | [Source](<https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/>) |
 
 ## Cassette mount: Xiaomi Mi 5-Blade reciprocating foil cassette
 

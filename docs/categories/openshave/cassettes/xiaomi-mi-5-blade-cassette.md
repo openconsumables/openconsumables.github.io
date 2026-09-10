@@ -8,9 +8,9 @@ Also sold as: Mi 5-Blade Electric Shaver Replacement Head, Mi Electric Shaver Re
 
 ## Fits electric shavers
 
-| Shaver | Provenance |
-|---|---|
-| [Xiaomi Mi 5-Blade Electric Shaver](../units/xiaomi-mi-5-blade.md) | Manufacturer claim |
+| Shaver | Provenance | Source |
+|---|---|---|
+| [Xiaomi Mi 5-Blade Electric Shaver](../units/xiaomi-mi-5-blade.md) | Manufacturer claim | [Source](<https://www.mi.com/global/product/mi-5-blade-electric-shaver-replacement-head/>) |
 
 ## Notes
 

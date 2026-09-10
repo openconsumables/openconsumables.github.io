@@ -2,16 +2,16 @@
 
 # ENCHEN BlackStone
 
-Aftermarket code: `BR-1` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2019 · Status: current
+Model / fitment code: `BR-1` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2019 · Status: current
 
 Also sold as: ENCHEN BlackStone, 映趣 BlackStone
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [ENCHEN BR-1](../heads/enchen-br1-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No |
-| [Generic ENCHEN BR-1 compatible head](../heads/generic-br1-compatible-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [ENCHEN BR-1](../heads/enchen-br1-head.md) | OEM | 3 | rotary | stainless-steel | Marketplace listing | No | [Source](<https://www.galaxus.ch/en/s6/product/xiaomi-replacement-blade-for-blackstone-blackstone-c-warrior-shaver-br-1-silver-1-x-hair-removal-acc-25414784>) |
+| [Generic ENCHEN BR-1 compatible head](../heads/generic-br1-compatible-head.md) | Generic | 3 | rotary | stainless-steel | Marketplace listing | No | URL not recorded: AliExpress / export-retailer listings titled 'ENCHEN BR-1 compatible head' |
 
 ## Head mount: ENCHEN BR-1 rotary 3-blade
 
@@ -30,15 +30,10 @@ mentioning a "Warrior BR-2"; treat as seller noise pending verification.
 
 ## Notes
 
-ENCHEN BlackStone is the anchor product for the BR-1 head-code family,
-per multi-retailer export evidence (Galaxus, MiOT Global, Pepita,
-Aquario, Shopmobile). The BR-1 code appears in product titles,
-reference fields, and article-number metadata. No Chinese official-
-channel BR-1 page was captured in the desk pass; cross-fit claims are
-marketplace-claim only. The whole-device price (US $11-$16) creates
-the cheap-device problem flagged by the market track: head
-rebuyability economics are weaker than the device-replacement
-economics would suggest.
+Original ENCHEN BlackStone. The BR-1 replacement-head fit is retailer
+evidence. The generic-head row retains a descriptive source without a
+recoverable product URL and was not reverified in the 2026-09-11 refresh.
+Legacy device specifications and release date remain unreviewed here.
 
 ## Sources
 

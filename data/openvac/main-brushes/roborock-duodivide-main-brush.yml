@@ -1,0 +1,32 @@
+id: roborock-duodivide-main-brush
+brand: Roborock
+model: DuoDivide main brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Split main brush
+fits_devices:
+- id: roborock-qrevo-curv
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+- id: roborock-qrevo-edge
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+- id: roborock-saros-10
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+- id: roborock-saros-10r
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+- id: roborock-qrevo-s5v
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+measurements: null
+sources:
+- https://us.roborock.com/products/main-brush-for-roborock-qrevo-curv-and-qrevo-edge
+notes: The selected devices are present in both the current title and compatibility text. Additional
+  title-only generations are held for confirmation. Saros Z70 is not included. Compatibility is the
+  manufacturer claim checked on 2026-09-11. No interface dimensions or cross-brand fit have been
+  measured by the project.
+last_reviewed: '2026-09-11'

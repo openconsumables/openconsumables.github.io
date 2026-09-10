@@ -1,0 +1,18 @@
+id: xiaomi-ov43gl-tb
+brand: Xiaomi
+model: OV43GL-TB mop pad
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+mop_type: Mop pad
+fits_devices:
+- id: xiaomi-s40-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s40-pro-accessories/specs/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-s40-pro-accessories/specs/
+notes: Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

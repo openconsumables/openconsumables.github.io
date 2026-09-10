@@ -1,0 +1,27 @@
+id: roborock-qrevo-single-main-brush
+brand: Roborock
+model: Qrevo / S7-family single main brush
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Single main brush
+fits_devices:
+- id: roborock-qrevo
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/s7-main-brush
+- id: roborock-qrevo-maxv
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/s7-main-brush
+- id: roborock-qrevo-s
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/s7-main-brush
+- id: roborock-qrevo-pro
+  provenance: manufacturer-claim
+  source: https://us.roborock.com/products/s7-main-brush
+measurements: null
+sources:
+- https://us.roborock.com/products/s7-main-brush
+notes: Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

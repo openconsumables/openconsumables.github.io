@@ -1,0 +1,31 @@
+id: viomi-pure-b6w
+brand: Viomi
+model: Pure B6W
+aliases: []
+aftermarket_anchor: null
+type: water-purifier
+mode: under-sink reverse osmosis
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  prefilters: viomi-pure-b6w-ppc-mount
+  ro-cartridges: viomi-pure-b6w-ro-mount
+interface_provenance:
+  prefilters: inferred
+  ro-cartridges: inferred
+compatible_parts:
+  prefilters:
+  - id: viomi-pure-b6w-ppc
+    provenance: manufacturer-claim
+    source: https://water.viomi.com/collections/filter-replacement/products/viomi-pure-ppc-filter-replacement-for-viomi-reverse-osmosis-water-filter-12-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system
+  ro-cartridges:
+  - id: viomi-pure-b6w-ro
+    provenance: manufacturer-claim
+    source: https://water.viomi.com/products/viomi-blumelo-ro-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system
+sources:
+- https://water.viomi.com/collections/filter-replacement/products/viomi-pure-ppc-filter-replacement-for-viomi-reverse-osmosis-water-filter-12-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system
+- https://water.viomi.com/products/viomi-blumelo-ro-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system
+notes: This record follows the model name used in Viomi's US replacement-filter catalogue. Engineering
+  model number and connector geometry remain unverified. PCB/PPC composite and RO cartridges occupy separate
+  positions. The original Vortex, Vortex Pro, Master M1 and Pure B6W names are kept distinct; matching
+  flow-rate numbers do not establish cartridge fit.

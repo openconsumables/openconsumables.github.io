@@ -1,0 +1,16 @@
+id: roborock-qrevo-curv-2-flow
+brand: Roborock
+model: Qrevo Curv 2 Flow
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts: {}
+sources:
+- https://us.roborock.com/pages/roborock-qrevo-curv-2-flow
+last_reviewed: '2026-09-11'
+notes: Manufacturer product page identifies a removable roller mop. No fit to round Qrevo mop pads
+  or Dreame Aqua roller mops is inferred. Exact replacement roller and other part relationships remain
+  unverified.

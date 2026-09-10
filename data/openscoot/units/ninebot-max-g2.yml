@@ -1,0 +1,32 @@
+id: ninebot-max-g2
+brand: Segway-Ninebot
+model: MAX G2
+aliases: []
+aftermarket_anchor: null
+type: electric-scooter
+status: unknown
+wheel_size_in: 10
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  tires:
+  - id: segway-ab-05-15-00-0037
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+  - id: segway-ab-05-15-00-0038
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+  grip-tape:
+  - id: segway-ab-05-15-00-0023
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+  shoes:
+  - id: segway-ab-05-07-00-0128
+    provenance: manufacturer-claim
+    source: https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+sources:
+- https://store.segway.com/parts/kick-scooter/max-g2-series/max-2?p=2
+- https://store.segway.com/media/codebaby/product-file-uploads/2519/Ninebot-KickScooter-MAX-G2-product-manual_1.pdf
+last_reviewed: '2026-09-11'
+notes: Segway lists separate front and rear replacement tires with different part numbers. No cross-fit
+  to the G30 or MAX G3 is claimed.

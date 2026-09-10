@@ -2,15 +2,15 @@
 
 # ShowSee T3
 
-Aftermarket code: `T3` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
+Model / fitment code: `T3` · Mode: rotary · Heads: 3 · Water: rinsable · Charging: usb-c · Cleaning dock: no · Released: 2023 · Status: current
 
 Also sold as: 小适智能剃须刀 T3, 鸿蒙智选 小适智能剃须刀 T3, ShowSee Smart Shaver T3
 
 ## Replacement heads
 
-| Head | OEM | Heads | Type | Material | Provenance | Measured? |
-|---|---|---|---|---|---|---|
-| [ShowSee T3 Replacement Head](../heads/showsee-t3-head.md) | OEM | 3 | magnetic-rotary | stainless-steel | Manufacturer claim | No |
+| Head | OEM | Heads | Type | Material | Provenance | Measured? | Source |
+|---|---|---|---|---|---|---|---|
+| [ShowSee T3 Replacement Head](../heads/showsee-t3-head.md) | OEM | 3 | magnetic-rotary | stainless-steel | Manufacturer claim | No | [Source](<https://www.vmall.com/product/comdetail/index.html?prdId=10086810902639&sbomCode=4201120035101>) |
 
 ## Head mount: ShowSee T3 rotary 3-blade
 

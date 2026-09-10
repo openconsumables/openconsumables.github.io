@@ -1,0 +1,23 @@
+id: xiaomi-mswt201-cassette
+brand: Xiaomi
+family: null
+model: MSWT201
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+head_count: 2
+head_type: foil
+variant: original
+fits_devices:
+- id: xiaomi-portable-dual-blade-electric-shaver
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver-replacement-head/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver-replacement-head/
+- https://www.mi.com/global/product/xiaomi-portable-dual-blade-electric-shaver-replacement-head/specs/
+notes: |
+  Xiaomi limits this magnetic replacement assembly to the named shaver.
+  A shared retention method does not establish fit with other models.
+last_reviewed: '2026-09-11'

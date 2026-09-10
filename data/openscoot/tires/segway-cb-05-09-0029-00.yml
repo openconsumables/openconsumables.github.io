@@ -1,0 +1,22 @@
+id: segway-cb-05-09-0029-00
+brand: Segway-Ninebot
+model: CB.05.09.0029.00 MAX G3 70/60-7.5 tire
+aliases:
+- CB.05.09.0029.00
+oem: true
+clones_of: null
+sold_as: []
+size_etrto: null
+tire_type: Tubeless self-sealing
+tube: tubeless
+fits_devices:
+- id: ninebot-max-g3
+  provenance: manufacturer-claim
+  source: https://store.segway.com/parts/kick-scooter/max-g3-series/max-g3/
+measurements: null
+sources:
+- https://store.segway.com/parts/kick-scooter/max-g3-series/max-g3/
+last_reviewed: '2026-09-11'
+notes: The OEM tire label is 70/60-7.5. It is retained in the product name rather than converted
+  to a bicycle ETRTO size. The manufacturer catalog names the supported models. No interface geometry
+  or additional cross-fit has been measured by the project.

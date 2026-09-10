@@ -10,8 +10,9 @@ See [the data README](https://github.com/openconsumables/openconsumables.github.
 
 ## Current entries
 
-Generic / aftermarket:
-
-- [Generic M365-family 560 x 132 foot mat](generic-m365-family-560x132-foot-mat.md), claimed compatible with Xiaomi M365, 1S, Essential, and Mi 3
-- [Generic M365 / 1S replacement foot mat](generic-m365-1s-replacement-foot-mat.md), claimed compatible with Xiaomi M365 and 1S
-- [Generic Ninebot Max G30 replacement foot mat](generic-ninebot-max-g30-replacement-foot-mat.md), claimed compatible with the Segway-Ninebot Max G30
+- [Generic M365 adhesive non-slip footrest coating](generic-m365-family-560x132-foot-mat.md)
+- [Generic Ninebot Max G30 replacement grip tape](generic-ninebot-max-g30-replacement-foot-mat.md)
+- [Generic Xiaomi Mi 1S & M365 replacement grip tape](generic-m365-1s-replacement-foot-mat.md)
+- [Segway-Ninebot AB.05.15.00.0023 MAX G2 foot pad](segway-ab-05-15-00-0023.md)
+- [Segway-Ninebot AB.05.17.00.0019 F3-series foot pad](segway-ab-05-17-00-0019.md)
+- [Segway-Ninebot CB.03.01.4170.00 MAX G3 silicone foot pad](segway-cb-03-01-4170-00.md)

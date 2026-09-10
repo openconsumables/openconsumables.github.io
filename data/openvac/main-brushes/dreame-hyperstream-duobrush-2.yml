@@ -1,0 +1,26 @@
+id: dreame-hyperstream-duobrush-2
+brand: Dreame
+model: HyperStream Detangling DuoBrush 2.0
+aliases:
+- RMB15 (URL identifier)
+oem: true
+clones_of: null
+sold_as: []
+brush_type: Dual main brushes
+fits_devices:
+- id: dreame-x60-max-ultra-complete
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+- id: dreame-x60-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+- id: dreame-l60-ultra
+  provenance: manufacturer-claim
+  source: https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+measurements: null
+sources:
+- https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+last_reviewed: '2026-09-11'
+notes: The manufacturer names X60 Max Ultra Complete, X60 Ultra and L60 Ultra. The separately listed
+  DuoBrush 1.0 names L60 Pro Ultra and L60 Ultra PE. No interchangeability between DuoBrush 1.0 and
+  2.0 is inferred. RMB15 occurs in the URL; a printed component code has not been independently established.

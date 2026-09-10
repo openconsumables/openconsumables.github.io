@@ -1,0 +1,72 @@
+mijia-smart-water-purifier-n800g-ro-cartridges:
+  display_name: Mijia Smart Water Purifier N800G Filter RO1 mount
+  aftermarket_aliases:
+  - J21-RO-800-1
+  status: unmeasured
+  baseline: null
+  notes: Working device-and-stage-specific mount grouping from [manufacturer fit documentation](https://www.mi.com/uk/support/faq/details/KA-612191/).
+    Connector geometry, sealing and electronic recognition are unmeasured. Other cartridge stages and
+    device families remain separate.
+xiaomi-smart-filtered-water-dispenser-pro-ro-cartridges:
+  display_name: Xiaomi Smart Filtered Water Dispenser Composite Filter RO1 mount
+  aftermarket_aliases:
+  - A1-RO-100-1A
+  status: unmeasured
+  baseline: null
+  notes: Working device-and-stage-specific mount grouping from [manufacturer fit documentation](https://www.mi.com/hk/product/xiaomi-smart-filtered-water-dispenser-composite-filter-ro1/).
+    Connector geometry, sealing and electronic recognition are unmeasured. Other cartridge stages and
+    device families remain separate.
+viomi-m1-ro1000-mount:
+  display_name: M1-RO1000 Filter mount
+  aftermarket_aliases:
+  - M1-RO1000 Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/m1-ro-filter-replacement-48-month).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v6-ro600-mount:
+  display_name: V6-RO600 Filter mount
+  aftermarket_aliases:
+  - V6-RO600 Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/v6-ro600-replacement-filter-48-months).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v8-ro800-mount:
+  display_name: V8-RO800 Filter mount
+  aftermarket_aliases:
+  - V8-RO800 Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/v8-ro800-replacement-filter-48-months).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v6-pro-ro600-mount:
+  display_name: V6 Pro RO600 Filter mount
+  aftermarket_aliases:
+  - V6 Pro RO600 Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/viomi-v6-pro-ro600-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-vortex-6-pro-reverse-osmosis-system-specifically).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-v8-pro-ro800-mount:
+  display_name: V8 Pro RO800 Filter mount
+  aftermarket_aliases:
+  - V8 Pro RO800 Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/viomi-v8-pro-ro800-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-vortex-8-pro-reverse-osmosis-system-specifically).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.
+viomi-pure-b6w-ro-mount:
+  display_name: Pure B6W RO Filter mount
+  aftermarket_aliases:
+  - Pure B6W RO Filter
+  status: unmeasured
+  baseline: null
+  notes: Working grouping from the [Viomi replacement page](https://water.viomi.com/products/viomi-blumelo-ro-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-blumelo-600-gpd-reverse-osmosis-system).
+    Only the explicitly named device models are included. Connector, seal and electronic recognition details
+    have not been measured.

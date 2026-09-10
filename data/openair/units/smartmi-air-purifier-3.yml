@@ -1,0 +1,22 @@
+id: smartmi-air-purifier-3
+brand: Smartmi
+model: Air Purifier 3
+aliases: []
+aftermarket_anchor: null
+status: unknown
+last_reviewed: '2026-09-11'
+interfaces:
+  filters: smartmi-air-purifier-3-filter
+interface_provenance:
+  filters: inferred
+compatible_parts:
+  filters:
+  - id: smartmi-kqjhqlx03zm-gl
+    provenance: manufacturer-claim
+    source: https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3-filter
+sources:
+- https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3
+- https://eu.smartmiglobal.com/pages/smartmi-air-purifier-3-filter
+notes: Smartmi names KQJHQLX03ZM-GL as the replacement cartridge. The unit engineering model code is not
+  established by the cited pages. No fit across Smartmi 1, 2, 3 or Xiaomi Mi Air generations is inferred.
+type: air-purifier

@@ -1,0 +1,19 @@
+id: dreame-x60-max-ultra-complete
+brand: Dreame
+model: X60 Max Ultra Complete
+aliases: []
+aftermarket_anchor: null
+type: robot-vacuum
+status: unknown
+interfaces: {}
+interface_provenance: {}
+compatible_parts:
+  main-brushes:
+  - id: dreame-hyperstream-duobrush-2
+    provenance: manufacturer-claim
+    source: https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+sources:
+- https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15
+last_reviewed: '2026-09-11'
+notes: This entry records the exact main-brush fit named in the current manufacturer accessory listing.
+  Other replacement parts have not been checked for this model.

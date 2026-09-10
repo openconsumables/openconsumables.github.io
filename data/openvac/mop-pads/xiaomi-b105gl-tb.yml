@@ -1,0 +1,33 @@
+id: xiaomi-b105gl-tb
+brand: Xiaomi
+model: B105GL-TB mop pad
+aliases: []
+oem: true
+clones_of: null
+sold_as: []
+mop_type: Mop pad
+fits_devices:
+- id: xiaomi-s10-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+- id: xiaomi-s20-plus
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+- id: xiaomi-x20-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+- id: xiaomi-x20-max
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+- id: xiaomi-5
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+- id: xiaomi-5-pro
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+measurements: null
+sources:
+- https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/
+notes: Compatibility is the manufacturer claim checked on 2026-09-11. No interface dimensions or
+  cross-brand fit have been measured by the project.
+last_reviewed: '2026-09-11'

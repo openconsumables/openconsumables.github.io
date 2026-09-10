@@ -2,7 +2,8 @@ id: xiaomi-mijia-s500c
 brand: Xiaomi
 family: Mijia
 model: S500C
-aliases: ["米家电动剃须刀 S500C"]
+aliases:
+- 米家电动剃须刀 S500C
 aftermarket_anchor: S500C
 type: electric-shaver
 mode: rotary
@@ -10,27 +11,30 @@ head_count: 3
 wet_dry: rinsable
 charging: usb-c
 cleaning_dock: false
-status: current
+status: unknown
 released: 2022
 interfaces:
   heads: xiaomi-mijia-s300-s500-rotary
 interface_provenance:
-  heads: manufacturer-claim
+  heads: marketplace-claim
 compatible_parts:
   heads:
-    - id: xiaomi-shaver-head-s300-s500-s500c
-      provenance: manufacturer-claim
-      source: "https://www.mi.com/shop/buy/detail?product_id=9101"
-    - id: generic-s300-s500-mjtxd01sks-rotary-head
-      provenance: marketplace-claim
-      source: "JD marketplace listings titled 'S300 S500 MJTXD01SKS 通用机头' / 'S300/S500/MJTXD01SKS 内5角'"
+  - id: xiaomi-shaver-head-s300-s500-s500c
+    provenance: marketplace-claim
+    source: https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/
+  - id: generic-s300-s500-mjtxd01sks-rotary-head
+    provenance: marketplace-claim
+    source: JD marketplace listings titled '小米/米家 S500 S500C S300 MJTXD01SKS 通用'
 sources:
-  - https://www.mi.com/shop/buy/detail?product_id=9101
+- https://mi-shop.com/catalog/accessories/mi-electric-shaver-s500-replacement-head-silver/
 notes: |
-  Xiaomi / Mijia S500C rotary three-blade shaver. Third device named on
-  the Xiaomi official accessory page for the S300 / S500 / S500C shared
-  replacement head. Aftermarket marketplace listings cluster the S500C
-  with the S300, S500, and the legacy MJTXD01SKS body code. Release year
-  is a best-effort placeholder from launch coverage; if the S500C is
-  effectively an S500 colour / packaging variant, the head-mount family
-  is unchanged either way.
+  The S500 replacement assembly is named by Xiaomi for S500. An authorized
+  retailer additionally lists S300 and S500C; the shared-family assignment
+  uses that weaker seller claim. A former numeric Xiaomi product URL did
+  not expose the accessory on review. Other legacy specifications and
+  release dates were not independently reverified in this pass.
+
+  Legacy source limitation: one or more fit rows retain descriptive
+  source labels without a recoverable product URL. Those claims were not
+  reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+  confirmation.

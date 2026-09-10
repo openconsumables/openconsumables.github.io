@@ -1,0 +1,31 @@
+id: xiaomi-oscillation-electric-toothbrush
+brand: Xiaomi
+family: Mijia
+model: Oscillation Electric Toothbrush
+aliases: []
+aftermarket_anchor: MES609
+type: electric
+mode: sonic-oscillating
+charging: usb-c
+status: unknown
+interfaces:
+  heads: xiaomi-oscillation-family
+interface_provenance:
+  heads: manufacturer-claim
+compatible_parts:
+  heads:
+  - id: xiaomi-mbs308
+    provenance: manufacturer-claim
+    source: https://www.mi.com/global/support/faq/details/KA-572976/
+sources:
+- https://www.mi.com/global/product/xiaomi-oscillation-electric-toothbrush/
+- https://www.mi.com/global/product/xiaomi-oscillation-electric-toothbrush/specs/
+- https://www.mi.com/global/support/faq/details/KA-572976/
+notes: |
+  Xiaomi specification model MES609. This is a distinct handle from the
+  other Oscillation and Servo-oscillation models. The listed heads are named
+  Clean and Soft OEM accessories. Xiaomi explicitly excludes T300, T500,
+  T501 and T302 heads from Oscillation Pro compatibility.
+
+  No launch date or worldwide stock status is inferred from the live page.
+last_reviewed: '2026-09-11'

@@ -3,19 +3,20 @@ brand: null
 family: null
 model: null
 aliases:
-  - "雷瓦四瓣旋转式接口刀头"
-  - "Riwa RA-5505 four-petal rotary interface head"
+- 雷瓦四瓣旋转式接口刀头
+- Riwa RA-5505 four-petal rotary interface head
 oem: false
 clones_of: riwa-ra-series-original-head
-sold_as: ["(many)"]
+sold_as:
+- (many)
 head_count: 3
 head_type: rotary
 material: stainless-steel
 variant: aftermarket
 fits_devices:
-  - id: riwa-ra-5505
-    provenance: marketplace-claim
-    source: "JD aftermarket listings titled '雷瓦四瓣旋转式接口刀头'"
+- id: riwa-ra-5505
+  provenance: marketplace-claim
+  source: JD aftermarket listings titled '雷瓦四瓣旋转式接口刀头'
 measurements: null
 sources: []
 notes: |
@@ -24,3 +25,8 @@ notes: |
   ("四瓣旋转式接口"). The phrase is an interface-shape clue worth
   preserving for future image / physical review; it has not been
   measured.
+
+  Legacy source limitation: one or more fit rows retain descriptive
+  source labels without a recoverable product URL. Those claims were not
+  reverified in the 2026-09-11 refresh and must not be treated as fresh fit
+  confirmation.

@@ -1,0 +1,20 @@
+id: xiaomi-afep7tfx19
+brand: Xiaomi
+model: AFEP7TFX19
+aliases:
+- Xiaomi Smart Air Purifier Elite Filter
+oem: true
+clones_of: null
+sold_as: []
+fits_devices:
+- id: xiaomi-smart-air-purifier-elite
+  provenance: manufacturer-claim
+  source: https://www.mi.com/global/product/xiaomi-smart-air-purifier-elite-filter/specs/
+measurements: null
+last_reviewed: '2026-09-11'
+sources:
+- https://www.mi.com/global/product/xiaomi-smart-air-purifier-elite-filter/specs/
+notes: 'Manufacturer-claim: Xiaomi lists this cartridge as 249 mm in diameter and 398 mm high. Dimensions
+  are nominal product specifications, not project measurements or a tolerance specification.'
+hepa_grade: null
+media: null
