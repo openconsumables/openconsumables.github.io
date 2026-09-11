@@ -1,3 +1,7 @@
+---
+source_yaml: data/openshave/units/showsee-f305-gy.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # ShowSee F305-GY
@@ -33,3 +37,9 @@ F303-BK; the F305 family is treated as a separate head-mount slot.
 
 - <https://www.suning.com/item/0000000000/12290659692.html>
 - <https://detail.zol.com.cn/shaving_razor/index1416097.shtml>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+showsee-f305-gy&body=Device%2Fpart+or+page%3A+openshave%2Funits%2Fshowsee-f305-gy+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenshave%2Funits%2Fshowsee-f305-gy%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openshave/units/showsee-f305-gy.yml).

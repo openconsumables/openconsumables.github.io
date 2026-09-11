@@ -1,3 +1,7 @@
+---
+source_yaml: data/openair/units/smartmi-air-purifier-p1.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Smartmi Air Purifier P1
@@ -29,3 +33,9 @@ Smartmi documents Pet and Pollen filter variants for the P1. The prior unsourced
 
 - <https://eu.smartmiglobal.com/pages/smartmi-air-purifier-p1>
 - <https://eu.smartmiglobal.com/products/smartmi-filters-p1>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+smartmi-air-purifier-p1&body=Device%2Fpart+or+page%3A+openair%2Funits%2Fsmartmi-air-purifier-p1+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenair%2Funits%2Fsmartmi-air-purifier-p1%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openair/units/smartmi-air-purifier-p1.yml).

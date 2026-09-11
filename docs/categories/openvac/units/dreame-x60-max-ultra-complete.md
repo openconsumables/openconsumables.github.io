@@ -1,3 +1,7 @@
+---
+source_yaml: data/openvac/units/dreame-x60-max-ultra-complete.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Dreame X60 Max Ultra Complete
@@ -19,3 +23,9 @@ This entry records the exact main-brush fit named in the current manufacturer ac
 ## Sources
 
 - <https://www.dreametech.com/products/robot-vacuum-main-brush-rmb15>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+dreame-x60-max-ultra-complete&body=Device%2Fpart+or+page%3A+openvac%2Funits%2Fdreame-x60-max-ultra-complete+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenvac%2Funits%2Fdreame-x60-max-ultra-complete%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openvac/units/dreame-x60-max-ultra-complete.yml).

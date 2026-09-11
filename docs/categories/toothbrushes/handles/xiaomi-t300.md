@@ -1,3 +1,7 @@
+---
+source_yaml: data/toothbrushes/handles/xiaomi-t300.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi T300
@@ -35,3 +39,9 @@ and T500. Shared head compatibility does not imply shared charging hardware.
 - <https://www.mi.com/sg/product/mi-electric-toothbrush-head/>
 - <https://ae01.alicdn.com/kf/Sf17a0fc853dd468f8d5b09dfd29a1a48D.pdf>
 - <https://upload.cheaa.com/2022/0926/1664158092754.pdf>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-t300&body=Device%2Fpart+or+page%3A+toothbrushes%2Fhandles%2Fxiaomi-t300+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Ftoothbrushes%2Fhandles%2Fxiaomi-t300%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/toothbrushes/handles/xiaomi-t300.yml).

@@ -40,7 +40,10 @@ GitHub Pages must be configured for this repo with **Source: GitHub Actions** un
 
 ## Contributing
 
-See the [contributing page](https://openconsumables.org/contributing/) on the live site.
+One sourced fact helps: report a missing device or part, a correction, a better
+source, or conflicting fit evidence. No checkout or YAML knowledge is needed.
+See the [contribution guide](docs/contributing.md) for GitHub and copyable report
+options. Complete data patches are welcome too; follow the [schema](data/README.md).
 
 ## License
 

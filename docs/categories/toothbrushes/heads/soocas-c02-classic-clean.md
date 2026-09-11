@@ -1,3 +1,7 @@
+---
+source_yaml: data/toothbrushes/heads/soocas-c02-classic-clean.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Soocas C02 (MultiClean Classic Clean)
@@ -25,3 +29,9 @@ NEOS II and NEOS II Ultra as compatible handles.
 - <https://soocas.com/pages/soocas-neos-ii-brush-head-user-manual>
 - <https://soocas.com/products/soocas-neos-ii-2-in-1-water-flosser-electric-toothbrush-with-replacement-brush-heads-set>
 - <https://cdn.shopify.com/s/files/1/0503/2024/4926/files/Soocas_MultiClean_Brush_Head_User_Manual.pdf?v=1761548244>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+soocas-c02-classic-clean&body=Device%2Fpart+or+page%3A+toothbrushes%2Fheads%2Fsoocas-c02-classic-clean+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Ftoothbrushes%2Fheads%2Fsoocas-c02-classic-clean%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/toothbrushes/heads/soocas-c02-classic-clean.yml).

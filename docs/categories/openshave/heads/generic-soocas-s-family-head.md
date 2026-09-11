@@ -1,3 +1,7 @@
+---
+source_yaml: data/openshave/heads/generic-soocas-s-family-head.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Generic Replacement head fit for SOOCAS S3 S5
@@ -37,3 +41,9 @@ confirmation.
 ## Sources
 
 - <https://www.walmart.ca/en/ip/Replacement-Heads-Electric-Razor-Men-Blade-Suitable-Shaver-Head-Fit-for-SOOCAS-S3-S5-Color-S3blade-Black/7265FZGI6HS6>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+generic-soocas-s-family-head&body=Device%2Fpart+or+page%3A+openshave%2Fheads%2Fgeneric-soocas-s-family-head+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenshave%2Fheads%2Fgeneric-soocas-s-family-head%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openshave/heads/generic-soocas-s-family-head.yml).

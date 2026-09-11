@@ -1,3 +1,7 @@
+---
+source_yaml: data/openscoot/shoes/green-line-g30-drum-brake-assembly.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Green Line G30 drum brake assembly
@@ -25,3 +29,9 @@ a marketplace claim until measured.
 ## Sources
 
 - <https://www.scooterworks.com/products/drum-brake-segway-ninebot-max-g30-max-g30d-3100-0037>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+green-line-g30-drum-brake-assembly&body=Device%2Fpart+or+page%3A+openscoot%2Fshoes%2Fgreen-line-g30-drum-brake-assembly+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenscoot%2Fshoes%2Fgreen-line-g30-drum-brake-assembly%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openscoot/shoes/green-line-g30-drum-brake-assembly.yml).

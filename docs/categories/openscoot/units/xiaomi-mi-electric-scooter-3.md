@@ -1,3 +1,7 @@
+---
+source_yaml: data/openscoot/units/xiaomi-mi-electric-scooter-3.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi Mi Electric Scooter 3
@@ -45,3 +49,9 @@ Xiaomi identifies a rear dual-pad disc brake on Mi Electric Scooter 3. The proje
 ## Sources
 
 - <https://www.mi.com/global/product/mi-electric-scooter-3/>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-mi-electric-scooter-3&body=Device%2Fpart+or+page%3A+openscoot%2Funits%2Fxiaomi-mi-electric-scooter-3+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenscoot%2Funits%2Fxiaomi-mi-electric-scooter-3%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openscoot/units/xiaomi-mi-electric-scooter-3.yml).

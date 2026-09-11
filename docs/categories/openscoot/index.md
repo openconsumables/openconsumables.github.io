@@ -48,3 +48,11 @@ Coverage includes Xiaomi model references and Segway-Ninebot replacement parts, 
 Match the exact replacement part and the wheel position listed by its manufacturer. A nominal tire size alone does not establish a shared rim, valve arrangement or fit between scooters. Keep an ETRTO designation separate from an imperial size label; this archive does not manufacture a bead-seat size by converting an approximate outside diameter.
 
 The reference does not extend a tire fit claim to brake parts, a complete wheel, or a deck mat. Those are separate interfaces and need separate evidence.
+
+## Missing a device or replacement part?
+
+[Send a short report](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Missing+record%3A+openscoot&body=Device%2Fpart+or+page%3A+openscoot%3A+%5Bexact+model%2Fvariant+or+part+name%5D+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenscoot%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) with the exact model code or part name.
+Better sources and contradictory fit evidence are welcome too. For a dead link
+or a claim that needs checking, just identify the problem.
+GitHub requires sign-in; you can also [copy a report](../../contributing.md#send-a-short-report)
+and prepare it for your user. Maintainers can handle the data-file edits.

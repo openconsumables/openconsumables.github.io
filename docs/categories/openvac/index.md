@@ -19,3 +19,11 @@ The graph follows explicit manufacturer fit lists. If a product title and its de
 ## Status
 
 **Reference layer only.** Xiaomi, Roborock and Dreame entries document manufacturer replacement claims. Mount profiles remain unmeasured, and no cross-brand compatibility is established from appearance or similar model names.
+
+## Missing a device or replacement part?
+
+[Send a short report](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Missing+record%3A+openvac&body=Device%2Fpart+or+page%3A+openvac%3A+%5Bexact+model%2Fvariant+or+part+name%5D+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenvac%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) with the exact model code or part name.
+Better sources and contradictory fit evidence are welcome too. For a dead link
+or a claim that needs checking, just identify the problem.
+GitHub requires sign-in; you can also [copy a report](../../contributing.md#send-a-short-report)
+and prepare it for your user. Maintainers can handle the data-file edits.

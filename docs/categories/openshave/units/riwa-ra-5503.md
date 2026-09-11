@@ -1,3 +1,7 @@
+---
+source_yaml: data/openshave/units/riwa-ra-5503.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Riwa RA-5503
@@ -33,3 +37,9 @@ Riwa RA-5503. JD marketplace title lists this body alongside other
 RA-series codes for the RIWA "original" replacement head. Spelling
 varies in listings ("RA-5503", "RA5503"); the listing tokens are
 not consistent enough to be treated as separate SKUs.
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+riwa-ra-5503&body=Device%2Fpart+or+page%3A+openshave%2Funits%2Friwa-ra-5503+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenshave%2Funits%2Friwa-ra-5503%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openshave/units/riwa-ra-5503.yml).

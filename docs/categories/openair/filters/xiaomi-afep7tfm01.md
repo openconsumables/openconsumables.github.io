@@ -1,3 +1,7 @@
+---
+source_yaml: data/openair/filters/xiaomi-afep7tfm01.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi AFEP7TFM01
@@ -21,3 +25,9 @@ Manufacturer-claim: Xiaomi lists this cartridge as 175 mm in diameter and 171 mm
 ## Sources
 
 - <https://www.mi.com/global/product/xiaomi-smart-air-purifier-4-compact-filter/specs/>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-afep7tfm01&body=Device%2Fpart+or+page%3A+openair%2Ffilters%2Fxiaomi-afep7tfm01+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenair%2Ffilters%2Fxiaomi-afep7tfm01%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openair/filters/xiaomi-afep7tfm01.yml).

@@ -80,32 +80,44 @@ If the standard fact strip ("Mode: ..., Charging: ...") doesn't suit the new cat
 
 ## Device entry
 
+These examples reflect the current records; seller claims remain seller claims.
+T200C is not a verified alias for T200.
+
 ```yaml
-id: xiaomi-t200                  # slug; matches filename
+id: xiaomi-t200
 brand: Xiaomi
-family: Mijia                    # optional sub-brand
+family: Mijia
 model: T200
-aliases: [T200C]                 # other names the same handle is sold under
-aftermarket_anchor: MES606       # the buyer-visible code (Chinese-IoT cluster); null for Western brands
+aliases:
+- Mijia Sonic Electric Toothbrush T200
+aftermarket_anchor: MES606
 type: electric
-mode: sonic                      # sonic | rotating-oscillating | manual
-charging: usb-c                  # usb-c | inductive | proprietary | none
-status: current                  # current | discontinued | unknown
-released: 2022                   # year, optional
+mode: sonic
+charging: usb-c
+status: unknown
+released: 2022
 interfaces:
-  heads: xiaomi-mes606-family    # FK to the part class interface file
+  heads: xiaomi-mes606-family
 interface_provenance:
-  heads: inferred                # how we know the interface assignment
+  heads: inferred
 compatible_parts:
   heads:
-    - id: xiaomi-mbs305
-      provenance: manufacturer-claim
-      source: "https://www.mi.com/shop/buy?product_id=1222100087"
-sources:                         # general references for the entry itself
-  - https://www.gizmochina.com/2022/05/31/...
+  - id: xiaomi-mbs305
+    provenance: marketplace-claim
+    source: https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
+  - id: generic-mes606-pack
+    provenance: marketplace-claim
+    source: https://mall.iopenmall.tw/005758/index.php?action=product_detail&prod_no=P0575800305305
+sources:
+- https://24h.pchome.com.tw/prod/DMALG2-A900JGT0Z
+- https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
 notes: |
-  T200 and T200C are sold as separate SKUs but share the same handle code (MES606)
-  and use USB-C charging. Likely a distinct mount family from the inductive T-series.
+  Retailer evidence identifies T200 as MES606 with USB-C charging. PChome
+  lists MBS305 specifically for T200. The former numeric Xiaomi store link
+  could not be verified, so the head fit is marketplace-claim. T200C is often
+  co-listed by sellers but is not treated here as a verified identical handle.
+  Charging architecture alone does not establish socket compatibility.
+last_reviewed: '2026-09-11'
 ```
 
 ## Head entry
@@ -115,54 +127,45 @@ id: xiaomi-mbs305
 brand: Xiaomi
 family: Mijia
 model: MBS305
-aliases: []
-oem: true                        # true for manufacturer originals; false for generics / clones
-clones_of: null                  # if oem: false, the OEM head this clones (slug); null if no clear analog
-sold_as: []                      # for generic heads, the brand names it appears under
-bristle: medium                  # soft | medium | hard | varies | unknown
-variant: standard                # standard | sensitive | whitening | kid | etc.
+aliases:
+- Mijia sonic electric toothbrush head, T200/T200C
+oem: true
+clones_of: null
+sold_as: []
+bristle: unknown
+variant: standard
 fits_devices:
-  - id: xiaomi-t200
-    provenance: manufacturer-claim
-    source: "https://www.mi.com/shop/buy?product_id=1222100087"
-measurements: null               # filled in when measured
-sources: []
+- id: xiaomi-t200
+  provenance: marketplace-claim
+  source: https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
+measurements: null
+sources:
+- https://24h.pchome.com.tw/prod/DMBABO-A900H3U88
+- https://bigmi.vn/bo-3-dau-chai-thay-the-xiaomi-mijia-sonic-t200c/
 notes: |
-  Head SKU MBS305 is weakly attested in marketplaces (sellers use the handle
-  code MES606 instead). Treat the code as plausible until corroborated against
-  an official Xiaomi spec page.
+  Multiple retailer pages identify the OEM-labelled T200 head as MBS305.
+  PChome names both the code and T200 fit, but a current Xiaomi specification
+  page has not been recovered. OEM identity and fit remain seller claims;
+  no dimensions or head weight are published as project measurements.
+last_reviewed: '2026-09-11'
 ```
 
-For a generic / clone head:
-
-```yaml
-id: generic-mes606-pack
-brand: null                      # often unbranded or shifting white-label brands
-family: null
-model: null
-aliases: ["MES606 heads", "Xiaomi T200 compatible heads"]
-oem: false
-clones_of: xiaomi-mbs305         # the OEM analog; null if unclear
-sold_as: ["AOREMON", "AIBOFENG", "Niceeshop", "(many)"]
-fits_devices:
-  - id: xiaomi-t200
-    provenance: marketplace-claim
-    source: "AliExpress listings keyed on 'MES606 head'"
-```
+For a generic head, use `oem: false`, record observed seller names in `sold_as`,
+and use `clones_of: null` unless the OEM analogue is supported by evidence.
+Each `fits_devices` claim still needs its own source and provenance.
 
 ## Mount profile
 
 ```yaml
-# mounts.yml
 xiaomi-mes606-family:
   display_name: "Xiaomi MES606 family"
-  aftermarket_aliases: [MES606]      # what AliExpress sellers search for
-  charging: usb-c                    # architectural feature
-  status: unmeasured                 # unmeasured | partial | measured | published-baseline
-  baseline: null                     # link to published baseline when one exists
+  aftermarket_aliases: [MES606]
+  charging: usb-c
+  status: unmeasured
+  baseline: null
   notes: |
-    T200 and T200C handles. USB-C charging architecture, likely distinct from
-    the inductive MES601/MES602/MES604 family on socket geometry.
+    Working hypothesis for the T200/MES606 interface. Charging architecture
+    alone does not establish socket compatibility. T200C identity is unresolved.
 ```
 
 ## Adding additional part classes
@@ -203,16 +206,16 @@ The reciprocal field on each part remains a flat `fits_devices:` list because th
 
 ## Adding an entry
 
-The data layer is best-effort. Anyone can open a PR adding a YAML file. CI validates against the schema (TODO). Until then, hand-validate against `README.md` examples.
+One sourced fact is enough. Use the [contribution guide](../docs/contributing.md)
+to send a GitHub issue or prepare a copyable report without a checkout or account.
+Missing devices and parts, corrections, aliases, better sources, and contradictory
+fit evidence within existing categories are welcome. Broken links, typos, and
+requests to verify existing claims need no replacement source.
 
-What we want:
+Complete patches are welcome too. Maintainers classify evidence and preserve its
+limits, update reciprocal `compatible_parts` and `fits_devices` claims, regenerate
+with `python3 tools/build_pages.py`, and update navigation for new pages. Run
+`mkdocs build --strict` for a patch. Automated schema validation is not yet in place.
+A source link alone does not establish physical verification.
 
-- New handles or heads, OEM or generic, with at least one verifiable source per compatibility claim
-- Corrections to existing entries, with the new source
-- Upgrades from `manufacturer-claim` to `measured` once the project measures something
-
-What we do not want:
-
-- "Best of" picks, brand opinions, taste calls (handle finish, bristle stiffness preference, packaging)
-- Unsourced compatibility claims
-- Marketing copy
+No buying recommendations, brand opinions, unsourced fit claims, or marketing copy.

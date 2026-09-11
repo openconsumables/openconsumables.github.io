@@ -1,3 +1,7 @@
+---
+source_yaml: data/openwater/units/viomi-vortex-6-pro.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Viomi Vortex 6 Pro
@@ -42,3 +46,9 @@ This record follows the model name used in Viomi's US replacement-filter catalog
 
 - <https://water.viomi.com/collections/filter-replacement/products/viomi-v-pro-pcb-filter-replacement-for-vortex-6-pro-vortex-8-pro-water-filter-system-12-months-lifetime-designed-for-viomi-reverse-osmosis-water-filter-specifically>
 - <https://water.viomi.com/products/viomi-v6-pro-ro600-filter-replacement-for-viomi-reverse-osmosis-water-filter-24-month-lifetime-compatible-with-vortex-6-pro-reverse-osmosis-system-specifically>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+viomi-vortex-6-pro&body=Device%2Fpart+or+page%3A+openwater%2Funits%2Fviomi-vortex-6-pro+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenwater%2Funits%2Fviomi-vortex-6-pro%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openwater/units/viomi-vortex-6-pro.yml).

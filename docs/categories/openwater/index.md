@@ -16,3 +16,11 @@ Compatibility entries describe manufacturer claims about a cartridge fitting a n
 ## Status
 
 **Reference layer only.** No cartridge interface in this category has a project measured baseline. The initial coverage follows exact manufacturer replacement listings. Other brands and regional variants remain absent where an exact match has not been verified.
+
+## Missing a device or replacement part?
+
+[Send a short report](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Missing+record%3A+openwater&body=Device%2Fpart+or+page%3A+openwater%3A+%5Bexact+model%2Fvariant+or+part+name%5D+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenwater%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) with the exact model code or part name.
+Better sources and contradictory fit evidence are welcome too. For a dead link
+or a claim that needs checking, just identify the problem.
+GitHub requires sign-in; you can also [copy a report](../../contributing.md#send-a-short-report)
+and prepare it for your user. Maintainers can handle the data-file edits.

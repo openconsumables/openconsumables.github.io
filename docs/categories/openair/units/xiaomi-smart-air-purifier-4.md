@@ -1,3 +1,7 @@
+---
+source_yaml: data/openair/units/xiaomi-smart-air-purifier-4.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi Smart Air Purifier 4
@@ -30,3 +34,9 @@ Model identity and any CADR figure shown are manufacturer claims from the linked
 ## Sources
 
 - <https://www.mi.com/global/product/xiaomi-smart-air-purifier-4/specs/>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-smart-air-purifier-4&body=Device%2Fpart+or+page%3A+openair%2Funits%2Fxiaomi-smart-air-purifier-4+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenair%2Funits%2Fxiaomi-smart-air-purifier-4%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openair/units/xiaomi-smart-air-purifier-4.yml).

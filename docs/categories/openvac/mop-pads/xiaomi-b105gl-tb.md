@@ -1,3 +1,7 @@
+---
+source_yaml: data/openvac/mop-pads/xiaomi-b105gl-tb.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi B105GL-TB mop pad
@@ -24,3 +28,9 @@ Compatibility is the manufacturer claim checked on 2026-09-11. No interface dime
 ## Sources
 
 - <https://www.mi.com/global/product/xiaomi-robot-vacuum-s10-plus-mop-pad/specs/>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-b105gl-tb&body=Device%2Fpart+or+page%3A+openvac%2Fmop-pads%2Fxiaomi-b105gl-tb+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenvac%2Fmop-pads%2Fxiaomi-b105gl-tb%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openvac/mop-pads/xiaomi-b105gl-tb.yml).

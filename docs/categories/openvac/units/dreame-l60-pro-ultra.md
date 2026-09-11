@@ -1,3 +1,7 @@
+---
+source_yaml: data/openvac/units/dreame-l60-pro-ultra.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Dreame L60 Pro Ultra
@@ -26,3 +30,9 @@ Replacement compatibility is recorded from the manufacturer accessory catalog ch
 
 - <https://www.dreametech.com/products/robot-vacuum-trobowave-detangling-duo-brush-rmb13>
 - <https://www.dreametech.com/products/dreame-x50-ultra-dust-box-filter>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+dreame-l60-pro-ultra&body=Device%2Fpart+or+page%3A+openvac%2Funits%2Fdreame-l60-pro-ultra+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenvac%2Funits%2Fdreame-l60-pro-ultra%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openvac/units/dreame-l60-pro-ultra.yml).

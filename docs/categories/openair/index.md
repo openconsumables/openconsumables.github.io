@@ -27,3 +27,11 @@ Coverage includes distinct Xiaomi filter families and Smartmi entries. Each filt
 - CADR independent verification (manufacturer claims only, until measured)
 - Western-brand purifiers (Dyson, Levoit, Coway, Honeywell): fail the ecosystem-selection prerequisite
 - the purifier motor, controller, sensor calibration, or app integration
+
+## Missing a device or replacement part?
+
+[Send a short report](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Missing+record%3A+openair&body=Device%2Fpart+or+page%3A+openair%3A+%5Bexact+model%2Fvariant+or+part+name%5D+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenair%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) with the exact model code or part name.
+Better sources and contradictory fit evidence are welcome too. For a dead link
+or a claim that needs checking, just identify the problem.
+GitHub requires sign-in; you can also [copy a report](../../contributing.md#send-a-short-report)
+and prepare it for your user. Maintainers can handle the data-file edits.

@@ -1,3 +1,7 @@
+---
+source_yaml: data/openwater/ro-cartridges/xiaomi-a1-ro-100-1a.yml
+---
+
 <!-- generated from data/. Do not hand-edit; run tools/build_pages.py -->
 
 # Xiaomi A1-RO-100-1A
@@ -22,3 +26,9 @@ The model code, stage and media description are manufacturer claims from the lin
 
 - <https://www.mi.com/global/product/xiaomi-smart-filtered-water-dispenser-composite-filter-ro1/specs/>
 - <https://www.mi.com/hk/product/xiaomi-smart-filtered-water-dispenser-composite-filter-ro1/>
+
+## Corrections and additions
+
+[Suggest a correction or addition](https://github.com/openconsumables/openconsumables.github.io/issues/new?template=evidence-report.md&title=Reference%3A+xiaomi-a1-ro-100-1a&body=Device%2Fpart+or+page%3A+openwater%2Fro-cartridges%2Fxiaomi-a1-ro-100-1a+%28https%3A%2F%2Fopenconsumables.org%2Fcategories%2Fopenwater%2Fro-cartridges%2Fxiaomi-a1-ro-100-1a%2F%29%0ACorrection+or+addition%3A+%0ASource%3A+%0AUncertainty%3A+%0A) (GitHub sign-in required). One sourced fact helps; better sources and conflicting fit evidence are welcome. For a broken link or an unverified claim, just identify the problem.
+
+[Copy a report without GitHub](../../../contributing.md#send-a-short-report) or [inspect the source YAML](https://github.com/openconsumables/openconsumables.github.io/blob/master/data/openwater/ro-cartridges/xiaomi-a1-ro-100-1a.yml).

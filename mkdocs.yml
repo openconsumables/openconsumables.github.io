@@ -5,6 +5,8 @@ site_author: Open Consumables
 repo_url: https://github.com/openconsumables/openconsumables.github.io
 repo_name: openconsumables/openconsumables.github.io
 edit_uri: edit/master/docs/
+hooks:
+  - tools/page_links.py
 
 copyright: Released under CC BY 4.0. Code samples under MIT.
 

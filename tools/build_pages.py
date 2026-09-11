@@ -28,6 +28,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlencode
 
 try:
     import yaml
@@ -324,8 +325,51 @@ def interface_assignment(device: dict, part_cfg: dict) -> tuple[str | None, str 
     return interface_key, provenance
 
 
+REPOSITORY_URL = "https://github.com/openconsumables/openconsumables.github.io"
+SITE_URL = "https://openconsumables.org"
+
+
+def contribution_links(category: str, directory: str, record_id: str) -> list[str]:
+    """Keep a short evidence route and the editable data beside each record."""
+    page = f"{SITE_URL}/categories/{category}/{directory}/{record_id}/"
+    context = f"{category}/{directory}/{record_id} ({page})"
+    body = (
+        f"Device/part or page: {context}\n"
+        "Correction or addition: \nSource: \nUncertainty: \n"
+    )
+    query = urlencode({
+        "template": "evidence-report.md",
+        "title": f"Reference: {record_id}",
+        "body": body,
+    })
+    source = f"{REPOSITORY_URL}/blob/master/data/{category}/{directory}/{record_id}.yml"
+    return [
+        "## Corrections and additions",
+        "",
+        f"[Suggest a correction or addition]({REPOSITORY_URL}/issues/new?{query}) "
+        "(GitHub sign-in required). One sourced fact helps; better sources and "
+        "conflicting fit evidence are welcome. For a broken link or an unverified "
+        "claim, just identify the problem.",
+        "",
+        "[Copy a report without GitHub](../../../contributing.md#send-a-short-report) "
+        f"or [inspect the source YAML]({source}).",
+        "",
+    ]
+
+
+def generated_header(category: str, directory: str, record_id: str) -> list[str]:
+    # The MkDocs hook routes generated records to this data source.
+    return [
+        "---",
+        f"source_yaml: data/{category}/{directory}/{record_id}.yml",
+        "---",
+        "",
+        GENERATED_BANNER,
+    ]
+
+
 def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str:
-    out = [GENERATED_BANNER]
+    out = generated_header(cfg["slug"], cfg["device"]["dir"], device["id"])
     out.append(f"# {device['brand']} {device['model']}")
     out.append("")
 
@@ -447,11 +491,12 @@ def render_device(device: dict, interfaces: dict, parts: dict, cfg: dict) -> str
             out.append(f"- <{s}>")
         out.append("")
 
+    out.extend(contribution_links(cfg["slug"], cfg["device"]["dir"], device["id"]))
     return "\n".join(out)
 
 
 def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
-    out = [GENERATED_BANNER]
+    out = generated_header(cfg["slug"], part_cfg["dir"], part["id"])
     brand = part.get("brand") or "Generic"
     model = part.get("model") or (part.get("aliases") or ["(unbranded)"])[0]
     out.append(f"# {brand} {model}")
@@ -511,6 +556,7 @@ def render_part(part: dict, devices: dict, cfg: dict, part_cfg: dict) -> str:
             out.append(f"- <{s}>")
         out.append("")
 
+    out.extend(contribution_links(cfg["slug"], part_cfg["dir"], part["id"]))
     return "\n".join(out)
 
 
